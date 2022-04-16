@@ -1,0 +1,8 @@
+{
+  "loader": "forge:obj",
+  "model": "kubejs:models/block/obj/pillar_se.obj",
+  "textures": {
+    "texture0": "kubejs:models/block/obj/polished_blackstone",
+    "particle": "minecraft:block/polished_blackstone"
+  }
+}

@@ -1,0 +1,19 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+/config/
+/mods
+/saves
+/crash-reports
+/defaultconfigs
+/downloads
+/logs
+/resourcepacks
+.curseclient
+minecraftinstance.json
+options.txt
+realms_persistence.json
+usercache.json
+usernamecache.json
