@@ -1,0 +1,61 @@
+.idea/git_toolbox_prj.xml
+.idea/KubeJS Test Instance.iml
+.idea/modules.xml
+.idea/vcs.xml
+config/fml.toml
+config/forge-client.toml
+config/forge-common.toml
+config/jei-client.toml
+config/supplementaries-client.toml
+config/supplementaries-common.toml
+config/supplementaries-registry.toml
+config/jei/ingredient-list-mod-sort-order.ini
+config/jei/ingredient-list-type-sort-order.ini
+config/jei/recipe-category-sort-order.ini
+config/openloader/advanced_options.json
+saves/New World/icon.png
+saves/New World/kubejs_persistent_data.nbt
+saves/New World/level.dat
+saves/New World/level.dat_old
+saves/New World/session.lock
+saves/New World/DIM-1/data/capabilities.dat
+saves/New World/DIM-1/data/raids.dat
+saves/New World/DIM1/data/capabilities.dat
+saves/New World/DIM1/data/raids_end.dat
+saves/New World/advancements/9df6acb3-6618-474a-a2b0-e2e74748ae05.json
+saves/New World/data/capabilities.dat
+saves/New World/data/raids.dat
+saves/New World/entities/r.-1.-1.mca
+saves/New World/entities/r.-1.0.mca
+saves/New World/entities/r.0.-1.mca
+saves/New World/entities/r.0.0.mca
+saves/New World/playerdata/9df6acb3-6618-474a-a2b0-e2e74748ae05.dat
+saves/New World/playerdata/9df6acb3-6618-474a-a2b0-e2e74748ae05.dat_old
+saves/New World/poi/r.-1.-1.mca
+saves/New World/poi/r.-1.0.mca
+saves/New World/poi/r.0.-1.mca
+saves/New World/poi/r.0.0.mca
+saves/New World/region/r.-1.-1.mca
+saves/New World/region/r.-1.0.mca
+saves/New World/region/r.0.-1.mca
+saves/New World/region/r.0.0.mca
+saves/New World/serverconfig/forge-server.toml
+saves/New World/serverconfig/jei-server.toml
+saves/New World/stats/9df6acb3-6618-474a-a2b0-e2e74748ae05.json
+minecraftinstance.json
+options.txt
+realms_persistence.json
+usernamecache.json
+usercache.json
+.curseclient
+mods/architectury-4.2.48.jar
+mods/jei-1.18.2-9.5.5.174.jar
+mods/kubejs-forge-1802.5.1-build.335.jar
+mods/OpenLoader-Forge-1.18.2-12.0.1.jar
+mods/probejs-2.6.0-forge.jar
+mods/rhino-forge-1801.1.9-build.135.jar
+mods/selene-1.18.2-1.15.1.jar
+mods/supplementaries-1.18.2-1.3.6.jar
+crash-reports/crash-2022-04-14_22.30.49-fml.txt
+crash-reports/crash-2022-04-14_22.32.57-fml.txt
+logs/*.gz
