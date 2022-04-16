@@ -6,21 +6,19 @@ onEvent('block.right_click', event => {
 })
 
 onEvent('block.right_click', event => {
-    if(event.block.id === 'kubejs:matrix') {
-        //event.player.tell('matrix');
-    }
-})
-
-onEvent('block.right_click', event => {
-    if(event.getItem() === Item.of('minecraft:stick')) {
+    if(event.getItem() === Item.of('minecraft:stick') && event.block.id === 'kubejs:matrix') {
         let inputItems = global.functions.getItemsInPedestals(event, event.getBlock().pos, -4, -2, -4, 4 ,0, 4);
         let recipes = global.recipe_data;
         for (let recipe in recipes) {
-            console.log(recipes[recipe].toString());
-            console.log(JSON.stringify(inputItems));
+            //console.log(recipes[recipe].toString());
+            //console.log(JSON.stringify(inputItems));
             let definedRecipe = recipes[recipe];
-            if (JSON.stringify(inputItems).equals(definedRecipe.toString())) {
+            if (global.functions.deepEqual(inputItems, definedRecipe)) {
                 event.player.tell('Found recipe: ' + recipe);
+                let output = recipe;
+                let outputItem = Item.of(output);
+                global.functions.extractItemsInPedestals(event, event.getBlock().pos, -4, -2, -4, 4 ,0, 4, outputItem);
+                //event.player.give(outputItem);
             }
         }
     }

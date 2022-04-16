@@ -1,17 +1,22 @@
-[21:45:29] [INFO ] Loaded script server_scripts:altar_events.js in 0.0 s
-[21:45:29] [INFO ] Loaded script server_scripts:functions.js in 0.001 s
-[21:45:29] [INFO ] Loaded script server_scripts:infusion_recipes.js in 0.001 s
-[21:45:29] [INFO ] server_scripts:script.js:8: Hello, World! (You will see this line every time server resources reload)
-[21:45:29] [INFO ] Loaded script server_scripts:script.js in 0.0 s
-[21:45:29] [INFO ] Loaded 4/4 KubeJS server scripts in 0.004 s
-[21:45:29] [INFO ] Scripts loaded
-[21:45:29] [INFO ] Scanning recipes...
-[21:45:29] [INFO ] Found 1207 recipes and 0 failed recipes in 7.552 ms
-[21:45:29] [INFO ] Posted recipe events in 118.3 μs
-[21:45:29] [INFO ] Modified & removed recipes in 3.572 ms
-[21:45:29] [INFO ] Added recipes in 4.300 μs
-[21:45:29] [INFO ] Added 0 recipes, removed 0 recipes, modified 0 recipes, with 0 failed recipes and 0 fall-backed recipes
-[21:45:31] [INFO ] server_scripts:functions.js:50: Search started
-[21:45:31] [INFO ] server_scripts:functions.js:73: [object Object]
-[21:45:31] [INFO ] server_scripts:altar_events.js:19: {items:[minecraft:stick,minecraft:stone],catalyst:"minecraft:diamond"}
-[21:45:31] [INFO ] server_scripts:altar_events.js:20: {"items":["minecraft:stick"],"catalyst":"minecraft:diamond"}
+[00:20:03] [INFO ] Loaded script server_scripts:altar_events.js in 0.001 s
+[00:20:03] [INFO ] Loaded script server_scripts:functions.js in 0.0 s
+[00:20:03] [INFO ] Loaded script server_scripts:infusion_recipes.js in 0.0 s
+[00:20:03] [INFO ] server_scripts:script.js:8: Hello, World! (You will see this line every time server resources reload)
+[00:20:03] [INFO ] Loaded script server_scripts:script.js in 0.0 s
+[00:20:03] [INFO ] Loaded 4/4 KubeJS server scripts in 0.003 s
+[00:20:03] [INFO ] Scripts loaded
+[00:20:03] [INFO ] Scanning recipes...
+[00:20:04] [INFO ] Found 1270 recipes and 0 failed recipes in 10.24 ms
+[00:20:04] [INFO ] Posted recipe events in 94.30 μs
+[00:20:04] [INFO ] Modified & removed recipes in 5.217 ms
+[00:20:04] [INFO ] Added recipes in 3.100 μs
+[00:20:04] [INFO ] Added 0 recipes, removed 0 recipes, modified 0 recipes, with 0 failed recipes and 0 fall-backed recipes
+[00:20:10] [INFO ] server_scripts:functions.js:46: Search started
+[00:20:10] [INFO ] server_scripts:functions.js:66: {"items":["minecraft:stick"],"catalyst":"minecraft:diamond"}
+[00:20:10] [INFO ] server_scripts:functions.js:77: 0 air [net.minecraft.world.item.ItemStack]
+[00:20:10] [INFO ] server_scripts:functions.js:77: 1 stick [net.minecraft.world.item.ItemStack]
+[00:20:10] [INFO ] server_scripts:functions.js:159: 0 2 -4
+[00:20:10] [INFO ] server_scripts:functions.js:84: BlockPos{x=10, y=56, z=5} MutableBlockPos{x=10, y=58, z=1}
+[00:20:10] [INFO ] server_scripts:functions.js:77: 1 stone [net.minecraft.world.item.ItemStack]
+[00:20:10] [INFO ] server_scripts:functions.js:159: -4 2 0
+[00:20:10] [INFO ] server_scripts:functions.js:84: BlockPos{x=14, y=56, z=1} MutableBlockPos{x=10, y=58, z=1}

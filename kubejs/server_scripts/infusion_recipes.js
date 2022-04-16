@@ -12,5 +12,5 @@
  */
 
 global.recipe_data = {
-    "minecraft:diamond_axe" : '{items:[minecraft:stick,minecraft:stone],catalyst:"minecraft:diamond"}'
+    "minecraft:diamond_axe" : {items:["minecraft:stick","minecraft:stone"],catalyst:"minecraft:diamond"}
 };

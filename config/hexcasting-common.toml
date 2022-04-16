@@ -1,0 +1,29 @@
+
+["Mana Amounts"]
+	#How much mana a single Amethyst Dust item is worth
+	#Range: > 0
+	dustManaAmount = 10000
+	#How much mana a single Amethyst Shard item is worth
+	#Range: > 0
+	shardManaAmount = 50000
+	#How much mana a single Charged Amethyst Crystal item is worth
+	#Range: > 0
+	chargedCrystalManaAmount = 100000
+	#How many points of mana a half-heart is worth when casting from HP
+	#Range: 0.0 ~ Infinity
+	manaToHealthRate = 10000.0
+
+[Spells]
+	#How many times a spell can recursively cast other spells
+	#Range: > 0
+	maxRecurseDepth = 64
+	#The harvest level of the Break Block spell.
+	#0 = wood, 1 = stone, 2 = iron, 3 = diamond, 4 = netherite.
+	#Range: 0 ~ 4
+	opBreakHarvestLevel = 3
+
+["Spell Circles"]
+	#The maximum number of slates in a spell circle
+	#Range: > 4
+	maxSpellCircleLength = 256
+

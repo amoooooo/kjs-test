@@ -1,4 +1,4 @@
-[21:36:54] [INFO ] Loaded script startup_scripts:altar_blocks.js in 0.065 s
-[21:36:54] [INFO ] Hello, World! (You will only see this line once in console, during startup)
-[21:36:54] [INFO ] Loaded script startup_scripts:script.js in 0.006 s
-[21:36:54] [INFO ] Loaded 2/2 KubeJS startup scripts in 0.355 s
+[22:26:30] [INFO ] Loaded script startup_scripts:altar_blocks.js in 0.132 s
+[22:26:30] [INFO ] Hello, World! (You will only see this line once in console, during startup)
+[22:26:30] [INFO ] Loaded script startup_scripts:script.js in 0.004 s
+[22:26:30] [INFO ] Loaded 2/2 KubeJS startup scripts in 0.551 s
