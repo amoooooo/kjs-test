@@ -10,7 +10,7 @@ onEvent('block.right_click', event => {
         let recipes = global.recipe_data;
         for (let recipe in recipes) {
             let definedRecipe = recipes[recipe];
-            if (global.functions.deepEqual(inputItems, definedRecipe)) {
+            if (global.functions.checkRecipes(inputItems, definedRecipe)) {
                 event.player.swingArm(event.hand);
                 let output = recipe;
                 let outputItem = Item.of(output);

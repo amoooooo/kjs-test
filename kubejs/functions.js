@@ -69,7 +69,7 @@ global.functions.getItemsInPedestals = (event, pos, x1, y1, z1, x2, y2, z2) => {
             fluids.push({ fluid: fluid, count: count });
         }
     })
-    console.log({ items: items, catalyst: catalyst, fluid: fluids });
+    //console.log({ items: items, catalyst: catalyst, fluid: fluids });
     return { items: items, catalyst: catalyst, fluid: fluids };
 }
 
@@ -100,29 +100,32 @@ global.functions.extractItemsInPedestals = (event, pos, x1, y1, z1, x2, y2, z2, 
             } else {
                 let CapabilityItem = java("net.minecraftforge.items.CapabilityItemHandler");
                 let cap = block.entity.getCapability(CapabilityItem.ITEM_HANDLER_CAPABILITY).resolve().get();
+                global.functions.circlePos(event, 2, 50, pos, dimension);
+                global.functions.circlePos(event, -3, 75, pos, dimension);
+                global.functions.circlePos(event, -3, 75, { x: pos.x, y: pos.y - 0.25, z: pos.z }, dimension);
                 event.server.scheduleInTicks(200, event => {
                     cap.extractItem(0, 1, false);
                     cap.insertItem(0, item, false);
+                    global.functions.circlePos(event, 0.5, false, pos, dimension);
                     event.server.runCommandSilent(`execute positioned ${pos.x} ${pos.y + 2} ${pos.z} in ${dimension} run stopsound @a[distance=..5] block minecraft:block.portal.ambient`);
                     event.server.runCommandSilent(`execute positioned ${block.x} ${block.y + 2} ${block.z} in ${dimension} run playsound minecraft:block.amethyst_block.chime block @a[distance=..5] ${block.x} ${block.y + 2} ${block.z} 200`);
                 });
             }
         } else if (block.id == "supplementaries:jar" && block.entity !== null) {
             let color = global.functions.getFluidColor(block);
-            console.log(color);
+            //console.log(color);
             let ticks = 200;
             let currentTicks = 0;
-            let counter = 0;
+            let counter = 2;
+            let tickCount = ticks/count;
             let vec = global.functions.vecToTarget(block.pos, pos, 1);
-            event.server.scheduleInTicks(1, event => {
-                global.functions.particleLine(event, block.pos, pos, color, dimension);
-                if (currentTicks % 50 == 0 && global.functions.getFluidCount(block) > 0 && counter < count) {
-                    let data = block.entityData;
-                    data.FluidHolder.Count = data.FluidHolder.Count - 1;
-                    console.log(data.FluidHolder.Count);
-                    block.setEntityData(data);
-                    block.entity.setChanged();
-                    //block.entityData.FluidHolder.put("Count",block.entityData.FluidHolder.Count - 1);
+            event.server.scheduleInTicks(tickCount, event => {
+                console.log(`counter: ${counter}/${count}`);
+                //console.log(`fluid count: ${global.functions.getFluidCount(block)}/0`);
+                console.log(global.functions.getFluidCount(block) > 0 && counter < count)
+                if (global.functions.getFluidCount(block) > 0 && counter < count) {
+                    global.functions.particleLine(event, block.pos, pos, color, dimension);
+                    drain(block, 0);
                     counter++;
                 }
                 if (currentTicks <= ticks) {
@@ -132,6 +135,13 @@ global.functions.extractItemsInPedestals = (event, pos, x1, y1, z1, x2, y2, z2, 
             })
         }
     })
+}
+
+function drain(block, count) {
+    let data = block.entityData;
+    data.FluidHolder.Count = data.FluidHolder.Count - 1;
+    block.setEntityData(data);
+    block.entity.setChanged();
 }
 
 
@@ -201,6 +211,7 @@ global.functions.getFluid = (block) => {
 }
 
 global.functions.getFluidCount = block => {
+    //console.log(block.entityData.FluidHolder.Count);
     return block.entityData.FluidHolder.Count;
 }
 
@@ -211,14 +222,15 @@ global.functions.getFluidColor = (block) => {
 global.functions.particleLine = (event, start, end, color, dimension) => {
     let d = global.functions.distance(start.x, start.y, start.z, end.x, end.y, end.z);
     let counter = 0;
+    let i = -1;
     for (let i = -1; i < d * 10; i++) {
         let delta = i / 10 / d;
         let x = (1 - delta) * (start.x + 0.5) + delta * (end.x + 0.5);
         let y = (1 - delta) * (start.y + 1) + delta * (end.y + 0.5);
         let z = (1 - delta) * (start.z + 0.5) + delta * (end.z + 0.5);
         //console.log(`${x} | ${y} | ${z}`);
-        if (counter == 1) {
-            event.server.runCommandSilent(`execute in ${dimension} run particle minecraft:dust ${color.r} ${color.g} ${color.b} 1.0 ${x} ${y} ${z} 0 0 0 0 0 normal`);
+        if (counter == 4) {
+            event.server.runCommandSilent(`execute in ${dimension} run particle minecraft:dust ${color.r} ${color.g} ${color.b} 1.0 ${x} ${y} ${z} 0.1 0.05 0.1 0 2 normal`);
             counter = 0;
         } else {
             counter++;
@@ -239,4 +251,58 @@ global.functions.randomNegative = (x) => {
 
 global.functions.distance = (x1, y1, z1, x2, y2, z2) => {
     return Math.abs(Math.sqrt(Math.pow(x1 - x2, 2) + Math.pow(y1 - y2, 2) + Math.pow(z1 - z2, 2)));
+}
+
+global.functions.circlePos = (event, r, delay, pos, dimension) => {
+    if (!delay) {
+        for (let angle = 0; angle < 6.3; angle += 0.1) {
+            let x = (r * Math.sin(angle))
+            let z = (r * Math.cos(angle))
+            event.server.runCommandSilent(`execute in ${dimension} run particle minecraft:enchant ${(pos.x + 0.5) + x} ${pos.y - 1} ${(pos.z + 0.5) + z} 0 0 0 0 3`)
+        }
+    } else {
+        let angle = 0;
+        event.server.schedule(delay, event, callback => {
+            let x = (r * Math.sin(angle));
+            let z = (r * Math.cos(angle))
+            event.server.runCommandSilent(`execute in ${dimension} run particle minecraft:enchant ${(pos.x + 0.5) + x} ${pos.y - 1} ${(pos.z + 0.5) + z} 0 0 0 0 3`)
+            if (angle < 6.3) {
+                angle += 0.1
+                callback.reschedule()
+            }
+        })
+    }
+}
+
+global.functions.checkRecipes = (input, recipe) => {
+    var inputItems = input.items;
+    var inputCatalyst = input.catalyst;
+    var inputFluid = input.fluid;
+    var recipeItems = recipe.items;
+    var recipeCatalyst = recipe.catalyst;
+    var recipeFluid = recipe.fluid;
+    let items = () => {
+        for (item of inputItems) {
+            //console.log(item)
+            for (item2 of recipeItems) {
+                //console.log(item2)
+                if (item == item2) {
+                    return true;
+                }
+            }
+        }
+    }
+    let catalyst = inputCatalyst == recipeCatalyst;
+    let fluid = () => {
+        for (fluid of inputFluid) {
+            //console.log(`${fluid.fluid} + ${fluid.count}`)
+            for (fluid2 of recipeFluid) {
+                //console.log(`${fluid2.fluid} + ${fluid2.count}`)
+                if (fluid.fluid == fluid2.fluid && fluid.count >= fluid2.count) {
+                    return true;
+                }
+            }
+        }
+    }
+    return items() && catalyst && fluid();
 }
