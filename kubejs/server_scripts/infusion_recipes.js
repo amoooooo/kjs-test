@@ -12,5 +12,7 @@
  */
 
 global.recipe_data = {
-    "minecraft:diamond_axe" : {items:["minecraft:stick","minecraft:stone"],catalyst:"minecraft:diamond"}
+    "minecraft:diamond_axe" : {items:["minecraft:stick","minecraft:stone"],catalyst:"minecraft:diamond"},
+    "minecraft:nether_star" : {items:["minecraft:quartz","minecraft:blaze_rod","minecraft:heart_of_the_sea"],catalyst:"minecraft:nautilus_shell"},
+    "minecraft:shulker_box" : {items:["minecraft:stone","minecraft:shulker_shell","minecraft:shulker_shell","minecraft:quartz","minecraft:chain"],catalyst:"minecraft:chest"}
 };
