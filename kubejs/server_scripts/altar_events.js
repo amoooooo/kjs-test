@@ -14,8 +14,16 @@ onEvent('block.right_click', event => {
                 event.player.swingArm(event.hand);
                 let output = recipe;
                 let outputItem = Item.of(output);
-                global.functions.extractItemsInPedestals(event, event.getBlock().pos, -4, -2, -4, 4 ,0, 4, outputItem);
+                let count = definedRecipe.fluid[0].count;
+                console.log(count);
+                global.functions.extractItemsInPedestals(event, event.getBlock().pos, -4, -2, -4, 4 ,0, 4, outputItem, count);
             }
         }
+    }
+})
+
+onEvent('block.right_click', event => {
+    if(event.block.id == 'supplementaries:jar') {
+        console.log(event.block.entityData.FluidHolder.Fluid);
     }
 })

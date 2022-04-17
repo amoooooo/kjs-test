@@ -42,6 +42,8 @@ global.functions.infusionAltarCheck = (event, pos, x1, y1, z1, x2, y2, z2) => {
     let box = global.functions.betweenClosed(event, pos, x1, y1, z1, x2, y2, z2);
     let items = [];
     let catalyst;
+    let fluids = [];
+    let count;
 
     console.log("Search started")
     box.forEach((block, idx, arr) => {
@@ -61,13 +63,17 @@ global.functions.infusionAltarCheck = (event, pos, x1, y1, z1, x2, y2, z2) => {
                 catalyst = item;
             }
             
+        } else if (block.id == "supplementaries:jar" && block.entity !== null) {
+            let fluid = global.functions.getFluid(block);
+            count = global.functions.getFluidCount(block);
+            fluids.push({fluid: fluid, count: count});
         }
     })
-    console.log({items: items, catalyst: catalyst});
-    return {items: items, catalyst: catalyst};
+    console.log({items: items, catalyst: catalyst, fluid: fluids});
+    return {items: items, catalyst: catalyst, fluid: fluids};
 }
 
-global.functions.extractItemsInPedestals = (event, pos, x1, y1, z1, x2, y2, z2, item) => {
+global.functions.extractItemsInPedestals = (event, pos, x1, y1, z1, x2, y2, z2, item, count) => {
     let box = global.functions.betweenClosed(event, pos, x1, y1, z1, x2, y2, z2);
     let dimension = event.level.dimension;
     event.server.runCommandSilent(`execute positioned ${pos.x} ${pos.y+2} ${pos.z} in ${dimension} run playsound minecraft:block.portal.ambient block @a[distance=..5] ${pos.x} ${pos.y+2} ${pos.z} 25 0.2`);
@@ -100,6 +106,27 @@ global.functions.extractItemsInPedestals = (event, pos, x1, y1, z1, x2, y2, z2, 
                     event.server.runCommandSilent(`execute positioned ${pos.x} ${pos.y+2} ${pos.z} in ${dimension} run stopsound @a[distance=..5] block minecraft:block.portal.ambient`);
                     event.server.runCommandSilent(`execute positioned ${block.x} ${block.y+2} ${block.z} in ${dimension} run playsound minecraft:block.amethyst_block.chime block @a[distance=..5] ${block.x} ${block.y+2} ${block.z} 200`);
                 });
+            }
+        } else if (block.id == "supplementaries:jar" && block.entity !== null) {
+            let color = global.functions.intToRGB(global.functions.getFluidColor(block));
+            console.log(color);
+            let fluid = global.functions.getFluid(block);
+            if (fluid !== "minecraft:empty") {
+                let ticks = 200;
+                let currentTicks = 0;
+                let counter = 0;
+                let vec = global.functions.vecToTarget(block.pos, pos, 1);
+                event.server.scheduleInTicks(1, event => {
+                    event.server.runCommandSilent(`execute in ${dimension} run particle minecraft:dust ${color.r} ${color.g} ${color.b} ${block.x} ${block.y+1.5} ${block.z} ${vec.x} ${vec.y} ${vec.z} 0.175 0 normal`);
+                    if(currentTicks % 50 == 0 && global.functions.getFluidCount(block) > 0 && counter < count){
+                        block.entityData.FluidHolder.Count--;
+                        counter++;
+                    }
+                    if (currentTicks <= ticks) {
+                        currentTicks++;
+                        event.reschedule()
+                    }
+                })
             }
         }
     })
@@ -167,7 +194,19 @@ global.functions.deepEqual = (x, y) => {
       }, true) : (x === y);
 }
 
-global.functions.intToRGB = (i) => {
+global.functions.getFluid = (block) => {
+    return block.entityData.FluidHolder.Fluid;
+}
+
+global.functions.getFluidCount = block => {
+    return block.entityData.FluidHolder.Count;
+}
+
+global.functions.getFluidColor = (block) => {
+    return global.functions.intToRGB(block.entityData.FluidHolder.CachedColor)
+}
+
+global.functions.intToRGB = (col) => {
     const b = (col) & 0xFF;
     const g = (col>>8) & 0xFF;
     const r = (col>>16) & 0xFF;

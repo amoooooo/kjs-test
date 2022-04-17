@@ -1,41 +1,21 @@
-[12:39:36] [INFO ] Loaded script server_scripts:altar_events.js in 0.0 s
-[12:39:36] [INFO ] Loaded script server_scripts:functions.js in 0.0 s
-[12:39:36] [INFO ] Loaded script server_scripts:infusion_recipes.js in 0.001 s
-[12:39:36] [INFO ] server_scripts:script.js:8: Hello, World! (You will see this line every time server resources reload)
-[12:39:36] [INFO ] Loaded script server_scripts:script.js in 0.0 s
-[12:39:36] [INFO ] Loaded 4/4 KubeJS server scripts in 0.003 s
-[12:39:36] [INFO ] Scripts loaded
-[12:39:36] [INFO ] Scanning recipes...
-[12:39:36] [INFO ] Found 1270 recipes and 0 failed recipes in 7.864 ms
-[12:39:36] [INFO ] Posted recipe events in 57.30 μs
-[12:39:36] [INFO ] Modified & removed recipes in 3.505 ms
-[12:39:36] [INFO ] Added recipes in 3.600 μs
-[12:39:36] [INFO ] Added 0 recipes, removed 0 recipes, modified 0 recipes, with 0 failed recipes and 0 fall-backed recipes
-[12:39:49] [INFO ] server_scripts:functions.js:46: Search started
-[12:39:49] [INFO ] server_scripts:functions.js:66: {items:[minecraft:stone,minecraft:shulker_shell,minecraft:shulker_shell,minecraft:quartz,minecraft:chain],catalyst:"minecraft:chest"} [dev.latvian.mods.kubejs.util.MapJS]
-[12:39:49] [INFO ] server_scripts:functions.js:78: 1 stone [net.minecraft.world.item.ItemStack]
-[12:39:49] [INFO ] server_scripts:functions.js:85: BlockPos{x=6, y=56, z=1} MutableBlockPos{x=10, y=58, z=1}
-[12:39:49] [INFO ] server_scripts:functions.js:78: 1 shulker_shell [net.minecraft.world.item.ItemStack]
-[12:39:49] [INFO ] server_scripts:functions.js:85: BlockPos{x=7, y=56, z=-2} MutableBlockPos{x=10, y=58, z=1}
-[12:39:49] [INFO ] server_scripts:functions.js:78: 1 shulker_shell [net.minecraft.world.item.ItemStack]
-[12:39:49] [INFO ] server_scripts:functions.js:85: BlockPos{x=7, y=56, z=4} MutableBlockPos{x=10, y=58, z=1}
-[12:39:49] [INFO ] server_scripts:functions.js:78: 1 quartz [net.minecraft.world.item.ItemStack]
-[12:39:49] [INFO ] server_scripts:functions.js:85: BlockPos{x=10, y=56, z=-3} MutableBlockPos{x=10, y=58, z=1}
-[12:39:49] [INFO ] server_scripts:functions.js:78: 1 chain [net.minecraft.world.item.ItemStack]
-[12:39:49] [INFO ] server_scripts:functions.js:85: BlockPos{x=10, y=56, z=5} MutableBlockPos{x=10, y=58, z=1}
-[12:39:49] [INFO ] server_scripts:functions.js:78: 0 air [net.minecraft.world.item.ItemStack]
-[12:39:49] [INFO ] server_scripts:functions.js:78: 0 air [net.minecraft.world.item.ItemStack]
-[12:39:49] [INFO ] server_scripts:functions.js:46: Search started
-[12:39:49] [INFO ] server_scripts:functions.js:66: {items:[minecraft:stone,minecraft:shulker_shell,minecraft:shulker_shell,minecraft:quartz,minecraft:chain],catalyst:"minecraft:chest"} [dev.latvian.mods.kubejs.util.MapJS]
-[12:39:49] [INFO ] server_scripts:functions.js:78: 1 stone [net.minecraft.world.item.ItemStack]
-[12:39:49] [INFO ] server_scripts:functions.js:85: BlockPos{x=6, y=56, z=1} MutableBlockPos{x=10, y=58, z=1}
-[12:39:49] [INFO ] server_scripts:functions.js:78: 1 shulker_shell [net.minecraft.world.item.ItemStack]
-[12:39:49] [INFO ] server_scripts:functions.js:85: BlockPos{x=7, y=56, z=-2} MutableBlockPos{x=10, y=58, z=1}
-[12:39:49] [INFO ] server_scripts:functions.js:78: 1 shulker_shell [net.minecraft.world.item.ItemStack]
-[12:39:49] [INFO ] server_scripts:functions.js:85: BlockPos{x=7, y=56, z=4} MutableBlockPos{x=10, y=58, z=1}
-[12:39:49] [INFO ] server_scripts:functions.js:78: 1 quartz [net.minecraft.world.item.ItemStack]
-[12:39:49] [INFO ] server_scripts:functions.js:85: BlockPos{x=10, y=56, z=-3} MutableBlockPos{x=10, y=58, z=1}
-[12:39:49] [INFO ] server_scripts:functions.js:78: 1 chain [net.minecraft.world.item.ItemStack]
-[12:39:49] [INFO ] server_scripts:functions.js:85: BlockPos{x=10, y=56, z=5} MutableBlockPos{x=10, y=58, z=1}
-[12:39:49] [INFO ] server_scripts:functions.js:78: 0 air [net.minecraft.world.item.ItemStack]
-[12:39:49] [INFO ] server_scripts:functions.js:78: 0 air [net.minecraft.world.item.ItemStack]
+[13:29:54] [INFO ] Loaded script server_scripts:altar_events.js in 0.0 s
+[13:29:54] [INFO ] Loaded script server_scripts:functions.js in 0.001 s
+[13:29:54] [INFO ] Loaded script server_scripts:infusion_recipes.js in 0.0 s
+[13:29:54] [INFO ] server_scripts:script.js:8: Hello, World! (You will see this line every time server resources reload)
+[13:29:54] [INFO ] Loaded script server_scripts:script.js in 0.001 s
+[13:29:54] [INFO ] Loaded 4/4 KubeJS server scripts in 0.004 s
+[13:29:54] [INFO ] Scripts loaded
+[13:29:54] [INFO ] Scanning recipes...
+[13:29:55] [INFO ] Found 1270 recipes and 0 failed recipes in 7.427 ms
+[13:29:55] [INFO ] Posted recipe events in 58.10 μs
+[13:29:55] [INFO ] Modified & removed recipes in 3.170 ms
+[13:29:55] [INFO ] Added recipes in 1.900 μs
+[13:29:55] [INFO ] Added 0 recipes, removed 0 recipes, modified 0 recipes, with 0 failed recipes and 0 fall-backed recipes
+[13:30:03] [INFO ] server_scripts:functions.js:48: Search started
+[13:30:03] [INFO ] server_scripts:functions.js:72: {items:[minecraft:stick,minecraft:stone],catalyst:"minecraft:diamond",fluid:[{fluid:"minecraft:water",count:4}]} [dev.latvian.mods.kubejs.util.MapJS]
+[13:30:03] [INFO ] server_scripts:altar_events.js:18: 4.0
+[13:30:03] [INFO ] server_scripts:functions.js:112: {r:0,g:0,b:0} [dev.latvian.mods.kubejs.util.MapJS]
+[13:30:03] [INFO ] server_scripts:functions.js:48: Search started
+[13:30:03] [INFO ] server_scripts:functions.js:72: {items:[minecraft:stick,minecraft:stone],catalyst:"minecraft:diamond",fluid:[{fluid:"minecraft:water",count:4}]} [dev.latvian.mods.kubejs.util.MapJS]
+[13:30:03] [INFO ] server_scripts:altar_events.js:18: 4.0
+[13:30:03] [INFO ] server_scripts:functions.js:112: {r:0,g:0,b:0} [dev.latvian.mods.kubejs.util.MapJS]
