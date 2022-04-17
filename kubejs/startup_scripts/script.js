@@ -42,3 +42,14 @@ onEvent('block.registry', event => {
         .renderType('cutout')
         .box(0, 0, 0, 16, 32, 16)
 })
+
+onEvent('fluid.registry', event => {
+    event.create('perditio_essentia')
+    .thinTexture(0x403E3E)
+    .bucketColor(0x403E3E)
+    .displayName('Perditio')
+    event.create('terra_essentia')
+    .thinTexture(0x20AB20)
+    .bucketColor(0x20AB20)
+    .displayName('Terra')
+})

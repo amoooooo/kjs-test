@@ -1,21 +1,79 @@
-[13:29:54] [INFO ] Loaded script server_scripts:altar_events.js in 0.0 s
-[13:29:54] [INFO ] Loaded script server_scripts:functions.js in 0.001 s
-[13:29:54] [INFO ] Loaded script server_scripts:infusion_recipes.js in 0.0 s
-[13:29:54] [INFO ] server_scripts:script.js:8: Hello, World! (You will see this line every time server resources reload)
-[13:29:54] [INFO ] Loaded script server_scripts:script.js in 0.001 s
-[13:29:54] [INFO ] Loaded 4/4 KubeJS server scripts in 0.004 s
-[13:29:54] [INFO ] Scripts loaded
-[13:29:54] [INFO ] Scanning recipes...
-[13:29:55] [INFO ] Found 1270 recipes and 0 failed recipes in 7.427 ms
-[13:29:55] [INFO ] Posted recipe events in 58.10 μs
-[13:29:55] [INFO ] Modified & removed recipes in 3.170 ms
-[13:29:55] [INFO ] Added recipes in 1.900 μs
-[13:29:55] [INFO ] Added 0 recipes, removed 0 recipes, modified 0 recipes, with 0 failed recipes and 0 fall-backed recipes
-[13:30:03] [INFO ] server_scripts:functions.js:48: Search started
-[13:30:03] [INFO ] server_scripts:functions.js:72: {items:[minecraft:stick,minecraft:stone],catalyst:"minecraft:diamond",fluid:[{fluid:"minecraft:water",count:4}]} [dev.latvian.mods.kubejs.util.MapJS]
-[13:30:03] [INFO ] server_scripts:altar_events.js:18: 4.0
-[13:30:03] [INFO ] server_scripts:functions.js:112: {r:0,g:0,b:0} [dev.latvian.mods.kubejs.util.MapJS]
-[13:30:03] [INFO ] server_scripts:functions.js:48: Search started
-[13:30:03] [INFO ] server_scripts:functions.js:72: {items:[minecraft:stick,minecraft:stone],catalyst:"minecraft:diamond",fluid:[{fluid:"minecraft:water",count:4}]} [dev.latvian.mods.kubejs.util.MapJS]
-[13:30:03] [INFO ] server_scripts:altar_events.js:18: 4.0
-[13:30:03] [INFO ] server_scripts:functions.js:112: {r:0,g:0,b:0} [dev.latvian.mods.kubejs.util.MapJS]
+[14:57:05] [INFO ] Loaded script server_scripts:altar_events.js in 0.008 s
+[14:57:05] [INFO ] Loaded script server_scripts:functions.js in 0.017 s
+[14:57:05] [INFO ] Loaded script server_scripts:infusion_recipes.js in 0.001 s
+[14:57:05] [INFO ] Hello, World! (You will see this line every time server resources reload)
+[14:57:05] [INFO ] Loaded script server_scripts:script.js in 0.001 s
+[14:57:05] [INFO ] Loaded 4/4 KubeJS server scripts in 0.033 s
+[14:57:05] [INFO ] Scripts loaded
+[14:57:05] [INFO ] Scanning recipes...
+[14:57:06] [INFO ] Found 1270 recipes and 0 failed recipes in 42.46 ms
+[14:57:06] [INFO ] Posted recipe events in 477.2 μs
+[14:57:06] [INFO ] Modified & removed recipes in 13.09 ms
+[14:57:06] [INFO ] Added recipes in 476.5 μs
+[14:57:06] [INFO ] Added 0 recipes, removed 0 recipes, modified 0 recipes, with 0 failed recipes and 0 fall-backed recipes
+[14:58:22] [INFO ] minecraft:empty
+[14:58:23] [INFO ] minecraft:empty
+[14:58:25] [INFO ] Search started
+[14:58:25] [INFO ] {items:[minecraft:quartz,minecraft:blaze_rod,minecraft:heart_of_the_sea],catalyst:"minecraft:nautilus_shell",fluid:[{fluid:"kubejs:terra_essentia",count:4},{fluid:"kubejs:perditio_essentia",count:4}]} [dev.latvian.mods.kubejs.util.MapJS]
+[14:58:25] [INFO ] Search started
+[14:58:25] [INFO ] {items:[minecraft:quartz,minecraft:blaze_rod,minecraft:heart_of_the_sea],catalyst:"minecraft:nautilus_shell",fluid:[{fluid:"kubejs:terra_essentia",count:4},{fluid:"kubejs:perditio_essentia",count:4}]} [dev.latvian.mods.kubejs.util.MapJS]
+[14:58:26] [INFO ] Search started
+[14:58:26] [INFO ] {items:[minecraft:quartz,minecraft:blaze_rod,minecraft:heart_of_the_sea],catalyst:"minecraft:nautilus_shell",fluid:[{fluid:"kubejs:terra_essentia",count:4},{fluid:"kubejs:perditio_essentia",count:4}]} [dev.latvian.mods.kubejs.util.MapJS]
+[14:58:26] [INFO ] Search started
+[14:58:26] [INFO ] {items:[minecraft:quartz,minecraft:blaze_rod,minecraft:heart_of_the_sea],catalyst:"minecraft:nautilus_shell",fluid:[{fluid:"kubejs:terra_essentia",count:4},{fluid:"kubejs:perditio_essentia",count:4}]} [dev.latvian.mods.kubejs.util.MapJS]
+[14:58:26] [INFO ] Search started
+[14:58:26] [INFO ] {items:[minecraft:quartz,minecraft:blaze_rod,minecraft:heart_of_the_sea],catalyst:"minecraft:nautilus_shell",fluid:[{fluid:"kubejs:terra_essentia",count:4},{fluid:"kubejs:perditio_essentia",count:4}]} [dev.latvian.mods.kubejs.util.MapJS]
+[14:58:26] [INFO ] Search started
+[14:58:26] [INFO ] {items:[minecraft:quartz,minecraft:blaze_rod,minecraft:heart_of_the_sea],catalyst:"minecraft:nautilus_shell",fluid:[{fluid:"kubejs:terra_essentia",count:4},{fluid:"kubejs:perditio_essentia",count:4}]} [dev.latvian.mods.kubejs.util.MapJS]
+[14:58:26] [INFO ] Search started
+[14:58:26] [INFO ] {items:[minecraft:quartz,minecraft:blaze_rod,minecraft:heart_of_the_sea],catalyst:"minecraft:nautilus_shell",fluid:[{fluid:"kubejs:terra_essentia",count:4},{fluid:"kubejs:perditio_essentia",count:4}]} [dev.latvian.mods.kubejs.util.MapJS]
+[14:58:26] [INFO ] Search started
+[14:58:26] [INFO ] {items:[minecraft:quartz,minecraft:blaze_rod,minecraft:heart_of_the_sea],catalyst:"minecraft:nautilus_shell",fluid:[{fluid:"kubejs:terra_essentia",count:4},{fluid:"kubejs:perditio_essentia",count:4}]} [dev.latvian.mods.kubejs.util.MapJS]
+[14:58:27] [INFO ] kubejs:perditio_essentia
+[14:58:28] [INFO ] kubejs:terra_essentia
+[14:58:30] [INFO ] Search started
+[14:58:30] [INFO ] {items:[minecraft:quartz,minecraft:blaze_rod,minecraft:heart_of_the_sea],catalyst:"minecraft:nautilus_shell",fluid:[{fluid:"kubejs:terra_essentia",count:8},{fluid:"kubejs:perditio_essentia",count:8}]} [dev.latvian.mods.kubejs.util.MapJS]
+[14:58:30] [INFO ] Search started
+[14:58:30] [INFO ] {items:[minecraft:quartz,minecraft:blaze_rod,minecraft:heart_of_the_sea],catalyst:"minecraft:nautilus_shell",fluid:[{fluid:"kubejs:terra_essentia",count:8},{fluid:"kubejs:perditio_essentia",count:8}]} [dev.latvian.mods.kubejs.util.MapJS]
+[14:58:30] [INFO ] Search started
+[14:58:30] [INFO ] {items:[minecraft:quartz,minecraft:blaze_rod,minecraft:heart_of_the_sea],catalyst:"minecraft:nautilus_shell",fluid:[{fluid:"kubejs:terra_essentia",count:8},{fluid:"kubejs:perditio_essentia",count:8}]} [dev.latvian.mods.kubejs.util.MapJS]
+[14:58:30] [INFO ] Search started
+[14:58:30] [INFO ] {items:[minecraft:quartz,minecraft:blaze_rod,minecraft:heart_of_the_sea],catalyst:"minecraft:nautilus_shell",fluid:[{fluid:"kubejs:terra_essentia",count:8},{fluid:"kubejs:perditio_essentia",count:8}]} [dev.latvian.mods.kubejs.util.MapJS]
+[14:58:30] [INFO ] Search started
+[14:58:30] [INFO ] {items:[minecraft:quartz,minecraft:blaze_rod,minecraft:heart_of_the_sea],catalyst:"minecraft:nautilus_shell",fluid:[{fluid:"kubejs:terra_essentia",count:8},{fluid:"kubejs:perditio_essentia",count:8}]} [dev.latvian.mods.kubejs.util.MapJS]
+[14:58:30] [INFO ] Search started
+[14:58:30] [INFO ] {items:[minecraft:quartz,minecraft:blaze_rod,minecraft:heart_of_the_sea],catalyst:"minecraft:nautilus_shell",fluid:[{fluid:"kubejs:terra_essentia",count:8},{fluid:"kubejs:perditio_essentia",count:8}]} [dev.latvian.mods.kubejs.util.MapJS]
+[14:59:08] [INFO ] minecraft:empty
+[14:59:10] [INFO ] minecraft:empty
+[14:59:12] [INFO ] Search started
+[14:59:12] [INFO ] {items:[minecraft:quartz,minecraft:blaze_rod,minecraft:heart_of_the_sea],catalyst:"minecraft:nautilus_shell",fluid:[{fluid:"kubejs:perditio_essentia",count:4},{fluid:"kubejs:terra_essentia",count:4}]} [dev.latvian.mods.kubejs.util.MapJS]
+[14:59:12] [INFO ] Search started
+[14:59:12] [INFO ] {items:[minecraft:quartz,minecraft:blaze_rod,minecraft:heart_of_the_sea],catalyst:"minecraft:nautilus_shell",fluid:[{fluid:"kubejs:perditio_essentia",count:4},{fluid:"kubejs:terra_essentia",count:4}]} [dev.latvian.mods.kubejs.util.MapJS]
+[14:59:13] [INFO ] kubejs:terra_essentia
+[14:59:14] [INFO ] kubejs:perditio_essentia
+[14:59:16] [INFO ] Search started
+[14:59:16] [INFO ] {items:[minecraft:quartz,minecraft:blaze_rod,minecraft:heart_of_the_sea],catalyst:"minecraft:nautilus_shell",fluid:[{fluid:"kubejs:perditio_essentia",count:8},{fluid:"kubejs:terra_essentia",count:8}]} [dev.latvian.mods.kubejs.util.MapJS]
+[14:59:16] [INFO ] 8.0
+[14:59:16] [INFO ] {r:0.25098039215686274,g:0.24313725490196078,b:0.24313725490196078} [dev.latvian.mods.kubejs.util.MapJS]
+[14:59:16] [INFO ] {r:0.12549019607843137,g:0.6705882352941176,b:0.12549019607843137} [dev.latvian.mods.kubejs.util.MapJS]
+[14:59:16] [INFO ] Search started
+[14:59:16] [INFO ] {items:[minecraft:quartz,minecraft:blaze_rod,minecraft:heart_of_the_sea],catalyst:"minecraft:nautilus_shell",fluid:[{fluid:"kubejs:perditio_essentia",count:8},{fluid:"kubejs:terra_essentia",count:8}]} [dev.latvian.mods.kubejs.util.MapJS]
+[14:59:16] [INFO ] 8.0
+[14:59:16] [INFO ] {r:0.25098039215686274,g:0.24313725490196078,b:0.24313725490196078} [dev.latvian.mods.kubejs.util.MapJS]
+[14:59:16] [INFO ] {r:0.12549019607843137,g:0.6705882352941176,b:0.12549019607843137} [dev.latvian.mods.kubejs.util.MapJS]
+[14:59:16] [INFO ] 7.0
+[14:59:16] [INFO ] 7.0
+[14:59:16] [INFO ] 6.0
+[14:59:16] [INFO ] 6.0
+[14:59:18] [INFO ] 5.0
+[14:59:18] [INFO ] 5.0
+[14:59:18] [INFO ] 4.0
+[14:59:18] [INFO ] 4.0
+[14:59:21] [INFO ] 3.0
+[14:59:21] [INFO ] 3.0
+[14:59:21] [INFO ] 2.0
+[14:59:21] [INFO ] 2.0
+[14:59:23] [INFO ] 1.0
+[14:59:23] [INFO ] 1.0
+[14:59:23] [INFO ] 0.0
+[14:59:23] [INFO ] 0.0
