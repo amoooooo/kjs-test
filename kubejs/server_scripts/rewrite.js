@@ -13,24 +13,21 @@ onEvent('block.right_click', event => {
         let recipes = global.recipe_data;
         for (let recipe in recipes) {
             let definedRecipe = recipes[recipe];
-            let time = 200;
-            let itemCount = 0;
-            let fluidCount = 0;
+            let time = 50;
             let count = 0;
             console.log(checkRecipes(inputItems, definedRecipe));
             if (checkRecipes(inputItems, definedRecipe)) {
                 console.log("Recipe found");
                 for (item in definedRecipe.items) {
                     time += 50;
-                    itemCount++;
                 }
                 for (fluid in definedRecipe.fluid) {
                     time += 60;
-                    fluidCount++;
                 }
+                let outputItem = Item.of(recipe);
                 count = definedRecipe.fluid[0].count;
-                console.log(`Time: ${time} ticks per item: ${50 * itemCount} ticks per fluid: ${60 * fluidCount}`);
-                extractItemsInPedestals(event, event.getBlock().pos, -4, -2, -4, 4, 0, 4, time, itemCount, fluidCount, count);
+                extractItemsInPedestals(event, event.getBlock().pos, -4, -2, -4, 4, 0, 4, time, count, outputItem);
+
             }
         }
     }
@@ -89,12 +86,13 @@ function getItemsInPedestals(event, pos, x1, y1, z1, x2, y2, z2) {
     return { items: items, catalyst: catalyst, fluid: fluids };
 }
 
-function extractItemsInPedestals(event, pos, x1, y1, z1, x2, y2, z2, time, itemCount, fluidCount, count) {
+function extractItemsInPedestals(event, pos, x1, y1, z1, x2, y2, z2, time, count, outputItem) {
     let box = betweenClosed(event, pos, x1, y1, z1, x2, y2, z2);
     let dimension = event.level.dimension;
     let indexPedestal = 0;
     let indexJar = 0;
-    event.server.runCommandSilent(`execute positioned ${pos.x} ${pos.y + 2} ${pos.z} in ${dimension} run playsound minecraft:block.portal.ambient block @a[distance=..5] ${pos.x} ${pos.y + 2} ${pos.z} 25 0.2`);
+    event.server.runCommandSilent(`execute positioned ${pos.x} ${pos.y + 2} ${pos.z} in ${dimension} run playsound minecraft:block.portal.travel block @a[distance=..5] ${pos.x} ${pos.y + 2} ${pos.z} 0.2 0.1`);
+    event.server.runCommandSilent(`execute positioned ${pos.x} ${pos.y + 2} ${pos.z} in ${dimension} run playsound minecraft:block.portal.ambient block @a[distance=..5] ${pos.x} ${pos.y + 2} ${pos.z} 0.4 0.1`);
     box.forEach((block, idx, arr) => {
         if (block.id == "supplementaries:pedestal" && block.entity !== null) {
             if (!block.pos.equals(pos.below(2))) {
@@ -102,6 +100,17 @@ function extractItemsInPedestals(event, pos, x1, y1, z1, x2, y2, z2, time, itemC
                 //console.log(`index: ${idx}`);
                 extractPedestals(block, pos, event, dimension, time, indexPedestal);
                 indexPedestal++;
+            } else {
+                circleRing(event, time, pos, dimension);
+                event.server.scheduleInTicks(time, event => {
+                    let CapabilityItem = java("net.minecraftforge.items.CapabilityItemHandler");
+                    let cap = block.entity.getCapability(CapabilityItem.ITEM_HANDLER_CAPABILITY).resolve().get();
+                    cap.extractItem(0, 1, false);
+                    cap.insertItem(0, outputItem, false);
+                    circlePos(event, 0.5, false, pos, dimension);
+                    event.server.runCommandSilent(`execute positioned ${pos.x} ${pos.y + 2} ${pos.z} in ${dimension} run stopsound @a[distance=..5] block minecraft:block.portal.ambient`);
+                    event.server.runCommandSilent(`execute positioned ${block.x} ${block.y + 2} ${block.z} in ${dimension} run playsound minecraft:block.amethyst_block.chime block @a[distance=..5] ${block.x} ${block.y + 2} ${block.z} 200`);
+                })
             }
         } else if (block.id == "supplementaries:jar" && block.entity !== null) {
             //console.log(`Extracting fluid from ${block.pos}`);
@@ -119,19 +128,19 @@ function extractJars(block, pos, event, dimension, time, index, count) {
             console.log(count);
             if (currentTicks < time) {
                 if (index < 1) {
-                    if (currentTicks > count*10 * index && currentTicks <= (count*10) * (index + 1)) {
+                    if (currentTicks > count * 10 * index && currentTicks <= (count * 10) * (index + 1)) {
                         console.log(`Extracting fluid ${fluid} from ${block.pos}`);
                         particleLine(event, block, pos, getFluidColor(block), dimension);
                     }
                 } else {
-                    if (currentTicks <= (count*10) * (index + 1)) {
+                    if (currentTicks <= (count * 10) * (index + 1)) {
                         console.log(`Extracting fluid ${fluid} from ${block.pos}`);
                         particleLine(event, block, pos, getFluidColor(block), dimension);
                     }
                 }
-                if (currentTicks == count*10){
+                if (currentTicks == count * 10) {
                     let data = block.entityData;
-                    data.FluidHolder.Count = data.FluidHolder.Count - count;
+                    data.FluidHolder.Count = data.FluidHolder.Count - (count / 2);
                     block.setEntityData(data);
                     block.entity.setChanged();
                 }
@@ -152,17 +161,17 @@ function extractPedestals(block, pos, event, dimension, time, index) {
         event.server.scheduleInTicks(1, event => {
             if (currentTicks < time) {
                 if (index > 1) {
-                    if (currentTicks >= 50 * index && currentTicks <= 50 * (index + 1)) {
+                    if (currentTicks >= 30 * index && currentTicks <= 30 * (index + 1)) {
                         //console.log(`Extracting ${item}`);
                         event.server.runCommandSilent(`execute in ${dimension} run particle minecraft:item ${item} ${block.x} ${block.y + 1.5} ${block.z} ${vec.x} ${vec.y} ${vec.z} 0.175 0 normal`);
                     }
                 } else {
-                    if (currentTicks <= 50 * (index + 1)) {
+                    if (currentTicks <= 30 * (index + 1)) {
                         //console.log(`Extracting ${item}`);
                         event.server.runCommandSilent(`execute in ${dimension} run particle minecraft:item ${item} ${block.x} ${block.y + 1.5} ${block.z} ${vec.x} ${vec.y} ${vec.z} 0.175 0 normal`);
                     }
                 }
-                if (currentTicks == 50 * (index + 1)) {
+                if (currentTicks == 30 * (index + 1)) {
                     cap.extractItem(0, 1, false)
                 }
                 currentTicks++;
@@ -267,4 +276,42 @@ function particleLine(event, start, end, color, dimension) {
             counter++;
         }
     }
+}
+
+function circlePos(event, r, delay, pos, dimension) {
+    if (!delay) {
+        for (let angle = 0; angle < 6.3; angle += 0.1) {
+            let x = (r * Math.sin(angle))
+            let z = (r * Math.cos(angle))
+            event.server.runCommandSilent(`execute in ${dimension} run particle minecraft:enchant ${(pos.x + 0.5) + x} ${pos.y - 1} ${(pos.z + 0.5) + z} 0 0 0 0 3`)
+        }
+    } else {
+        let angle = 0;
+        event.server.schedule(delay, event, callback => {
+            let x = (r * Math.sin(angle));
+            let z = (r * Math.cos(angle))
+            event.server.runCommandSilent(`execute in ${dimension} run particle minecraft:enchant ${(pos.x + 0.5) + x} ${pos.y - 1} ${(pos.z + 0.5) + z} 0 0 0 0 3`)
+            if (angle < 6.3) {
+                angle += 0.1
+                callback.reschedule()
+            }
+        })
+    }
+}
+
+function circleRing(event, time, pos, dimension) {
+    circlePos(event, 0.75, time * 0.1, { x: pos.x, y: pos.y + 2.5, z: pos.z }, dimension);
+
+    circlePos(event, 1.5, time * 0.75, { x: pos.x, y: pos.y + 2, z: pos.z }, dimension);
+    circlePos(event, 1.5, time * 0.75, { x: pos.x, y: pos.y + 1.25, z: pos.z }, dimension);
+    circlePos(event, 1.5, time * 0.75, { x: pos.x, y: pos.y + 1.5, z: pos.z }, dimension);
+    circlePos(event, 1.5, time * 0.75, { x: pos.x, y: pos.y + 1.75, z: pos.z }, dimension);
+    circlePos(event, -3, false, { x: pos.x, y: pos.y - 0.5, z: pos.z }, dimension);
+    circlePos(event, -3, false, { x: pos.x, y: pos.y - 0.75, z: pos.z }, dimension);
+    circlePos(event, -3, false, { x: pos.x, y: pos.y - 0, z: pos.z }, dimension);
+    circlePos(event, -3, false, { x: pos.x, y: pos.y - 0.25, z: pos.z }, dimension);
+    circlePos(event, -3, false, { x: pos.x, y: pos.y - 1.5, z: pos.z }, dimension);
+    circlePos(event, -3, false, { x: pos.x, y: pos.y - 1.75, z: pos.z }, dimension);
+    circlePos(event, -3, false, { x: pos.x, y: pos.y - 1, z: pos.z }, dimension);
+    circlePos(event, -3, false, { x: pos.x, y: pos.y - 1.25, z: pos.z }, dimension);
 }
