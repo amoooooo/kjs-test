@@ -23,6 +23,7 @@ global.functions.infusionAltarCheck = (event, pos, x1, y1, z1, x2, y2, z2) => {
         event.server.runCommandSilent(`execute positioned ${event.block.x} ${event.block.y} ${event.block.z} in ${event.level.dimension} run playsound minecraft:entity.villager.no block @a[distance=..5]`);
     }
 }
+
 global.functions.betweenClosedID = (event, pos, x1, y1, z1, x2, y2, z2) => {
     let x = pos.x + x1;
     let y = pos.y + y1;

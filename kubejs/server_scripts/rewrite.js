@@ -7,6 +7,9 @@
  * place the output item in the pedestal.
  */
 
+/**
+ * @author amo
+ */
 onEvent('block.right_click', event => {
     if (event.block.id == 'kubejs:matrix') {
         let inputItems = getItemsInPedestals(event, event.getBlock().pos, -4, -2, -4, 4, 0, 4);
@@ -19,13 +22,14 @@ onEvent('block.right_click', event => {
             if (checkRecipes(inputItems, definedRecipe)) {
                 console.log("Recipe found");
                 for (item in definedRecipe.items) {
-                    time += 50;
+                    time += 20;
                 }
                 for (fluid in definedRecipe.fluid) {
-                    time += 60;
+                    time += 10;
                 }
                 let outputItem = Item.of(recipe);
                 count = definedRecipe.fluid[0].count;
+                console.log(`time: ${time}`);
                 extractItemsInPedestals(event, event.getBlock().pos, -4, -2, -4, 4, 0, 4, time, count, outputItem);
 
             }
@@ -52,7 +56,7 @@ function getItemsInPedestals(event, pos, x1, y1, z1, x2, y2, z2) {
     /**
      * @type {Internal.BlockContainerJS[]}
      */
-    let box = global.functions.betweenClosed(event, pos, x1, y1, z1, x2, y2, z2);
+    let box = betweenClosed(event, pos, x1, y1, z1, x2, y2, z2);
     let items = [];
     let catalyst;
     let fluids = [];
@@ -77,8 +81,8 @@ function getItemsInPedestals(event, pos, x1, y1, z1, x2, y2, z2) {
             }
 
         } else if (block.id == "supplementaries:jar" && block.entity !== null) {
-            let fluid = global.functions.getFluid(block);
-            count = global.functions.getFluidCount(block);
+            let fluid = getFluid(block);
+            count = getFluidCount(block);
             fluids.push({ fluid: fluid, count: count });
         }
     })
@@ -126,23 +130,32 @@ function extractJars(block, pos, event, dimension, time, index, count) {
         let currentTicks = 0;
         event.server.scheduleInTicks(1, event => {
             console.log(count);
+            let blockData = block.entityData;
             if (currentTicks < time) {
                 if (index < 1) {
-                    if (currentTicks > count * 10 * index && currentTicks <= (count * 10) * (index + 1)) {
+                    if (currentTicks > count * 10 * index && currentTicks <= (count * 10) * (index + 1) && blockData.FluidHolder.Fluid != "minecraft:empty") {
                         console.log(`Extracting fluid ${fluid} from ${block.pos}`);
                         particleLine(event, block, pos, getFluidColor(block), dimension);
                     }
                 } else {
-                    if (currentTicks <= (count * 10) * (index + 1)) {
+                    if (currentTicks <= (count * 10) * (index + 1) && blockData.FluidHolder.Fluid != "minecraft:empty") {
                         console.log(`Extracting fluid ${fluid} from ${block.pos}`);
                         particleLine(event, block, pos, getFluidColor(block), dimension);
                     }
                 }
                 if (currentTicks == count * 10) {
                     let data = block.entityData;
-                    data.FluidHolder.Count = data.FluidHolder.Count - (count / 2);
-                    block.setEntityData(data);
-                    block.entity.setChanged();
+                    if (data.FluidHolder.Count > 0) {
+                        data.FluidHolder.Count = data.FluidHolder.Count - (count / 2);
+                        block.setEntityData(data);
+                        block.entity.setChanged();
+                    }
+                    if (data.FluidHolder.Count <= 0) {
+                        data.FluidHolder.Fluid = "minecraft:empty";
+                        data.FluidHolder.Count = 0;
+                        block.setEntityData(data);
+                        block.entity.setChanged();
+                    }
                 }
                 currentTicks++;
                 event.reschedule();
@@ -241,7 +254,7 @@ function vecToTarget(pos, target, speed) {
 }
 
 function getFluidCount(block) {
-    return block.entityData.FluidHolder.Fluid;
+    return block.entityData.FluidHolder.Count;
 }
 
 function getFluidColor(block) {
@@ -260,7 +273,7 @@ function intToRGB(col) {
 }
 
 function particleLine(event, start, end, color, dimension) {
-    let d = global.functions.distance(start.x, start.y, start.z, end.x, end.y, end.z);
+    let d = distance(start.x, start.y, start.z, end.x, end.y, end.z);
     let counter = 0;
     let i = -1;
     for (let i = -1; i < d * 10; i++) {
@@ -314,4 +327,11 @@ function circleRing(event, time, pos, dimension) {
     circlePos(event, -3, false, { x: pos.x, y: pos.y - 1.75, z: pos.z }, dimension);
     circlePos(event, -3, false, { x: pos.x, y: pos.y - 1, z: pos.z }, dimension);
     circlePos(event, -3, false, { x: pos.x, y: pos.y - 1.25, z: pos.z }, dimension);
+}
+function randomNegative (x) {
+    return Math.random() * (Math.round(Math.random()) ? -1 : 1);
+}
+
+function distance (x1, y1, z1, x2, y2, z2) {
+    return Math.abs(Math.sqrt(Math.pow(x1 - x2, 2) + Math.pow(y1 - y2, 2) + Math.pow(z1 - z2, 2)));
 }

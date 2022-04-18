@@ -1,13 +1,30 @@
 // priority: 0
 
 console.info('Hello, World! (You will only see this line once in console, during startup)')
-
+let essentia = {
+    'Perditio': 0x403E3E,
+    'Terra': 0x20AB20,
+    'Aqua': 0x26E4EB,
+    'Ignis': 0xEB5A26,
+    'Ordo': 0xB8BABA,
+    'Gelum': 0x99E5E8,
+    'Aer': 0xF2E783,
+    'Vacuos': 0x969393,
+    'Lux': 0xC4BB66,
+    'Motus': 0x829492,
+    'Tenebrae': 0x404040
+}
 onEvent('item.registry', event => {
     // Register new items here
     // event.create('example_item').displayName('Example Item')
+    Object.entries(essentia).forEach(([name, color]) => {
+        event.create(name.toLowerCase() + '_phial', 'basic')
+            .displayName('Phial of Essentia')
+            .color(1, color).maxStackSize(16)
+            .tooltip('A phial of ' + name + ' essentia.')
+            .parentModel('kubejs:perditio_phial')
+    })
     event.create('essentia_phial', 'basic').displayName('Empty Phial')
-    event.create('perditio_phial', 'basic').displayName('Vial of Essentia').tooltip("§8A Phial of Perditio Essentia").maxStackSize(16).containerItem('kubejs:essentia_phial').color(1, 0x403E3E);
-    event.create('terra_phial', 'basic').displayName('Vial of Essentia').tooltip("§8A Phial of Terra Essentia").maxStackSize(16).containerItem('kubejs:essentia_phial').color(1, 0x20AB20);
 
 })
 
@@ -47,15 +64,15 @@ onEvent('block.registry', event => {
         .box(0, 0, 0, 16, 32, 16)
 })
 
+
+
 onEvent('fluid.registry', event => {
-    event.create('perditio_essentia')
-        .thinTexture(0x403E3E)
-        .bucketColor(0x403E3E)
-        .displayName('Perditio')
-    event.create('terra_essentia')
-        .thinTexture(0x20AB20)
-        .bucketColor(0x20AB20)
-        .displayName('Terra')
+    Object.entries(essentia).forEach(([key, value]) => {
+        event.create(key.toLowerCase() + '_essentia')
+            .displayName(key)
+            .thinTexture(value)
+            .bucketColor(value)
+    })
 })
 
 onEvent('ponder.tag.registry', event => {
@@ -63,10 +80,10 @@ onEvent('ponder.tag.registry', event => {
 })
 
 onEvent('ponder.registry', event => {
-    event.create('infusion', 'kubejs:matrix')
+    event.create('infusion', 'minecraft:lodestone')
         .tag('kubejs:thaumaturgy')
         .scene("thaumaturgy_scene", "thaumaturgy: javascript edition", 'kubejs:altar_built', (scene, util) => {
-            var pos = util.grid().at(4,4,4)
+            var pos = util.grid().at(4, 4, 4)
             scene.showBasePlate();
             scene.scaleSceneView(0.5)
             scene.idle(10)
@@ -82,11 +99,21 @@ onEvent('ponder.registry', event => {
             scene.idle(20)
 
         })
-        .scene("matrix_scene", "infusion!", "kubejs:altar_formed", (scene, util) =>{
+        .scene("matrix_scene", "infusion!", "kubejs:altar_formed", (scene, util) => {
             scene.showBasePlate()
             scene.scaleSceneView(0.5)
             scene.idle(10)
             scene.world().showSection(util.select().layersFrom(1), Facing.down)
+            scene.idle(20)
+            scene.overlay().showText(60)
+                .text('After the altar is formed, you can add as many pedestals and decorations as you want.')
+                .pointAt(util.vector().centerOf(util.grid().at(1, 2, 1)))
             scene.idle(60)
+            scene.rotateCameraY(-180)
+            scene.idle(60)
+            scene.overlay().showText(60)
+                .text('Only add the jars of essentia you need for the infusion, or else it will not work.')
+                .pointAt(util.vector().centerOf(util.grid().at(0, 3, 7)))
+            scene.idle(40)
         })
 })
