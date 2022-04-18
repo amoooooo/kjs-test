@@ -25,7 +25,7 @@ onEvent('block.right_click', event => {
                     time += 20;
                 }
                 for (fluid in definedRecipe.fluid) {
-                    time += 10;
+                    time += 20;
                 }
                 let outputItem = Item.of(recipe);
                 count = definedRecipe.fluid[0].count;
@@ -129,32 +129,42 @@ function extractJars(block, pos, event, dimension, time, index, count) {
     if (fluid !== "minecraft:empty") {
         let currentTicks = 0;
         event.server.scheduleInTicks(1, event => {
-            console.log(count);
+            //console.log(count);
             let blockData = block.entityData;
             if (currentTicks < time) {
-                if (index < 1) {
-                    if (currentTicks > count * 10 * index && currentTicks <= (count * 10) * (index + 1) && blockData.FluidHolder.Fluid != "minecraft:empty") {
-                        console.log(`Extracting fluid ${fluid} from ${block.pos}`);
+                if (index > 1) {
+                    if (currentTicks >= (count * 10) * index && currentTicks <= (count * 10) * (index + 1) && blockData.FluidHolder.Fluid != "minecraft:empty") {
+                        //console.log(`Extracting fluid ${fluid} from ${block.pos}`);
                         particleLine(event, block, pos, getFluidColor(block), dimension);
+                        let data = block.entityData;
+                        if (data.FluidHolder.Count > 0) {
+                            data.FluidHolder.Count = data.FluidHolder.Count - (count / 2);
+                            block.setEntityData(data);
+                            block.entity.setChanged();
+                        }
+                        if (data.FluidHolder.Count <= 0) {
+                            data.FluidHolder.Fluid = "minecraft:empty";
+                            data.FluidHolder.Count = 0;
+                            block.setEntityData(data);
+                            block.entity.setChanged();
+                        }
                     }
                 } else {
                     if (currentTicks <= (count * 10) * (index + 1) && blockData.FluidHolder.Fluid != "minecraft:empty") {
-                        console.log(`Extracting fluid ${fluid} from ${block.pos}`);
+                        //console.log(`Extracting fluid ${fluid} from ${block.pos}`);
                         particleLine(event, block, pos, getFluidColor(block), dimension);
-                    }
-                }
-                if (currentTicks == count * 10) {
-                    let data = block.entityData;
-                    if (data.FluidHolder.Count > 0) {
-                        data.FluidHolder.Count = data.FluidHolder.Count - (count / 2);
-                        block.setEntityData(data);
-                        block.entity.setChanged();
-                    }
-                    if (data.FluidHolder.Count <= 0) {
-                        data.FluidHolder.Fluid = "minecraft:empty";
-                        data.FluidHolder.Count = 0;
-                        block.setEntityData(data);
-                        block.entity.setChanged();
+                        let data = block.entityData;
+                        if (data.FluidHolder.Count > 0) {
+                            data.FluidHolder.Count = data.FluidHolder.Count - (count / 2);
+                            block.setEntityData(data);
+                            block.entity.setChanged();
+                        }
+                        if (data.FluidHolder.Count <= 0) {
+                            data.FluidHolder.Fluid = "minecraft:empty";
+                            data.FluidHolder.Count = 0;
+                            block.setEntityData(data);
+                            block.entity.setChanged();
+                        }
                     }
                 }
                 currentTicks++;
@@ -328,10 +338,10 @@ function circleRing(event, time, pos, dimension) {
     circlePos(event, -3, false, { x: pos.x, y: pos.y - 1, z: pos.z }, dimension);
     circlePos(event, -3, false, { x: pos.x, y: pos.y - 1.25, z: pos.z }, dimension);
 }
-function randomNegative (x) {
+function randomNegative(x) {
     return Math.random() * (Math.round(Math.random()) ? -1 : 1);
 }
 
-function distance (x1, y1, z1, x2, y2, z2) {
+function distance(x1, y1, z1, x2, y2, z2) {
     return Math.abs(Math.sqrt(Math.pow(x1 - x2, 2) + Math.pow(y1 - y2, 2) + Math.pow(z1 - z2, 2)));
 }
