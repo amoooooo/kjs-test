@@ -1,0 +1,17 @@
+[00:11:31.407][INFO]: Successfully identified and loaded plugin jeitweaker:default
+[00:11:31.475][INFO]: Successfully identified and loaded plugin crafttweaker:builtin
+[00:11:33.233][INFO]: The following mods have explicit CraftTweaker support through the default plugin:
+[00:11:33.235][INFO]: - 'crafttweaker' at version '9.1.108'
+[00:11:33.235][INFO]: - 'jeitweaker' at version '3.0.0.8'
+[00:11:43.374][INFO]: Started loading scripts for loader 'initialize'
+[00:11:44.642][INFO]: Compiling and executing scripts
+[00:11:44.709][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[00:11:44.850][INFO]: Execution for loader 'initialize' completed successfully
+[00:12:14.007][INFO]: Started loading scripts for loader 'crafttweaker'
+[00:12:14.031][INFO]: Compiling and executing scripts
+[00:12:14.301][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
+[00:12:14.302][INFO]: Loading file 'jeit_crt.zs'with priority 0
+[00:12:14.336][INFO]: Adding recipe JeiRecipe[category='JeiCategory[id='crafttweaker:pedestal_category',type=CustomRecipeCategory]',outputs=[[<item:minecraft:oak_sapling>]],inputs=[[<item:minecraft:shulker_shell> * 2], [<item:minecraft:purpur_block>], [<item:minecraft:quartz>], [<item:minecraft:chain>], [<item:minecraft:slime_ball>], [<item:minecraft:amethyst_shard>], [<item:minecraft:enchanted_book>], [<item:minecraft:enchanted_book>], [<item:minecraft:enchanted_book>], [<item:minecraft:enchanted_book>], [<item:minecraft:enchanted_book>], [<item:minecraft:enchanted_book>], [<item:minecraft:enchanted_book>]]] to custom JEI category crafttweaker:pedestal_category
+[00:12:14.337][INFO]: Adding custom JEI category crafttweaker:pedestal_category
+[00:12:14.337][INFO]: Execution for loader 'crafttweaker' completed successfully
+[00:12:14.339][INFO]: This reload was made possible by Zuniroa and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
