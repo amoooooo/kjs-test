@@ -48,14 +48,7 @@ realms_persistence.json
 usernamecache.json
 usercache.json
 .curseclient
-mods/architectury-4.2.48.jar
-mods/jei-1.18.2-9.5.5.174.jar
-mods/kubejs-forge-1802.5.1-build.335.jar
-mods/OpenLoader-Forge-1.18.2-12.0.1.jar
-mods/probejs-2.6.0-forge.jar
-mods/rhino-forge-1801.1.9-build.135.jar
-mods/selene-1.18.2-1.15.1.jar
-mods/supplementaries-1.18.2-1.3.6.jar
+mods/*
 crash-reports/crash-2022-04-14_22.30.49-fml.txt
 crash-reports/crash-2022-04-14_22.32.57-fml.txt
 logs/*.gz
@@ -93,3 +86,4 @@ config/ponderjs-client.toml
 config/openloader/data/tc_remake.zip
 config/openloader/data/tc_remake/pack.mcmeta
 config/openloader/data/tc_remake/data/selene/soft_fluids/perditio.json
+logs/

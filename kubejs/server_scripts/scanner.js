@@ -57,7 +57,7 @@ onEvent('item.entity_interact', event => {
         if (event.entity.id == 'minecraft:item') {
             scannedEntity = event.target.entityData.Item;
         } else {
-            scannedEntity = event.target.name;
+            scannedEntity = event.target.type;
         }
         event.server.runCommandSilent(`execute positioned ${baseEv.player.x} ${baseEv.player.y + 2} ${baseEv.player.z} in ${dimension} run playsound minecraft:ui.button.click block @a[distance=..10] ${baseEv.player.x} ${baseEv.player.y} ${baseEv.player.z} 0.1 2`);
         event.server.runCommandSilent(`execute in ${dimension} run particle minecraft:enchant ${entity.x} ${entity.y} ${entity.z} 0.5 0.5 0.5 0 100 normal`)
