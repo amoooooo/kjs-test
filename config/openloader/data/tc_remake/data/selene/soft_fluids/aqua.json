@@ -1,0 +1,19 @@
+{
+	"color": "#3986684",
+	"containers": [
+		{
+			"filled": [
+				"kubejs:aqua_phial"
+			],
+			"empty": "kubejs:essentia_phial",
+			"capacity": 1
+		}
+	],
+	"equivalent_fluids": [
+		"kubejs:aqua_essentia"
+	],
+	"id": "kubejs:aqua_essentia",
+	"translation_key": "item.kubejs.aqua_essentia",
+	"still_texture": "selene:blocks/potion_still",
+	"flowing_texture": "minecraft:block/water_flow"
+}

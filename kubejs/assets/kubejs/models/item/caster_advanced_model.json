@@ -1,0 +1,6 @@
+{
+    "parent": "kubejs:item/caster_gauntlet",
+    "textures": {
+        "skin": "kubejs:item/caster_advanced"
+    }
+}

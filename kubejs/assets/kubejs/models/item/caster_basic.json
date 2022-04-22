@@ -1,0 +1,13 @@
+{
+    "parent": "item/generated",    
+    "overrides": [
+        {
+            "predicate": { "custom_model_data": 0 },
+            "model": "kubejs:item/caster_basic_model"
+        },
+        {
+            "predicate": { "custom_model_data": 1 },
+            "model": "kubejs:item/caster_basic_focus_model"
+        }
+    ]
+}

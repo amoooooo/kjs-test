@@ -1,18 +1,44 @@
 // priority: 0
 
-console.info('Hello, World! (You will only see this line once in console, during startup)')
 let essentia = {
-    'Perditio': 0x403E3E,
-    'Terra': 0x20AB20,
-    'Aqua': 0x26E4EB,
-    'Ignis': 0xEB5A26,
-    'Ordo': 0xB8BABA,
-    'Gelum': 0x99E5E8,
-    'Aer': 0xF2E783,
-    'Vacuos': 0x969393,
-    'Lux': 0xC4BB66,
-    'Motus': 0x829492,
-    'Tenebrae': 0x404040
+    'Perditio': 0x404040,
+    'Terra': 0x56c000,
+    'Aqua': 0x3cd4fc,
+    'Ignis': 0xff5a01,
+    'Ordo': 0xd5d4ec,
+    'Gelum': 0xe1ffff,
+    'Aer': 0xffff7e,
+    'Vacuos': 0x888888,
+    'Lux': 0xffffc0,
+    'Motus': 0xcdccf4,
+    'Tenebrae': 0x222222,
+    'Alienis': 0x805080,
+    'Alkimia': 0x23ac9d,
+    'Bestia': 0x9f6409,
+    'Herba': 0x01ac00,
+    'Cognitio': 0xf9967f,
+    'Humanus': 0xffd7c0,
+    'Auram': 0xffc0ff,
+    'Aversio': 0xc05050,
+    'Desiderium': 0xe6be44,
+    'Victus': 0xde0005,
+    'Exanimis': 0x3a4000,
+    'Fabrico': 0x809d80,
+    'Instrumentum': 0x4040ee,
+    'Permutatio': 0x578357,
+    'Vinculum': 0x9a8080,
+    'Machina': 0x8080a0,
+    'Metallum': 0xb5b5cd,
+    'Mortuus': 0x6a0005,
+    'Potentia': 0xc0ffff,
+    'Vitium': 0x800080,
+    'Praecantatio': 0xcf00ff,
+    'Praemunio': 0x00c0c0,
+    'Sensus': 0xc0ffc0,
+    'Spiritus': 0xebebfb,
+    'Vitreus': 0x80ffff,
+    'Volatus': 0xe7e7d7
+
 }
 onEvent('item.registry', event => {
     // Register new items here
@@ -25,6 +51,37 @@ onEvent('item.registry', event => {
             .parentModel('kubejs:perditio_phial')
     })
     event.create('essentia_phial', 'basic').displayName('Empty Phial')
+    event.create('scanner', 'basic').displayName('Essentia Scanner')
+    event.create('caster_basic', 'basic').displayName("Caster's Gauntlet")
+    event.create('caster_advanced', 'basic').displayName("Advanced Caster's Gauntlet")
+    event.create('lightning_focus', 'basic').displayName("Lightning Focus").parentModel('kubejs:item/focus_1').texture('kubejs:item/focus_1').color(0, 0x00e7e7)
+
+})
+
+onEvent('postinit', event => {
+    Object.entries(essentia).forEach(([name, color]) => {
+        let hex = color.toString()
+        let output = {
+            "color": `#${hex}`,
+            "containers": [
+              {
+                "filled": [
+                  `kubejs:${name.toLowerCase()}_phial`
+                ],
+                "empty": "kubejs:essentia_phial",
+                "capacity": 1
+              }
+            ],
+              "equivalent_fluids": [
+                `kubejs:${name.toLowerCase()}_essentia`
+            ],
+            "id": `kubejs:${name.toLowerCase()}_essentia`,
+            "translation_key": `item.kubejs.${name.toLowerCase()}_essentia`,
+            "still_texture": "selene:blocks/potion_still",
+            "flowing_texture": "minecraft:block/water_flow"
+        }
+        JsonIO.write(`./config/openloader/data/tc_remake/data/selene/soft_fluids/${name.toLowerCase()}.json`, output)
+    })
 
 })
 
@@ -38,30 +95,45 @@ onEvent('block.registry', event => {
         .textureAll('kubejs:block/matrix')
         .model('kubejs:block/matrix')
         .box(2, 2, 2, 14, 14, 14)
+        .item(item => {
+            item.group(null)
+        })
     event.create('pillar_ne')
         .material('rock')
         .hardness(0.5)
         .displayName('Pillar')
         .renderType('cutout')
         .box(0, 0, 0, 16, 32, 16)
+        .item(item => {
+            item.group(null)
+        })
     event.create('pillar_nw')
         .material('rock')
         .hardness(0.5)
         .displayName('Pillar')
         .renderType('cutout')
         .box(0, 0, 0, 16, 32, 16)
+        .item(item => {
+            item.group(null)
+        })
     event.create('pillar_se')
         .material('rock')
         .hardness(0.5)
         .displayName('Pillar')
         .renderType('cutout')
         .box(0, 0, 0, 16, 32, 16)
+        .item(item => {
+            item.group(null)
+        })
     event.create('pillar_sw')
         .material('rock')
         .hardness(0.5)
         .displayName('Pillar')
         .renderType('cutout')
         .box(0, 0, 0, 16, 32, 16)
+        .item(item => {
+            item.group(null)
+        })
 })
 
 
@@ -115,5 +187,11 @@ onEvent('ponder.registry', event => {
                 .text('Only add the jars of essentia you need for the infusion, or else it will not work.')
                 .pointAt(util.vector().centerOf(util.grid().at(0, 3, 7)))
             scene.idle(40)
+        })
+    event.create('gs', 'minecraft:lime_concrete')
+        .tag('kubejs:thaumaturgy')
+        .scene("gs_scene", "", 'kubejs:altar_gs', (scene, util) => {
+            scene.showBasePlate()
+            scene.world().showSection(util.select().layersFrom(1), Facing.down)
         })
 })

@@ -1,0 +1,6 @@
+{
+    "parent": "kubejs:item/caster_gauntlet_focus",
+    "textures": {
+        "skin": "kubejs:item/caster_basic"
+    }
+}

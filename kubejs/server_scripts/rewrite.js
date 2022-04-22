@@ -13,24 +13,41 @@
 onEvent('block.right_click', event => {
     if (event.block.id == 'kubejs:matrix') {
         let inputItems = getItemsInPedestals(event, event.getBlock().pos, -4, -2, -4, 4, 0, 4);
+        let baseEvent = event;
+        let pos = event.getBlock().pos;
+        let dimension = event.level.dimension;
         let recipes = global.recipe_data;
         for (let recipe in recipes) {
             let definedRecipe = recipes[recipe];
-            let time = 50;
+            let time = 200;
             let count = 0;
+            let dings = 0;
             console.log(checkRecipes(inputItems, definedRecipe));
             if (checkRecipes(inputItems, definedRecipe)) {
                 console.log("Recipe found");
                 for (item in definedRecipe.items) {
-                    time += 20;
+                    time += 60 * Math.max(item, 1);
                 }
                 for (fluid in definedRecipe.fluid) {
-                    time += 20;
+                    time += 60 * Math.max(fluid, 1);
                 }
                 let outputItem = Item.of(recipe);
                 count = definedRecipe.fluid[0].count;
                 console.log(`time: ${time}`);
-                extractItemsInPedestals(event, event.getBlock().pos, -4, -2, -4, 4, 0, 4, time, count, outputItem);
+                if (time > 400){
+                    time = 400;
+                }
+                event.player.swingArm(event.hand);
+                event.server.scheduleInTicks(Math.min(3, Math.round(30/dings)), event => {
+                    if (dings < 10) {
+                        event.server.runCommandSilent(`execute positioned ${pos.x} ${pos.y + 2} ${pos.z} in ${dimension} run stopsound @a[distance=..10] block minecraft:block.end_portal_frame.fill`);
+                        baseEvent.server.runCommandSilent(`execute positioned ${pos.x} ${pos.y + 2} ${pos.z} in ${dimension} run playsound minecraft:block.end_portal_frame.fill block @a[distance=..10] ${pos.x} ${pos.y + 2} ${pos.z} 0.2 ${dings/10}`);
+                        dings++;
+                        event.reschedule();
+                    } else {
+                        extractItemsInPedestals(baseEvent, baseEvent.getBlock().pos, -4, -2, -4, 4, 0, 4, time, count, outputItem);
+                    }
+                })
 
             }
         }
@@ -95,8 +112,8 @@ function extractItemsInPedestals(event, pos, x1, y1, z1, x2, y2, z2, time, count
     let dimension = event.level.dimension;
     let indexPedestal = 0;
     let indexJar = 0;
-    event.server.runCommandSilent(`execute positioned ${pos.x} ${pos.y + 2} ${pos.z} in ${dimension} run playsound minecraft:block.portal.travel block @a[distance=..5] ${pos.x} ${pos.y + 2} ${pos.z} 0.2 0.1`);
-    event.server.runCommandSilent(`execute positioned ${pos.x} ${pos.y + 2} ${pos.z} in ${dimension} run playsound minecraft:block.portal.ambient block @a[distance=..5] ${pos.x} ${pos.y + 2} ${pos.z} 0.4 0.1`);
+    event.server.runCommandSilent(`execute positioned ${pos.x} ${pos.y + 2} ${pos.z} in ${dimension} run playsound minecraft:block.portal.travel block @a[distance=..10] ${pos.x} ${pos.y + 2} ${pos.z} 0.2 0.1`);
+    event.server.runCommandSilent(`execute positioned ${pos.x} ${pos.y + 2} ${pos.z} in ${dimension} run playsound minecraft:block.portal.ambient block @a[distance=..10] ${pos.x} ${pos.y + 2} ${pos.z} 0.4 0.1`);
     box.forEach((block, idx, arr) => {
         if (block.id == "supplementaries:pedestal" && block.entity !== null) {
             if (!block.pos.equals(pos.below(2))) {
@@ -112,8 +129,8 @@ function extractItemsInPedestals(event, pos, x1, y1, z1, x2, y2, z2, time, count
                     cap.extractItem(0, 1, false);
                     cap.insertItem(0, outputItem, false);
                     circlePos(event, 0.5, false, pos, dimension);
-                    event.server.runCommandSilent(`execute positioned ${pos.x} ${pos.y + 2} ${pos.z} in ${dimension} run stopsound @a[distance=..5] block minecraft:block.portal.ambient`);
-                    event.server.runCommandSilent(`execute positioned ${block.x} ${block.y + 2} ${block.z} in ${dimension} run playsound minecraft:block.amethyst_block.chime block @a[distance=..5] ${block.x} ${block.y + 2} ${block.z} 200`);
+                    event.server.runCommandSilent(`execute positioned ${pos.x} ${pos.y + 2} ${pos.z} in ${dimension} run stopsound @a[distance=..10] block minecraft:block.portal.ambient`);
+                    event.server.runCommandSilent(`execute positioned ${block.x} ${block.y + 2} ${block.z} in ${dimension} run playsound minecraft:block.amethyst_block.chime block @a[distance=..10] ${block.x} ${block.y + 2} ${block.z} 200`);
                 })
             }
         } else if (block.id == "supplementaries:jar" && block.entity !== null) {
@@ -131,11 +148,14 @@ function extractJars(block, pos, event, dimension, time, index, count) {
         event.server.scheduleInTicks(1, event => {
             //console.log(count);
             let blockData = block.entityData;
-            if (currentTicks < time) {
+            if (currentTicks + 50 < time) {
                 if (index > 1) {
                     if (currentTicks >= (count * 10) * index && currentTicks <= (count * 10) * (index + 1) && blockData.FluidHolder.Fluid != "minecraft:empty") {
                         //console.log(`Extracting fluid ${fluid} from ${block.pos}`);
                         particleLine(event, block, pos, getFluidColor(block), dimension);
+
+                    }
+                    if (currentTicks >= (count * 10) * index && currentTicks <= (count * 10) * (index + 1) && blockData.FluidHolder.Fluid != "minecraft:empty" && currentTicks % 10 == 0) {
                         let data = block.entityData;
                         if (data.FluidHolder.Count > 0) {
                             data.FluidHolder.Count = data.FluidHolder.Count - (count / 2);
@@ -153,6 +173,9 @@ function extractJars(block, pos, event, dimension, time, index, count) {
                     if (currentTicks <= (count * 10) * (index + 1) && blockData.FluidHolder.Fluid != "minecraft:empty") {
                         //console.log(`Extracting fluid ${fluid} from ${block.pos}`);
                         particleLine(event, block, pos, getFluidColor(block), dimension);
+
+                    }
+                    if (currentTicks <= (count * 10) * (index + 1) && blockData.FluidHolder.Fluid != "minecraft:empty" && currentTicks % 10 == 0) {
                         let data = block.entityData;
                         if (data.FluidHolder.Count > 0) {
                             data.FluidHolder.Count = data.FluidHolder.Count - (count / 2);

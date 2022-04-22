@@ -1,0 +1,2250 @@
+Showcase gallery link: https://imgur.com/a/Gqu3NtZ
+
+To install this resource pack, copy the zipped folder into your resoure packs folder in your minecraft install folder.
+
+To use this key, press CTRL+F to find the desired block/item/entity. Once found, copy the corresponding '' character that's found inbetween the '<>' characters. Paste into your chatbox in-game and, with have the resource pack installed, the icon will appear.
+
+This resource pack uses the first 2240 characters of the Private Use Area (PUA). Given that, this pack is compatible with all custom fonts packs (unless they also use the PUA). There are another 4160 characters remaining in the PUA if you wish to expand.
+
+<>: Air (Blank)
+<>: Stone
+<>: Granite
+<>: Polished Granite
+<>: Diorite
+<>: Polished Diorite
+<>: Andesite
+<>: Polished Andesite
+<>: Grass Block (Side, Snowy)
+<>: Grass Block (Side)
+<>: Grass Block (Top)
+<>: Dirt
+<>: Coarse Dirt
+<>: Podzol (Side)
+<>: Podzol (Top)
+<>: Cobblestone
+<>: Oak Planks
+<>: Spruce Planks
+<>: Birch Planks
+<>: Jungle Planks
+<>: Acacia Planks
+<>: Dark Oak Planks
+<>: Oak Sapling
+<>: Spruce Sapling
+<>: Birch Sapling
+<>: Jungle Sapling
+<>: Acacia Sapling
+<>: Dark Oak Sapling
+<>: Bedrock
+<>: Water (Still)
+<>: Water (Flowing)
+<>: Lava (Still)
+<>: Lava (Flowing)
+<>: Sand
+<>: Red Sand
+<>: Gravel
+<>: Gold Ore
+<>: Iron Ore
+<>: Coal Ore
+<>: Oak Log (Side)
+<>: Oak Log (Top)
+<>: Spruce Log (Side)
+<>: Spruce Log (Top)
+<>: Birch Log (Side)
+<>: Birch Log (Top)
+<>: Jungle Log (Side)
+<>: Jungle Log (Top)
+<>: Acacia Log (Side)
+<>: Acacia Log (Top)
+<>: Dark Oak Log (Side)
+<>: Dark Oak Log (Top)
+<>: Stripped Oak Log (Side)
+<>: Stripped Oak Log (Top)
+<>: Stripped Spruce Log (Side)
+<>: Stripped Spruce Log (Top)
+<>: Stripped Birch Log (Side)
+<>: Stripped Birch Log (Top)
+<>: Stripped Jungle Log (Side)
+<>: Stripped Jungle Log (Top)
+<>: Stripped Acacia Log (Side)
+<>: Stripped Acacia Log (Top)
+<>: Stripped Dark Oak Log (Side)
+<>: Stripped Dark Oak Log (Top)
+<>: Oak Leaves
+<>: Spruce Leaves
+<>: Birch Leaves
+<>: Jungle Leaves
+<>: Acacia Leaves
+<>: Dark Oak Leaves
+<>: Sponge
+<>: Wet Sponge
+<>: Glass
+<>: Lapis Lazuli Ore
+<>: Lapis Lazuli Block
+<>: Dispenser (Front)
+<>: Dispenser (Vertical)
+<>: Dispenser (Side)
+<>: Dispenser (Top/Bottom)
+<>: Sandstone (Side)
+<>: Sandstone (Top)
+<>: Sandstone (Bottom)
+<>: Chiseled Sandstone
+
+
+<>: Cut Sandstone
+<>: Note Block
+<>: White Bed (Top, Head)
+<>: White Bed (Top, Foot)
+<>: White Bed (Side, Head)
+<>: White Bed (Side, Foot)
+<>: Orange Bed (Top, Head)
+<>: Orange Bed (Top, Foot)
+<>: Orange Bed (Side, Head)
+<>: Orange Bed (Side, Foot)
+<>: Magenta Bed (Top, Head)
+<>: Magenta Bed (Top, Foot)
+<>: Magenta Bed (Side, Head)
+<>: Magenta Bed (Side, Foot)
+<>: Light Blue Bed (Top, Head)
+<>: Light Blue Bed (Top, Foot)
+<>: Light Blue Bed (Side, Head)
+<>: Light Blue Bed (Side, Foot)
+<>: Yellow Bed (Top, Head)
+<>: Yellow Bed (Top, Foot)
+<>: Yellow Bed (Side, Head)
+<>: Yellow Bed (Side, Foot)
+<>: Lime Bed (Top, Head)
+<>: Lime Bed (Top, Foot)
+<>: Lime Bed (Side, Head)
+<>: Lime Bed (Side, Foot)
+<>: Pink Bed (Top, Head)
+<>: Pink Bed (Top, Foot)
+<>: Pink Bed (Side, Head)
+<>: Pink Bed (Side, Foot)
+<>: Gray Bed (Top, Head)
+<>: Gray Bed (Top, Foot)
+<>: Gray Bed (Side, Head)
+<>: Gray Bed (Side, Foot)
+<>: Light Gray Bed (Top, Head)
+<>: Light Gray Bed (Top, Foot)
+<>: Light Gray Bed (Side, Head)
+<>: Light Gray Bed (Side, Foot)
+<>: Cyan Bed (Top, Head)
+<>: Cyan Bed (Top, Foot)
+<>: Cyan Bed (Side, Head)
+<>: Cyan Bed (Side, Foot)
+<>: Purple Bed (Top, Head)
+<>: Purple Bed (Top, Foot)
+<>: Purple Bed (Side, Head)
+<>: Purple Bed (Side, Foot)
+<>: Blue Bed (Top, Head)
+<>: Blue Bed (Top, Foot)
+<>: Blue Bed (Side, Head)
+<>: Blue Bed (Side, Foot)
+<>: Brown Bed (Top, Head)
+<>: Brown Bed (Top, Foot)
+<>: Brown Bed (Side, Head)
+<>: Brown Bed (Side, Foot)
+<>: Green Bed (Top, Head)
+<>: Green Bed (Top, Foot)
+<>: Green Bed (Side, Head)
+<>: Green Bed (Side, Foot)
+<>: Red Bed (Top, Head)
+<>: Red Bed (Top, Foot)
+<>: Red Bed (Side, Head)
+<>: Red Bed (Side, Foot)
+<>: Black Bed (Top, Head)
+<>: Black Bed (Top, Foot)
+<>: Black Bed (Side, Head)
+<>: Black Bed (Side, Foot)
+<>: Powered Rail (On, Left-Right)
+<>: Powered Rail (On, Up-Down)
+<>: Powered Rail (Off, Left-Right)
+<>: Powered Rail (Off, Up-Down)
+<>: Detector Rail (On, Left-Right)
+<>: Detector Rail (On, Up-Down)
+<>: Detector Rail (Off, Left-Right)
+<>: Detector Rail (Off, Up-Down)
+<>: Sticky Piston (Extended, Head, Left)
+<>: Sticky Piston (Extended, Base, Left)
+<>: Sticky Piston (Extended, Base, Right)
+<>: Sticky Piston (Extended, Head, Right)
+<>: Sticky Piston (Extended, Head, Up)
+<>: Sticky Piston (Extended, Base, Up)
+<>: Sticky Piston (Extended, Base, Down)
+<>: Sticky Piston (Extended, Head, Down)
+<>: Sticky Piston (Extended, Base, Empty)
+<>: Sticky Piston (Back)
+<>: Sticky Piston (Retracted, Left)
+<>: Sticky Piston (Retracted, Right)
+<>: Sticky Piston (Face)
+<>: Sticky Piston (Retracted, Up)
+<>: Sticky Piston (Retracted, Down)
+<>: Cobweb
+<>: Grass
+<>: Fern
+<>: Dead Bush
+<>: Seagrass
+<>: Tall Seagrass (Top)
+<>: Tall Seagrass (Bottom)
+<>: Piston (Extended, Head, Left)
+<>: Piston (Extended, Base, Left)
+<>: Piston (Extended, Base, Right)
+<>: Piston (Extended, Head, Right)
+<>: Piston (Extended, Head, Up)
+<>: Piston (Extended, Base, Up)
+<>: Piston (Extended, Base, Down)
+<>: Piston (Extended, Head, Down)
+<>: Piston (Extended, Base, Empty)
+<>: Piston (Back)
+<>: Piston (Retracted, Left)
+<>: Piston (Retracted, Right)
+<>: Piston (Face)
+<>: Piston (Retracted, Up)
+<>: Piston (Retracted, Down)
+<>: White Wool
+<>: Orange Wool
+<>: Magenta Wool
+<>: Light Blue Wool
+<>: Yellow Wool
+<>: Lime Wool
+<>: Pink Wool
+<>: Gray Wool
+<>: Light Gray Wool
+<>: Cyan Wool
+<>: Purple Wool
+<>: Blue Wool
+<>: Brown Wool
+<>: Green Wool
+<>: Red Wool
+<>: Black Wool
+<>: Dandelion
+<>: Poppy
+<>: Blue Orchid
+<>: Allium
+<>: Azure Bluet
+<>: Red Tulip
+<>: Orange Tulip
+<>: White Tulip
+<>: Pink Tulip
+<>: Oxeye Daisy
+<>: Brown Mushroom
+<>: Red Mushroom
+<>: Block of Gold
+<>: Block of Iron
+<>: Bricks
+<>: TNT (Side)
+<>: TNT (Top)
+<>: TNT (Bottom)
+<>: Bookshelf
+<>: Mossy Cobblestone
+<>: Obsidian
+<>: Torch (Top)
+<>: Fire (1)
+<>: Fire (2)
+<>: Spawner
+<>: Oak Stairs (Top, Right)
+<>: Oak Stairs (Top, Left)
+<>: Oak Stairs (Bottom, Left)
+<>: Oak Stairs (Bottom, Right)
+<>: Chest
+<>: Double Chest (Left)
+<>: Double Chest (Right)
+<>: Chest (Christmas)
+<>: Double Chest (Left, Christmas)
+<>: Double Chest (Right, Christmas)
+<>: Redstone Dust Dot (Power 0)
+<>: Redstone Dust Dot (Power 1)
+<>: Redstone Dust Dot (Power 2)
+<>: Redstone Dust Dot (Power 3)
+<>: Redstone Dust Dot (Power 4)
+<>: Redstone Dust Dot (Power 5)
+<>: Redstone Dust Dot (Power 6)
+<>: Redstone Dust Dot (Power 7)
+<>: Redstone Dust Dot (Power 8)
+<>: Redstone Dust Dot (Power 9)
+<>: Redstone Dust Dot (Power 10)
+<>: Redstone Dust Dot (Power 11)
+<>: Redstone Dust Dot (Power 12)
+<>: Redstone Dust Dot (Power 13)
+<>: Redstone Dust Dot (Power 14)
+<>: Redstone Dust Dot (Power 15)
+<>: Redstone Dust Left-Right (Power 0)
+<>: Redstone Dust Left-Right (Power 1)
+<>: Redstone Dust Left-Right (Power 2)
+<>: Redstone Dust Left-Right (Power 3)
+<>: Redstone Dust Left-Right (Power 4)
+<>: Redstone Dust Left-Right (Power 5)
+<>: Redstone Dust Left-Right (Power 6)
+<>: Redstone Dust Left-Right (Power 7)
+<>: Redstone Dust Left-Right (Power 8)
+<>: Redstone Dust Left-Right (Power 9)
+<>: Redstone Dust Left-Right (Power 10)
+<>: Redstone Dust Left-Right (Power 11)
+<>: Redstone Dust Left-Right (Power 12)
+<>: Redstone Dust Left-Right (Power 13)
+<>: Redstone Dust Left-Right (Power 14)
+<>: Redstone Dust Left-Right (Power 15)
+<>: Redstone Dust Up-Down (Power 0)
+<>: Redstone Dust Up-Down (Power 1)
+<>: Redstone Dust Up-Down (Power 2)
+<>: Redstone Dust Up-Down (Power 3)
+<>: Redstone Dust Up-Down (Power 4)
+<>: Redstone Dust Up-Down (Power 5)
+<>: Redstone Dust Up-Down (Power 6)
+<>: Redstone Dust Up-Down (Power 7)
+<>: Redstone Dust Up-Down (Power 8)
+<>: Redstone Dust Up-Down (Power 9)
+<>: Redstone Dust Up-Down (Power 10)
+<>: Redstone Dust Up-Down (Power 11)
+<>: Redstone Dust Up-Down (Power 12)
+<>: Redstone Dust Up-Down (Power 13)
+<>: Redstone Dust Up-Down (Power 14)
+<>: Redstone Dust Up-Down (Power 15)
+<>: Diamond Ore
+<>: Block of Diamond
+<>: Crafting Table (Side, 1)
+<>: Crafting Table (Side, 2)
+<>: Crafting Table (Top)
+<>: Wheat Crop (Stage 1)
+<>: Wheat Crop (Stage 2)
+<>: Wheat Crop (Stage 3)
+<>: Wheat Crop (Stage 4)
+<>: Wheat Crop (Stage 5)
+<>: Wheat Crop (Stage 6)
+<>: Wheat Crop (Stage 7)
+<>: Wheat Crop (Stage 8)
+<>: Farmland (Dry)
+<>: Farmland (Moist)
+<>: Furnace (Face, Lit)
+<>: Furnace (Side)
+<>: Furnace (Top/Bottom)
+<>: Furnace (Face, Unlit)
+<>: Sign
+<>: Oak Door (Top)
+<>: Oak Door (Bottom)
+<>: Ladder
+<>: Rail (Left-Right)
+<>: Rail (Up-Down)
+<>: Rail (Corner, Up-Right)
+<>: Rail (Corner, Down-Right)
+<>: Rail (Corner, Down-Left)
+<>: Rail (Corner, Up-Left)
+<>: Cobblestone Stairs (Top, Right)
+<>: Cobblestone Stairs (Top, Left)
+<>: Cobblestone Stairs (Bottom, Left)
+<>: Cobblestone Stairs (Bottom, Right)
+<>: Wall Sign
+<>: Lever
+<>: Stone Pressure Plate
+<>: Iron Door (Top)
+<>: Iron Door (Bottom)
+<>: Oak Pressure Plate
+<>: Spruce Pressure Plate
+<>: Birch Pressure Plate
+<>: Jungle Pressure Plate
+<>: Acacia Pressure Plate
+<>: Dark Oak Pressure Plate
+<>: Redstone Ore
+<>: Redstone Torch (On, Top)
+<>: Redstone Torch (Off, Top)
+<>: Stone Button
+<>: Snow (Layer 1)
+<>: Snow (Layer 2)
+<>: Snow (Layer 3)
+<>: Snow (Layer 4)
+<>: Snow (Layer 5)
+<>: Snow (Layer 6)
+<>: Snow (Layer 7)
+<>: Snow (Layer 8/Full)
+<>: Ice
+<>: Cactus (Side)
+<>: Cactus (Top)
+<>: Cactus (Bottom)
+<>: Clay Block
+<>: Sugar Cane
+<>: Jukebox (Top)
+<>: Jukebox (Side/Bottom)
+<>: Oak Fence
+<>: Pumpkin (Side)
+<>: Pumpkin (Top)
+<>: Netherrack
+<>: Soul Sand
+<>: Glowstone
+<>: Nether Portal
+<>: Carved Pumpkin
+<>: Jack O'Lantern
+<>: Cake (Top)
+<>: Cake (Side)
+<>: Cake (Bottom)
+<>: Cake (Side, Bitten)
+<>: Cake (Top, 1 Bite)
+<>: Cake (Side, 1 Bite)
+<>: Cake (Top, 2 Bites)
+<>: Cake (Side, 2 Bites)
+<>: Cake (Top, 3 Bites)
+<>: Cake (Side, 3 Bites)
+<>: Cake (Top, 4 Bites)
+<>: Cake (Side, 4 Bites)
+<>: Cake (Top, 5 Bites)
+<>: Cake (Side, 5 Bites)
+<>: Cake (Top, 6 Bites)
+<>: Cake (Side, 6 Bites)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: Repeater (Rotation)
+<>: White Stained Glass
+<>: Orange Stained Glass
+<>: Magenta Stained Glass
+<>: Light Blue Stained Glass
+<>: Yellow Stained Glass
+<>: Lime Stained Glass
+<>: Pink Stained Glass
+<>: Gray Stained Glass
+<>: Light Gray Stained Glass
+<>: Cyan Stained Glass
+<>: Purple Stained Glass
+<>: Blue Stained Glass
+<>: Brown Stained Glass
+<>: Green Stained Glass
+<>: Red Stained Glass
+<>: Black Stained Glass
+<>: Oak Trapdoor (Open)
+<>: Oak Trapdoor (Closed)
+<>: Spruce Trapdoor (Open)
+<>: Spruce Trapdoor (Closed)
+<>: Birch Trapdoor (Open)
+<>: Birch Trapdoor (Closed)
+<>: Jungle Trapdoor (Open)
+<>: Jungle Trapdoor (Closed)
+<>: Acacia Trapdoor (Open)
+<>: Acacia Trapdoor (Closed)
+<>: Dark Oak Trapdoor (Open)
+<>: Dark Oak Trapdoor (Closed)
+<>: Infested Stone
+<>: Infested Cobblestone
+<>: Infested Stone Brick
+<>: Infested Mossy Stone Brick
+<>: Infested Cracked Stone Brick
+<>: Infested Chiseled Stone Brick
+<>: Stone Brick
+<>: Mossy Stone Brick
+<>: Cracked Stone Brick
+<>: Chiseled Stone Brick
+<>: Mushroom Block (Inside)
+<>: Brown Mushroom Block
+<>: Red Mushroom Block
+<>: Mushroom Stem
+<>: Iron Bars
+<>: Glass Pane
+<>: Melon (Side)
+<>: Melon (Top)
+<>: Pumpkin Stem (Bent)
+<>: Melon Stem (Bent)
+<>: Pumpkin Stem (Stage 1)
+<>: Pumpkin Stem (Stage 2)
+<>: Pumpkin Stem (Stage 3)
+<>: Pumpkin Stem (Stage 4)
+<>: Pumpkin Stem (Stage 5)
+<>: Pumpkin Stem (Stage 6)
+<>: Pumpkin Stem (Stage 7)
+<>: Pumpkin Stem (Stage 8)
+<>: Melon Stem (Stage 1)
+<>: Melon Stem (Stage 2)
+<>: Melon Stem (Stage 3)
+<>: Melon Stem (Stage 4)
+<>: Melon Stem (Stage 5)
+<>: Melon Stem (Stage 6)
+<>: Melon Stem (Stage 7)
+<>: Melon Stem (Stage 8)
+<>: Vines
+<>: Oak Fence Gate
+<>: Brick Stairs (Top, Right)
+<>: Brick Stairs (Top, Left)
+<>: Brick Stairs (Bottom, Left)
+<>: Brick Stairs (Bottom, Right)
+<>: Stone Brick Stairs (Top, Right)
+<>: Stone Brick Stairs (Top, Left)
+<>: Stone Brick Stairs (Bottom, Left)
+<>: Stone Brick Stairs (Bottom, Right)
+<>: Mycelium (Side)
+<>: Mycelium (Top)
+<>: Lily Pad
+<>: Nether Bricks
+<>: Nether Brick Fence
+<>: Nether Brick Stairs (Top, Right)
+<>: Nether Brick Stairs (Top, Left)
+<>: Nether Brick Stairs (Bottom, Left)
+<>: Nether Brick Stairs (Bottom, Right)
+<>: Nether Wart (Stage 1)
+<>: Nether Wart (Stage 2)
+<>: Nether Wart (Stage 3)
+<>: Enchanting Table (Bottom)
+<>: Enchanting Table (Side)
+<>: Enchanting Table (Top, No Book)
+<>: Enchanting Table (Top, Book)
+<>: Enchanting Table Book (Pages)
+<>: Enchanting Table Book (Cover)
+<>: Brewing Stand (Side)
+<>: Brewing Stand (Top/Bottom)
+<>: Cauldron (Side)
+<>: Cauldron (Bottom)
+<>: Cauldron (Top, Empty)
+<>: Cauldron (Top, Full)
+<>: End Portal (Compressed Image)
+<>: End Portal Frame (Top, Eye, North)
+<>: End Portal Frame (Top, Eye, South)
+<>: End Portal Frame (Top, Eye, West)
+<>: End Portal Frame (Top, Eye, East)
+<>: End Portal Frame (Side, Eye)
+<>: End Portal Frame (Top, Empty, North)
+<>: End Portal Frame (Top, Empty, South)
+<>: End Portal Frame (Top, Empty, West)
+<>: End Portal Frame (Top, Empty, East)
+<>: End Portal Frame (Side, Empty)
+<>: End Stone
+<>: Dragon Egg
+<>: Redstone Lamp (Lit)
+<>: Redstone Lamp (Unlit)
+<>: Cocoa Bean (Stage 1, Left)
+<>: Cocoa Bean (Stage 1, Right)
+<>: Cocoa Bean (Stage 2, Left)
+<>: Cocoa Bean (Stage 2, Right)
+<>: Cocoa Bean (Stage 3, Left)
+<>: Cocoa Bean (Stage 3, Right)
+<>: Sandstone Stairs (Top, Right)
+<>: Sandstone Stairs (Top, Left)
+<>: Sandstone Stairs (Bottom, Left)
+<>: Sandstone Stairs (Bottom, Right)
+<>: Emerald Ore
+<>: Ender Chest
+<>: Tripwire Hook (Side, Right)
+<>: Tripwire Hook (Top, Right)
+<>: Tripwire Hook (Side, Left)
+<>: Tripwire Hook (Top, Left)
+<>: Tripwire Hook (Top, Up)
+<>: Tripwire Hook (Top, Down)
+<>: Tripwire (Cross)
+<>: Tripwire (Up-Down)
+<>: Tripwire (Left-Right)
+<>: Block of Emerald
+<>: Spruce Stairs (Top, Right)
+<>: Spruce Stairs (Top, Left)
+<>: Spruce Stairs (Bottom, Left)
+<>: Spruce Stairs (Bottom, Right)
+<>: Birch Stairs (Top, Right)
+<>: Birch Stairs (Top, Left)
+<>: Birch Stairs (Bottom, Left)
+<>: Birch Stairs (Bottom, Right)
+<>: Jungle Stairs (Top, Right)
+<>: Jungle Stairs (Top, Left)
+<>: Jungle Stairs (Bottom, Left)
+<>: Jungle Stairs (Bottom, Right)
+<>: Command Block (Front)
+<>: Command Block (Back)
+<>: Command Block (Up, Conditional)
+<>: Command Block (Right, Conditional)
+<>: Command Block (Down, Conditional)
+<>: Command Block (Left, Conditional)
+<>: Command Block (Up)
+<>: Command Block (Right)
+<>: Command Block (Down)
+<>: Command Block (Left)
+<>: Beacon (Top)
+<>: Beacon (Side)
+<>: Beacon (Bottom)
+<>: Cobblestone Wall
+<>: Mossy Cobblestone Wall
+<>: Flower Pot (Side)
+<>: Flower Pot (Top)
+<>: Carrot Crop (Stage 1)
+<>: Carrot Crop (Stage 2)
+<>: Carrot Crop (Stage 3)
+<>: Carrot Crop (Stage 4)
+<>: Potato Crop (Stage 1)
+<>: Potato Crop (Stage 2)
+<>: Potato Crop (Stage 3)
+<>: Potato Crop (Stage 4)
+<>: Oak Button
+<>: Spruce Button
+<>: Birch Button
+<>: Jungle Button
+<>: Acacia Button
+<>: Dark Oak Button
+<>: Skeleton Skull
+<>: Wither Skeleton Skull
+<>: Zombie Head
+<>: Player Head
+<>: Creeper Head
+<>: Dragon Head
+<>: Anvil (Side)
+<>: Anvil (Top)
+<>: Chipped Anvil
+<>: Damaged Anvil
+<>: Trapped Chest
+<>: Double Trapped Chest (Left)
+<>: Double Trapped Chest (Right)
+<>: Light Weighted Pressure Plate
+<>: Heavy Weighted Pressure Plate
+<>: Comparator (Rotation)
+<>: Comparator (Rotation)
+<>: Comparator (Rotation)
+<>: Comparator (Rotation)
+<>: Comparator (Rotation)
+<>: Comparator (Rotation)
+<>: Comparator (Rotation)
+<>: Comparator (Rotation)
+<>: Comparator (Rotation)
+<>: Comparator (Rotation)
+<>: Comparator (Rotation)
+<>: Comparator (Rotation)
+<>: Comparator (Rotation)
+<>: Comparator (Rotation)
+<>: Comparator (Rotation)
+<>: Comparator (Rotation)
+<>: Comparator (Rotation)
+<>: Comparator (Rotation)
+<>: Comparator (Rotation)
+<>: Comparator (Rotation)
+<>: Comparator (Rotation)
+<>: Comparator (Rotation)
+<>: Comparator (Rotation)
+<>: Comparator (Rotation)
+<>: Inverted Daylight Detector
+<>: Daylight Detector
+<>: Daylight Detector (Bottom)
+<>: Daylight Detector (Side)
+<>: Block of Redstone
+<>: Nether Quartz Ore
+<>: Hopper (Down)
+<>: Hopper (Left)
+<>: Hopper (Right)
+<>: Hopper (Front/Back)
+<>: Hopper (Top)
+<>: Block of Quartz (Side)
+<>: Block of Quartz (Top)
+<>: Block of Quartz (Bottom)
+<>: Chiseled Quartz Block (Side)
+<>: Chiseled Quartz Block (Top/Bottom)
+<>: Quartz Pillar (Pattern)
+<>: Quartz Pillar (Column, Up-Down)
+<>: Quartz Pillar (Column, Left-Right)
+<>: Quartz Stairs (Top, Right)
+<>: Quartz Stairs (Top, Left)
+<>: Quartz Stairs (Bottom, Left)
+<>: Quartz Stairs (Bottom, Right)
+<>: Activator Rail (On, Left-Right)
+<>: Activator Rail (On, Up-Down)
+<>: Activator Rail (Off, Left-Right)
+<>: Activator Rail (Off, Up-Down)
+<>: Dropper (Front)
+<>: Dropper (Vertical)
+<>: Dropper (Side)
+<>: Dropper (Top/Bottom)
+<>: White Terracotta
+<>: Orange Terracotta
+<>: Magenta Terracotta
+<>: Light Blue Terracotta
+<>: Yellow Terracotta
+<>: Lime Terracotta
+<>: Pink Terracotta
+<>: Gray Terracotta
+<>: Light Gray Terracotta
+<>: Cyan Terracotta
+<>: Purple Terracotta
+<>: Blue Terracotta
+<>: Brown Terracotta
+<>: Green Terracotta
+<>: Red Terracotta
+<>: Black Terracotta
+<>: White Stained Glass Pane
+<>: Orange Stained Glass Pane
+<>: Magenta Stained Glass Pane
+<>: Light Blue Stained Glass Pane
+<>: Yellow Stained Glass Pane
+<>: Lime Stained Glass Pane
+<>: Pink Stained Glass Pane
+<>: Gray Stained Glass Pane
+<>: Light Gray Stained Glass Pane
+<>: Cyan Stained Glass Pane
+<>: Purple Stained Glass Pane
+<>: Blue Stained Glass Pane
+<>: Brown Stained Glass Pane
+<>: Green Stained Glass Pane
+<>: Red Stained Glass Pane
+<>: Black Stained Glass Pane
+<>: Acacia Stairs (Top, Right)
+<>: Acacia Stairs (Top, Left)
+<>: Acacia Stairs (Bottom, Left)
+<>: Acacia Stairs (Bottom, Right)
+<>: Dark Oak Stairs (Top, Right)
+<>: Dark Oak Stairs (Top, Left)
+<>: Dark Oak Stairs (Bottom, Left)
+<>: Dark Oak Stairs (Bottom, Right)
+<>: Slime Block
+<>: Barrier
+<>: Iron Trapdoor (Open)
+<>: Iron Trapdoor (Closed)
+<>: Prismarine
+<>: Prismarine Bricks
+<>: Dark Prismarine
+<>: Prismarine Stairs (Top, Right)
+<>: Prismarine Stairs (Top, Left)
+<>: Prismarine Stairs (Bottom, Left)
+<>: Prismarine Stairs (Bottom, Right)
+<>: Prismarine Brick Stairs (Top, Right)
+<>: Prismarine Brick Stairs (Top, Left)
+<>: Prismarine Brick Stairs (Bottom, Left)
+<>: Prismarine Brick Stairs (Bottom, Right)
+<>: Dark Prismarine Brick Stairs (Top, Right)
+<>: Dark Prismarine Brick Stairs (Top, Left)
+<>: Dark Prismarine Brick Stairs (Bottom, Left)
+<>: Dark Prismarine Brick Stairs (Bottom, Right)
+<>: Prismarine Slab (Top)
+<>: Prismarine Slab (Bottom)
+<>: Prismarine Brick Slab (Top)
+<>: Prismarine Brick Slab (Bottom)
+<>: Dark Prismarine Slab (Top)
+<>: Dark Prismarine Slab (Bottom)
+<>: Sea Lantern
+<>: Hay Bale (Top)
+<>: Hay Bale (Side, Left-Right)
+<>: Hay Bale (Side, Up-Down)
+<>: White Carpet
+<>: Orange Carpet
+<>: Magenta Carpet
+<>: Light Blue Carpet
+<>: Yellow Carpet
+<>: Lime Carpet
+<>: Pink Carpet
+<>: Gray Carpet
+<>: Light Gray Carpet
+<>: Cyan Carpet
+<>: Purple Carpet
+<>: Blue Carpet
+<>: Brown Carpet
+<>: Green Carpet
+<>: Red Carpet
+<>: Black Carpet
+<>: Terracotta
+<>: Block of Coal
+<>: Packed Ice
+<>: Sunflower (Flower)
+<>: Sunflower (Flower Back)
+<>: Sunflower (Stem, No Flower)
+<>: Sunflower (Flower & Stem)
+<>: Sunflower (Base)
+<>: Lilac (Top)
+<>: Lilac (Base)
+<>: Rose Bush (Top)
+<>: Rose Bush (Base)
+<>: Peony (Top)
+<>: Peony (Base)
+<>: Tall Grass (Top)
+<>: Tall Grass (Base)
+<>: Large Fern (Top)
+<>: Large Fern (Base)
+<>: White Banner (Top)
+<>: White Banner (Bottom)
+<>: Orange Banner (Top)
+<>: Orange Banner (Bottom)
+<>: Magenta Banner (Top)
+<>: Magenta Banner (Bottom)
+<>: Light Blue Banner (Top)
+<>: Light Blue Banner (Bottom)
+<>: Yellow Banner (Top)
+<>: Yellow Banner (Bottom)
+<>: Lime Banner (Top)
+<>: Lime Banner (Bottom)
+<>: Pink Banner (Top)
+<>: Pink Banner (Bottom)
+<>: Gray Banner (Top)
+<>: Gray Banner (Bottom)
+<>: Light Gray Banner (Top)
+<>: Light Gray Banner (Bottom)
+<>: Cyan Banner (Top)
+<>: Cyan Banner (Bottom)
+<>: Purple Banner (Top)
+<>: Purple Banner (Bottom)
+<>: Blue Banner (Top)
+<>: Blue Banner (Bottom)
+<>: Brown Banner (Top)
+<>: Brown Banner (Bottom)
+<>: Green Banner (Top)
+<>: Green Banner (Bottom)
+<>: Red Banner (Top)
+<>: Red Banner (Bottom)
+<>: Black Banner (Top)
+<>: Black Banner (Bottom)
+<>: Red Sandstone (Side)
+<>: Red Sandstone (Top)
+<>: Red Sandstone (Bottom)
+<>: Chiseled Red Sandstone
+<>: Cut Red Sandstone
+<>: Red Sandstone Stairs (Top, Right)
+<>: Red Sandstone Stairs (Top, Left)
+<>: Red Sandstone Stairs (Bottom, Left)
+<>: Red Sandstone Stairs (Bottom, Right)
+<>: Oak Slab (Top)
+<>: Oak Slab (Bottom)
+<>: Spruce Slab (Top)
+<>: Spruce Slab (Bottom)
+<>: Birch Slab (Top)
+<>: Birch Slab (Bottom)
+<>: Jungle Slab (Top)
+<>: Jungle Slab (Bottom)
+<>: Acacia Slab (Top)
+<>: Acacia Slab (Bottom)
+<>: Dark Oak Slab (Top)
+<>: Dark Oak Slab (Bottom)
+<>: Stone Slab (Top)
+<>: Stone Slab (Bottom)
+<>: Stone Slab (Block)
+<>: Stone Slab (Top/Bottom)
+<>: Sandstone Slab (Top)
+<>: Sandstone Slab (Bottom)
+<>: Petrified Oak Slab (Top)
+<>: Petrified Oak Slab (Bottom)
+<>: Cobblestone Slab (Top)
+<>: Cobblestone Slab (Bottom)
+<>: Brick Slab (Top)
+<>: Brick Slab (Bottom)
+<>: Stone Brick Slab (Top)
+<>: Stone Brick Slab (Bottom)
+<>: Nether Brick Slab (Top)
+<>: Nether Brick Slab (Bottom)
+<>: Quartz Slab (Top)
+<>: Quartz Slab (Bottom)
+<>: Red Sandstone Slab (Top)
+<>: Red Sandstone Slab (Bottom)
+<>: Purpur Slab (Top)
+<>: Purpur Slab (Bottom)
+<>: Spruce Fence Gate
+<>: Birch Fence Gate
+<>: Jungle Fence Gate
+<>: Acacia Fence Gate
+<>: Dark Oak Fence Gate
+<>: Spruce Fence
+<>: Birch Fence
+<>: Jungle Fence
+<>: Acacia Fence
+<>: Dark Oak Fence
+<>: Spruce Door (Top)
+<>: Spruce Door (Bottom)
+<>: Birch Door (Top)
+<>: Birch Door (Bottom)
+<>: Jungle Door (Top)
+<>: Jungle Door (Bottom)
+<>: Acacia Door (Top)
+<>: Acacia Door (Bottom)
+<>: Dark Oak Door (Top)
+<>: Dark Oak Door (Bottom)
+<>: End Rod (Left)
+<>: End Rod (Back)
+<>: End Rod (Right)
+<>: End Rod (Front)
+<>: End Rod (Up)
+<>: End Rod (Down)
+<>: Chorus Plant
+<>: Chorus Flower
+<>: Chorus Flower (Dead)
+<>: Purpur Block
+<>: Purpur Pillar (Pattern)
+<>: Purpur Pillar (Column, Up-Down)
+<>: Purpur Pillar (Column, Left-Right)
+<>: Purpur Stairs (Top, Right)
+<>: Purpur Stairs (Top, Left)
+<>: Purpur Stairs (Bottom, Left)
+<>: Purpur Stairs (Bottom, Right)
+<>: End Stone Bricks
+<>: Beetroot Crop (Stage 1)
+<>: Beetroot Crop (Stage 2)
+<>: Beetroot Crop (Stage 3)
+<>: Beetroot Crop (Stage 4)
+<>: Grass Path (Side)
+<>: Grass Path (Top)
+<>: End Gateway (Compressed Image)
+<>: Repeating Command Block (Front)
+<>: Repeating Command Block (Back)
+<>: Repeating Command Block (Up, Conditional)
+<>: Repeating Command Block (Right, Conditional)
+<>: Repeating Command Block (Down, Conditional)
+<>: Repeating Command Block (Left, Conditional)
+<>: Repeating Command Block (Up)
+<>: Repeating Command Block (Right)
+<>: Repeating Command Block (Down)
+<>: Repeating Command Block (Left)
+<>: Chain Command Block (Front)
+<>: Chain Command Block (Back)
+<>: Chain Command Block (Up, Conditional)
+<>: Chain Command Block (Right, Conditional)
+<>: Chain Command Block (Down, Conditional)
+<>: Chain Command Block (Left, Conditional)
+<>: Chain Command Block (Up)
+<>: Chain Command Block (Right)
+<>: Chain Command Block (Down)
+<>: Chain Command Block (Left)
+<>: Frosted Ice (Stage 1)
+<>: Frosted Ice (Stage 2)
+<>: Frosted Ice (Stage 3)
+<>: Frosted Ice (Stage 4)
+<>: Magma Block
+<>: Nether Wart Block
+<>: Red Nether Bricks
+<>: Bone Block (End)
+<>: Bone Block (Side, Up-Down)
+<>: Bone Block (Side, Left-Right)
+<>: Structure Void
+<>: Observer (Face)
+<>: Observer (Side)
+<>: Observer (Up Arrow)
+<>: Observer (Down Arrow)
+<>: Observer (Back, On)
+<>: Observer (Back, Off)
+<>: Shulker Box (Left)
+<>: Shulker Box (Right)
+<>: Shulker Box (Up)
+<>: Shulker Box (Down)
+<>: Shulker Box (Top)
+<>: Shulker Box (Bottom)
+<>: White Shulker Box (Left)
+<>: White Shulker Box (Right)
+<>: White Shulker Box (Up)
+<>: White Shulker Box (Down)
+<>: White Shulker Box (Top)
+<>: White Shulker Box (Bottom)
+<>: Orange Shulker Box (Left)
+<>: Orange Shulker Box (Right)
+<>: Orange Shulker Box (Up)
+<>: Orange Shulker Box (Down)
+<>: Orange Shulker Box (Top)
+<>: Orange Shulker Box (Bottom)
+<>: Magenta Shulker Box (Left)
+<>: Magenta Shulker Box (Right)
+<>: Magenta Shulker Box (Up)
+<>: Magenta Shulker Box (Down)
+<>: Magenta Shulker Box (Top)
+<>: Magenta Shulker Box (Bottom)
+<>: Light Blue Shulker Box (Left)
+<>: Light Blue Shulker Box (Right)
+<>: Light Blue Shulker Box (Up)
+<>: Light Blue Shulker Box (Down)
+<>: Light Blue Shulker Box (Top)
+<>: Light Blue Shulker Box (Bottom)
+<>: Yellow Shulker Box (Left)
+<>: Yellow Shulker Box (Right)
+<>: Yellow Shulker Box (Up)
+<>: Yellow Shulker Box (Down)
+<>: Yellow Shulker Box (Top)
+<>: Yellow Shulker Box (Bottom)
+<>: Lime Shulker Box (Left)
+<>: Lime Shulker Box (Right)
+<>: Lime Shulker Box (Up)
+<>: Lime Shulker Box (Down)
+<>: Lime Shulker Box (Top)
+<>: Lime Shulker Box (Bottom)
+<>: Pink Shulker Box (Left)
+<>: Pink Shulker Box (Right)
+<>: Pink Shulker Box (Up)
+<>: Pink Shulker Box (Down)
+<>: Pink Shulker Box (Top)
+<>: Pink Shulker Box (Bottom)
+<>: Gray Shulker Box (Left)
+<>: Gray Shulker Box (Right)
+<>: Gray Shulker Box (Up)
+<>: Gray Shulker Box (Down)
+<>: Gray Shulker Box (Top)
+<>: Gray Shulker Box (Bottom)
+<>: Light Gray Shulker Box (Left)
+<>: Light Gray Shulker Box (Right)
+<>: Light Gray Shulker Box (Up)
+<>: Light Gray Shulker Box (Down)
+<>: Light Gray Shulker Box (Top)
+<>: Light Gray Shulker Box (Bottom)
+<>: Cyan Shulker Box (Left)
+<>: Cyan Shulker Box (Right)
+<>: Cyan Shulker Box (Up)
+<>: Cyan Shulker Box (Down)
+<>: Cyan Shulker Box (Top)
+<>: Cyan Shulker Box (Bottom)
+<>: Purple Shulker Box (Left)
+<>: Purple Shulker Box (Right)
+<>: Purple Shulker Box (Up)
+<>: Purple Shulker Box (Down)
+<>: Purple Shulker Box (Top)
+<>: Purple Shulker Box (Bottom)
+<>: Blue Shulker Box (Left)
+<>: Blue Shulker Box (Right)
+<>: Blue Shulker Box (Up)
+<>: Blue Shulker Box (Down)
+<>: Blue Shulker Box (Top)
+<>: Blue Shulker Box (Bottom)
+<>: Brown Shulker Box (Left)
+<>: Brown Shulker Box (Right)
+<>: Brown Shulker Box (Up)
+<>: Brown Shulker Box (Down)
+<>: Brown Shulker Box (Top)
+<>: Brown Shulker Box (Bottom)
+<>: Green Shulker Box (Left)
+<>: Green Shulker Box (Right)
+<>: Green Shulker Box (Up)
+<>: Green Shulker Box (Down)
+<>: Green Shulker Box (Top)
+<>: Green Shulker Box (Bottom)
+<>: Red Shulker Box (Left)
+<>: Red Shulker Box (Right)
+<>: Red Shulker Box (Up)
+<>: Red Shulker Box (Down)
+<>: Red Shulker Box (Top)
+<>: Red Shulker Box (Bottom)
+<>: Black Shulker Box (Left)
+<>: Black Shulker Box (Right)
+<>: Black Shulker Box (Up)
+<>: Black Shulker Box (Down)
+<>: Black Shulker Box (Top)
+<>: Black Shulker Box (Bottom)
+<>: White Glazed Terracotta (North)
+<>: White Glazed Terracotta (South)
+<>: White Glazed Terracotta (West)
+<>: White Glazed Terracotta (East)
+<>: Orange Glazed Terracotta (North)
+<>: Orange Glazed Terracotta (South)
+<>: Orange Glazed Terracotta (West)
+<>: Orange Glazed Terracotta (East)
+<>: Magenta Glazed Terracotta (North)
+<>: Magenta Glazed Terracotta (South)
+<>: Magenta Glazed Terracotta (West)
+<>: Magenta Glazed Terracotta (East)
+<>: Light Blue Glazed Terracotta (North)
+<>: Light Blue Glazed Terracotta (South)
+<>: Light Blue Glazed Terracotta (West)
+<>: Light Blue Glazed Terracotta (East)
+<>: Yellow Glazed Terracotta (North)
+<>: Yellow Glazed Terracotta (South)
+<>: Yellow Glazed Terracotta (West)
+<>: Yellow Glazed Terracotta (East)
+<>: Lime Glazed Terracotta (North)
+<>: Lime Glazed Terracotta (South)
+<>: Lime Glazed Terracotta (West)
+<>: Lime Glazed Terracotta (East)
+<>: Pink Glazed Terracotta (North)
+<>: Pink Glazed Terracotta (South)
+<>: Pink Glazed Terracotta (West)
+<>: Pink Glazed Terracotta (East)
+<>: Gray Glazed Terracotta (North)
+<>: Gray Glazed Terracotta (South)
+<>: Gray Glazed Terracotta (West)
+<>: Gray Glazed Terracotta (East)
+<>: Light Gray Glazed Terracotta (North)
+<>: Light Gray Glazed Terracotta (South)
+<>: Light Gray Glazed Terracotta (West)
+<>: Light Gray Glazed Terracotta (East)
+<>: Cyan Glazed Terracotta (North)
+<>: Cyan Glazed Terracotta (South)
+<>: Cyan Glazed Terracotta (West)
+<>: Cyan Glazed Terracotta (East)
+<>: Purple Glazed Terracotta (North)
+<>: Purple Glazed Terracotta (South)
+<>: Purple Glazed Terracotta (West)
+<>: Purple Glazed Terracotta (East)
+<>: Blue Glazed Terracotta (North)
+<>: Blue Glazed Terracotta (South)
+<>: Blue Glazed Terracotta (West)
+<>: Blue Glazed Terracotta (East)
+<>: Brown Glazed Terracotta (North)
+<>: Brown Glazed Terracotta (South)
+<>: Brown Glazed Terracotta (West)
+<>: Brown Glazed Terracotta (East)
+<>: Green Glazed Terracotta (North)
+<>: Green Glazed Terracotta (South)
+<>: Green Glazed Terracotta (West)
+<>: Green Glazed Terracotta (East)
+<>: Red Glazed Terracotta (North)
+<>: Red Glazed Terracotta (South)
+<>: Red Glazed Terracotta (West)
+<>: Red Glazed Terracotta (East)
+<>: Black Glazed Terracotta (North)
+<>: Black Glazed Terracotta (South)
+<>: Black Glazed Terracotta (West)
+<>: Black Glazed Terracotta (East)
+<>: White Concrete
+<>: Orange Concrete
+<>: Magenta Concrete
+<>: Light Blue Concrete
+<>: Yellow Concrete
+<>: Lime Concrete
+<>: Pink Concrete
+<>: Gray Concrete
+<>: Light Gray Concrete
+<>: Cyan Concrete
+<>: Purple Concrete
+<>: Blue Concrete
+<>: Brown Concrete
+<>: Green Concrete
+<>: Red Concrete
+<>: Black Concrete
+<>: White Concrete Powder
+<>: Orange Concrete Powder
+<>: Magenta Concrete Powder
+<>: Light Blue Concrete Powder
+<>: Yellow Concrete Powder
+<>: Lime Concrete Powder
+<>: Pink Concrete Powder
+<>: Gray Concrete Powder
+<>: Light Gray Concrete Powder
+<>: Cyan Concrete Powder
+<>: Purple Concrete Powder
+<>: Blue Concrete Powder
+<>: Brown Concrete Powder
+<>: Green Concrete Powder
+<>: Red Concrete Powder
+<>: Black Concrete Powder
+<>: Kelp (Top)
+<>: Kelp (Bottom)
+<>: Dried Kelp Block (Side)
+<>: Dried Kelp Block (Top)
+<>: Dried Kelp Block (Bottom)
+<>: Turtle Egg (One, Not Cracked)
+<>: Turtle Egg (Two, Not Cracked)
+<>: Turtle Egg (Three, Not Cracked)
+<>: Turtle Egg (Four, Not Cracked)
+<>: Turtle Egg (One, Slightly Cracked)
+<>: Turtle Egg (Two, Slightly Cracked)
+<>: Turtle Egg (Three, Slightly Cracked)
+<>: Turtle Egg (Four, Slightly Cracked)
+<>: Turtle Egg (One, Very Cracked)
+<>: Turtle Egg (Two, Very Cracked)
+<>: Turtle Egg (Three, Very Cracked)
+<>: Turtle Egg (Four, Very Cracked)
+<>: Dead Tube Coral Block
+<>: Dead Brain Coral Block
+<>: Dead Bubble Coral Block
+<>: Dead Fire Coral Block
+<>: Dead Horn Coral Block
+<>: Tube Coral Block
+<>: Brain Coral Block
+<>: Bubble Coral Block
+<>: Fire Coral Block
+<>: Horn Coral Block
+<>: Dead Tube Coral
+<>: Dead Brain Coral
+<>: Dead Bubble Coral
+<>: Dead Fire Coral
+<>: Dead Horn Coral
+<>: Tube Coral
+<>: Brain Coral
+<>: Bubble Coral
+<>: Fire Coral
+<>: Horn Coral
+<>: Dead Tube Coral Fan
+<>: Dead Brain Coral Fan
+<>: Dead Bubble Coral Fan
+<>: Dead Fire Coral Fan
+<>: Dead Horn Coral Fan
+<>: Tube Coral Fan
+<>: Brain Coral Fan
+<>: Bubble Coral Fan
+<>: Fire Coral Fan
+<>: Horn Coral Fan
+<>: Sea Pickle (One, Submerged)
+<>: Sea Pickle (One, Dry)
+<>: Sea Pickle (Two, Submerged)
+<>: Sea Pickle (Two, Dry)
+<>: Sea Pickle (Three, Submerged)
+<>: Sea Pickle (Three, Dry)
+<>: Sea Pickle (Four, Submerged)
+<>: Sea Pickle (Four, Dry)
+<>: Blue Ice
+<>: Conduit (No Structure)
+<>: Conduit (Incomplete Structure)
+<>: Conduit (Complete Structure)
+<>: Structure Block (Item Texture)
+<>: Structure Block (Save)
+<>: Structure Block (Load)
+<>: Structure Block (Corner)
+<>: Structure Block (Data)
+<>: Debug
+<>: Debug2
+<>: Block Breaking Graphic (Stage 1)
+<>: Block Breaking Graphic (Stage 2)
+<>: Block Breaking Graphic (Stage 3)
+<>: Block Breaking Graphic (Stage 4)
+<>: Block Breaking Graphic (Stage 5)
+<>: Block Breaking Graphic (Stage 6)
+<>: Block Breaking Graphic (Stage 7)
+<>: Block Breaking Graphic (Stage 8)
+<>: Block Breaking Graphic (Stage 9)
+<>: Block Breaking Graphic (Stage 10)
+<>: Sea Pickle (Item)
+<>: Hopper (Item)
+<>: Turtle Egg (Item)
+<>: Iron Door (Item)
+<>: Oak Door (Item)
+<>: Spruce Door (Item)
+<>: Birch Door (Item)
+<>: Jungle Door (Item)
+<>: Acacia Door (Item)
+<>: Dark Oak Door (Item)
+<>: Redstone Repeater (Item)
+<>: Redstone Comparator (Item)
+<>: Turtle Shell
+<>: Scute
+<>: Iron Shovel
+<>: Iron Pickaxe
+<>: Iron Axe
+<>: Flint and Steel
+<>: Apple
+<>: Bow
+<>: Bow (Pulled Stage 1)
+<>: Bow (Pulled Stage 2)
+<>: Bow (Pulled Stage 3)
+<>: Arrow
+<>: Coal
+<>: Charcoal
+<>: Diamond
+<>: Iron Ingot
+<>: Gold Ingot
+<>: Iron Sword
+<>: Wooden Sword
+<>: Wooden Shovel
+<>: Wooden Pickaxe
+<>: Wooden Axe
+<>: Stone Sword
+<>: Stone Shovel
+<>: Stone Pickaxe
+<>: Stone Axe
+<>: Diamond Sword
+<>: Diamond Shovel
+<>: Diamond Pickaxe
+<>: Diamond Axe
+<>: Stick
+<>: Bowl
+<>: Mushroom Stew
+<>: Golden Sword
+<>: Golden Shovel
+<>: Golden Pickaxe
+<>: Golden Axe
+<>: String
+<>: Feather
+<>: Gunpowder
+<>: Wooden Hoe
+<>: Stone Hoe
+<>: Iron Hoe
+<>: Diamond Hoe
+<>: Golden Hoe
+<>: Wheat Seeds
+<>: Wheat
+<>: Bread
+<>: Leather Cap
+<>: Leather Tunic
+<>: Leather Pants
+<>: Leather Boots
+<>: Chainmail Helmet
+<>: Chainmail Chestplate
+<>: Chainmail Leggings
+<>: Chainmail Boots
+<>: Iron Helmet
+<>: Iron Chestplate
+<>: Iron Leggings
+<>: Iron Boots
+<>: Diamond Helmet
+<>: Diamond Chestplate
+<>: Diamond Leggings
+<>: Diamond Boots
+<>: Golden Helmet
+<>: Golden Chestplate
+<>: Golden Leggings
+<>: Golden Boots
+<>: Flint
+<>: Raw Porkchop
+<>: Cooked Porkchop
+<>: Painting
+<>: Golden Apple
+<>: Enchanted Golden Apple
+<>: Sign (Item)
+<>: Bucket
+<>: Water Bucket
+<>: Lava Bucket
+<>: Minecart
+<>: Saddle
+<>: Redstone Dust
+<>: Snowball
+<>: Oak Boat
+<>: Leather
+<>: Milk Bucket
+<>: Bucket of Pufferfish
+<>: Bucket of Salmon
+<>: Bucket of Cod
+<>: Bucket of Tropical Fish
+<>: Brick
+<>: Clay
+<>: Sugar Cane
+<>: Kelp
+<>: Paper
+<>: Book
+<>: Slimeball
+<>: Minecart with Chest
+<>: Minecart with Furnace
+<>: Egg
+<>: Compass (1st Rotation)
+<>: Compass (2nd Rotation)
+<>: Compass (3rd Rotation)
+<>: Compass (4th Rotation)
+<>: Compass (5th Rotation)
+<>: Compass (6th Rotation)
+<>: Compass (7th Rotation)
+<>: Compass (8th Rotation)
+<>: Compass (9th Rotation)
+<>: Compass (10th Rotation)
+<>: Compass (11th Rotation)
+<>: Compass (12th Rotation)
+<>: Compass (13th Rotation)
+<>: Compass (14th Rotation)
+<>: Compass (15th Rotation)
+<>: Compass (16th Rotation)
+<>: Compass (17th Rotation)
+<>: Compass (18th Rotation)
+<>: Compass (19th Rotation)
+<>: Compass (20th Rotation)
+<>: Compass (21st Rotation)
+<>: Compass (22nd Rotation)
+<>: Compass (23rd Rotation)
+<>: Compass (24th Rotation)
+<>: Compass (25th Rotation)
+<>: Compass (26th Rotation)
+<>: Compass (27th Rotation)
+<>: Compass (28th Rotation)
+<>: Compass (29th Rotation)
+<>: Compass (30th Rotation)
+<>: Compass (31st Rotation)
+<>: Compass (32nd Rotation)
+<>: Fishing Rod
+<>: Fishing Rod (Cast)
+<>: Compass (1st Rotation)
+<>: Compass (2nd Rotation)
+<>: Compass (3rd Rotation)
+<>: Compass (4th Rotation)
+<>: Compass (5th Rotation)
+<>: Compass (6th Rotation)
+<>: Compass (7th Rotation)
+<>: Compass (8th Rotation)
+<>: Compass (9th Rotation)
+<>: Compass (10th Rotation)
+<>: Compass (11th Rotation)
+<>: Compass (12th Rotation)
+<>: Compass (13th Rotation)
+<>: Compass (14th Rotation)
+<>: Compass (15th Rotation)
+<>: Compass (16th Rotation)
+<>: Compass (17th Rotation)
+<>: Compass (18th Rotation)
+<>: Compass (19th Rotation)
+<>: Compass (20th Rotation)
+<>: Compass (21st Rotation)
+<>: Compass (22nd Rotation)
+<>: Compass (23rd Rotation)
+<>: Compass (24th Rotation)
+<>: Compass (25th Rotation)
+<>: Compass (26th Rotation)
+<>: Compass (27th Rotation)
+<>: Compass (28th Rotation)
+<>: Compass (29th Rotation)
+<>: Compass (30th Rotation)
+<>: Compass (31st Rotation)
+<>: Compass (32nd Rotation)
+<>: Compass (33rd Rotation)
+<>: Compass (34th Rotation)
+<>: Compass (35th Rotation)
+<>: Compass (36th Rotation)
+<>: Compass (37th Rotation)
+<>: Compass (38th Rotation)
+<>: Compass (39th Rotation)
+<>: Compass (40th Rotation)
+<>: Compass (41st Rotation)
+<>: Compass (42nd Rotation)
+<>: Compass (43rd Rotation)
+<>: Compass (44th Rotation)
+<>: Compass (45th Rotation)
+<>: Compass (46th Rotation)
+<>: Compass (47th Rotation)
+<>: Compass (48th Rotation)
+<>: Compass (49th Rotation)
+<>: Compass (50th Rotation)
+<>: Compass (51st Rotation)
+<>: Compass (52nd Rotation)
+<>: Compass (53rd Rotation)
+<>: Compass (54th Rotation)
+<>: Compass (55th Rotation)
+<>: Compass (56th Rotation)
+<>: Compass (57th Rotation)
+<>: Compass (58th Rotation)
+<>: Compass (59th Rotation)
+<>: Compass (60th Rotation)
+<>: Compass (61st Rotation)
+<>: Compass (62nd Rotation)
+<>: Compass (63rd Rotation)
+<>: Compass (64th Rotation)
+<>: Glowstone Dust
+<>: Raw Cod
+<>: Raw Salmon
+<>: Tropical Fish
+<>: Pufferfish
+<>: Cooked Cod
+<>: Cooked Salmon
+<>: Ink Sac
+<>: Rose Red
+<>: Cactus Green
+<>: Cocoa Beans
+<>: Lapis Lazuli
+<>: Purple Dye
+<>: Cyan Dye
+<>: Light Gray Dye
+<>: Gray Dye
+<>: Pink Dye
+<>: Lime Dye
+<>: Dandelion Yellow
+<>: Light Blue Dye
+<>: Magenta Dye
+<>: Orange Dye
+<>: Bone Meal
+<>: Bone
+<>: Sugar
+<>: Cake (Item)
+<>: White Bed (Item)
+<>: Orange Bed (Item)
+<>: Magenta Bed (Item)
+<>: Light Blue Bed (Item)
+<>: Yellow Bed (Item)
+<>: Lime Bed (Item)
+<>: Pink Bed (Item)
+<>: Gray Bed (Item)
+<>: Light Gray Bed (Item)
+<>: Cyan Bed (Item)
+<>: Purple Bed (Item)
+<>: Blue Bed (Item)
+<>: Brown Bed (Item)
+<>: Green Bed (Item)
+<>: Red Bed (Item)
+<>: Black Bed (Item)
+<>: Cookie
+<>: Map/Buried Treasure Map
+<>: Ocean Explorer Map
+<>: Woodland Explorer Map
+<>: Shears
+<>: Melon Slice
+<>: Dried Kelp
+<>: Pumpkin Seeds
+<>: Melon Seeds
+<>: Raw Beef
+<>: Steak
+<>: Raw Chicken
+<>: Cooked Chicken
+<>: Rotten Flesh
+<>: Ender Pearl
+<>: Blaze Rod
+<>: Ghast Tear
+<>: Gold Nugget
+<>: Nether Wart
+<>: Uncraftable Potion
+<>: Water Bottle/Mundane/Thick/Awkward Potion
+<>: Potion of Night Vision
+<>: Potion of Invisibility
+<>: Potion of Leaping
+<>: Potion of Fire Resistance
+<>: Potion of Swiftness
+<>: Potion of Slowness
+<>: Potion of the Turtle Master
+<>: Potion of Water Breathing
+<>: Potion of Healing
+<>: Potion of Harming
+<>: Potion of Poison
+<>: Potion of Regeneration
+<>: Potion of Strength
+<>: Potion of Weakness
+<>: Potion of Luck
+<>: Potion of Slow Falling
+<>: Glass Bottle
+<>: Spider Eye
+<>: Fermented Spider Eye
+<>: Blaze Powder
+<>: Magma Cream
+<>: Brewing Stand
+<>: Cauldron
+<>: Eye of Ender
+<>: Glistering Melon Slice
+<>: Spawn Egg
+<>: Bat Spawn Egg
+<>: Blaze Spawn Egg
+<>: Cave Spider Spawn Egg
+<>: Chicken Spawn Egg
+<>: Cod Spawn Egg
+<>: Cow Spawn Egg
+<>: Creeper Spawn Egg
+<>: Dolphin Spawn Egg
+<>: Donkey Spawn Egg
+<>: Drowned Spawn Egg
+<>: Elder Guardian Spawn Egg
+<>: Enderman Spawn Egg
+<>: Endermite Spawn Egg
+<>: Evoker Spawn Egg
+<>: Ghast Spawn Egg
+<>: Guardian Spawn Egg
+<>: Horse Spawn Egg
+<>: Husk Spawn Egg
+<>: Llama Spawn Egg
+<>: Magma Cube Spawn Egg
+<>: Mooshroom Spawn Egg
+<>: Mule Spawn Egg
+<>: Ocelot Spawn Egg
+<>: Parrot Spawn Egg
+<>: Phantom Spawn Egg
+<>: Pig Spawn Egg
+<>: Polar Bear Spawn Egg
+<>: Pufferfish Spawn Egg
+<>: Rabbit Spawn Egg
+<>: Salmon Spawn Egg
+<>: Sheep Spawn Egg
+<>: Shulker Spawn Egg
+<>: Silverfish Spawn Egg
+<>: Skeleton Spawn Egg
+<>: Skeleton Horse Spawn Egg
+<>: Slime Spawn Egg
+<>: Spider Spawn Egg
+<>: Squid Spawn Egg
+<>: Stray Spawn Egg
+<>: Tropical Fish Spawn Egg
+<>: Turtle Spawn Egg
+<>: Vex Spawn Egg
+<>: Villager Spawn Egg
+<>: Vindicator Spawn Egg
+<>: Witch Spawn Egg
+<>: Wither Skeleton Spawn Egg
+<>: Wolf Spawn Egg
+<>: Zombie Spawn Egg
+<>: Zombie Horse Spawn Egg
+<>: Zombie Pigman Spawn Egg
+<>: Zombie Villager Spawn Egg
+<>: Bottle o'Enchanting
+<>: Fire Charge
+<>: Book and Quill
+<>: Written Book
+<>: Emerald
+<>: Item Frame
+<>: Flower Pot
+<>: Carrot
+<>: Potato
+<>: Baked Potato
+<>: Poisonous Potato
+<>: Empty Map
+<>: Golden Carrot
+<>: Carrot on a Stick
+<>: Nether Star
+<>: Pumpkin Pie
+<>: Firework Rocket
+<>: Firework Star
+<>: Enchanted Book
+<>: Nether Brick
+<>: Nether Quartz
+<>: Minecart with TNT
+<>: Minecart with Hopper
+<>: Prismarine Shard
+<>: Prismarine Crystal
+<>: Raw Rabbit
+<>: Cooked Rabbit
+<>: Rabbit Stew
+<>: Rabbit's Foot
+<>: Rabbit Hide
+<>: Armor Stand
+<>: Iron Horse Armor
+<>: Golden Horse Armor
+<>: Diamond Horse Armor
+<>: Lead
+<>: Name Tag
+<>: Minecart with Command Block
+<>: Raw Mutton
+<>: Cooked Mutton
+<>: White Banner (Item)
+<>: Orange Banner (Item)
+<>: Magenta Banner (Item)
+<>: Light Blue Banner (Item)
+<>: Yellow Banner (Item)
+<>: Lime Banner (Item)
+<>: Pink Banner (Item)
+<>: Gray Banner (Item)
+<>: Light Gray Banner (Item)
+<>: Cyan Banner (Item)
+<>: Purple Banner (Item)
+<>: Blue Banner (Item)
+<>: Brown Banner (Item)
+<>: Green Banner (Item)
+<>: Red Banner (Item)
+<>: Black Banner (Item)
+<>: End Crystal
+<>: Chorus Fruit
+<>: Popped Chorus Fruit
+<>: Beetroot
+<>: Beetroot Seeds
+<>: Beetroot Soup
+<>: Dragon's Breath
+<>: Splash Uncraftable Potion
+<>: Splash Water Bottle/Mundane/Thick/Awkward Potion
+<>: Splash Potion of Night Vision
+<>: Splash Potion of Invisibility
+<>: Splash Potion of Leaping
+<>: Splash Potion of Fire Resistance
+<>: Splash Potion of Swiftness
+<>: Splash Potion of Slowness
+<>: Splash Potion of the Turtle Master
+<>: Splash Potion of Water Breathing
+<>: Splash Potion of Healing
+<>: Splash Potion of Harming
+<>: Splash Potion of Poison
+<>: Splash Potion of Regeneration
+<>: Splash Potion of Strength
+<>: Splash Potion of Weakness
+<>: Splash Potion of Luck
+<>: Splash Potion of Slow Falling
+<>: Spectral Arrow
+<>: Uncraftable Tipped Arrow
+<>: Arrow of Night Vision
+<>: Arrow of Invisibility
+<>: Arrow of Leaping
+<>: Arrow of Fire Resistance
+<>: Arrow of Swiftness
+<>: Arrow of Slowness
+<>: Arrow of the Turtle Master
+<>: Arrow of Water Breathing
+<>: Arrow of Healing
+<>: Arrow of Harming
+<>: Arrow of Poison
+<>: Arrow of Regeneration
+<>: Arrow of Strength
+<>: Arrow of Weakness
+<>: Arrow of Luck
+<>: Arrow of Slow Falling
+<>: Lingering Uncraftable Potion
+<>: Lingering Water Bottle/Mundane/Thick/Awkward Potion
+<>: Lingering Potion of Night Vision
+<>: Lingering Potion of Invisibility
+<>: Lingering Potion of Leaping
+<>: Lingering Potion of Fire Resistance
+<>: Lingering Potion of Swiftness
+<>: Lingering Potion of Slowness
+<>: Lingering Potion of the Turtle Master
+<>: Lingering Potion of Water Breathing
+<>: Lingering Potion of Healing
+<>: Lingering Potion of Harming
+<>: Lingering Potion of Poison
+<>: Lingering Potion of Regeneration
+<>: Lingering Potion of Strength
+<>: Lingering Potion of Weakness
+<>: Lingering Potion of Luck
+<>: Lingering Potion of Slow Falling
+<>: Shield
+<>: Elytra
+<>: Broken Elytra
+<>: Spruce Boat
+<>: Birch Boat
+<>: Jungle Boat
+<>: Acacia Boat
+<>: Dark Oak Boat
+<>: Totem of Undying
+<>: Shulker Shell
+<>: Iron Nugget
+<>: Knowledge Book
+<>: Music Disc - 13
+<>: Music Disc - cat
+<>: Music Disc - blocks
+<>: Music Disc - chirp
+<>: Music Disc - far
+<>: Music Disc - mall
+<>: Music Disc - mellohi
+<>: Music Disc - stal
+<>: Music Disc - strad
+<>: Music Disc - ward
+<>: Music Disc - 11
+<>: Music Disc - wait
+<>: Trident
+<>: Phantom Membrane
+<>: Nautilus Shell
+<>: Heart of the Sea
+<>: Off Hand Slot
+<>: Head Slot
+<>: Chest Slot
+<>: Legs Slot
+<>: Feet Slot
+<>: Ruby
+<>: Painting: Back Texture
+<>: Painting: Kebab
+<>: Painting: Aztec
+<>: Painting: Alban
+<>: Painting: Aztec2
+<>: Painting: Bomb
+<>: Painting: Plant
+<>: Painting: Wasteland
+<>: Painting: Pool
+<>: Painting: Pool
+<>: Painting: Courbet
+<>: Painting: Courbet
+<>: Painting: Sea
+<>: Painting: Sea
+<>: Painting: Sunset
+<>: Painting: Sunset
+<>: Painting: Creebet
+<>: Painting: Creebet
+<>: Painting: Wanderer
+<>: Painting: Wanderer
+<>: Painting: Graham
+<>: Painting: Graham
+<>: Painting: Fighters
+<>: Painting: Fighters
+<>: Painting: Fighters
+<>: Painting: Fighters
+<>: Painting: Fighters
+<>: Painting: Fighters
+<>: Painting: Fighters
+<>: Painting: Fighters
+<>: Painting: Match
+<>: Painting: Match
+<>: Painting: Match
+<>: Painting: Match
+<>: Painting: Bust
+<>: Painting: Bust
+<>: Painting: Bust
+<>: Painting: Bust
+<>: Painting: Stage
+<>: Painting: Stage
+<>: Painting: Stage
+<>: Painting: Stage
+<>: Painting: Void
+<>: Painting: Void
+<>: Painting: Void
+<>: Painting: Void
+<>: Painting: SkullAndRoses
+<>: Painting: SkullAndRoses
+<>: Painting: SkullAndRoses
+<>: Painting: SkullAndRoses
+<>: Painting: Wither
+<>: Painting: Wither
+<>: Painting: Wither
+<>: Painting: Wither
+<>: Painting: Skeleton
+<>: Painting: Skeleton
+<>: Painting: Skeleton
+<>: Painting: Skeleton
+<>: Painting: Skeleton
+<>: Painting: Skeleton
+<>: Painting: Skeleton
+<>: Painting: Skeleton
+<>: Painting: Skeleton
+<>: Painting: Skeleton
+<>: Painting: Skeleton
+<>: Painting: Skeleton
+<>: Painting: DonkeyKong
+<>: Painting: DonkeyKong
+<>: Painting: DonkeyKong
+<>: Painting: DonkeyKong
+<>: Painting: DonkeyKong
+<>: Painting: DonkeyKong
+<>: Painting: DonkeyKong
+<>: Painting: DonkeyKong
+<>: Painting: DonkeyKong
+<>: Painting: DonkeyKong
+<>: Painting: DonkeyKong
+<>: Painting: DonkeyKong
+<>: Painting: Pointer
+<>: Painting: Pointer
+<>: Painting: Pointer
+<>: Painting: Pointer
+<>: Painting: Pointer
+<>: Painting: Pointer
+<>: Painting: Pointer
+<>: Painting: Pointer
+<>: Painting: Pointer
+<>: Painting: Pointer
+<>: Painting: Pointer
+<>: Painting: Pointer
+<>: Painting: Pointer
+<>: Painting: Pointer
+<>: Painting: Pointer
+<>: Painting: Pointer
+<>: Painting: Pigscene
+<>: Painting: Pigscene
+<>: Painting: Pigscene
+<>: Painting: Pigscene
+<>: Painting: Pigscene
+<>: Painting: Pigscene
+<>: Painting: Pigscene
+<>: Painting: Pigscene
+<>: Painting: Pigscene
+<>: Painting: Pigscene
+<>: Painting: Pigscene
+<>: Painting: Pigscene
+<>: Painting: Pigscene
+<>: Painting: Pigscene
+<>: Painting: Pigscene
+<>: Painting: Pigscene
+<>: Painting: BurningSkull
+<>: Painting: BurningSkull
+<>: Painting: BurningSkull
+<>: Painting: BurningSkull
+<>: Painting: BurningSkull
+<>: Painting: BurningSkull
+<>: Painting: BurningSkull
+<>: Painting: BurningSkull
+<>: Painting: BurningSkull
+<>: Painting: BurningSkull
+<>: Painting: BurningSkull
+<>: Painting: BurningSkull
+<>: Painting: BurningSkull
+<>: Painting: BurningSkull
+<>: Painting: BurningSkull
+<>: Painting: BurningSkull
+<>: Pumpkin Blur
+<>: Forcefield
+<>: Enchanted Item Glint
+<>: Underwater
+<>: Grayscale Terrain
+<>: White Player Map Marker (Up)
+<>: White Player Map Marker (Left)
+<>: White Player Map Marker (Down)
+<>: White Player Map Marker (Right)
+<>: Green Player Map Marker (Up)
+<>: Green Player Map Marker (Left)
+<>: Green Player Map Marker (Down)
+<>: Green Player Map Marker (Right)
+<>: Red Player Map Marker (Up)
+<>: Red Player Map Marker (Left)
+<>: Red Player Map Marker (Down)
+<>: Red Player Map Marker (Right)
+<>: Blue Player Map Marker (Up)
+<>: Blue Player Map Marker (Left)
+<>: Blue Player Map Marker (Down)
+<>: Blue Player Map Marker (Right)
+<>: White Cross Map Marker
+<>: Red Arrow Map Marker
+<>: Large White Dot Map Marker
+<>: Small White Dot Map Marker
+<>: Mansion Map Marker
+<>: Ocean Monument Map Marker
+<>: White Banner Map Marker
+<>: Orange Banner Map Marker
+<>: Magenta Banner Map Marker
+<>: Light Blue Banner Map Marker
+<>: Yellow Banner Map Marker
+<>: Lime Banner Map Marker
+<>: Pink Banner Map Marker
+<>: Gray Banner Map Marker
+<>: Light Gray Banner Map Marker
+<>: Cyan Banner Map Marker
+<>: Purple Banner Map Marker
+<>: Blue Banner Map Marker
+<>: Brown Banner Map Marker
+<>: Green Banner Map Marker
+<>: Red Banner Map Marker
+<>: Black Banner Map Marker
+<>: Red Cross Map Marker
+<>: Air Bubble
+<>: Fishing Hook
+<>: Musical Note (Grey)
+<>: Particle
+<>: Particle
+<>: Black Heart
+<>: Heart
+<>: Anger
+<>: Happy
+<>: Angry Villager
+<>: Droplet
+<>: Droplet
+<>: Conduit Particle
+<>: Standard Galactic Alphabet: A
+<>: Standard Galactic Alphabet: B
+<>: Standard Galactic Alphabet: C
+<>: Standard Galactic Alphabet: D
+<>: Standard Galactic Alphabet: E
+<>: Standard Galactic Alphabet: F
+<>: Standard Galactic Alphabet: G
+<>: Standard Galactic Alphabet: H
+<>: Standard Galactic Alphabet: I
+<>: Standard Galactic Alphabet: J
+<>: Standard Galactic Alphabet: K
+<>: Standard Galactic Alphabet: L
+<>: Standard Galactic Alphabet: M
+<>: Standard Galactic Alphabet: N
+<>: Standard Galactic Alphabet: O
+<>: Standard Galactic Alphabet: P
+<>: Standard Galactic Alphabet: Q
+<>: Standard Galactic Alphabet: R
+<>: Standard Galactic Alphabet: S
+<>: Standard Galactic Alphabet: T
+<>: Standard Galactic Alphabet: U
+<>: Standard Galactic Alphabet: V
+<>: Standard Galactic Alphabet: W
+<>: Standard Galactic Alphabet: X
+<>: Standard Galactic Alphabet: Y
+<>: Standard Galactic Alphabet: Z
+<>: Effect: Speed
+<>: Effect: Slowness
+<>: Effect: Haste
+<>: Effect: Mining Fatigue
+<>: Effect: Strength
+<>: Effect: Weakness
+<>: Effect: Poison
+<>: Effect: Regeneration
+<>: Effect: Invisilbility
+<>: Effect: Hunger
+<>: Effect: Jump Boost
+<>: Effect: Nausea
+<>: Effect: Night Vision
+<>: Effect: Blindness
+<>: Effect: Resistance
+<>: Effect: Fire Resistance
+<>: Effect: Water Breathing
+<>: Effect: Wither
+<>: Effect: Absorption
+<>: Effect: Levitation
+<>: Effect: Glowing
+<>: Effect: Luck
+<>: Effect: Bad Luck
+<>: Effect: Health Boost
+<>: Effect: Slow Falling
+<>: Effect: Conduit Power
+<>: Effect: Dolphin's Grace
+<>: Keyboard
+<>: Mouse
+<>: Tree
+<>: Punching Trees
+<>: Recipes
+<>: Crafting
+<>: Statistics: Times Crafted
+<>: Statistics: Times Used
+<>: Statistics: Times Mined
+<>: Statistics: Times Broken
+<>: Statistics: Picked Up
+<>: Statistics: Dropped
+<>: Enchanting: Level 1
+<>: Enchanting: Level 2
+<>: Enchanting: Level 3
+<>: Enchanting: Level 1 - Insufficient
+<>: Enchanting: Level 2 - Insufficient
+<>: Enchanting: Level 3 - Insufficient
+<>: Stream: Recording
+<>: Stream: Pause
+<>: Stream: Microphone On
+<>: Stream: Microphone Off
+<>: Moon Phases:
+<>: Moon Phases:
+<>: Moon Phases:
+<>: Moon Phases:
+<>: Moon Phases:
+<>: Moon Phases:
+<>: Moon Phases:
+<>: Moon Phases:
+<>: Sun
+<>: Experience Orb
+<>: Area Effect
+<>: Elder Guardian
+<>: Wither Skeleton
+<>: Wither Skeleton Head
+<>: Stray
+<>: Stray Head
+<>: Lead
+<>: Arrow
+<>: Fireball
+<>: Item Frame
+<>: Wither Projectile
+<>: Husk
+<>: Husk Head
+<>: Spectral Arrow
+<>: Shulker Bullet
+<>: Ender Dragon Fireball
+<>: Zombie Farmer
+<>: Zombie Farmer Head
+<>: Zombie Librarian
+<>: Zombie Librarian Head
+<>: Zombie Cleric
+<>: Zombie Cleric Head
+<>: Zombie Blacksmith
+<>: Zombie Blacksmith Head
+<>: Zombie Butcher
+<>: Zombie Butcher Head
+<>: Zombie Nitwit
+<>: Zombie Nitwit Head
+<>: Skeleton Horse
+<>: Zombie Horse
+<>: Armor Stand (Top)
+<>: Armor Stand (Bottom)
+<>: Donkey
+<>: Mule
+<>: Evoker Fangs
+<>: Evoker
+<>: Evoker Head
+<>: Vindicator
+<>: Vindicator Head
+<>: Vex
+<>: Vex Head
+<>: Angry Vex
+<>: Angry Vex Head
+<>: Illusioner
+<>: Illusioner Head
+<>: Command Block Minecart
+<>: Oak Boat (Entity)
+<>: Spruce Boat (Entity)
+<>: Birch Boat (Entity)
+<>: Jungle Boat (Entity)
+<>: Acacia Boat (Entity)
+<>: Dark Oak Boat (Entity)
+<>: Minecart (Entity)
+<>: Chest Minecart
+<>: Furnace Minecart
+<>: TNT Minecart
+<>: Hopper Minecart
+<>: Spawner Minecart
+<>: Creeper
+<>: Creeper Head
+<>: Charged Creeper
+<>: Charged Creeper Head
+<>: Skeleton
+<>: Skeleton Head
+<>: Spider
+<>: Spider Head
+<>: Zombie
+<>: Zombie Head
+<>: Slime
+<>: Slime Head
+<>: Ghast
+<>: Ghast Angry
+<>: Zombie Pigman
+<>: Zombie Pigman Head
+<>: Enderman
+<>: Enderman Head
+<>: Enderman Head Angry
+<>: Cave Spider
+<>: Cave Spider Head
+<>: Silverfish (Side)
+<>: Silverfish (Front)
+<>: Blaze
+<>: Blaze Head
+<>: Magma Cube
+<>: Magma Cube Head
+<>: Ender Dragon
+<>: Ender Dragon Head
+<>: Wither
+<>: Wither Head
+<>: Invulnerable Wither
+<>: Invulnerable Wither Head
+<>: Bat
+<>: Witch
+<>: Endermite (Side)
+<>: Endermite (Front)
+<>: Guardian
+<>: Shulker (Closed)
+<>: Shulker (Open, 1)
+<>: Shulker (Open, 2)
+<>: Drowned
+<>: Drowned Head
+<>: Phantom (Front)
+<>: Phantom (Front)
+<>: Phantom (Front)
+<>: Phantom (Underside)
+<>: Phantom (Underside)
+<>: Phantom (Underside)
+<>: Pig
+<>: Pig Head
+<>: Sheep
+<>: Sheep Head
+<>: Cow
+<>: Cow Head
+<>: Chicken
+<>: Squid
+<>: Wolf
+<>: Angry Wolf
+<>: Mooshroom
+<>: Mooshroom Head
+<>: Snow Golem
+<>: Snow Golem Head
+<>: Ocelot
+<>: Siamese
+<>: Tuxedo
+<>: Ginger
+<>: Iron Golem
+<>: Iron Golem Head
+<>: White Horse
+<>: Creamy Horse
+<>: Chestnut Horse
+<>: Brown Horse
+<>: Black Horse
+<>: Gray Horse
+<>: Dark Brown Horse
+<>: Brown Rabbit
+<>: White Rabbit
+<>: Black Rabbit
+<>: Splotched White Rabbit
+<>: Gold Rabbit
+<>: Salt Rabbit
+<>: Toast Rabbit
+<>: Caerbannog Rabbit
+<>: Polar Bear
+<>: Polar Bear Head
+<>: Llama
+<>: Llama
+<>: Llama
+<>: Llama
+<>: Llama Spit
+<>: Parrot Variant
+<>: Parrot Variant
+<>: Parrot Variant
+<>: Parrot Variant
+<>: Parrot Variant
+<>: Cod
+<>: Salmon (Left)
+<>: Salmon (Right)
+<>: Pufferfish
+<>: Tropical Fish
+<>: Turtle
+<>: Dolphin
+<>: Farmer
+<>: Farmer Head
+<>: Librarian
+<>: Librarian Head
+<>: Cleric
+<>: Cleric Head
+<>: Blacksmith
+<>: Blacksmith Head
+<>: Butcher
+<>: Butcher Head
+<>: Nitwit
+<>: Nitwit Head
+<>: End Crystal (Entity, Face 1)
+<>: End Crystal (Entity, Face 2)
+<>: End Crystal (Entity, Face 3)
+<>: End Crystal (Entity, Face 4)
+<>: End Crystal (Entity, Face 5)
+<>: End Crystal (Entity, Face 6)
+<>: Player (Steve)
+<>: Player (Steve) Head
+<>: Player (Alex)
+<>: Player (Alex) Head
+<>: Trident
+<>: Beacon Beam
+<>: End Gateway Beam
+<>: Unused
+<>: Unused
+<>: Unused
+<>: Unused
+<>: Unused
+<>: Unused
+<>: Unused
+<>: Unused
+<>: Unused
+<>: Unused
+<>: Unused
+<>: Unused
+<>: Unused
+<>: Unused
+<>: Unused
+<>: Unused
+<>: Torch (Down)
+<>: Torch (Right)
+<>: Torch (Left)
+<>: Torch (Up)
+<>: Redstone Torch (On, Down)
+<>: Redstone Torch (On, Right)
+<>: Redstone Torch (On, Left)
+<>: Redstone Torch (On, Up)
+<>: Redstone Torch (Off, Down)
+<>: Redstone Torch (Off, Right)
+<>: Redstone Torch (Off, Left)
+<>: Redstone Torch (Off, Up)

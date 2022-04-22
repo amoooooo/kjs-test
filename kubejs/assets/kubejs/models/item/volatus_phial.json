@@ -1,0 +1,7 @@
+{
+  "parent" : "item/generated",
+  "textures" : {
+    "layer0" : "kubejs:item/phial",
+    "layer1" : "kubejs:item/phial_overlay"
+  }
+}

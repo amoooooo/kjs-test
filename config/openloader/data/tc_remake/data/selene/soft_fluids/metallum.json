@@ -1,0 +1,19 @@
+{
+	"color": "#11908557",
+	"containers": [
+		{
+			"filled": [
+				"kubejs:metallum_phial"
+			],
+			"empty": "kubejs:essentia_phial",
+			"capacity": 1
+		}
+	],
+	"equivalent_fluids": [
+		"kubejs:metallum_essentia"
+	],
+	"id": "kubejs:metallum_essentia",
+	"translation_key": "item.kubejs.metallum_essentia",
+	"still_texture": "selene:blocks/potion_still",
+	"flowing_texture": "minecraft:block/water_flow"
+}

@@ -13,6 +13,7 @@ declare namespace Registry {
         create(id: string, type: "wooden_button"): Internal.WoodenButtonBlockBuilder;
         create(id: string, type: "stone_button"): Internal.StoneButtonBlockBuilder;
         create(id: string, type: "falling"): Internal.FallingBlockBuilder;
+        create(id: string, type: "crop"): Internal.CropBlockBuilder;
         create(id: string): Internal.BasicBlockJS$Builder;
     }
     class Item extends Internal.RegistryObjectBuilderTypes$RegistryEventJS<any> {
@@ -26,6 +27,7 @@ declare namespace Registry {
         create(id: string, type: "chestplate"): Internal.ArmorItemBuilder$Chestplate;
         create(id: string, type: "leggings"): Internal.ArmorItemBuilder$Leggings;
         create(id: string, type: "boots"): Internal.ArmorItemBuilder$Boots;
+        create(id: string, type: "create:sequenced_assembly"): Internal.SequencedAssemblyItemBuilder;
         create(id: string): Internal.BasicItemJS$Builder;
     }
     class Fluid extends Internal.RegistryObjectBuilderTypes$RegistryEventJS<any> {

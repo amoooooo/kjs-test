@@ -1,0 +1,4761 @@
+{
+	"minecraft:iron_ingot": {
+		"tcr.aspect.metallum": 35,
+		"tcr.aspect.desiderium": 30
+	},
+	"minecraft:cobblestone": {
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:redstone": {
+		"tcr.aspect.potentia": 10
+	},
+	"minecraft:sand": {
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:netherrack": {
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.ignis": 1
+	},
+	"minecraft:glass": {
+		"tcr.aspect.vitreus": 105
+	},
+	"minecraft:diamond": {
+		"tcr.aspect.vitreus": 15,
+		"tcr.aspect.desiderium": 15
+	},
+	"minecraft:emerald": {
+		"tcr.aspect.vitreus": 15,
+		"tcr.aspect.desiderium": 10
+	},
+	"minecraft:gold_ingot": {
+		"tcr.aspect.metallum": 30,
+		"tcr.aspect.desiderium": 45
+	},
+	"minecraft:lapis_lazuli": {
+		"tcr.aspect.praecantatio": 16,
+		"tcr.aspect.desiderium": 16
+	},
+	"minecraft:quartz_block": {
+		"tcr.aspect.ignis": 8,
+		"tcr.aspect.vitreus": 8
+	},
+	"minecraft:paper": {
+		"tcr.aspect.aer": 1,
+		"tcr.aspect.herba": 3,
+		"tcr.aspect.aqua": 2,
+		"tcr.aspect.cognitio": 2
+	},
+	"minecraft:ender_pearl": {
+		"tcr.aspect.alienis": 10,
+		"tcr.aspect.motus": 15
+	},
+	"minecraft:oak_boat": {
+		"tcr.aspect.aqua": 4,
+		"tcr.aspect.herba": 4,
+		"tcr.aspect.motus": 4
+	},
+	"minecraft:nether_wart": {
+		"tcr.aspect.ignis": 2,
+		"tcr.aspect.herba": 10,
+		"tcr.aspect.alkimia": 10
+	},
+	"minecraft:flint_and_steel": {
+		"tcr.aspect.ignis": 10,
+		"tcr.aspect.metallum": 11,
+		"tcr.aspect.instrumentum": 8,
+		"tcr.aspect.terra": 5
+	},
+	"minecraft:arrow": {
+		"tcr.aspect.terra": 3,
+		"tcr.aspect.aversio": 5,
+		"tcr.aspect.instrumentum": 1,
+		"tcr.aspect.aer": 1,
+		"tcr.aspect.volatus": 1
+	},
+	"minecraft:enchanted_book": {
+		"tcr.aspect.auram": 5,
+		"tcr.aspect.cognitio": 10,
+		"tcr.aspect.potentia": 10
+	},
+	"minecraft:book": {
+		"tcr.aspect.cognitio": 10,
+		"tcr.aspect.herba": 10
+	},
+	"minecraft:oak_log": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:birch_log": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:spruce_log": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:jungle_log": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:acacia_log": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:dark_oak_log": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:oak_planks": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:birch_planks": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:spruce_planks": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:jungle_planks": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:acacia_planks": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:dark_oak_planks": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:quartz": {
+		"tcr.aspect.vitreus": 5,
+		"tcr.aspect.praecantatio": 16,
+		"tcr.aspect.desiderium": 46,
+		"tcr.aspect.metallum": 20
+	},
+	"minecraft:deepslate": {
+		"tcr.aspect.terra": 2,
+		"tcr.aspect.tenebrae": 2
+	},
+	"minecraft:stone": {
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:diorite": {
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:granite": {
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:andesite": {
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:dirt": {
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:grass": {
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.herba": 1
+	},
+	"minecraft:white_wool": {
+		"tcr.aspect.bestia": 30,
+		"tcr.aspect.fabrico": 10
+	},
+	"minecraft:white_bed": {
+		"tcr.aspect.bestia": 33,
+		"tcr.aspect.fabrico": 11,
+		"tcr.aspect.herba": 6
+	},
+	"minecraft:rotten_flesh": {
+		"tcr.aspect.exanimis": 5,
+		"tcr.aspect.victus": 2,
+		"tcr.aspect.humanus": 5
+	},
+	"minecraft:hopper": {
+		"tcr.aspect.machina": 5,
+		"tcr.aspect.metallum": 86,
+		"tcr.aspect.herba": 14,
+		"tcr.aspect.permutatio": 10,
+		"tcr.aspect.vacuos": 5,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:iron_chestplate": {
+		"tcr.aspect.metallum": 90,
+		"tcr.aspect.praemunio": 24
+	},
+	"minecraft:bone": {
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5
+	},
+	"minecraft:chorus_fruit": {
+		"tcr.aspect.sensus": 5,
+		"tcr.aspect.herba": 5,
+		"tcr.aspect.alienis": 5
+	},
+	"minecraft:mycelium": {
+		"tcr.aspect.vitium": 1,
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.herba": 1
+	},
+	"minecraft:soul_sand": {
+		"tcr.aspect.spiritus": 3,
+		"tcr.aspect.terra": 3,
+		"tcr.aspect.vinculum": 1
+	},
+	"minecraft:obsidian": {
+		"tcr.aspect.tenebrae": 5,
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.ignis": 5,
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5
+	},
+	"minecraft:torch": {
+		"tcr.aspect.lux": 5,
+		"tcr.aspect.potentia": 1,
+		"tcr.aspect.ignis": 1,
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:copper_ingot": {
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.permutatio": 15
+	},
+	"minecraft:glowstone": {
+		"tcr.aspect.lux": 10,
+		"tcr.aspect.sensus": 5
+	},
+	"create:brass_ingot": {
+		"tcr.aspect.metallum": 30,
+		"tcr.aspect.instrumentum": 45
+	},
+	"create:zinc_ingot": {
+		"tcr.aspect.metallum": 30,
+		"tcr.aspect.herba": 45
+	},
+	"supplementaries:bubble_blower": {
+		"tcr.aspect.metallum": 32
+	},
+	"supplementaries:bomb": {
+		"tcr.aspect.metallum": 16,
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1,
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5
+	},
+	"supplementaries:lock_block": {
+		"tcr.aspect.metallum": 16
+	},
+	"supplementaries:cage": {
+		"tcr.aspect.metallum": 31
+	},
+	"minecraft:iron_nugget": {
+		"tcr.aspect.metallum": 2,
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:iron_block": {
+		"tcr.aspect.metallum": 64
+	},
+	"supplementaries:pulley_block": {
+		"tcr.aspect.metallum": 16
+	},
+	"supplementaries:goblet": {
+		"tcr.aspect.metallum": 32
+	},
+	"supplementaries:wind_vane": {
+		"tcr.aspect.metallum": 31
+	},
+	"supplementaries:iron_gate": {
+		"tcr.aspect.metallum": 32
+	},
+	"supplementaries:spring_launcher": {
+		"tcr.aspect.metallum": 16,
+		"tcr.aspect.potentia": 32,
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.ignis": 1,
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5
+	},
+	"minecraft:cobblestone_wall": {
+		"tcr.aspect.terra": 5
+	},
+	"minecraft:cobblestone_stairs": {
+		"tcr.aspect.terra": 5
+	},
+	"supplementaries:turn_table": {
+		"tcr.aspect.terra": 5
+	},
+	"minecraft:cobblestone_slab": {
+		"tcr.aspect.terra": 5
+	},
+	"supplementaries:checker_block": {
+		"tcr.aspect.terra": 15,
+		"tcr.aspect.perditio": 2
+	},
+	"create:redstone_contact": {
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.metallum": 15
+	},
+	"minecraft:repeater": {
+		"tcr.aspect.potentia": 64
+	},
+	"minecraft:clock": {
+		"tcr.aspect.potentia": 32,
+		"tcr.aspect.metallum": 20,
+		"tcr.aspect.desiderium": 30
+	},
+	"minecraft:redstone_torch": {
+		"tcr.aspect.potentia": 32
+	},
+	"minecraft:target": {
+		"tcr.aspect.potentia": 32
+	},
+	"minecraft:piston": {
+		"tcr.aspect.potentia": 32
+	},
+	"minecraft:dispenser": {
+		"tcr.aspect.potentia": 32
+	},
+	"minecraft:dropper": {
+		"tcr.aspect.potentia": 32
+	},
+	"minecraft:detector_rail": {
+		"tcr.aspect.potentia": 32,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:redstone_block": {
+		"tcr.aspect.potentia": 32
+	},
+	"minecraft:compass": {
+		"tcr.aspect.potentia": 32
+	},
+	"minecraft:observer": {
+		"tcr.aspect.potentia": 32
+	},
+	"supplementaries:sconce_lever": {
+		"tcr.aspect.potentia": 33,
+		"tcr.aspect.lux": 5,
+		"tcr.aspect.ignis": 1
+	},
+	"supplementaries:redstone_illuminator": {
+		"tcr.aspect.potentia": 32,
+		"tcr.aspect.praecantatio": 16,
+		"tcr.aspect.desiderium": 16
+	},
+	"minecraft:powered_rail": {
+		"tcr.aspect.potentia": 32
+	},
+	"minecraft:note_block": {
+		"tcr.aspect.potentia": 32
+	},
+	"minecraft:redstone_lamp": {
+		"tcr.aspect.potentia": 32
+	},
+	"minecraft:diamond_block": {
+		"tcr.aspect.vitreus": 64
+	},
+	"supplementaries:speaker_block": {
+		"tcr.aspect.vitreus": 28
+	},
+	"minecraft:emerald_block": {
+		"tcr.aspect.vitreus": 2648
+	},
+	"supplementaries:crimson_lantern": {
+		"tcr.aspect.metallum": 8,
+		"tcr.aspect.desiderium": 8
+	},
+	"minecraft:gold_block": {
+		"tcr.aspect.metallum": 32,
+		"tcr.aspect.desiderium": 32
+	},
+	"supplementaries:hourglass": {
+		"tcr.aspect.metallum": 8,
+		"tcr.aspect.desiderium": 8
+	},
+	"supplementaries:gold_door": {
+		"tcr.aspect.metallum": 8,
+		"tcr.aspect.desiderium": 8
+	},
+	"minecraft:gold_nugget": {
+		"tcr.aspect.metallum": 41,
+		"tcr.aspect.desiderium": 61,
+		"tcr.aspect.terra": 1
+	},
+	"supplementaries:gold_trapdoor": {
+		"tcr.aspect.metallum": 8,
+		"tcr.aspect.desiderium": 8
+	},
+	"supplementaries:key": {
+		"tcr.aspect.metallum": 16,
+		"tcr.aspect.desiderium": 16
+	},
+	"minecraft:blue_dye": {
+		"tcr.aspect.praecantatio": 8,
+		"tcr.aspect.desiderium": 8
+	},
+	"minecraft:lapis_block": {
+		"tcr.aspect.praecantatio": 32,
+		"tcr.aspect.desiderium": 32
+	},
+	"minecraft:quartz_pillar": {
+		"tcr.aspect.ignis": 8,
+		"tcr.aspect.vitreus": 8
+	},
+	"minecraft:quartz_bricks": {
+		"tcr.aspect.ignis": 8,
+		"tcr.aspect.vitreus": 8
+	},
+	"minecraft:quartz_slab": {
+		"tcr.aspect.ignis": 24,
+		"tcr.aspect.vitreus": 24
+	},
+	"minecraft:quartz_stairs": {
+		"tcr.aspect.ignis": 24,
+		"tcr.aspect.vitreus": 24
+	},
+	"create:sand_paper": {
+		"tcr.aspect.aer": 1,
+		"tcr.aspect.herba": 3,
+		"tcr.aspect.aqua": 2,
+		"tcr.aspect.cognitio": 2
+	},
+	"minecraft:mojang_banner_pattern": {
+		"tcr.aspect.aer": 1,
+		"tcr.aspect.herba": 3,
+		"tcr.aspect.aqua": 2,
+		"tcr.aspect.cognitio": 2
+	},
+	"supplementaries:present": {
+		"tcr.aspect.aer": 1,
+		"tcr.aspect.herba": 3,
+		"tcr.aspect.aqua": 2,
+		"tcr.aspect.cognitio": 2
+	},
+	"minecraft:flower_banner_pattern": {
+		"tcr.aspect.aer": 1,
+		"tcr.aspect.herba": 3,
+		"tcr.aspect.aqua": 2,
+		"tcr.aspect.cognitio": 2
+	},
+	"create:red_sand_paper": {
+		"tcr.aspect.aer": 1,
+		"tcr.aspect.herba": 3,
+		"tcr.aspect.aqua": 2,
+		"tcr.aspect.cognitio": 2
+	},
+	"minecraft:cartography_table": {
+		"tcr.aspect.aer": 1,
+		"tcr.aspect.herba": 3,
+		"tcr.aspect.aqua": 2,
+		"tcr.aspect.cognitio": 2
+	},
+	"minecraft:map": {
+		"tcr.aspect.aer": 1,
+		"tcr.aspect.herba": 3,
+		"tcr.aspect.aqua": 2,
+		"tcr.aspect.cognitio": 2,
+		"tcr.aspect.potentia": 32
+	},
+	"hexcasting:scroll_paper": {
+		"tcr.aspect.aer": 1,
+		"tcr.aspect.herba": 3,
+		"tcr.aspect.aqua": 2,
+		"tcr.aspect.cognitio": 2
+	},
+	"supplementaries:notice_board": {
+		"tcr.aspect.aer": 1,
+		"tcr.aspect.herba": 3,
+		"tcr.aspect.aqua": 2,
+		"tcr.aspect.cognitio": 2
+	},
+	"create:empty_schematic": {
+		"tcr.aspect.aer": 1,
+		"tcr.aspect.herba": 3,
+		"tcr.aspect.aqua": 2,
+		"tcr.aspect.cognitio": 2
+	},
+	"minecraft:creeper_banner_pattern": {
+		"tcr.aspect.aer": 1,
+		"tcr.aspect.herba": 3,
+		"tcr.aspect.aqua": 2,
+		"tcr.aspect.cognitio": 2
+	},
+	"minecraft:skull_banner_pattern": {
+		"tcr.aspect.aer": 1,
+		"tcr.aspect.herba": 3,
+		"tcr.aspect.aqua": 2,
+		"tcr.aspect.cognitio": 2
+	},
+	"minecraft:firework_rocket": {
+		"tcr.aspect.aer": 1,
+		"tcr.aspect.herba": 3,
+		"tcr.aspect.aqua": 2,
+		"tcr.aspect.cognitio": 2,
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.ignis": 1
+	},
+	"supplementaries:candy": {
+		"tcr.aspect.aer": 1,
+		"tcr.aspect.herba": 3,
+		"tcr.aspect.aqua": 2,
+		"tcr.aspect.cognitio": 2,
+		"tcr.aspect.vitreus": 10
+	},
+	"hexcasting:scroll": {
+		"tcr.aspect.aer": 1,
+		"tcr.aspect.herba": 3,
+		"tcr.aspect.aqua": 2,
+		"tcr.aspect.cognitio": 2
+	},
+	"minecraft:ender_eye": {
+		"tcr.aspect.alienis": 10,
+		"tcr.aspect.motus": 15
+	},
+	"minecraft:red_nether_bricks": {
+		"tcr.aspect.ignis": 3,
+		"tcr.aspect.herba": 10,
+		"tcr.aspect.alkimia": 10,
+		"tcr.aspect.terra": 5
+	},
+	"minecraft:nether_wart_block": {
+		"tcr.aspect.ignis": 2,
+		"tcr.aspect.herba": 10,
+		"tcr.aspect.alkimia": 10
+	},
+	"minecraft:spectral_arrow": {
+		"tcr.aspect.terra": 3,
+		"tcr.aspect.aversio": 5,
+		"tcr.aspect.instrumentum": 1,
+		"tcr.aspect.aer": 1,
+		"tcr.aspect.volatus": 1,
+		"tcr.aspect.lux": 10,
+		"tcr.aspect.sensus": 5
+	},
+	"hexcasting:pride_colorizer_13": {
+		"tcr.aspect.terra": 4,
+		"tcr.aspect.aversio": 5,
+		"tcr.aspect.instrumentum": 1,
+		"tcr.aspect.aer": 1,
+		"tcr.aspect.volatus": 1,
+		"tcr.aspect.herba": 1
+	},
+	"minecraft:bookshelf": {
+		"tcr.aspect.cognitio": 10,
+		"tcr.aspect.herba": 10
+	},
+	"minecraft:writable_book": {
+		"tcr.aspect.cognitio": 10,
+		"tcr.aspect.herba": 10
+	},
+	"minecraft:enchanting_table": {
+		"tcr.aspect.cognitio": 10,
+		"tcr.aspect.herba": 10
+	},
+	"minecraft:oak_wood": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:birch_wood": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:spruce_wood": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:jungle_wood": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:dark_oak_wood": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"hexcasting:slate": {
+		"tcr.aspect.terra": 2,
+		"tcr.aspect.tenebrae": 2
+	},
+	"supplementaries:deepslate_lamp": {
+		"tcr.aspect.terra": 2,
+		"tcr.aspect.tenebrae": 2
+	},
+	"hexcasting:slate_block": {
+		"tcr.aspect.terra": 4,
+		"tcr.aspect.tenebrae": 4
+	},
+	"minecraft:stonecutter": {
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:stone_button": {
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:stone_stairs": {
+		"tcr.aspect.terra": 1
+	},
+	"supplementaries:stone_lamp": {
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:comparator": {
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.potentia": 32
+	},
+	"minecraft:stone_bricks": {
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:stone_slab": {
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:stone_pressure_plate": {
+		"tcr.aspect.terra": 1
+	},
+	"supplementaries:flower_box": {
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:coarse_dirt": {
+		"tcr.aspect.terra": 6,
+		"tcr.aspect.perditio": 1
+	},
+	"supplementaries:planter": {
+		"tcr.aspect.terra": 6,
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:red_wool": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5
+	},
+	"minecraft:magenta_wool": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5,
+		"tcr.aspect.mortuus": 10,
+		"tcr.aspect.victus": 10
+	},
+	"minecraft:black_wool": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5,
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:purple_wool": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5,
+		"tcr.aspect.praecantatio": 8,
+		"tcr.aspect.desiderium": 8
+	},
+	"minecraft:white_banner": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5
+	},
+	"minecraft:light_blue_wool": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5,
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5
+	},
+	"minecraft:orange_wool": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5
+	},
+	"minecraft:green_wool": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5
+	},
+	"minecraft:cyan_wool": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5,
+		"tcr.aspect.praecantatio": 8,
+		"tcr.aspect.desiderium": 8
+	},
+	"create:white_seat": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5
+	},
+	"minecraft:pink_wool": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5,
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5
+	},
+	"minecraft:yellow_wool": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5
+	},
+	"supplementaries:flag_white": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5
+	},
+	"minecraft:gray_wool": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5,
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5
+	},
+	"minecraft:blue_wool": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5,
+		"tcr.aspect.praecantatio": 8,
+		"tcr.aspect.desiderium": 8
+	},
+	"minecraft:white_carpet": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5
+	},
+	"minecraft:lime_wool": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5,
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5
+	},
+	"minecraft:light_gray_wool": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5,
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5
+	},
+	"minecraft:brown_wool": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5
+	},
+	"minecraft:pink_bed": {
+		"tcr.aspect.bestia": 48,
+		"tcr.aspect.fabrico": 16,
+		"tcr.aspect.herba": 6,
+		"tcr.aspect.mortuus": 10,
+		"tcr.aspect.victus": 10
+	},
+	"minecraft:green_bed": {
+		"tcr.aspect.bestia": 48,
+		"tcr.aspect.fabrico": 16,
+		"tcr.aspect.herba": 6
+	},
+	"minecraft:light_gray_bed": {
+		"tcr.aspect.bestia": 48,
+		"tcr.aspect.fabrico": 16,
+		"tcr.aspect.herba": 6,
+		"tcr.aspect.mortuus": 10,
+		"tcr.aspect.victus": 10
+	},
+	"minecraft:purple_bed": {
+		"tcr.aspect.bestia": 48,
+		"tcr.aspect.fabrico": 16,
+		"tcr.aspect.herba": 6,
+		"tcr.aspect.praecantatio": 8,
+		"tcr.aspect.desiderium": 8
+	},
+	"minecraft:light_blue_bed": {
+		"tcr.aspect.bestia": 48,
+		"tcr.aspect.fabrico": 16,
+		"tcr.aspect.herba": 6,
+		"tcr.aspect.mortuus": 10,
+		"tcr.aspect.victus": 10
+	},
+	"minecraft:brown_bed": {
+		"tcr.aspect.bestia": 48,
+		"tcr.aspect.fabrico": 16,
+		"tcr.aspect.herba": 6
+	},
+	"minecraft:red_bed": {
+		"tcr.aspect.bestia": 48,
+		"tcr.aspect.fabrico": 16,
+		"tcr.aspect.herba": 6
+	},
+	"minecraft:cyan_bed": {
+		"tcr.aspect.bestia": 48,
+		"tcr.aspect.fabrico": 16,
+		"tcr.aspect.herba": 6,
+		"tcr.aspect.praecantatio": 8,
+		"tcr.aspect.desiderium": 8
+	},
+	"minecraft:yellow_bed": {
+		"tcr.aspect.bestia": 48,
+		"tcr.aspect.fabrico": 16,
+		"tcr.aspect.herba": 6
+	},
+	"minecraft:gray_bed": {
+		"tcr.aspect.bestia": 48,
+		"tcr.aspect.fabrico": 16,
+		"tcr.aspect.herba": 6,
+		"tcr.aspect.mortuus": 10,
+		"tcr.aspect.victus": 10
+	},
+	"minecraft:orange_bed": {
+		"tcr.aspect.bestia": 48,
+		"tcr.aspect.fabrico": 16,
+		"tcr.aspect.herba": 6
+	},
+	"minecraft:magenta_bed": {
+		"tcr.aspect.bestia": 48,
+		"tcr.aspect.fabrico": 16,
+		"tcr.aspect.herba": 6,
+		"tcr.aspect.mortuus": 20,
+		"tcr.aspect.victus": 20
+	},
+	"minecraft:lime_bed": {
+		"tcr.aspect.bestia": 48,
+		"tcr.aspect.fabrico": 16,
+		"tcr.aspect.herba": 6,
+		"tcr.aspect.mortuus": 10,
+		"tcr.aspect.victus": 10
+	},
+	"minecraft:black_bed": {
+		"tcr.aspect.bestia": 48,
+		"tcr.aspect.fabrico": 16,
+		"tcr.aspect.herba": 7,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:blue_bed": {
+		"tcr.aspect.bestia": 48,
+		"tcr.aspect.fabrico": 16,
+		"tcr.aspect.herba": 6,
+		"tcr.aspect.praecantatio": 8,
+		"tcr.aspect.desiderium": 8
+	},
+	"minecraft:hopper_minecart": {
+		"tcr.aspect.machina": 5,
+		"tcr.aspect.metallum": 71,
+		"tcr.aspect.herba": 13,
+		"tcr.aspect.permutatio": 10,
+		"tcr.aspect.vacuos": 5
+	},
+	"minecraft:bone_meal": {
+		"tcr.aspect.mortuus": 10,
+		"tcr.aspect.victus": 10
+	},
+	"hexcasting:spellbook": {
+		"tcr.aspect.sensus": 5,
+		"tcr.aspect.herba": 15,
+		"tcr.aspect.alienis": 5,
+		"tcr.aspect.cognitio": 10
+	},
+	"minecraft:beacon": {
+		"tcr.aspect.tenebrae": 5,
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.ignis": 5
+	},
+	"minecraft:ender_chest": {
+		"tcr.aspect.tenebrae": 5,
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.ignis": 5,
+		"tcr.aspect.alienis": 10,
+		"tcr.aspect.motus": 15
+	},
+	"minecraft:jack_o_lantern": {
+		"tcr.aspect.lux": 5,
+		"tcr.aspect.potentia": 1,
+		"tcr.aspect.ignis": 1
+	},
+	"hexcasting:ancient_scroll_paper_lantern": {
+		"tcr.aspect.lux": 10,
+		"tcr.aspect.potentia": 2,
+		"tcr.aspect.ignis": 2,
+		"tcr.aspect.aer": 1,
+		"tcr.aspect.herba": 3,
+		"tcr.aspect.aqua": 2,
+		"tcr.aspect.cognitio": 2
+	},
+	"hexcasting:scroll_paper_lantern": {
+		"tcr.aspect.lux": 5,
+		"tcr.aspect.potentia": 1,
+		"tcr.aspect.ignis": 1,
+		"tcr.aspect.aer": 1,
+		"tcr.aspect.herba": 3,
+		"tcr.aspect.aqua": 2,
+		"tcr.aspect.cognitio": 2
+	},
+	"minecraft:lantern": {
+		"tcr.aspect.lux": 5,
+		"tcr.aspect.potentia": 1,
+		"tcr.aspect.ignis": 1,
+		"tcr.aspect.metallum": 16
+	},
+	"supplementaries:sconce": {
+		"tcr.aspect.lux": 5,
+		"tcr.aspect.potentia": 1,
+		"tcr.aspect.ignis": 1,
+		"tcr.aspect.metallum": 16
+	},
+	"minecraft:copper_block": {
+		"tcr.aspect.metallum": 36,
+		"tcr.aspect.praecantatio": 36
+	},
+	"create:fluid_pipe": {
+		"tcr.aspect.metallum": 36,
+		"tcr.aspect.praecantatio": 36
+	},
+	"create:copper_backtank": {
+		"tcr.aspect.metallum": 72,
+		"tcr.aspect.praecantatio": 72,
+		"tcr.aspect.terra": 2
+	},
+	"create:diving_boots": {
+		"tcr.aspect.metallum": 36,
+		"tcr.aspect.praecantatio": 36,
+		"tcr.aspect.terra": 1
+	},
+	"create:copper_nugget": {
+		"tcr.aspect.metallum": 1,
+		"tcr.aspect.praecantatio": 1
+	},
+	"create:diving_helmet": {
+		"tcr.aspect.metallum": 36,
+		"tcr.aspect.praecantatio": 36,
+		"tcr.aspect.vitreus": 145
+	},
+	"create:hose_pulley": {
+		"tcr.aspect.metallum": 36,
+		"tcr.aspect.praecantatio": 36,
+		"tcr.aspect.terra": 2,
+		"tcr.aspect.herba": 1
+	},
+	"create:mechanical_pump": {
+		"tcr.aspect.metallum": 36,
+		"tcr.aspect.praecantatio": 36,
+		"tcr.aspect.terra": 1
+	},
+	"create:fluid_valve": {
+		"tcr.aspect.metallum": 51,
+		"tcr.aspect.praecantatio": 36,
+		"tcr.aspect.terra": 1
+	},
+	"create:smart_fluid_pipe": {
+		"tcr.aspect.metallum": 46,
+		"tcr.aspect.praecantatio": 36,
+		"tcr.aspect.potentia": 32,
+		"tcr.aspect.instrumentum": 15
+	},
+	"minecraft:waxed_copper_block": {
+		"tcr.aspect.metallum": 36,
+		"tcr.aspect.praecantatio": 36
+	},
+	"minecraft:cut_copper": {
+		"tcr.aspect.metallum": 36,
+		"tcr.aspect.praecantatio": 36
+	},
+	"minecraft:cut_copper_stairs": {
+		"tcr.aspect.metallum": 36,
+		"tcr.aspect.praecantatio": 36
+	},
+	"minecraft:waxed_cut_copper": {
+		"tcr.aspect.metallum": 72,
+		"tcr.aspect.praecantatio": 72
+	},
+	"minecraft:cut_copper_slab": {
+		"tcr.aspect.metallum": 36,
+		"tcr.aspect.praecantatio": 36
+	},
+	"minecraft:waxed_cut_copper_slab": {
+		"tcr.aspect.metallum": 72,
+		"tcr.aspect.praecantatio": 72
+	},
+	"minecraft:waxed_cut_copper_stairs": {
+		"tcr.aspect.metallum": 72,
+		"tcr.aspect.praecantatio": 72
+	},
+	"minecraft:bone_block": {
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5
+	},
+	"minecraft:white_dye": {
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5
+	},
+	"create:tree_fertilizer": {
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5
+	},
+	"minecraft:white_stained_glass_pane": {
+		"tcr.aspect.mortuus": 10,
+		"tcr.aspect.victus": 10,
+		"tcr.aspect.vitreus": 5
+	},
+	"minecraft:magenta_dye": {
+		"tcr.aspect.mortuus": 10,
+		"tcr.aspect.victus": 10,
+		"tcr.aspect.praecantatio": 16,
+		"tcr.aspect.desiderium": 16
+	},
+	"minecraft:white_terracotta": {
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5,
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:lime_dye": {
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5
+	},
+	"minecraft:light_blue_dye": {
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5,
+		"tcr.aspect.praecantatio": 8,
+		"tcr.aspect.desiderium": 8
+	},
+	"minecraft:gray_dye": {
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5,
+		"tcr.aspect.herba": 2,
+		"tcr.aspect.terra": 2
+	},
+	"minecraft:pink_dye": {
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5
+	},
+	"hexcasting:dye_colorizer_white": {
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5,
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:white_concrete_powder": {
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5,
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:light_gray_dye": {
+		"tcr.aspect.mortuus": 10,
+		"tcr.aspect.victus": 10,
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:white_stained_glass": {
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5
+	},
+	"minecraft:white_candle": {
+		"tcr.aspect.mortuus": 15,
+		"tcr.aspect.victus": 15,
+		"tcr.aspect.herba": 2,
+		"tcr.aspect.terra": 2
+	},
+	"minecraft:light_gray_stained_glass": {
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5
+	},
+	"minecraft:light_gray_terracotta": {
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5,
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"hexcasting:dye_colorizer_light_gray": {
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5,
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:light_gray_stained_glass_pane": {
+		"tcr.aspect.mortuus": 10,
+		"tcr.aspect.victus": 10,
+		"tcr.aspect.vitreus": 5
+	},
+	"minecraft:light_gray_carpet": {
+		"tcr.aspect.mortuus": 10,
+		"tcr.aspect.victus": 10,
+		"tcr.aspect.bestia": 30,
+		"tcr.aspect.fabrico": 10
+	},
+	"minecraft:light_gray_candle": {
+		"tcr.aspect.mortuus": 15,
+		"tcr.aspect.victus": 15,
+		"tcr.aspect.herba": 2,
+		"tcr.aspect.terra": 2
+	},
+	"minecraft:light_gray_concrete_powder": {
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5,
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"create:light_gray_seat": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5,
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5
+	},
+	"minecraft:light_gray_banner": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5,
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5
+	},
+	"supplementaries:flag_light_gray": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5,
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5
+	},
+	"minecraft:pink_terracotta": {
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5,
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:pink_candle": {
+		"tcr.aspect.mortuus": 10,
+		"tcr.aspect.victus": 10,
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"hexcasting:dye_colorizer_pink": {
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5,
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:pink_concrete_powder": {
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5,
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:pink_stained_glass": {
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5
+	},
+	"minecraft:pink_stained_glass_pane": {
+		"tcr.aspect.mortuus": 10,
+		"tcr.aspect.victus": 10,
+		"tcr.aspect.vitreus": 5
+	},
+	"minecraft:pink_carpet": {
+		"tcr.aspect.mortuus": 10,
+		"tcr.aspect.victus": 10,
+		"tcr.aspect.bestia": 30,
+		"tcr.aspect.fabrico": 10
+	},
+	"create:pink_seat": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5,
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5
+	},
+	"supplementaries:flag_pink": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5,
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5
+	},
+	"minecraft:pink_banner": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5,
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5
+	},
+	"minecraft:magenta_carpet": {
+		"tcr.aspect.mortuus": 20,
+		"tcr.aspect.victus": 20,
+		"tcr.aspect.bestia": 30,
+		"tcr.aspect.fabrico": 10
+	},
+	"minecraft:magenta_concrete_powder": {
+		"tcr.aspect.mortuus": 10,
+		"tcr.aspect.victus": 10,
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:magenta_terracotta": {
+		"tcr.aspect.mortuus": 10,
+		"tcr.aspect.victus": 10,
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"hexcasting:dye_colorizer_magenta": {
+		"tcr.aspect.mortuus": 10,
+		"tcr.aspect.victus": 10,
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:magenta_candle": {
+		"tcr.aspect.mortuus": 20,
+		"tcr.aspect.victus": 20,
+		"tcr.aspect.herba": 2,
+		"tcr.aspect.terra": 2
+	},
+	"minecraft:magenta_stained_glass_pane": {
+		"tcr.aspect.mortuus": 20,
+		"tcr.aspect.victus": 20,
+		"tcr.aspect.vitreus": 5
+	},
+	"minecraft:magenta_stained_glass": {
+		"tcr.aspect.mortuus": 10,
+		"tcr.aspect.victus": 10
+	},
+	"supplementaries:flag_magenta": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5,
+		"tcr.aspect.mortuus": 10,
+		"tcr.aspect.victus": 10
+	},
+	"minecraft:magenta_banner": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5,
+		"tcr.aspect.mortuus": 10,
+		"tcr.aspect.victus": 10
+	},
+	"create:magenta_seat": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5,
+		"tcr.aspect.mortuus": 10,
+		"tcr.aspect.victus": 10
+	},
+	"minecraft:gray_candle": {
+		"tcr.aspect.mortuus": 10,
+		"tcr.aspect.victus": 10,
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:gray_concrete_powder": {
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5,
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:gray_terracotta": {
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5,
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:gray_stained_glass": {
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5
+	},
+	"minecraft:gray_stained_glass_pane": {
+		"tcr.aspect.mortuus": 10,
+		"tcr.aspect.victus": 10,
+		"tcr.aspect.vitreus": 5
+	},
+	"hexcasting:dye_colorizer_gray": {
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5,
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:gray_carpet": {
+		"tcr.aspect.mortuus": 10,
+		"tcr.aspect.victus": 10,
+		"tcr.aspect.bestia": 30,
+		"tcr.aspect.fabrico": 10
+	},
+	"minecraft:gray_banner": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5,
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5
+	},
+	"create:gray_seat": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5,
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5
+	},
+	"supplementaries:flag_gray": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5,
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5
+	},
+	"minecraft:light_blue_candle": {
+		"tcr.aspect.mortuus": 10,
+		"tcr.aspect.victus": 10,
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"hexcasting:dye_colorizer_light_blue": {
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5,
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:light_blue_stained_glass": {
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5
+	},
+	"minecraft:light_blue_concrete_powder": {
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5,
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:light_blue_terracotta": {
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5,
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:light_blue_stained_glass_pane": {
+		"tcr.aspect.mortuus": 10,
+		"tcr.aspect.victus": 10,
+		"tcr.aspect.vitreus": 5
+	},
+	"minecraft:light_blue_carpet": {
+		"tcr.aspect.mortuus": 10,
+		"tcr.aspect.victus": 10,
+		"tcr.aspect.bestia": 30,
+		"tcr.aspect.fabrico": 10
+	},
+	"create:light_blue_seat": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5,
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5
+	},
+	"supplementaries:flag_light_blue": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5,
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5
+	},
+	"minecraft:light_blue_banner": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5,
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5
+	},
+	"hexcasting:dye_colorizer_lime": {
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5,
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:lime_candle": {
+		"tcr.aspect.mortuus": 10,
+		"tcr.aspect.victus": 10,
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:lime_concrete_powder": {
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5,
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:lime_stained_glass_pane": {
+		"tcr.aspect.mortuus": 10,
+		"tcr.aspect.victus": 10,
+		"tcr.aspect.vitreus": 5
+	},
+	"minecraft:lime_terracotta": {
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5,
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:lime_carpet": {
+		"tcr.aspect.mortuus": 10,
+		"tcr.aspect.victus": 10,
+		"tcr.aspect.bestia": 30,
+		"tcr.aspect.fabrico": 10
+	},
+	"minecraft:lime_stained_glass": {
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5
+	},
+	"supplementaries:flag_lime": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5,
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5
+	},
+	"create:lime_seat": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5,
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5
+	},
+	"minecraft:lime_banner": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5,
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5
+	},
+	"supplementaries:flag_brown": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5
+	},
+	"minecraft:brown_carpet": {
+		"tcr.aspect.bestia": 30,
+		"tcr.aspect.fabrico": 10
+	},
+	"minecraft:brown_banner": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5
+	},
+	"create:brown_seat": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5
+	},
+	"minecraft:cyan_carpet": {
+		"tcr.aspect.bestia": 30,
+		"tcr.aspect.fabrico": 10,
+		"tcr.aspect.praecantatio": 8,
+		"tcr.aspect.desiderium": 8
+	},
+	"minecraft:purple_carpet": {
+		"tcr.aspect.bestia": 30,
+		"tcr.aspect.fabrico": 10,
+		"tcr.aspect.praecantatio": 8,
+		"tcr.aspect.desiderium": 8
+	},
+	"minecraft:yellow_carpet": {
+		"tcr.aspect.bestia": 30,
+		"tcr.aspect.fabrico": 10
+	},
+	"minecraft:black_carpet": {
+		"tcr.aspect.bestia": 30,
+		"tcr.aspect.fabrico": 10,
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:orange_carpet": {
+		"tcr.aspect.bestia": 30,
+		"tcr.aspect.fabrico": 10
+	},
+	"minecraft:green_carpet": {
+		"tcr.aspect.bestia": 30,
+		"tcr.aspect.fabrico": 10
+	},
+	"minecraft:red_carpet": {
+		"tcr.aspect.bestia": 30,
+		"tcr.aspect.fabrico": 10
+	},
+	"minecraft:blue_carpet": {
+		"tcr.aspect.bestia": 30,
+		"tcr.aspect.fabrico": 10,
+		"tcr.aspect.praecantatio": 8,
+		"tcr.aspect.desiderium": 8
+	},
+	"supplementaries:flag_blue": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5
+	},
+	"create:blue_seat": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5
+	},
+	"minecraft:blue_banner": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5
+	},
+	"supplementaries:flag_yellow": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5
+	},
+	"minecraft:yellow_banner": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5
+	},
+	"create:yellow_seat": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5
+	},
+	"create:cyan_seat": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5
+	},
+	"supplementaries:flag_cyan": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5
+	},
+	"minecraft:cyan_banner": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5
+	},
+	"minecraft:green_banner": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5
+	},
+	"create:green_seat": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5
+	},
+	"supplementaries:flag_green": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5
+	},
+	"minecraft:orange_banner": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5
+	},
+	"create:orange_seat": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5
+	},
+	"supplementaries:flag_orange": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5
+	},
+	"minecraft:purple_banner": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5
+	},
+	"supplementaries:flag_purple": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5
+	},
+	"create:purple_seat": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5
+	},
+	"create:black_seat": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5,
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"supplementaries:flag_black": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5
+	},
+	"minecraft:black_banner": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5
+	},
+	"minecraft:red_banner": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5
+	},
+	"create:red_seat": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5
+	},
+	"supplementaries:flag_red": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5
+	},
+	"minecraft:grindstone": {
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:stone_brick_stairs": {
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:mossy_stone_bricks": {
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:stone_brick_wall": {
+		"tcr.aspect.terra": 1
+	},
+	"supplementaries:stone_tile": {
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:stone_brick_slab": {
+		"tcr.aspect.terra": 1
+	},
+	"supplementaries:pedestal": {
+		"tcr.aspect.terra": 3
+	},
+	"minecraft:chiseled_stone_bricks": {
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:lodestone": {
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.desiderium": 15
+	},
+	"supplementaries:stone_tile_slab": {
+		"tcr.aspect.terra": 1
+	},
+	"supplementaries:stone_tile_stairs": {
+		"tcr.aspect.terra": 1
+	},
+	"supplementaries:stone_tile_wall": {
+		"tcr.aspect.terra": 1
+	},
+	"hexcasting:pride_colorizer_1": {
+		"tcr.aspect.terra": 2,
+		"tcr.aspect.herba": 1
+	},
+	"minecraft:mossy_stone_brick_slab": {
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:mossy_stone_brick_stairs": {
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:mossy_stone_brick_wall": {
+		"tcr.aspect.terra": 1
+	},
+	"create:stockpile_switch": {
+		"tcr.aspect.terra": 2,
+		"tcr.aspect.herba": 1
+	},
+	"hexcasting:empty_directrix": {
+		"tcr.aspect.terra": 3,
+		"tcr.aspect.tenebrae": 2,
+		"tcr.aspect.potentia": 32
+	},
+	"hexcasting:empty_impetus": {
+		"tcr.aspect.terra": 2,
+		"tcr.aspect.tenebrae": 2,
+		"tcr.aspect.sensus": 5,
+		"tcr.aspect.herba": 5,
+		"tcr.aspect.alienis": 5,
+		"tcr.aspect.metallum": 15
+	},
+	"minecraft:lectern": {
+		"tcr.aspect.cognitio": 10,
+		"tcr.aspect.herba": 10
+	},
+	"minecraft:red_nether_brick_slab": {
+		"tcr.aspect.ignis": 2,
+		"tcr.aspect.herba": 10,
+		"tcr.aspect.alkimia": 10
+	},
+	"minecraft:red_nether_brick_stairs": {
+		"tcr.aspect.ignis": 2,
+		"tcr.aspect.herba": 10,
+		"tcr.aspect.alkimia": 10
+	},
+	"minecraft:red_nether_brick_wall": {
+		"tcr.aspect.ignis": 2,
+		"tcr.aspect.herba": 10,
+		"tcr.aspect.alkimia": 10
+	},
+	"minecraft:end_crystal": {
+		"tcr.aspect.alienis": 10,
+		"tcr.aspect.motus": 15
+	},
+	"create:schematic_and_quill": {
+		"tcr.aspect.aer": 1,
+		"tcr.aspect.herba": 3,
+		"tcr.aspect.aqua": 2,
+		"tcr.aspect.cognitio": 2
+	},
+	"hexcasting:ancient_scroll_paper": {
+		"tcr.aspect.aer": 1,
+		"tcr.aspect.herba": 3,
+		"tcr.aspect.aqua": 2,
+		"tcr.aspect.cognitio": 2
+	},
+	"minecraft:chiseled_quartz_block": {
+		"tcr.aspect.ignis": 8,
+		"tcr.aspect.vitreus": 8
+	},
+	"minecraft:blue_concrete_powder": {
+		"tcr.aspect.praecantatio": 8,
+		"tcr.aspect.desiderium": 8,
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:blue_stained_glass": {
+		"tcr.aspect.praecantatio": 8,
+		"tcr.aspect.desiderium": 8
+	},
+	"minecraft:blue_candle": {
+		"tcr.aspect.praecantatio": 8,
+		"tcr.aspect.desiderium": 8,
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5,
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"hexcasting:dye_colorizer_blue": {
+		"tcr.aspect.praecantatio": 8,
+		"tcr.aspect.desiderium": 8,
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:purple_dye": {
+		"tcr.aspect.praecantatio": 8,
+		"tcr.aspect.desiderium": 8
+	},
+	"minecraft:cyan_dye": {
+		"tcr.aspect.praecantatio": 8,
+		"tcr.aspect.desiderium": 8
+	},
+	"minecraft:blue_terracotta": {
+		"tcr.aspect.praecantatio": 8,
+		"tcr.aspect.desiderium": 8,
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:blue_stained_glass_pane": {
+		"tcr.aspect.praecantatio": 16,
+		"tcr.aspect.desiderium": 16,
+		"tcr.aspect.vitreus": 5
+	},
+	"minecraft:cyan_concrete_powder": {
+		"tcr.aspect.praecantatio": 8,
+		"tcr.aspect.desiderium": 8,
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:cyan_stained_glass_pane": {
+		"tcr.aspect.praecantatio": 16,
+		"tcr.aspect.desiderium": 16,
+		"tcr.aspect.vitreus": 5
+	},
+	"hexcasting:dye_colorizer_cyan": {
+		"tcr.aspect.praecantatio": 8,
+		"tcr.aspect.desiderium": 8,
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:cyan_terracotta": {
+		"tcr.aspect.praecantatio": 8,
+		"tcr.aspect.desiderium": 8,
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:cyan_stained_glass": {
+		"tcr.aspect.praecantatio": 8,
+		"tcr.aspect.desiderium": 8
+	},
+	"minecraft:cyan_candle": {
+		"tcr.aspect.praecantatio": 8,
+		"tcr.aspect.desiderium": 8,
+		"tcr.aspect.mortuus": 10,
+		"tcr.aspect.victus": 10,
+		"tcr.aspect.herba": 2,
+		"tcr.aspect.terra": 2
+	},
+	"minecraft:purple_candle": {
+		"tcr.aspect.praecantatio": 8,
+		"tcr.aspect.desiderium": 8,
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5,
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"hexcasting:dye_colorizer_purple": {
+		"tcr.aspect.praecantatio": 8,
+		"tcr.aspect.desiderium": 8,
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:purple_stained_glass": {
+		"tcr.aspect.praecantatio": 8,
+		"tcr.aspect.desiderium": 8
+	},
+	"minecraft:purple_concrete_powder": {
+		"tcr.aspect.praecantatio": 8,
+		"tcr.aspect.desiderium": 8,
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:purple_stained_glass_pane": {
+		"tcr.aspect.praecantatio": 16,
+		"tcr.aspect.desiderium": 16,
+		"tcr.aspect.vitreus": 5
+	},
+	"minecraft:purple_terracotta": {
+		"tcr.aspect.praecantatio": 8,
+		"tcr.aspect.desiderium": 8,
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:glistering_melon_slice": {
+		"tcr.aspect.metallum": 8,
+		"tcr.aspect.desiderium": 8
+	},
+	"minecraft:golden_carrot": {
+		"tcr.aspect.metallum": 8,
+		"tcr.aspect.desiderium": 8
+	},
+	"create:content_observer": {
+		"tcr.aspect.potentia": 32,
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"create:speedometer": {
+		"tcr.aspect.potentia": 64,
+		"tcr.aspect.terra": 2
+	},
+	"create:stressometer": {
+		"tcr.aspect.potentia": 32
+	},
+	"supplementaries:cog_block": {
+		"tcr.aspect.potentia": 32
+	},
+	"create:schematicannon": {
+		"tcr.aspect.potentia": 32,
+		"tcr.aspect.metallum": 31,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:sticky_piston": {
+		"tcr.aspect.potentia": 32,
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5
+	},
+	"create:powered_latch": {
+		"tcr.aspect.potentia": 32,
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"create:pulse_repeater": {
+		"tcr.aspect.potentia": 32,
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.instrumentum": 15
+	},
+	"create:powered_toggle_latch": {
+		"tcr.aspect.potentia": 32,
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"create:pulse_extender": {
+		"tcr.aspect.potentia": 32,
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.instrumentum": 15
+	},
+	"create:electron_tube": {
+		"tcr.aspect.potentia": 42
+	},
+	"minecraft:activator_rail": {
+		"tcr.aspect.potentia": 32
+	},
+	"create:redstone_link": {
+		"tcr.aspect.potentia": 32,
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.instrumentum": 15
+	},
+	"create:linked_controller": {
+		"tcr.aspect.potentia": 32
+	},
+	"create:brass_tunnel": {
+		"tcr.aspect.potentia": 32
+	},
+	"create:deployer": {
+		"tcr.aspect.potentia": 32,
+		"tcr.aspect.terra": 3
+	},
+	"create:mechanical_crafter": {
+		"tcr.aspect.potentia": 32,
+		"tcr.aspect.terra": 3,
+		"tcr.aspect.herba": 2
+	},
+	"create:sequenced_gearshift": {
+		"tcr.aspect.potentia": 64,
+		"tcr.aspect.terra": 2,
+		"tcr.aspect.herba": 1
+	},
+	"create:brass_funnel": {
+		"tcr.aspect.potentia": 32
+	},
+	"create:controller_rail": {
+		"tcr.aspect.potentia": 32
+	},
+	"create:clockwork_bearing": {
+		"tcr.aspect.potentia": 32,
+		"tcr.aspect.terra": 3,
+		"tcr.aspect.herba": 1
+	},
+	"create:nixie_tube": {
+		"tcr.aspect.potentia": 32,
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"create:adjustable_chain_gearshift": {
+		"tcr.aspect.potentia": 32,
+		"tcr.aspect.terra": 2
+	},
+	"create:smart_chute": {
+		"tcr.aspect.potentia": 32,
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.instrumentum": 15
+	},
+	"create:cuckoo_clock": {
+		"tcr.aspect.potentia": 32,
+		"tcr.aspect.terra": 1
+	},
+	"supplementaries:clock_block": {
+		"tcr.aspect.potentia": 32
+	},
+	"create:mysterious_cuckoo_clock": {
+		"tcr.aspect.potentia": 32
+	},
+	"supplementaries:checker_slab": {
+		"tcr.aspect.terra": 5
+	},
+	"supplementaries:crank": {
+		"tcr.aspect.terra": 5
+	},
+	"minecraft:anvil": {
+		"tcr.aspect.metallum": 16
+	},
+	"supplementaries:hanging_sign_crimson": {
+		"tcr.aspect.metallum": 16
+	},
+	"supplementaries:hanging_sign_acacia": {
+		"tcr.aspect.metallum": 16
+	},
+	"minecraft:soul_lantern": {
+		"tcr.aspect.metallum": 16,
+		"tcr.aspect.lux": 5,
+		"tcr.aspect.potentia": 1,
+		"tcr.aspect.ignis": 1
+	},
+	"supplementaries:hanging_sign_birch": {
+		"tcr.aspect.metallum": 16
+	},
+	"supplementaries:hanging_sign_jungle": {
+		"tcr.aspect.metallum": 16
+	},
+	"supplementaries:hanging_sign_spruce": {
+		"tcr.aspect.metallum": 16
+	},
+	"supplementaries:hanging_sign_oak": {
+		"tcr.aspect.metallum": 16
+	},
+	"supplementaries:hanging_sign_dark_oak": {
+		"tcr.aspect.metallum": 16
+	},
+	"minecraft:chain": {
+		"tcr.aspect.metallum": 16
+	},
+	"supplementaries:sconce_soul": {
+		"tcr.aspect.metallum": 16,
+		"tcr.aspect.lux": 5,
+		"tcr.aspect.potentia": 1,
+		"tcr.aspect.ignis": 1
+	},
+	"supplementaries:hanging_sign_warped": {
+		"tcr.aspect.metallum": 16
+	},
+	"minecraft:acacia_wood": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:sandstone": {
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:red_concrete_powder": {
+		"tcr.aspect.terra": 10,
+		"tcr.aspect.perditio": 2
+	},
+	"minecraft:black_concrete_powder": {
+		"tcr.aspect.terra": 11,
+		"tcr.aspect.perditio": 2,
+		"tcr.aspect.herba": 1
+	},
+	"minecraft:orange_concrete_powder": {
+		"tcr.aspect.terra": 10,
+		"tcr.aspect.perditio": 2
+	},
+	"minecraft:green_concrete_powder": {
+		"tcr.aspect.terra": 10,
+		"tcr.aspect.perditio": 2
+	},
+	"minecraft:yellow_concrete_powder": {
+		"tcr.aspect.terra": 10,
+		"tcr.aspect.perditio": 2
+	},
+	"minecraft:tnt": {
+		"tcr.aspect.terra": 11,
+		"tcr.aspect.perditio": 1,
+		"tcr.aspect.ignis": 1
+	},
+	"minecraft:brown_concrete_powder": {
+		"tcr.aspect.terra": 10,
+		"tcr.aspect.perditio": 2
+	},
+	"minecraft:green_stained_glass": {
+		"tcr.aspect.vitreus": 5
+	},
+	"minecraft:brown_stained_glass": {
+		"tcr.aspect.vitreus": 5
+	},
+	"minecraft:tinted_glass": {
+		"tcr.aspect.vitreus": 5
+	},
+	"hexcasting:lens": {
+		"tcr.aspect.vitreus": 5
+	},
+	"hexcasting:pride_colorizer_2": {
+		"tcr.aspect.vitreus": 5,
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:daylight_detector": {
+		"tcr.aspect.vitreus": 5
+	},
+	"supplementaries:jar": {
+		"tcr.aspect.vitreus": 5
+	},
+	"minecraft:yellow_stained_glass": {
+		"tcr.aspect.vitreus": 5
+	},
+	"minecraft:glass_bottle": {
+		"tcr.aspect.vitreus": 10
+	},
+	"minecraft:orange_stained_glass": {
+		"tcr.aspect.vitreus": 5
+	},
+	"minecraft:glass_pane": {
+		"tcr.aspect.vitreus": 150
+	},
+	"minecraft:red_stained_glass": {
+		"tcr.aspect.vitreus": 5
+	},
+	"minecraft:black_stained_glass": {
+		"tcr.aspect.vitreus": 5,
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"create:oak_window": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.vitreus": 75
+	},
+	"minecraft:oak_pressure_plate": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:oak_sign": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:oak_button": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:oak_fence_gate": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:oak_stairs": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:oak_slab": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:oak_fence": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:oak_trapdoor": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:oak_door": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:birch_fence": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:birch_stairs": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:birch_pressure_plate": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:birch_door": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:birch_fence_gate": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:birch_trapdoor": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"create:birch_window": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.vitreus": 135
+	},
+	"minecraft:birch_sign": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:birch_button": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:birch_slab": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:birch_boat": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:spruce_fence_gate": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:spruce_sign": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"create:spruce_window": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.vitreus": 75
+	},
+	"minecraft:spruce_trapdoor": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:spruce_slab": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:spruce_boat": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:spruce_fence": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:spruce_pressure_plate": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:spruce_stairs": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:spruce_door": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:spruce_button": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:jungle_fence_gate": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:jungle_door": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:jungle_trapdoor": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:jungle_button": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:jungle_fence": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"create:jungle_window": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.vitreus": 150
+	},
+	"minecraft:jungle_sign": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:jungle_stairs": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:jungle_slab": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:jungle_pressure_plate": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:jungle_boat": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:acacia_button": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:acacia_door": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:acacia_stairs": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:acacia_sign": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:acacia_fence": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:acacia_fence_gate": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:acacia_pressure_plate": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:acacia_slab": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"create:acacia_window": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.vitreus": 150
+	},
+	"minecraft:acacia_boat": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:acacia_trapdoor": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:dark_oak_sign": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:dark_oak_pressure_plate": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"create:dark_oak_window": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.vitreus": 75
+	},
+	"minecraft:dark_oak_fence_gate": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:dark_oak_button": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:dark_oak_door": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:dark_oak_fence": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:dark_oak_trapdoor": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:dark_oak_boat": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:dark_oak_stairs": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:dark_oak_slab": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"supplementaries:blackboard": {
+		"tcr.aspect.vitreus": 5,
+		"tcr.aspect.terra": 10,
+		"tcr.aspect.perditio": 2
+	},
+	"minecraft:polished_diorite": {
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:diorite_slab": {
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:diorite_wall": {
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:diorite_stairs": {
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:granite_slab": {
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:granite_wall": {
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:polished_granite": {
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:granite_stairs": {
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:andesite_slab": {
+		"tcr.aspect.terra": 1
+	},
+	"create:andesite_alloy": {
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.metallum": 30,
+		"tcr.aspect.herba": 15,
+		"tcr.aspect.desiderium": 30
+	},
+	"minecraft:polished_andesite": {
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:andesite_wall": {
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:andesite_stairs": {
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:respawn_anchor": {
+		"tcr.aspect.lux": 10,
+		"tcr.aspect.sensus": 5
+	},
+	"minecraft:polished_andesite_slab": {
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:polished_andesite_stairs": {
+		"tcr.aspect.terra": 1
+	},
+	"create:large_cogwheel": {
+		"tcr.aspect.terra": 1
+	},
+	"create:metal_bracket": {
+		"tcr.aspect.terra": 1
+	},
+	"create:sticker": {
+		"tcr.aspect.terra": 6,
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"create:chute": {
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.metallum": 15
+	},
+	"create:nozzle": {
+		"tcr.aspect.terra": 1
+	},
+	"create:linear_chassis": {
+		"tcr.aspect.terra": 2
+	},
+	"create:basin": {
+		"tcr.aspect.terra": 1
+	},
+	"create:hand_crank": {
+		"tcr.aspect.terra": 2
+	},
+	"create:copper_valve_handle": {
+		"tcr.aspect.terra": 260634,
+		"tcr.aspect.herba": 129022,
+		"tcr.aspect.praecantatio": 389472,
+		"tcr.aspect.desiderium": 389472,
+		"tcr.aspect.mortuus": 207470,
+		"tcr.aspect.victus": 207470
+	},
+	"create:minecart_coupling": {
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.metallum": 15
+	},
+	"create:piston_extension_pole": {
+		"tcr.aspect.terra": 1
+	},
+	"create:brass_hand": {
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.instrumentum": 15
+	},
+	"create:mechanical_mixer": {
+		"tcr.aspect.terra": 4
+	},
+	"create:radial_chassis": {
+		"tcr.aspect.terra": 1
+	},
+	"create:millstone": {
+		"tcr.aspect.terra": 2
+	},
+	"create:andesite_funnel": {
+		"tcr.aspect.terra": 1
+	},
+	"create:depot": {
+		"tcr.aspect.terra": 2
+	},
+	"create:mechanical_plough": {
+		"tcr.aspect.terra": 2,
+		"tcr.aspect.metallum": 15
+	},
+	"create:cogwheel": {
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.metallum": 20,
+		"tcr.aspect.desiderium": 30
+	},
+	"create:andesite_tunnel": {
+		"tcr.aspect.terra": 1
+	},
+	"create:mechanical_arm": {
+		"tcr.aspect.terra": 2,
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.metallum": 20,
+		"tcr.aspect.instrumentum": 15,
+		"tcr.aspect.desiderium": 15
+	},
+	"create:whisk": {
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.metallum": 15
+	},
+	"create:mechanical_drill": {
+		"tcr.aspect.terra": 2
+	},
+	"create:mechanical_harvester": {
+		"tcr.aspect.terra": 2,
+		"tcr.aspect.metallum": 15
+	},
+	"create:shaft": {
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.metallum": 20,
+		"tcr.aspect.desiderium": 30
+	},
+	"create:propeller": {
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.metallum": 15
+	},
+	"create:gantry_shaft": {
+		"tcr.aspect.terra": 1
+	},
+	"create:andesite_casing": {
+		"tcr.aspect.terra": 1
+	},
+	"create:mechanical_bearing": {
+		"tcr.aspect.terra": 4
+	},
+	"create:mechanical_press": {
+		"tcr.aspect.terra": 3
+	},
+	"create:ornate_iron_window": {
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.vitreus": 150
+	},
+	"create:wooden_bracket": {
+		"tcr.aspect.terra": 1
+	},
+	"create:sail_frame": {
+		"tcr.aspect.terra": 1
+	},
+	"create:cart_assembler": {
+		"tcr.aspect.terra": 1
+	},
+	"create:white_sail": {
+		"tcr.aspect.terra": 1
+	},
+	"create:ornate_iron_window_pane": {
+		"tcr.aspect.terra": 1
+	},
+	"create:gearbox": {
+		"tcr.aspect.terra": 3
+	},
+	"create:gantry_carriage": {
+		"tcr.aspect.terra": 3
+	},
+	"create:analog_lever": {
+		"tcr.aspect.terra": 1
+	},
+	"create:mechanical_piston": {
+		"tcr.aspect.terra": 3
+	},
+	"create:encased_chain_drive": {
+		"tcr.aspect.terra": 2
+	},
+	"create:portable_storage_interface": {
+		"tcr.aspect.terra": 2
+	},
+	"create:rope_pulley": {
+		"tcr.aspect.terra": 2,
+		"tcr.aspect.metallum": 15
+	},
+	"create:mechanical_saw": {
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.metallum": 15
+	},
+	"create:gearshift": {
+		"tcr.aspect.terra": 2
+	},
+	"create:clutch": {
+		"tcr.aspect.terra": 2
+	},
+	"create:encased_fan": {
+		"tcr.aspect.terra": 4
+	},
+	"create:weighted_ejector": {
+		"tcr.aspect.terra": 3,
+		"tcr.aspect.metallum": 20,
+		"tcr.aspect.desiderium": 30
+	},
+	"create:sticky_mechanical_piston": {
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5
+	},
+	"create:vertical_gearbox": {
+		"tcr.aspect.terra": 1
+	},
+	"create:windmill_bearing": {
+		"tcr.aspect.terra": 2
+	},
+	"create:turntable": {
+		"tcr.aspect.terra": 1
+	},
+	"create:rotation_speed_controller": {
+		"tcr.aspect.terra": 2,
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.desiderium": 15
+	},
+	"create:brown_toolbox": {
+		"tcr.aspect.terra": 2,
+		"tcr.aspect.metallum": 50,
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.desiderium": 30
+	},
+	"create:wrench": {
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.metallum": 20,
+		"tcr.aspect.desiderium": 30
+	},
+	"create:secondary_linear_chassis": {
+		"tcr.aspect.terra": 1
+	},
+	"create:portable_fluid_interface": {
+		"tcr.aspect.terra": 2,
+		"tcr.aspect.herba": 1
+	},
+	"create:water_wheel": {
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:polished_granite_stairs": {
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:polished_granite_slab": {
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:polished_diorite_slab": {
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:polished_diorite_stairs": {
+		"tcr.aspect.terra": 1
+	},
+	"create:dark_oak_window_pane": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"supplementaries:sign_post_dark_oak": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"create:acacia_window_pane": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"supplementaries:sign_post_acacia": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"supplementaries:sign_post_jungle": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"create:jungle_window_pane": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"create:spruce_window_pane": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"supplementaries:sign_post_spruce": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"supplementaries:sign_post_birch": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"create:birch_window_pane": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"supplementaries:sign_post_oak": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"create:oak_window_pane": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:black_stained_glass_pane": {
+		"tcr.aspect.vitreus": 10,
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:red_stained_glass_pane": {
+		"tcr.aspect.vitreus": 10
+	},
+	"minecraft:orange_stained_glass_pane": {
+		"tcr.aspect.vitreus": 10
+	},
+	"minecraft:green_stained_glass_pane": {
+		"tcr.aspect.vitreus": 10
+	},
+	"minecraft:brown_stained_glass_pane": {
+		"tcr.aspect.vitreus": 10
+	},
+	"minecraft:yellow_stained_glass_pane": {
+		"tcr.aspect.vitreus": 10
+	},
+	"hexcasting:pride_colorizer_6": {
+		"tcr.aspect.vitreus": 5,
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:honey_bottle": {
+		"tcr.aspect.vitreus": 10
+	},
+	"minecraft:sugar": {
+		"tcr.aspect.vitreus": 5
+	},
+	"minecraft:honey_block": {
+		"tcr.aspect.vitreus": 5
+	},
+	"minecraft:cake": {
+		"tcr.aspect.vitreus": 5
+	},
+	"minecraft:fermented_spider_eye": {
+		"tcr.aspect.vitreus": 5
+	},
+	"minecraft:pumpkin_pie": {
+		"tcr.aspect.vitreus": 5
+	},
+	"supplementaries:pancake": {
+		"tcr.aspect.vitreus": 5
+	},
+	"minecraft:tnt_minecart": {
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1,
+		"tcr.aspect.metallum": 15
+	},
+	"minecraft:sandstone_slab": {
+		"tcr.aspect.terra": 10,
+		"tcr.aspect.perditio": 2
+	},
+	"minecraft:sandstone_wall": {
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:sandstone_stairs": {
+		"tcr.aspect.terra": 15,
+		"tcr.aspect.perditio": 3
+	},
+	"minecraft:cut_sandstone": {
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:cut_sandstone_slab": {
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:chiseled_sandstone": {
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:stick": {
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.herba": 1
+	},
+	"minecraft:gravel": {
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:clay_ball": {
+		"tcr.aspect.terra": 15,
+		"tcr.aspect.perditio": 3
+	},
+	"create:cinder_flour": {
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.ignis": 1
+	},
+	"minecraft:nether_brick": {
+		"tcr.aspect.terra": 10,
+		"tcr.aspect.ignis": 1,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:smooth_quartz": {
+		"tcr.aspect.ignis": 8,
+		"tcr.aspect.vitreus": 8
+	},
+	"patchouli:guide_book": {
+		"tcr.aspect.cognitio": 10,
+		"tcr.aspect.herba": 10
+	},
+	"minecraft:stripped_oak_log": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:stripped_birch_log": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:stripped_spruce_log": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:stripped_jungle_log": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:stripped_acacia_log": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:stripped_dark_oak_log": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"create:polished_cut_deepslate_slab": {
+		"tcr.aspect.terra": 4,
+		"tcr.aspect.tenebrae": 4
+	},
+	"create:cut_deepslate_brick_slab": {
+		"tcr.aspect.terra": 4,
+		"tcr.aspect.tenebrae": 4
+	},
+	"create:cut_deepslate_brick_wall": {
+		"tcr.aspect.terra": 4,
+		"tcr.aspect.tenebrae": 4
+	},
+	"create:deepslate_pillar": {
+		"tcr.aspect.terra": 2,
+		"tcr.aspect.tenebrae": 2
+	},
+	"create:polished_cut_deepslate_wall": {
+		"tcr.aspect.terra": 4,
+		"tcr.aspect.tenebrae": 4
+	},
+	"create:small_deepslate_bricks": {
+		"tcr.aspect.terra": 4,
+		"tcr.aspect.tenebrae": 4
+	},
+	"create:cut_deepslate": {
+		"tcr.aspect.terra": 4,
+		"tcr.aspect.tenebrae": 4
+	},
+	"create:polished_cut_deepslate_stairs": {
+		"tcr.aspect.terra": 4,
+		"tcr.aspect.tenebrae": 4
+	},
+	"create:cut_deepslate_slab": {
+		"tcr.aspect.terra": 6,
+		"tcr.aspect.tenebrae": 6
+	},
+	"create:small_deepslate_brick_stairs": {
+		"tcr.aspect.terra": 6,
+		"tcr.aspect.tenebrae": 6
+	},
+	"create:polished_cut_deepslate": {
+		"tcr.aspect.terra": 6,
+		"tcr.aspect.tenebrae": 6
+	},
+	"create:cut_deepslate_wall": {
+		"tcr.aspect.terra": 6,
+		"tcr.aspect.tenebrae": 6
+	},
+	"minecraft:infested_deepslate": {
+		"tcr.aspect.terra": 2,
+		"tcr.aspect.tenebrae": 2
+	},
+	"create:cut_deepslate_bricks": {
+		"tcr.aspect.terra": 6,
+		"tcr.aspect.tenebrae": 6
+	},
+	"create:small_deepslate_brick_wall": {
+		"tcr.aspect.terra": 6,
+		"tcr.aspect.tenebrae": 6
+	},
+	"create:cut_deepslate_brick_stairs": {
+		"tcr.aspect.terra": 4,
+		"tcr.aspect.tenebrae": 4
+	},
+	"create:layered_deepslate": {
+		"tcr.aspect.terra": 2,
+		"tcr.aspect.tenebrae": 2
+	},
+	"create:cut_deepslate_stairs": {
+		"tcr.aspect.terra": 6,
+		"tcr.aspect.tenebrae": 6
+	},
+	"create:small_deepslate_brick_slab": {
+		"tcr.aspect.terra": 6,
+		"tcr.aspect.tenebrae": 6
+	},
+	"minecraft:infested_stone": {
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:smooth_stone": {
+		"tcr.aspect.terra": 1
+	},
+	"create:cut_diorite_bricks": {
+		"tcr.aspect.terra": 2
+	},
+	"create:cut_diorite": {
+		"tcr.aspect.terra": 2
+	},
+	"create:cut_diorite_brick_stairs": {
+		"tcr.aspect.terra": 3
+	},
+	"create:layered_diorite": {
+		"tcr.aspect.terra": 1
+	},
+	"create:small_diorite_brick_slab": {
+		"tcr.aspect.terra": 2
+	},
+	"create:cut_diorite_slab": {
+		"tcr.aspect.terra": 3
+	},
+	"create:cut_diorite_stairs": {
+		"tcr.aspect.terra": 3
+	},
+	"create:cut_diorite_wall": {
+		"tcr.aspect.terra": 3
+	},
+	"create:polished_cut_diorite": {
+		"tcr.aspect.terra": 2
+	},
+	"create:polished_cut_diorite_stairs": {
+		"tcr.aspect.terra": 3
+	},
+	"create:polished_cut_diorite_slab": {
+		"tcr.aspect.terra": 3
+	},
+	"create:small_diorite_brick_wall": {
+		"tcr.aspect.terra": 2
+	},
+	"create:cut_diorite_brick_slab": {
+		"tcr.aspect.terra": 3
+	},
+	"create:cut_diorite_brick_wall": {
+		"tcr.aspect.terra": 3
+	},
+	"create:polished_cut_diorite_wall": {
+		"tcr.aspect.terra": 3
+	},
+	"create:diorite_pillar": {
+		"tcr.aspect.terra": 1
+	},
+	"create:small_diorite_brick_stairs": {
+		"tcr.aspect.terra": 2
+	},
+	"create:small_diorite_bricks": {
+		"tcr.aspect.terra": 3
+	},
+	"create:cut_granite_stairs": {
+		"tcr.aspect.terra": 3
+	},
+	"create:small_granite_brick_slab": {
+		"tcr.aspect.terra": 2
+	},
+	"create:cut_granite_brick_slab": {
+		"tcr.aspect.terra": 2
+	},
+	"create:small_granite_bricks": {
+		"tcr.aspect.terra": 3
+	},
+	"create:granite_pillar": {
+		"tcr.aspect.terra": 1
+	},
+	"create:polished_cut_granite_stairs": {
+		"tcr.aspect.terra": 3
+	},
+	"create:small_granite_brick_wall": {
+		"tcr.aspect.terra": 2
+	},
+	"create:polished_cut_granite_wall": {
+		"tcr.aspect.terra": 3
+	},
+	"create:cut_granite_wall": {
+		"tcr.aspect.terra": 3
+	},
+	"minecraft:red_sand": {
+		"tcr.aspect.terra": 6,
+		"tcr.aspect.perditio": 1
+	},
+	"create:layered_granite": {
+		"tcr.aspect.terra": 1
+	},
+	"create:cut_granite_brick_wall": {
+		"tcr.aspect.terra": 2
+	},
+	"create:cut_granite": {
+		"tcr.aspect.terra": 2
+	},
+	"create:cut_granite_brick_stairs": {
+		"tcr.aspect.terra": 2
+	},
+	"create:cut_granite_bricks": {
+		"tcr.aspect.terra": 3
+	},
+	"create:polished_cut_granite": {
+		"tcr.aspect.terra": 2
+	},
+	"create:small_granite_brick_stairs": {
+		"tcr.aspect.terra": 2
+	},
+	"create:cut_granite_slab": {
+		"tcr.aspect.terra": 3
+	},
+	"create:polished_cut_granite_slab": {
+		"tcr.aspect.terra": 3
+	},
+	"create:layered_andesite": {
+		"tcr.aspect.terra": 1
+	},
+	"create:cut_andesite_bricks": {
+		"tcr.aspect.terra": 2
+	},
+	"create:andesite_pillar": {
+		"tcr.aspect.terra": 1
+	},
+	"create:small_andesite_brick_stairs": {
+		"tcr.aspect.terra": 2
+	},
+	"create:cut_andesite_brick_stairs": {
+		"tcr.aspect.terra": 3
+	},
+	"create:cut_andesite": {
+		"tcr.aspect.terra": 2
+	},
+	"create:cut_andesite_slab": {
+		"tcr.aspect.terra": 3
+	},
+	"create:small_andesite_brick_slab": {
+		"tcr.aspect.terra": 2
+	},
+	"create:polished_cut_andesite_wall": {
+		"tcr.aspect.terra": 3
+	},
+	"create:cut_andesite_brick_slab": {
+		"tcr.aspect.terra": 3
+	},
+	"create:polished_cut_andesite_stairs": {
+		"tcr.aspect.terra": 3
+	},
+	"create:cut_andesite_wall": {
+		"tcr.aspect.terra": 3
+	},
+	"create:small_andesite_brick_wall": {
+		"tcr.aspect.terra": 2
+	},
+	"create:cut_andesite_stairs": {
+		"tcr.aspect.terra": 3
+	},
+	"create:cut_andesite_brick_wall": {
+		"tcr.aspect.terra": 3
+	},
+	"create:polished_cut_andesite": {
+		"tcr.aspect.terra": 2
+	},
+	"create:polished_cut_andesite_slab": {
+		"tcr.aspect.terra": 3
+	},
+	"create:small_andesite_bricks": {
+		"tcr.aspect.terra": 3
+	},
+	"minecraft:grass_block": {
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:dirt_path": {
+		"tcr.aspect.terra": 2
+	},
+	"minecraft:wheat_seeds": {
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.herba": 1
+	},
+	"minecraft:popped_chorus_fruit": {
+		"tcr.aspect.sensus": 5,
+		"tcr.aspect.herba": 5,
+		"tcr.aspect.alienis": 5
+	},
+	"create:scoria": {
+		"tcr.aspect.spiritus": 3,
+		"tcr.aspect.terra": 3,
+		"tcr.aspect.vinculum": 1
+	},
+	"create:powdered_obsidian": {
+		"tcr.aspect.tenebrae": 5,
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.ignis": 5
+	},
+	"minecraft:soul_torch": {
+		"tcr.aspect.lux": 5,
+		"tcr.aspect.potentia": 1,
+		"tcr.aspect.ignis": 1,
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 2
+	},
+	"create:copper_sheet": {
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.permutatio": 15
+	},
+	"create:potato_cannon": {
+		"tcr.aspect.metallum": 20,
+		"tcr.aspect.permutatio": 15,
+		"tcr.aspect.desiderium": 15
+	},
+	"minecraft:glowstone_dust": {
+		"tcr.aspect.lux": 10,
+		"tcr.aspect.sensus": 5,
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.ignis": 1,
+		"tcr.aspect.praecantatio": 16,
+		"tcr.aspect.desiderium": 16
+	},
+	"create:furnace_engine": {
+		"tcr.aspect.potentia": 32,
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.instrumentum": 15
+	},
+	"supplementaries:netherite_door": {
+		"tcr.aspect.metallum": 8,
+		"tcr.aspect.desiderium": 8
+	},
+	"supplementaries:netherite_trapdoor": {
+		"tcr.aspect.metallum": 8,
+		"tcr.aspect.desiderium": 8
+	},
+	"minecraft:stripped_oak_wood": {
+		"tcr.aspect.herba": 2,
+		"tcr.aspect.terra": 2
+	},
+	"minecraft:stripped_birch_wood": {
+		"tcr.aspect.herba": 2,
+		"tcr.aspect.terra": 2
+	},
+	"minecraft:stripped_spruce_wood": {
+		"tcr.aspect.herba": 2,
+		"tcr.aspect.terra": 2
+	},
+	"minecraft:stripped_jungle_wood": {
+		"tcr.aspect.herba": 2,
+		"tcr.aspect.terra": 2
+	},
+	"minecraft:stripped_dark_oak_wood": {
+		"tcr.aspect.herba": 2,
+		"tcr.aspect.terra": 2
+	},
+	"minecraft:infested_stone_bricks": {
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:cracked_stone_bricks": {
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:white_glazed_terracotta": {
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5
+	},
+	"minecraft:white_concrete": {
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5
+	},
+	"minecraft:light_gray_glazed_terracotta": {
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5
+	},
+	"minecraft:light_gray_concrete": {
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5
+	},
+	"minecraft:pink_glazed_terracotta": {
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5
+	},
+	"minecraft:pink_concrete": {
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5
+	},
+	"minecraft:magenta_concrete": {
+		"tcr.aspect.mortuus": 10,
+		"tcr.aspect.victus": 10
+	},
+	"minecraft:magenta_glazed_terracotta": {
+		"tcr.aspect.mortuus": 10,
+		"tcr.aspect.victus": 10
+	},
+	"minecraft:gray_concrete": {
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5
+	},
+	"minecraft:gray_glazed_terracotta": {
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5
+	},
+	"minecraft:light_blue_concrete": {
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5
+	},
+	"minecraft:light_blue_glazed_terracotta": {
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5
+	},
+	"minecraft:lime_concrete": {
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5
+	},
+	"minecraft:lime_glazed_terracotta": {
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5
+	},
+	"minecraft:infested_mossy_stone_bricks": {
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:infested_chiseled_stone_bricks": {
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:blue_concrete": {
+		"tcr.aspect.praecantatio": 8,
+		"tcr.aspect.desiderium": 8
+	},
+	"minecraft:blue_glazed_terracotta": {
+		"tcr.aspect.praecantatio": 8,
+		"tcr.aspect.desiderium": 8
+	},
+	"minecraft:cyan_concrete": {
+		"tcr.aspect.praecantatio": 8,
+		"tcr.aspect.desiderium": 8
+	},
+	"minecraft:cyan_glazed_terracotta": {
+		"tcr.aspect.praecantatio": 8,
+		"tcr.aspect.desiderium": 8
+	},
+	"minecraft:purple_concrete": {
+		"tcr.aspect.praecantatio": 8,
+		"tcr.aspect.desiderium": 8
+	},
+	"minecraft:purple_glazed_terracotta": {
+		"tcr.aspect.praecantatio": 8,
+		"tcr.aspect.desiderium": 8
+	},
+	"minecraft:stripped_acacia_wood": {
+		"tcr.aspect.herba": 2,
+		"tcr.aspect.terra": 2
+	},
+	"minecraft:smooth_sandstone": {
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:red_concrete": {
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:black_concrete": {
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:orange_concrete": {
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:green_concrete": {
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:yellow_concrete": {
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:brown_concrete": {
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"create:builders_tea": {
+		"tcr.aspect.vitreus": 5
+	},
+	"create:crushing_wheel": {
+		"tcr.aspect.terra": 1
+	},
+	"create:extendo_grip": {
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.desiderium": 15
+	},
+	"create:blaze_cake_base": {
+		"tcr.aspect.vitreus": 5,
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.ignis": 1
+	},
+	"hexcasting:wand": {
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.herba": 1
+	},
+	"hexcasting:abacus": {
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.herba": 1
+	},
+	"hexcasting:sub_sandwich": {
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.herba": 1
+	},
+	"create:blaze_cake": {
+		"tcr.aspect.vitreus": 5
+	},
+	"minecraft:smooth_sandstone_slab": {
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:smooth_sandstone_stairs": {
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:infested_cracked_stone_bricks": {
+		"tcr.aspect.terra": 1
+	},
+	"create:polished_cut_scoria_wall": {
+		"tcr.aspect.spiritus": 9,
+		"tcr.aspect.terra": 9,
+		"tcr.aspect.vinculum": 3
+	},
+	"create:small_scoria_brick_stairs": {
+		"tcr.aspect.spiritus": 9,
+		"tcr.aspect.terra": 9,
+		"tcr.aspect.vinculum": 3
+	},
+	"create:cut_scoria_brick_slab": {
+		"tcr.aspect.spiritus": 6,
+		"tcr.aspect.terra": 6,
+		"tcr.aspect.vinculum": 2
+	},
+	"create:polished_cut_scoria": {
+		"tcr.aspect.spiritus": 6,
+		"tcr.aspect.terra": 6,
+		"tcr.aspect.vinculum": 2
+	},
+	"create:small_scoria_bricks": {
+		"tcr.aspect.spiritus": 6,
+		"tcr.aspect.terra": 6,
+		"tcr.aspect.vinculum": 2
+	},
+	"create:scorchia": {
+		"tcr.aspect.spiritus": 3,
+		"tcr.aspect.terra": 4,
+		"tcr.aspect.vinculum": 1,
+		"tcr.aspect.herba": 1
+	},
+	"create:small_scoria_brick_slab": {
+		"tcr.aspect.spiritus": 9,
+		"tcr.aspect.terra": 9,
+		"tcr.aspect.vinculum": 3
+	},
+	"create:cut_scoria_stairs": {
+		"tcr.aspect.spiritus": 9,
+		"tcr.aspect.terra": 9,
+		"tcr.aspect.vinculum": 3
+	},
+	"create:cut_scoria_bricks": {
+		"tcr.aspect.spiritus": 9,
+		"tcr.aspect.terra": 9,
+		"tcr.aspect.vinculum": 3
+	},
+	"create:polished_cut_scoria_stairs": {
+		"tcr.aspect.spiritus": 9,
+		"tcr.aspect.terra": 9,
+		"tcr.aspect.vinculum": 3
+	},
+	"create:small_scoria_brick_wall": {
+		"tcr.aspect.spiritus": 9,
+		"tcr.aspect.terra": 9,
+		"tcr.aspect.vinculum": 3
+	},
+	"create:cut_scoria_wall": {
+		"tcr.aspect.spiritus": 9,
+		"tcr.aspect.terra": 9,
+		"tcr.aspect.vinculum": 3
+	},
+	"create:cut_scoria": {
+		"tcr.aspect.spiritus": 6,
+		"tcr.aspect.terra": 6,
+		"tcr.aspect.vinculum": 2
+	},
+	"create:cut_scoria_slab": {
+		"tcr.aspect.spiritus": 9,
+		"tcr.aspect.terra": 9,
+		"tcr.aspect.vinculum": 3
+	},
+	"create:layered_scoria": {
+		"tcr.aspect.spiritus": 3,
+		"tcr.aspect.terra": 3,
+		"tcr.aspect.vinculum": 1
+	},
+	"create:scoria_pillar": {
+		"tcr.aspect.spiritus": 3,
+		"tcr.aspect.terra": 3,
+		"tcr.aspect.vinculum": 1
+	},
+	"create:cut_scoria_brick_wall": {
+		"tcr.aspect.spiritus": 6,
+		"tcr.aspect.terra": 6,
+		"tcr.aspect.vinculum": 2
+	},
+	"create:polished_cut_scoria_slab": {
+		"tcr.aspect.spiritus": 9,
+		"tcr.aspect.terra": 9,
+		"tcr.aspect.vinculum": 3
+	},
+	"create:cut_scoria_brick_stairs": {
+		"tcr.aspect.spiritus": 6,
+		"tcr.aspect.terra": 6,
+		"tcr.aspect.vinculum": 2
+	},
+	"create:small_scorchia_brick_stairs": {
+		"tcr.aspect.spiritus": 9,
+		"tcr.aspect.terra": 9,
+		"tcr.aspect.vinculum": 3
+	},
+	"create:cut_scorchia_brick_stairs": {
+		"tcr.aspect.spiritus": 6,
+		"tcr.aspect.terra": 6,
+		"tcr.aspect.vinculum": 2
+	},
+	"create:polished_cut_scorchia_wall": {
+		"tcr.aspect.spiritus": 6,
+		"tcr.aspect.terra": 6,
+		"tcr.aspect.vinculum": 2
+	},
+	"create:small_scorchia_bricks": {
+		"tcr.aspect.spiritus": 6,
+		"tcr.aspect.terra": 6,
+		"tcr.aspect.vinculum": 2
+	},
+	"create:polished_cut_scorchia_slab": {
+		"tcr.aspect.spiritus": 6,
+		"tcr.aspect.terra": 6,
+		"tcr.aspect.vinculum": 2
+	},
+	"create:layered_scorchia": {
+		"tcr.aspect.spiritus": 3,
+		"tcr.aspect.terra": 3,
+		"tcr.aspect.vinculum": 1
+	},
+	"create:scorchia_pillar": {
+		"tcr.aspect.spiritus": 3,
+		"tcr.aspect.terra": 3,
+		"tcr.aspect.vinculum": 1
+	},
+	"create:small_scorchia_brick_wall": {
+		"tcr.aspect.spiritus": 9,
+		"tcr.aspect.terra": 9,
+		"tcr.aspect.vinculum": 3
+	},
+	"create:cut_scorchia_slab": {
+		"tcr.aspect.spiritus": 6,
+		"tcr.aspect.terra": 6,
+		"tcr.aspect.vinculum": 2
+	},
+	"create:cut_scorchia_stairs": {
+		"tcr.aspect.spiritus": 6,
+		"tcr.aspect.terra": 6,
+		"tcr.aspect.vinculum": 2
+	},
+	"create:cut_scorchia_brick_slab": {
+		"tcr.aspect.spiritus": 6,
+		"tcr.aspect.terra": 6,
+		"tcr.aspect.vinculum": 2
+	},
+	"create:polished_cut_scorchia_stairs": {
+		"tcr.aspect.spiritus": 6,
+		"tcr.aspect.terra": 6,
+		"tcr.aspect.vinculum": 2
+	},
+	"create:cut_scorchia_wall": {
+		"tcr.aspect.spiritus": 6,
+		"tcr.aspect.terra": 6,
+		"tcr.aspect.vinculum": 2
+	},
+	"create:cut_scorchia_brick_wall": {
+		"tcr.aspect.spiritus": 6,
+		"tcr.aspect.terra": 6,
+		"tcr.aspect.vinculum": 2
+	},
+	"create:polished_cut_scorchia": {
+		"tcr.aspect.spiritus": 9,
+		"tcr.aspect.terra": 9,
+		"tcr.aspect.vinculum": 3
+	},
+	"create:cut_scorchia_bricks": {
+		"tcr.aspect.spiritus": 9,
+		"tcr.aspect.terra": 9,
+		"tcr.aspect.vinculum": 3
+	},
+	"create:cut_scorchia": {
+		"tcr.aspect.spiritus": 9,
+		"tcr.aspect.terra": 9,
+		"tcr.aspect.vinculum": 3
+	},
+	"create:small_scorchia_brick_slab": {
+		"tcr.aspect.spiritus": 9,
+		"tcr.aspect.terra": 9,
+		"tcr.aspect.vinculum": 3
+	},
+	"minecraft:purpur_block": {
+		"tcr.aspect.sensus": 5,
+		"tcr.aspect.herba": 5,
+		"tcr.aspect.alienis": 5
+	},
+	"minecraft:end_rod": {
+		"tcr.aspect.sensus": 5,
+		"tcr.aspect.herba": 5,
+		"tcr.aspect.alienis": 5
+	},
+	"minecraft:purpur_stairs": {
+		"tcr.aspect.sensus": 10,
+		"tcr.aspect.herba": 10,
+		"tcr.aspect.alienis": 10
+	},
+	"minecraft:purpur_slab": {
+		"tcr.aspect.sensus": 10,
+		"tcr.aspect.herba": 10,
+		"tcr.aspect.alienis": 10
+	},
+	"minecraft:purpur_pillar": {
+		"tcr.aspect.sensus": 15,
+		"tcr.aspect.herba": 15,
+		"tcr.aspect.alienis": 15
+	},
+	"minecraft:dead_bush": {
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:red_sandstone": {
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:cut_red_sandstone": {
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:red_sandstone_slab": {
+		"tcr.aspect.terra": 2
+	},
+	"minecraft:smooth_red_sandstone": {
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:red_sandstone_stairs": {
+		"tcr.aspect.terra": 3
+	},
+	"minecraft:cut_red_sandstone_slab": {
+		"tcr.aspect.terra": 2
+	},
+	"minecraft:red_sandstone_wall": {
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:chiseled_red_sandstone": {
+		"tcr.aspect.terra": 3
+	},
+	"minecraft:smooth_red_sandstone_stairs": {
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:smooth_red_sandstone_slab": {
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:smooth_stone_slab": {
+		"tcr.aspect.terra": 1
+	},
+	"create:schematic_table": {
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:blast_furnace": {
+		"tcr.aspect.terra": 6,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:armor_stand": {
+		"tcr.aspect.terra": 1
+	},
+	"supplementaries:statue": {
+		"tcr.aspect.terra": 6,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:smooth_quartz_stairs": {
+		"tcr.aspect.ignis": 8,
+		"tcr.aspect.vitreus": 8
+	},
+	"minecraft:smooth_quartz_slab": {
+		"tcr.aspect.ignis": 8,
+		"tcr.aspect.vitreus": 8
+	},
+	"minecraft:nether_bricks": {
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.ignis": 1
+	},
+	"minecraft:nether_brick_fence": {
+		"tcr.aspect.terra": 10,
+		"tcr.aspect.ignis": 2
+	},
+	"minecraft:nether_brick_slab": {
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.ignis": 1
+	},
+	"minecraft:nether_brick_stairs": {
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.ignis": 1
+	},
+	"minecraft:nether_brick_wall": {
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.ignis": 1
+	},
+	"minecraft:chiseled_nether_bricks": {
+		"tcr.aspect.terra": 10,
+		"tcr.aspect.ignis": 2
+	},
+	"minecraft:cracked_nether_bricks": {
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.ignis": 1
+	},
+	"minecraft:gunpowder": {
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.ignis": 1
+	},
+	"minecraft:fire_charge": {
+		"tcr.aspect.terra": 6,
+		"tcr.aspect.ignis": 1,
+		"tcr.aspect.herba": 1
+	},
+	"minecraft:clay": {
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:brick": {
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"supplementaries:daub": {
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"supplementaries:daub_cross_brace": {
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"supplementaries:daub_brace": {
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"supplementaries:daub_frame": {
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:flower_pot": {
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:bricks": {
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:brick_slab": {
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:brick_wall": {
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:brick_stairs": {
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:terracotta": {
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:red_terracotta": {
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:black_terracotta": {
+		"tcr.aspect.terra": 6,
+		"tcr.aspect.perditio": 1,
+		"tcr.aspect.herba": 1
+	},
+	"minecraft:orange_terracotta": {
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:yellow_terracotta": {
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:green_terracotta": {
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:brown_terracotta": {
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:brown_glazed_terracotta": {
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:green_glazed_terracotta": {
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:yellow_glazed_terracotta": {
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:orange_glazed_terracotta": {
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:black_glazed_terracotta": {
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:red_glazed_terracotta": {
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:flint": {
+		"tcr.aspect.terra": 10,
+		"tcr.aspect.perditio": 2
+	},
+	"supplementaries:flint_block": {
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:fletching_table": {
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:iron_leggings": {
+		"tcr.aspect.metallum": 15
+	},
+	"minecraft:iron_hoe": {
+		"tcr.aspect.metallum": 15
+	},
+	"minecraft:rail": {
+		"tcr.aspect.metallum": 15
+	},
+	"hexcasting:trinket": {
+		"tcr.aspect.metallum": 15
+	},
+	"minecraft:tripwire_hook": {
+		"tcr.aspect.metallum": 15
+	},
+	"minecraft:iron_bars": {
+		"tcr.aspect.metallum": 15
+	},
+	"minecraft:iron_helmet": {
+		"tcr.aspect.metallum": 15
+	},
+	"minecraft:heavy_weighted_pressure_plate": {
+		"tcr.aspect.metallum": 15
+	},
+	"minecraft:shield": {
+		"tcr.aspect.metallum": 15
+	},
+	"minecraft:shears": {
+		"tcr.aspect.metallum": 15
+	},
+	"minecraft:iron_axe": {
+		"tcr.aspect.metallum": 15
+	},
+	"minecraft:iron_door": {
+		"tcr.aspect.metallum": 15
+	},
+	"minecraft:bucket": {
+		"tcr.aspect.metallum": 15
+	},
+	"minecraft:iron_sword": {
+		"tcr.aspect.metallum": 15
+	},
+	"create:iron_sheet": {
+		"tcr.aspect.metallum": 15
+	},
+	"minecraft:smithing_table": {
+		"tcr.aspect.metallum": 15
+	},
+	"minecraft:cauldron": {
+		"tcr.aspect.metallum": 15
+	},
+	"supplementaries:faucet": {
+		"tcr.aspect.metallum": 15
+	},
+	"minecraft:minecart": {
+		"tcr.aspect.metallum": 15
+	},
+	"minecraft:iron_boots": {
+		"tcr.aspect.metallum": 15
+	},
+	"minecraft:crossbow": {
+		"tcr.aspect.metallum": 30,
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5
+	},
+	"minecraft:iron_trapdoor": {
+		"tcr.aspect.metallum": 15
+	},
+	"minecraft:iron_shovel": {
+		"tcr.aspect.metallum": 15
+	},
+	"minecraft:iron_pickaxe": {
+		"tcr.aspect.metallum": 15
+	},
+	"minecraft:stone_sword": {
+		"tcr.aspect.terra": 15,
+		"tcr.aspect.perditio": 3
+	},
+	"minecraft:stone_pickaxe": {
+		"tcr.aspect.terra": 15,
+		"tcr.aspect.perditio": 3
+	},
+	"minecraft:stone_shovel": {
+		"tcr.aspect.terra": 15,
+		"tcr.aspect.perditio": 3
+	},
+	"minecraft:brewing_stand": {
+		"tcr.aspect.terra": 15,
+		"tcr.aspect.perditio": 3
+	},
+	"minecraft:stone_axe": {
+		"tcr.aspect.terra": 15,
+		"tcr.aspect.perditio": 3
+	},
+	"minecraft:blackstone": {
+		"tcr.aspect.terra": 10,
+		"tcr.aspect.perditio": 2
+	},
+	"minecraft:mossy_cobblestone": {
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:lever": {
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:stone_hoe": {
+		"tcr.aspect.terra": 15,
+		"tcr.aspect.perditio": 3
+	},
+	"minecraft:furnace": {
+		"tcr.aspect.terra": 15,
+		"tcr.aspect.perditio": 3
+	},
+	"create:rose_quartz": {
+		"tcr.aspect.potentia": 10
+	},
+	"create:wand_of_symmetry": {
+		"tcr.aspect.vitreus": 80,
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.desiderium": 15
+	},
+	"create:vertical_framed_glass": {
+		"tcr.aspect.vitreus": 80
+	},
+	"create:goggles": {
+		"tcr.aspect.vitreus": 120,
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5,
+		"tcr.aspect.metallum": 20,
+		"tcr.aspect.desiderium": 30
+	},
+	"create:framed_glass": {
+		"tcr.aspect.vitreus": 120
+	},
+	"create:warped_window": {
+		"tcr.aspect.vitreus": 140
+	},
+	"create:tiled_glass": {
+		"tcr.aspect.vitreus": 140
+	},
+	"create:horizontal_framed_glass": {
+		"tcr.aspect.vitreus": 150
+	},
+	"create:crimson_window": {
+		"tcr.aspect.vitreus": 155
+	},
+	"create:refined_radiance_casing": {
+		"tcr.aspect.vitreus": 155
+	},
+	"minecraft:diamond_leggings": {
+		"tcr.aspect.vitreus": 15,
+		"tcr.aspect.desiderium": 15
+	},
+	"minecraft:diamond_sword": {
+		"tcr.aspect.vitreus": 15,
+		"tcr.aspect.desiderium": 15
+	},
+	"minecraft:diamond_axe": {
+		"tcr.aspect.vitreus": 15,
+		"tcr.aspect.desiderium": 15
+	},
+	"minecraft:diamond_helmet": {
+		"tcr.aspect.vitreus": 15,
+		"tcr.aspect.desiderium": 15
+	},
+	"minecraft:diamond_boots": {
+		"tcr.aspect.vitreus": 15,
+		"tcr.aspect.desiderium": 15
+	},
+	"minecraft:jukebox": {
+		"tcr.aspect.vitreus": 15,
+		"tcr.aspect.desiderium": 15
+	},
+	"minecraft:diamond_pickaxe": {
+		"tcr.aspect.vitreus": 15,
+		"tcr.aspect.desiderium": 15
+	},
+	"minecraft:diamond_shovel": {
+		"tcr.aspect.vitreus": 15,
+		"tcr.aspect.desiderium": 15
+	},
+	"minecraft:diamond_chestplate": {
+		"tcr.aspect.vitreus": 15,
+		"tcr.aspect.desiderium": 15
+	},
+	"minecraft:diamond_hoe": {
+		"tcr.aspect.vitreus": 15,
+		"tcr.aspect.desiderium": 15
+	},
+	"hexcasting:artifact": {
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.desiderium": 15
+	},
+	"minecraft:golden_hoe": {
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.desiderium": 15
+	},
+	"minecraft:golden_pickaxe": {
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.desiderium": 15
+	},
+	"minecraft:golden_helmet": {
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.desiderium": 15
+	},
+	"create:golden_sheet": {
+		"tcr.aspect.metallum": 20,
+		"tcr.aspect.desiderium": 30
+	},
+	"minecraft:golden_apple": {
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.desiderium": 15
+	},
+	"minecraft:golden_boots": {
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.desiderium": 15
+	},
+	"minecraft:golden_axe": {
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.desiderium": 15
+	},
+	"minecraft:golden_sword": {
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.desiderium": 15
+	},
+	"minecraft:golden_shovel": {
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.desiderium": 15
+	},
+	"minecraft:golden_chestplate": {
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.desiderium": 15
+	},
+	"minecraft:netherite_ingot": {
+		"tcr.aspect.metallum": 20,
+		"tcr.aspect.desiderium": 30
+	},
+	"minecraft:golden_leggings": {
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.desiderium": 15
+	},
+	"minecraft:light_weighted_pressure_plate": {
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.desiderium": 15
+	},
+	"minecraft:prismarine_shard": {
+		"tcr.aspect.praecantatio": 16,
+		"tcr.aspect.desiderium": 16
+	},
+	"minecraft:prismarine_crystals": {
+		"tcr.aspect.praecantatio": 16,
+		"tcr.aspect.desiderium": 16
+	},
+	"supplementaries:jar_boat": {
+		"tcr.aspect.aqua": 4,
+		"tcr.aspect.herba": 4,
+		"tcr.aspect.motus": 4
+	},
+	"create:brass_casing": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.instrumentum": 15
+	},
+	"create:copper_casing": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:soul_campfire": {
+		"tcr.aspect.herba": 2,
+		"tcr.aspect.terra": 3
+	},
+	"minecraft:charcoal": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:smoker": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 6,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:campfire": {
+		"tcr.aspect.herba": 2,
+		"tcr.aspect.terra": 2
+	},
+	"minecraft:beehive": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:wooden_shovel": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:bowl": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:wooden_hoe": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:wooden_axe": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:crafting_table": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:wooden_sword": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:loom": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5
+	},
+	"minecraft:wooden_pickaxe": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"create:shadow_steel_casing": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:barrel": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:chest": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:soul_soil": {
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:string": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5
+	},
+	"minecraft:painting": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5
+	},
+	"create:attribute_filter": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5,
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.instrumentum": 15
+	},
+	"create:filter": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5
+	},
+	"hexcasting:cypher": {
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.permutatio": 15
+	},
+	"minecraft:lightning_rod": {
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.permutatio": 15
+	},
+	"supplementaries:copper_lantern": {
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.permutatio": 15
+	},
+	"hexcasting:amethyst_sconce": {
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.permutatio": 15
+	},
+	"minecraft:spyglass": {
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.permutatio": 15
+	},
+	"supplementaries:wrench": {
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.permutatio": 15
+	},
+	"create:brass_nugget": {
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.instrumentum": 15
+	},
+	"supplementaries:brass_lantern": {
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.instrumentum": 15
+	},
+	"create:brass_sheet": {
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.instrumentum": 15
+	},
+	"create:brass_block": {
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.instrumentum": 15
+	},
+	"create:flywheel": {
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.instrumentum": 15,
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"create:zinc_nugget": {
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.herba": 15
+	},
+	"create:zinc_block": {
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.herba": 15
+	},
+	"create:super_glue": {
+		"tcr.aspect.metallum": 17,
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1,
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5
+	},
+	"create:blue_valve_handle": {
+		"tcr.aspect.praecantatio": 394112,
+		"tcr.aspect.desiderium": 394112,
+		"tcr.aspect.terra": 263736,
+		"tcr.aspect.herba": 130558,
+		"tcr.aspect.mortuus": 209940,
+		"tcr.aspect.victus": 209940
+	},
+	"create:spout": {
+		"tcr.aspect.metallum": 11,
+		"tcr.aspect.praecantatio": 1,
+		"tcr.aspect.permutatio": 15
+	},
+	"create:white_valve_handle": {
+		"tcr.aspect.mortuus": 210760,
+		"tcr.aspect.victus": 210760,
+		"tcr.aspect.terra": 264754,
+		"tcr.aspect.herba": 131062,
+		"tcr.aspect.praecantatio": 395632,
+		"tcr.aspect.desiderium": 395632
+	},
+	"create:magenta_valve_handle": {
+		"tcr.aspect.mortuus": 210750,
+		"tcr.aspect.victus": 210750,
+		"tcr.aspect.praecantatio": 395616,
+		"tcr.aspect.desiderium": 395616,
+		"tcr.aspect.terra": 264738,
+		"tcr.aspect.herba": 131054
+	},
+	"create:lime_valve_handle": {
+		"tcr.aspect.mortuus": 210560,
+		"tcr.aspect.victus": 210560,
+		"tcr.aspect.terra": 264512,
+		"tcr.aspect.herba": 130942,
+		"tcr.aspect.praecantatio": 395264,
+		"tcr.aspect.desiderium": 395264
+	},
+	"minecraft:slime_ball": {
+		"tcr.aspect.mortuus": 10,
+		"tcr.aspect.victus": 10
+	},
+	"create:light_blue_valve_handle": {
+		"tcr.aspect.mortuus": 204180,
+		"tcr.aspect.victus": 204180,
+		"tcr.aspect.praecantatio": 383296,
+		"tcr.aspect.desiderium": 383296,
+		"tcr.aspect.terra": 256496,
+		"tcr.aspect.herba": 126974
+	},
+	"create:gray_valve_handle": {
+		"tcr.aspect.mortuus": 184420,
+		"tcr.aspect.victus": 184420,
+		"tcr.aspect.terra": 231674,
+		"tcr.aspect.herba": 114686,
+		"tcr.aspect.praecantatio": 346192,
+		"tcr.aspect.desiderium": 346192
+	},
+	"create:pink_valve_handle": {
+		"tcr.aspect.mortuus": 209120,
+		"tcr.aspect.victus": 209120,
+		"tcr.aspect.terra": 262702,
+		"tcr.aspect.herba": 130046,
+		"tcr.aspect.praecantatio": 392560,
+		"tcr.aspect.desiderium": 392560
+	},
+	"create:light_gray_valve_handle": {
+		"tcr.aspect.mortuus": 210720,
+		"tcr.aspect.victus": 210720,
+		"tcr.aspect.terra": 264706,
+		"tcr.aspect.herba": 131038,
+		"tcr.aspect.praecantatio": 395552,
+		"tcr.aspect.desiderium": 395552
+	},
+	"minecraft:candle": {
+		"tcr.aspect.mortuus": 50,
+		"tcr.aspect.victus": 50,
+		"tcr.aspect.herba": 10,
+		"tcr.aspect.terra": 10,
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5
+	},
+	"create:purple_valve_handle": {
+		"tcr.aspect.praecantatio": 395648,
+		"tcr.aspect.desiderium": 395648,
+		"tcr.aspect.terra": 264762,
+		"tcr.aspect.herba": 131066,
+		"tcr.aspect.mortuus": 210760,
+		"tcr.aspect.victus": 210760
+	},
+	"create:cyan_valve_handle": {
+		"tcr.aspect.praecantatio": 370928,
+		"tcr.aspect.desiderium": 370928,
+		"tcr.aspect.terra": 248222,
+		"tcr.aspect.herba": 122878,
+		"tcr.aspect.mortuus": 197590,
+		"tcr.aspect.victus": 197590
+	},
+	"supplementaries:bamboo_spikes": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:composter": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"supplementaries:bellows": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"supplementaries:item_shelf": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"create:green_valve_handle": {
+		"tcr.aspect.terra": 132384,
+		"tcr.aspect.herba": 65534,
+		"tcr.aspect.praecantatio": 197824,
+		"tcr.aspect.desiderium": 197824,
+		"tcr.aspect.mortuus": 105380,
+		"tcr.aspect.victus": 105380
+	},
+	"create:black_valve_handle": {
+		"tcr.aspect.terra": 198577,
+		"tcr.aspect.herba": 98302,
+		"tcr.aspect.praecantatio": 296736,
+		"tcr.aspect.desiderium": 296736,
+		"tcr.aspect.mortuus": 158070,
+		"tcr.aspect.victus": 158070
+	},
+	"create:yellow_valve_handle": {
+		"tcr.aspect.terra": 198578,
+		"tcr.aspect.herba": 98302,
+		"tcr.aspect.praecantatio": 296736,
+		"tcr.aspect.desiderium": 296736,
+		"tcr.aspect.mortuus": 158070,
+		"tcr.aspect.victus": 158070
+	},
+	"create:brown_valve_handle": {
+		"tcr.aspect.terra": 260634,
+		"tcr.aspect.herba": 129022,
+		"tcr.aspect.praecantatio": 389472,
+		"tcr.aspect.desiderium": 389472,
+		"tcr.aspect.mortuus": 207470,
+		"tcr.aspect.victus": 207470
+	},
+	"create:red_valve_handle": {
+		"tcr.aspect.terra": 264254,
+		"tcr.aspect.herba": 130814,
+		"tcr.aspect.praecantatio": 394880,
+		"tcr.aspect.desiderium": 394880,
+		"tcr.aspect.mortuus": 210350,
+		"tcr.aspect.victus": 210350
+	},
+	"create:orange_valve_handle": {
+		"tcr.aspect.terra": 264642,
+		"tcr.aspect.herba": 131006,
+		"tcr.aspect.praecantatio": 395456,
+		"tcr.aspect.desiderium": 395456,
+		"tcr.aspect.mortuus": 210660,
+		"tcr.aspect.victus": 210660
+	},
+	"minecraft:crimson_fence": {
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.herba": 1
+	},
+	"minecraft:ladder": {
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.herba": 1
+	},
+	"minecraft:warped_fence": {
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.herba": 1
+	},
+	"minecraft:item_frame": {
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.herba": 1
+	},
+	"minecraft:crimson_fence_gate": {
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.herba": 1
+	},
+	"minecraft:warped_sign": {
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.herba": 1
+	},
+	"minecraft:warped_fence_gate": {
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.herba": 1
+	},
+	"minecraft:fishing_rod": {
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5
+	},
+	"supplementaries:timber_frame": {
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.herba": 1
+	},
+	"supplementaries:timber_brace": {
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.herba": 1
+	},
+	"minecraft:crimson_sign": {
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.herba": 1
+	},
+	"minecraft:bow": {
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5
+	},
+	"supplementaries:timber_cross_brace": {
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.herba": 1
+	},
+	"supplementaries:slingshot": {
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5,
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5
+	},
+	"create:fluid_tank": {
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.permutatio": 15,
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"create:copper_tiles": {
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.permutatio": 15
+	},
+	"create:copper_shingles": {
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.permutatio": 15
+	},
+	"hexcasting:focus": {
+		"tcr.aspect.lux": 10,
+		"tcr.aspect.sensus": 5,
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.ignis": 1
+	},
+	"minecraft:black_dye": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"hexcasting:dye_colorizer_black": {
+		"tcr.aspect.herba": 2,
+		"tcr.aspect.terra": 2
+	},
+	"minecraft:black_candle": {
+		"tcr.aspect.herba": 3,
+		"tcr.aspect.terra": 3,
+		"tcr.aspect.mortuus": 10,
+		"tcr.aspect.victus": 10
+	},
+	"minecraft:dark_prismarine": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.praecantatio": 16,
+		"tcr.aspect.desiderium": 16
+	},
+	"minecraft:dark_prismarine_stairs": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:dark_prismarine_slab": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:yellow_candle": {
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5,
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:red_candle": {
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5,
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:orange_candle": {
+		"tcr.aspect.mortuus": 10,
+		"tcr.aspect.victus": 10,
+		"tcr.aspect.herba": 2,
+		"tcr.aspect.terra": 2
+	},
+	"minecraft:brown_candle": {
+		"tcr.aspect.mortuus": 10,
+		"tcr.aspect.victus": 10,
+		"tcr.aspect.herba": 2,
+		"tcr.aspect.terra": 2
+	},
+	"minecraft:green_candle": {
+		"tcr.aspect.mortuus": 10,
+		"tcr.aspect.victus": 10,
+		"tcr.aspect.herba": 2,
+		"tcr.aspect.terra": 2
+	},
+	"create:item_drain": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.metallum": 15
+	},
+	"create:copper_shingle_slab": {
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.permutatio": 15
+	},
+	"create:waxed_copper_shingles": {
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.permutatio": 15
+	},
+	"create:copper_shingle_stairs": {
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.permutatio": 15
+	},
+	"create:waxed_copper_shingle_stairs": {
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.permutatio": 15
+	},
+	"create:waxed_copper_shingle_slab": {
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.permutatio": 15
+	},
+	"create:copper_tile_stairs": {
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.permutatio": 15
+	},
+	"create:waxed_copper_tiles": {
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.permutatio": 15
+	},
+	"create:copper_tile_slab": {
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.permutatio": 15
+	},
+	"create:waxed_copper_tile_slab": {
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.permutatio": 15
+	},
+	"create:waxed_copper_tile_stairs": {
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.permutatio": 15
+	},
+	"create:crafting_blueprint": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5,
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"supplementaries:sign_post_crimson": {
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.herba": 1
+	},
+	"supplementaries:sign_post_warped": {
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.herba": 1
+	},
+	"minecraft:glow_item_frame": {
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.herba": 1
+	},
+	"minecraft:trapped_chest": {
+		"tcr.aspect.metallum": 30,
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:chest_minecart": {
+		"tcr.aspect.metallum": 45,
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:shulker_box": {
+		"tcr.aspect.metallum": 30,
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"supplementaries:safe": {
+		"tcr.aspect.metallum": 40,
+		"tcr.aspect.desiderium": 15
+	},
+	"create:item_vault": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.metallum": 15
+	},
+	"minecraft:slime_block": {
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5
+	},
+	"minecraft:magma_cream": {
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5
+	},
+	"minecraft:lead": {
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5,
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5
+	},
+	"minecraft:magma_block": {
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5
+	},
+	"minecraft:scaffolding": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5
+	},
+	"supplementaries:sack": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5
+	},
+	"create:peculiar_bell": {
+		"tcr.aspect.metallum": 20,
+		"tcr.aspect.instrumentum": 30
+	},
+	"create:haunted_bell": {
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.instrumentum": 15
+	},
+	"create:crafter_slot_cover": {
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.instrumentum": 15
+	},
+	"create:polished_rose_quartz": {
+		"tcr.aspect.potentia": 10
+	},
+	"hexcasting:dye_colorizer_orange": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:mushroom_stew": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"hexcasting:pride_colorizer_0": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"hexcasting:uuid_colorizer": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"hexcasting:pride_colorizer_3": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"hexcasting:pride_colorizer_4": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"hexcasting:pride_colorizer_7": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"hexcasting:pride_colorizer_8": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"hexcasting:pride_colorizer_5": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"hexcasting:pride_colorizer_9": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"hexcasting:dye_colorizer_yellow": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"hexcasting:dye_colorizer_brown": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"hexcasting:dye_colorizer_red": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"hexcasting:dye_colorizer_green": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:rabbit_stew": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"hexcasting:pride_colorizer_12": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"hexcasting:pride_colorizer_10": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"hexcasting:pride_colorizer_11": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:beetroot_soup": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"minecraft:sea_lantern": {
+		"tcr.aspect.praecantatio": 32,
+		"tcr.aspect.desiderium": 32
+	},
+	"minecraft:prismarine": {
+		"tcr.aspect.praecantatio": 16,
+		"tcr.aspect.desiderium": 16
+	},
+	"minecraft:prismarine_bricks": {
+		"tcr.aspect.praecantatio": 16,
+		"tcr.aspect.desiderium": 16
+	},
+	"minecraft:prismarine_brick_slab": {
+		"tcr.aspect.praecantatio": 16,
+		"tcr.aspect.desiderium": 16
+	},
+	"minecraft:prismarine_brick_stairs": {
+		"tcr.aspect.praecantatio": 16,
+		"tcr.aspect.desiderium": 16
+	},
+	"minecraft:prismarine_stairs": {
+		"tcr.aspect.praecantatio": 16,
+		"tcr.aspect.desiderium": 16
+	},
+	"minecraft:prismarine_wall": {
+		"tcr.aspect.praecantatio": 16,
+		"tcr.aspect.desiderium": 16
+	},
+	"minecraft:prismarine_slab": {
+		"tcr.aspect.praecantatio": 16,
+		"tcr.aspect.desiderium": 16
+	},
+	"minecraft:netherite_axe": {
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.desiderium": 15
+	},
+	"minecraft:netherite_sword": {
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.desiderium": 15
+	},
+	"minecraft:netherite_hoe": {
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.desiderium": 15
+	},
+	"minecraft:netherite_chestplate": {
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.desiderium": 15
+	},
+	"minecraft:netherite_pickaxe": {
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.desiderium": 15
+	},
+	"minecraft:netherite_shovel": {
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.desiderium": 15
+	},
+	"minecraft:netherite_boots": {
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.desiderium": 15
+	},
+	"minecraft:netherite_block": {
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.desiderium": 15
+	},
+	"minecraft:netherite_leggings": {
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.desiderium": 15
+	},
+	"minecraft:netherite_helmet": {
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.desiderium": 15
+	},
+	"create:precision_mechanism": {
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.desiderium": 15
+	},
+	"create:crushed_gold_ore": {
+		"tcr.aspect.metallum": 20,
+		"tcr.aspect.desiderium": 30
+	},
+	"create:crimson_window_pane": {
+		"tcr.aspect.vitreus": 5
+	},
+	"create:horizontal_framed_glass_pane": {
+		"tcr.aspect.vitreus": 5
+	},
+	"create:tiled_glass_pane": {
+		"tcr.aspect.vitreus": 20
+	},
+	"create:warped_window_pane": {
+		"tcr.aspect.vitreus": 20
+	},
+	"create:framed_glass_pane": {
+		"tcr.aspect.vitreus": 40
+	},
+	"create:vertical_framed_glass_pane": {
+		"tcr.aspect.vitreus": 80
+	},
+	"minecraft:furnace_minecart": {
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1,
+		"tcr.aspect.metallum": 15
+	},
+	"minecraft:mossy_cobblestone_slab": {
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:mossy_cobblestone_wall": {
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:mossy_cobblestone_stairs": {
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
+	},
+	"minecraft:polished_blackstone_brick_slab": {
+		"tcr.aspect.terra": 30,
+		"tcr.aspect.perditio": 6
+	},
+	"minecraft:polished_blackstone_wall": {
+		"tcr.aspect.terra": 20,
+		"tcr.aspect.perditio": 4
+	},
+	"minecraft:polished_blackstone": {
+		"tcr.aspect.terra": 10,
+		"tcr.aspect.perditio": 2
+	},
+	"minecraft:blackstone_stairs": {
+		"tcr.aspect.terra": 10,
+		"tcr.aspect.perditio": 2
+	},
+	"minecraft:blackstone_slab": {
+		"tcr.aspect.terra": 10,
+		"tcr.aspect.perditio": 2
+	},
+	"minecraft:polished_blackstone_brick_stairs": {
+		"tcr.aspect.terra": 30,
+		"tcr.aspect.perditio": 6
+	},
+	"minecraft:polished_blackstone_bricks": {
+		"tcr.aspect.terra": 20,
+		"tcr.aspect.perditio": 4
+	},
+	"minecraft:blackstone_wall": {
+		"tcr.aspect.terra": 10,
+		"tcr.aspect.perditio": 2
+	},
+	"minecraft:polished_blackstone_slab": {
+		"tcr.aspect.terra": 20,
+		"tcr.aspect.perditio": 4
+	},
+	"minecraft:polished_blackstone_brick_wall": {
+		"tcr.aspect.terra": 30,
+		"tcr.aspect.perditio": 6
+	},
+	"minecraft:chiseled_polished_blackstone": {
+		"tcr.aspect.terra": 30,
+		"tcr.aspect.perditio": 6
+	},
+	"minecraft:polished_blackstone_stairs": {
+		"tcr.aspect.terra": 20,
+		"tcr.aspect.perditio": 4
+	},
+	"supplementaries:blackstone_lamp": {
+		"tcr.aspect.terra": 10,
+		"tcr.aspect.perditio": 2
+	},
+	"minecraft:cracked_polished_blackstone_bricks": {
+		"tcr.aspect.terra": 10,
+		"tcr.aspect.perditio": 2
+	},
+	"supplementaries:blackstone_tile": {
+		"tcr.aspect.terra": 10,
+		"tcr.aspect.perditio": 2
+	},
+	"supplementaries:blackstone_tile_stairs": {
+		"tcr.aspect.terra": 10,
+		"tcr.aspect.perditio": 2
+	},
+	"supplementaries:blackstone_tile_slab": {
+		"tcr.aspect.terra": 10,
+		"tcr.aspect.perditio": 2
+	},
+	"supplementaries:blackstone_tile_wall": {
+		"tcr.aspect.terra": 10,
+		"tcr.aspect.perditio": 2
+	},
+	"minecraft:polished_blackstone_button": {
+		"tcr.aspect.terra": 10,
+		"tcr.aspect.perditio": 2
+	},
+	"minecraft:polished_blackstone_pressure_plate": {
+		"tcr.aspect.terra": 10,
+		"tcr.aspect.perditio": 2
+	},
+	"create:empty_blaze_burner": {
+		"tcr.aspect.metallum": 30
+	}
+}
