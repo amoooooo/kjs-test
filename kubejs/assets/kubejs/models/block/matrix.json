@@ -1,9 +1,0 @@
-{
-  "loader": "forge:obj",
-  "model": "kubejs:models/block/obj/matrix.obj",
-  "flip-v": "true",
-  "textures": {
-    "texture0": "kubejs:block/runes",
-    "particle": "minecraft:block/polished_blackstone"
-  }
-}
