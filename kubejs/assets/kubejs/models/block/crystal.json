@@ -1,0 +1,9 @@
+{
+  "loader": "forge:obj",
+  "model": "kubejs:models/block/obj/crystal.obj",
+  "flip-v": "true",
+  "textures": {
+    "texture0": "kubejs:block/crystal",
+    "particle": "kubejs:block/crystal"
+  }
+}

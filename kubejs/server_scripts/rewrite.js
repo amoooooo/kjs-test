@@ -34,14 +34,14 @@ onEvent('block.right_click', event => {
                 let outputItem = Item.of(recipe);
                 count = definedRecipe.fluid[0].count;
                 console.log(`time: ${time}`);
-                if (time > 400){
+                if (time > 400) {
                     time = 400;
                 }
                 event.player.swingArm(event.hand);
-                event.server.scheduleInTicks(Math.min(3, Math.round(30/dings)), event => {
+                event.server.scheduleInTicks(Math.min(3, Math.round(30 / dings)), event => {
                     if (dings < 10) {
                         event.server.runCommandSilent(`execute positioned ${pos.x} ${pos.y + 2} ${pos.z} in ${dimension} run stopsound @a[distance=..10] block minecraft:block.end_portal_frame.fill`);
-                        baseEvent.server.runCommandSilent(`execute positioned ${pos.x} ${pos.y + 2} ${pos.z} in ${dimension} run playsound minecraft:block.end_portal_frame.fill block @a[distance=..10] ${pos.x} ${pos.y + 2} ${pos.z} 0.2 ${dings/10}`);
+                        baseEvent.server.runCommandSilent(`execute positioned ${pos.x} ${pos.y + 2} ${pos.z} in ${dimension} run playsound minecraft:block.end_portal_frame.fill block @a[distance=..10] ${pos.x} ${pos.y + 2} ${pos.z} 0.2 ${dings / 10}`);
                         dings++;
                         event.reschedule();
                     } else {
@@ -100,6 +100,7 @@ function getItemsInPedestals(event, pos, x1, y1, z1, x2, y2, z2) {
         } else if (block.id == "supplementaries:jar" && block.entity !== null) {
             let fluid = getFluid(block);
             count = getFluidCount(block);
+            console.log({ fluid: fluid, count: count });
             fluids.push({ fluid: fluid, count: count });
         }
     })
@@ -246,30 +247,33 @@ function checkRecipes(input, recipe) {
         }
     }
     let catalyst = inputCatalyst == recipeCatalyst;
-    let fluid = () => {
+    let fluids = () => {
         for (fluid of inputFluid) {
             //console.log(`${fluid.fluid} + ${fluid.count}`)
             for (fluid2 of recipeFluid) {
                 //console.log(`${fluid2.fluid} + ${fluid2.count}`)
-                if (fluid.fluid == fluid2.fluid && fluid.count >= fluid2.count) {
+                if (fluids.fluid == fluid2.fluid && fluids.count >= fluid2.count) {
                     return true;
                 }
             }
         }
     }
-    return items() && catalyst && fluid();
+    return items() && catalyst && fluids();
 }
 
 function betweenClosed(event, pos, x1, y1, z1, x2, y2, z2) {
     let x = pos.x + x1;
     let y = pos.y + y1;
     let z = pos.z + z1;
-
+    console.log(`${x} ${y} ${z}`)
     let box = [];
     while (x <= pos.x + x2) {
         while (y <= pos.y + y2) {
             while (z <= pos.z + z2) {
-                box.push(event.level.getBlock(x, y, z));
+                if (event.level.getBlock(x,y,z) == "minecraft:air") {
+                } else {
+                    box.push(event.level.getBlock(x, y, z));
+                }
                 z++;
             }
             y++;
@@ -305,7 +309,8 @@ function intToRGB(col) {
     return { r: r / 255, g: g / 255, b: b / 255 };
 }
 
-function particleLine(event, start, end, color, dimension) {
+function particleLine(event, start, end, color) {
+    //console.log(start + " " + end)
     let d = distance(start.x, start.y, start.z, end.x, end.y, end.z);
     let counter = 0;
     let i = -1;
@@ -316,7 +321,7 @@ function particleLine(event, start, end, color, dimension) {
         let z = (1 - delta) * (start.z + 0.5) + delta * (end.z + 0.5);
         //console.log(`${x} | ${y} | ${z}`);
         if (counter == 4) {
-            event.server.runCommandSilent(`execute in ${dimension} run particle minecraft:dust ${color.r} ${color.g} ${color.b} 1.0 ${x} ${y} ${z} 0.1 0.05 0.1 0 2 normal`);
+            event.server.runCommandSilent(`execute in ${event.level.dimension} run particle minecraft:dust ${color.r} ${color.g} ${color.b} 1.0 ${x} ${y} ${z} 0.1 0.05 0.1 0 2 normal`);
             counter = 0;
         } else {
             counter++;

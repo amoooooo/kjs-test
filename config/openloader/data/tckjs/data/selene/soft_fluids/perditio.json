@@ -1,0 +1,19 @@
+{
+	"color": "#4210752",
+	"containers": [
+		{
+			"filled": [
+				"kubejs:perditio_phial"
+			],
+			"empty": "kubejs:essentia_phial",
+			"capacity": 1
+		}
+	],
+	"equivalent_fluids": [
+		"kubejs:perditio_essentia"
+	],
+	"id": "kubejs:perditio_essentia",
+	"translation_key": "item.kubejs.perditio_essentia",
+	"still_texture": "selene:blocks/potion_still",
+	"flowing_texture": "minecraft:block/water_flow"
+}

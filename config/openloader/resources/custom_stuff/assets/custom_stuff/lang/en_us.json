@@ -37,5 +37,14 @@
   "tcr.aspect.vinculum" : "",
   "tcr.aspect.vitium" : "",
   "tcr.aspect.vitreus" : "",
-  "tcr.aspect.volatus" : ""
+  "tcr.aspect.volatus" : "",
+  "tcr.component.bolt" : "" ,
+  "tcr.component.chain" : "" ,
+  "tcr.component.cloud" : "" ,
+  "tcr.component.pulsar" : "" ,
+  "tcr.component.cone" : "",
+  "tcr.component.split" : "",
+  "tcr.component.single" : "",
+  "tcr.component.power": "",
+  "tcr.component.range": ""
 }

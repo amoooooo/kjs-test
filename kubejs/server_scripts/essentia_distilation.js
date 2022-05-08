@@ -10,6 +10,10 @@ onEvent('recipes', event => {
             aspectList.push(Fluid.of(name, count*10));
         })
         //console.log(aspectList);
-        event.recipes.createMixing(aspectList, [Fluid.of("minecraft:water", 50), Item.of(item)]).heated()
+        if (item == Item.of('minecraft:air')){
+
+        } else {
+            event.recipes.createMixing(aspectList, [Fluid.of("minecraft:water", 50), Item.of(item)]).heated()
+        }
     })
 })

@@ -49,13 +49,37 @@ onEvent('item.registry', event => {
             .color(1, color).maxStackSize(16)
             .tooltip('A phial of ' + name + ' essentia.')
             .parentModel('kubejs:perditio_phial')
+        event.create(name.toLowerCase() + '_crystal', 'basic')
+            .displayName(`${name} Crystal`)
+            .color(0, color).maxStackSize(64)
+            .texture('kubejs:item/crystal_essence')
     })
     event.create('essentia_phial', 'basic').displayName('Empty Phial')
     event.create('scanner', 'basic').displayName('Essentia Scanner')
-    event.create('caster_basic', 'basic').displayName("Caster's Gauntlet")
-    event.create('caster_advanced', 'basic').displayName("Advanced Caster's Gauntlet")
+    event.create('caster_basic', 'basic')
+        .displayName("Caster's Gauntlet")
+        .maxStackSize(1)
+        .useAnimation("bow")
+        .useDuration((itemstack) => 72000)
+        .use((level, player, hand) => true)
+        .finishUsing((itemstack, level, entity) => { return itemstack })
+        .releaseUsing((itemstack, level, entity, tick) => {
+            if (entity.player) {
+                /**
+                 * @type {Internal.PlayerJS<Internal.ServerPlayer>}
+                 */
+                let player = entity
+                if (itemstack.nbt && itemstack.nbt.data){
+                    player.addItemCooldown("kubejs:caster_basic", Math.min(120, Math.floor((72000-tick)/2)))
+                }
+            }
+        })
+    event.create('caster_advanced', 'basic').displayName("Advanced Caster's Gauntlet").maxStackSize(1)
     event.create('lightning_focus', 'basic').displayName("Lightning Focus").parentModel('kubejs:item/focus_1').texture('kubejs:item/focus_1').color(0, 0x00e7e7)
-
+    event.create('warding_focus', 'basic').displayName("Warding Focus").parentModel('kubejs:item/focus_2').texture('kubejs:item/focus_2').color(0, 0xe7e7ff)
+    event.create('excavation_focus', 'basic').displayName("Excavation Focus").parentModel('kubejs:item/focus_3').texture('kubejs:item/focus_3').color(0, 0x33a433)
+    event.create('dynamic_focus', 'basic').displayName("Dynamic Focus").parentModel('kubejs:item/focus_1').texture('kubejs:item/focus_1').color(0, 0xb3d7ff)
+    event.create('wand', 'basic').displayName('Wand').parentModel('kubejs:item/wand').texture('kubejs:item/wand').color(0, 0xffffff)
 })
 
 onEvent('postinit', event => {
@@ -64,15 +88,15 @@ onEvent('postinit', event => {
         let output = {
             "color": `#${hex}`,
             "containers": [
-              {
-                "filled": [
-                  `kubejs:${name.toLowerCase()}_phial`
-                ],
-                "empty": "kubejs:essentia_phial",
-                "capacity": 1
-              }
+                {
+                    "filled": [
+                        `kubejs:${name.toLowerCase()}_phial`
+                    ],
+                    "empty": "kubejs:essentia_phial",
+                    "capacity": 1
+                }
             ],
-              "equivalent_fluids": [
+            "equivalent_fluids": [
                 `kubejs:${name.toLowerCase()}_essentia`
             ],
             "id": `kubejs:${name.toLowerCase()}_essentia`,
@@ -95,9 +119,6 @@ onEvent('block.registry', event => {
         .textureAll('kubejs:block/matrix')
         .model('kubejs:block/matrix')
         .box(2, 2, 2, 14, 14, 14)
-        .item(item => {
-            item.group(null)
-        })
     event.create('pillar_ne')
         .material('rock')
         .hardness(0.5)
@@ -134,8 +155,18 @@ onEvent('block.registry', event => {
         .item(item => {
             item.group(null)
         })
+    event.create('urn')
+        .material('rock')
+        .hardness(0.5)
+        .displayName('Urn of Everlasting Life')
+        .renderType('cutout')
+    event.create('crystal')
+        .material('rock')
+        .hardness(0)
+        .displayName('Crystal')
+        .renderType('cutout')
+        .box(4, 0, 4, 12, 8, 12)
 })
-
 
 
 onEvent('fluid.registry', event => {

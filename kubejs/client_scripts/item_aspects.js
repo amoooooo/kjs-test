@@ -9,7 +9,6 @@ onEvent('item.tooltip', e => {
                 Object.keys(aspects[`${id}`]).forEach(aspect => {
                     textAspects.push(`${Text.translate(aspect)}§f${aspects[id][aspect]}§f`);
                 })
-                lines.add(Text.of(""));
                 lines.add(Text.of(textAspects.join("")));
             }
         }

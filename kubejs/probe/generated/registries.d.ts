@@ -1,5 +1,13 @@
 /// <reference path="./globals.d.ts" />
 declare namespace Registry {
+    class Sound_event extends Internal.RegistryObjectBuilderTypes$RegistryEventJS<any> {
+        create(id: string, type: "basic"): Internal.SoundEventBuilder;
+        create(id: string): Internal.SoundEventBuilder;
+    }
+    class Fluid extends Internal.RegistryObjectBuilderTypes$RegistryEventJS<any> {
+        create(id: string, type: "basic"): Internal.FluidBuilder;
+        create(id: string): Internal.FluidBuilder;
+    }
     class Block extends Internal.RegistryObjectBuilderTypes$RegistryEventJS<any> {
         create(id: string, type: "basic"): Internal.BasicBlockJS$Builder;
         create(id: string, type: "detector"): Internal.DetectorBlock$Builder;
@@ -27,16 +35,9 @@ declare namespace Registry {
         create(id: string, type: "chestplate"): Internal.ArmorItemBuilder$Chestplate;
         create(id: string, type: "leggings"): Internal.ArmorItemBuilder$Leggings;
         create(id: string, type: "boots"): Internal.ArmorItemBuilder$Boots;
+        create(id: string, type: "music_disc"): Internal.RecordItemJS$Builder;
         create(id: string, type: "create:sequenced_assembly"): Internal.SequencedAssemblyItemBuilder;
         create(id: string): Internal.BasicItemJS$Builder;
-    }
-    class Fluid extends Internal.RegistryObjectBuilderTypes$RegistryEventJS<any> {
-        create(id: string, type: "basic"): Internal.FluidBuilder;
-        create(id: string): Internal.FluidBuilder;
-    }
-    class Sound_event extends Internal.RegistryObjectBuilderTypes$RegistryEventJS<any> {
-        create(id: string, type: "basic"): Internal.SoundEventBuilder;
-        create(id: string): Internal.SoundEventBuilder;
     }
     class Enchantment extends Internal.RegistryObjectBuilderTypes$RegistryEventJS<any> {
         create(id: string, type: "basic"): Internal.EnchantmentBuilder;
