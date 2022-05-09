@@ -423,3 +423,10 @@ logs/latest.log
 logs/kubejs/client.txt
 logs/kubejs/server.txt
 logs/kubejs/startup.txt
+logs/debug.log
+logs/latest.log
+logs/kubejs/client.txt
+/logs/
+logs/debug.log
+logs/latest.log
+logs/kubejs/client.txt

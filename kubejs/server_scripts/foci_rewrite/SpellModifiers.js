@@ -7,24 +7,26 @@ SpellModifiers.prototype = {
     split: function (spell) {
         let spells = []
         spell.power = spell.power / 3
-        for (let i = 0; i < 2; i++) {
-            let offset = { x: i * Math.random(), y: i * Math.random(), z: i * Math.random() }
+        for (let i = -1; i < 2; i++) {
+            console.log(i)
+            let offset = { x: i + (Math.random() * (1 - -1) + -1), y: i + (Math.random() * (1 - -1) + -1), z: i + (Math.random() * (1 - -1) + -1)}
+            console.log(offset)
             spell.offset = offset
             let spellShape = new SpellShapes().parse(spell)
             spells.push(spellShape)
         }
-        return [spells]
+        return spells
     },
     cone: function (spell) {
         let spells = []
         spell.power = spell.power / 5
         for (let i = 0; i < 4; i++) {
-            let offset = { x: i * Math.random(), y: 0, z: i * Math.random() }
+            let offset = { x: Math.cos(i * Math.random() * (1 - -1) + -1) * (i*2), y: 0, z: Math.cos(i * Math.random() * (1 - -1) + -1) * (i*2)}
             spell.offset = offset
             let spellShape = new SpellShapes().parse(spell)
             spells.push(spellShape)
         }
-        return [spells]
+        return spells
     },
     single: function (spell) {
         let spellShape = new SpellShapes().parse(spell)

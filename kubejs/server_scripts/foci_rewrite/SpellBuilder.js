@@ -31,35 +31,27 @@ SpellBuilder.prototype = {
     },
     parseChain: function (focus) {
         this.chain = focus.data.chain
+        let data = focus.data
+        data.spells.forEach(spell => {
+            spell.location = this.location
+        })
+        console.log(data.spells)
+        console.log(this.location)
         for (let i = 0; i < this.chain; i++) {
-            this.spells.push(focus.data.spells[i])
+            console.log(this.location)
+            this.spells.push(data.spells[i])
         }
     },
     // Figure out logic for chain spells
     cast: function () {
         if (this.chain > 1) {
+            console.log(this)
             for (let i = 0; i < this.chain; i++) {
                 let spellShape = new SpellModifiers().parse(this.spells[i])
-                for (modSpell of spellShape.mod) {
-                    if (Array.isArray(modSpell.position)) {
-                        for (let position in modSpell.position) {
-                            if (position <= modSpell.position.length - 1) {
-                                let subSpell = new SpellModifiers().parse(this.spells[i + 1])
-                                let subCast = new SpellAspects()
-                                subCast.cast(this.spells[i + 1], subSpell)
-                            } else {
-                                if (i <= this.chain - 1) {
-                                    this.spells[i + 1].position = modSpell.position
-
-                                }
-                            }
-                        }
-                    } else {
-                        if (i <= this.chain - 1) {
-                            this.spells[i + 1].position = modSpell.position
-                        }
-                    }
-                }
+                console.log(spellShape)
+                let cast = new SpellAspects()
+                cast.parse(this.spells[i], spellShape)
+                console.log(cast)
             }
         } else {
             let spellShape = new SpellModifiers().parse(this)

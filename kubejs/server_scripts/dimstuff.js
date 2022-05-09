@@ -4,7 +4,7 @@ onEvent('block.right_click', event => {
             let data = betweenClosedBlocksStructure(event, event.block, event.block.x - 10, event.block.y, event.block.z - 10, event.block.x + 10, event.block.y + 10, event.block.z + 10);
             let key = `key_${event.player.id}`
             console.log(`key: ${key} data: ${data}`)
-            console.log(event.level.persistentData.toString())
+            console.log(data)
             event.level.persistentData[key] = data;
             console.log(`persistentData: ${event.level.persistentData[key]}`)
             data.forEach((pos, block) => {

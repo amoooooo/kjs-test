@@ -17,7 +17,7 @@ SpellShapes.prototype = {
         if (spell.offset) {
             ray = ray.offset(spell.offset.x, spell.offset.y, spell.offset.z)
         }
-        particleLine(spell.event, { x: spell.event.player.x, y: spell.event.player.y + 1, z: spell.event.player.z }, ray, aspectColors[spell.aspect])
+        particleLine(spell.event, { x: spell.event.player.x - 0.5, y: spell.event.player.y + 0.5, z: spell.event.player.z - 0.5}, ray, aspectColors[spell.aspect])
         console.log(entities)
         return { entities: entities, position: ray }
     },
@@ -66,7 +66,7 @@ SpellShapes.prototype = {
             let block = spell.location[(spell.location.length - 1) / 2]
             spell.location = spell.event.level.getBlock(block.x, block.y, block.z)
         }
-        spell.location = spell.location.isPlayer() ? spell.event.level.getBlock(spell.location.x, spell.location.y, spell.location.z) : spell.location
+        if (!spell.location.getLight) {spell.location = spell.location.isPlayer() ? spell.event.level.getBlock(spell.location.x, spell.location.y, spell.location.z) : spell.location} else {spell.location = spell.location}
         console.log(spell.location)
         spell.location = spell.offset ? spell.location.offset(spell.offset.x, spell.offset.y, spell.offset.z) : spell.location
         console.log(spell.location)

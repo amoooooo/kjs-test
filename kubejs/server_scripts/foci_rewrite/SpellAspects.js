@@ -7,17 +7,21 @@ function SpellAspects() {
 
 SpellAspects.prototype = {
     ignis: function (spell, modifiedSpells) {
+        console.log(modifiedSpells)
         if (modifiedSpells.mod.length > 0) {
             for (let i = 0; i < modifiedSpells.mod.length; i++) {
                 let modifiedSpell = modifiedSpells.mod[i]
+                console.log(modifiedSpell)
                 let count = 0
                 spell.event.server.scheduleInTicks(1, event => {
                     if (count < spell.duration) {
                         for (entity of modifiedSpell.entities) {
-                            if (!entity.minecraftEntity.isOnFire()) {
-                                entity.setOnFire(spell.duration)
+                            if (entity.getType() != 'minecraft:item'){
+                                if (!entity.minecraftEntity.isOnFire()) {
+                                    entity.setOnFire(spell.duration)
+                                }
+                                entity.attack(spell.power)
                             }
-                            entity.attack(spell.power)
                         }
                         count++
                         event.reschedule()
