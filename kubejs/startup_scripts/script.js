@@ -60,7 +60,7 @@ onEvent('item.registry', event => {
         .displayName("Caster's Gauntlet")
         .maxStackSize(1)
         .useAnimation("bow")
-        .useDuration((itemstack) => 72000)
+        .useDuration((itemstack) => (itemstack.nbt && itemstack.nbt.data) ? itemstack.nbt.data.duration : 5)
         .use((level, player, hand) => true)
         .finishUsing((itemstack, level, entity) => { return itemstack })
         .releaseUsing((itemstack, level, entity, tick) => {
@@ -69,17 +69,78 @@ onEvent('item.registry', event => {
                  * @type {Internal.PlayerJS<Internal.ServerPlayer>}
                  */
                 let player = entity
-                if (itemstack.nbt && itemstack.nbt.data){
-                    player.addItemCooldown("kubejs:caster_basic", Math.min(120, Math.floor((72000-tick)/2)))
+                if (itemstack.nbt && itemstack.nbt.data) {
+                    player.addItemCooldown("kubejs:caster_basic", Math.min(5, Math.floor(5 - tick)))
                 }
             }
         })
-    event.create('caster_advanced', 'basic').displayName("Advanced Caster's Gauntlet").maxStackSize(1)
+        .color((itemstack, tintindex) => {
+            if (itemstack.nbt && itemstack.nbt.data && tintindex == 1) {
+                return itemstack.nbt.data.color
+            }
+            return 0xffffff
+        })
+    event.create('caster_advanced', 'basic')
+        .displayName("Advanced Caster's Gauntlet")
+        .maxStackSize(1)
+        .useAnimation("bow")
+        .useDuration((itemstack) => (itemstack.nbt && itemstack.nbt.data) ? itemstack.nbt.data.duration : 5)
+        .use((level, player, hand) => true)
+        .finishUsing((itemstack, level, entity) => { return itemstack })
+        .releaseUsing((itemstack, level, entity, tick) => {
+            if (entity.player) {
+                /**
+                 * @type {Internal.PlayerJS<Internal.ServerPlayer>}
+                 */
+                let player = entity
+                if (itemstack.nbt && itemstack.nbt.data) {
+                    player.addItemCooldown("kubejs:caster_advanced", Math.min(5, Math.floor(5 - tick)))
+                }
+            }
+        })
+        .color((itemstack, tintindex) => {
+            if (itemstack.nbt && itemstack.nbt.data && tintindex == 1) {
+                return itemstack.nbt.data.color
+            }
+            return 0xffffff
+        })
     event.create('lightning_focus', 'basic').displayName("Lightning Focus").parentModel('kubejs:item/focus_1').texture('kubejs:item/focus_1').color(0, 0x00e7e7)
     event.create('warding_focus', 'basic').displayName("Warding Focus").parentModel('kubejs:item/focus_2').texture('kubejs:item/focus_2').color(0, 0xe7e7ff)
     event.create('excavation_focus', 'basic').displayName("Excavation Focus").parentModel('kubejs:item/focus_3').texture('kubejs:item/focus_3').color(0, 0x33a433)
-    event.create('dynamic_focus', 'basic').displayName("Dynamic Focus").parentModel('kubejs:item/focus_1').texture('kubejs:item/focus_1').color(0, 0xb3d7ff)
-    event.create('wand', 'basic').displayName('Wand').parentModel('kubejs:item/wand').texture('kubejs:item/wand').color(0, 0xffffff)
+    event.create('boots_of_the_traveller', 'basic').displayName("Boots of the Traveller").texture('kubejs:item/traveller_boots')
+    event.create('dynamic_focus', 'basic').displayName("Dynamic Focus").parentModel('kubejs:item/focus_1').texture('kubejs:item/focus_1')
+        .color((itemstack) => {
+            if (itemstack.nbt && itemstack.nbt.data) {
+                return itemstack.nbt.data.color
+            }
+            return 0xb3d7ff
+        })
+    event.create('wand', 'basic')
+        .displayName('Wand')
+        .maxStackSize(1)
+        .parentModel('kubejs:item/wand')
+        .texture('kubejs:item/wand')
+        .useAnimation("bow")
+        .useDuration((itemstack) => (itemstack.nbt && itemstack.nbt.data) ? itemstack.nbt.data.duration : 5)
+        .use((level, player, hand) => true)
+        .finishUsing((itemstack, level, entity) => { return itemstack })
+        .releaseUsing((itemstack, level, entity, tick) => {
+            if (entity.player) {
+                /**
+                 * @type {Internal.PlayerJS<Internal.ServerPlayer>}
+                 */
+                let player = entity
+                if (itemstack.nbt && itemstack.nbt.data) {
+                    player.addItemCooldown("kubejs:wand", Math.min(5, Math.floor(5 - tick)))
+                }
+            }
+        })
+        .color((itemstack, tintindex) => {
+            if (itemstack.nbt && itemstack.nbt.data && tintindex == 1) {
+                return itemstack.nbt.data.color
+            }
+            return 0xffffff
+        })
 })
 
 onEvent('postinit', event => {

@@ -14,6 +14,10 @@
 		"create:brown_toolbox": true,
 		"create:wrench": true
 	},
+	"malum:runewood_tiles": {
+		"malum:runewood_tiles_stairs": true,
+		"malum:runewood_tiles_slab": true
+	},
 	"create:cut_asurine": {
 		"create:polished_cut_asurine_stairs": true,
 		"create:small_asurine_bricks": true,
@@ -332,8 +336,15 @@
 		"minecraft:gray_dye": true,
 		"minecraft:fire_charge": true,
 		"minecraft:torch": true,
+		"malum:charcoal_fragment": true,
 		"minecraft:soul_torch": true,
 		"minecraft:campfire": true
+	},
+	"malum:polished_tainted_rock": {
+		"malum:polished_tainted_rock_slab": true,
+		"malum:polished_tainted_rock_stairs": true,
+		"malum:tainted_rock_bricks": true,
+		"malum:tainted_rock_tiles": true
 	},
 	"minecraft:red_dye": {
 		"minecraft:red_wool": true,
@@ -424,6 +435,7 @@
 		"minecraft:iron_nugget": true,
 		"ae2:semi_dark_monitor": true,
 		"minecraft:iron_block": true,
+		"malum:crude_scythe": true,
 		"ae2:interface": true,
 		"ae2:pattern_provider": true,
 		"create:mechanical_saw": true,
@@ -679,7 +691,8 @@
 		"minecraft:deepslate_tiles": true,
 		"minecraft:deepslate": true,
 		"minecraft:deepslate_tile_slab": true,
-		"minecraft:stone_hoe": true
+		"minecraft:stone_hoe": true,
+		"minecraft:netherrack": true
 	},
 	"create:polished_cut_deepslate": {
 		"create:polished_cut_deepslate_wall": true,
@@ -1645,6 +1658,274 @@
 		"supplementaries:item_shelf": true,
 		"create:yellow_seat": true
 	},
+	"malum:runewood_planks_slab": {
+		"create:light_gray_seat": true,
+		"create:black_seat": true,
+		"supplementaries:jar": true,
+		"supplementaries:cage": true,
+		"malum:runewood_item_stand": true,
+		"minecraft:composter": true,
+		"create:white_seat": true,
+		"create:schematic_table": true,
+		"create:magenta_seat": true,
+		"create:gray_seat": true,
+		"create:brown_seat": true,
+		"minecraft:lectern": true,
+		"minecraft:barrel": true,
+		"malum:runewood_item_pedestal": true,
+		"supplementaries:blackboard": true,
+		"supplementaries:pulley_block": true,
+		"create:purple_seat": true,
+		"create:water_wheel": true,
+		"create:light_blue_seat": true,
+		"minecraft:daylight_detector": true,
+		"create:cyan_seat": true,
+		"create:lime_seat": true,
+		"create:green_seat": true,
+		"create:pink_seat": true,
+		"create:red_seat": true,
+		"supplementaries:bamboo_spikes": true,
+		"create:orange_seat": true,
+		"supplementaries:flower_box": true,
+		"supplementaries:bellows": true,
+		"create:blue_seat": true,
+		"create:turntable": true,
+		"supplementaries:item_shelf": true,
+		"create:yellow_seat": true
+	},
+	"malum:vertical_runewood_planks_slab": {
+		"create:light_gray_seat": true,
+		"create:black_seat": true,
+		"supplementaries:jar": true,
+		"supplementaries:cage": true,
+		"minecraft:composter": true,
+		"create:white_seat": true,
+		"create:schematic_table": true,
+		"create:magenta_seat": true,
+		"create:gray_seat": true,
+		"create:brown_seat": true,
+		"minecraft:lectern": true,
+		"minecraft:barrel": true,
+		"supplementaries:blackboard": true,
+		"supplementaries:pulley_block": true,
+		"create:purple_seat": true,
+		"create:water_wheel": true,
+		"create:light_blue_seat": true,
+		"minecraft:daylight_detector": true,
+		"create:cyan_seat": true,
+		"create:lime_seat": true,
+		"create:green_seat": true,
+		"create:pink_seat": true,
+		"create:red_seat": true,
+		"supplementaries:bamboo_spikes": true,
+		"create:orange_seat": true,
+		"supplementaries:flower_box": true,
+		"supplementaries:bellows": true,
+		"create:blue_seat": true,
+		"create:turntable": true,
+		"supplementaries:item_shelf": true,
+		"create:yellow_seat": true
+	},
+	"malum:runewood_panel_slab": {
+		"create:light_gray_seat": true,
+		"create:black_seat": true,
+		"supplementaries:jar": true,
+		"supplementaries:cage": true,
+		"minecraft:composter": true,
+		"create:white_seat": true,
+		"create:schematic_table": true,
+		"create:magenta_seat": true,
+		"create:gray_seat": true,
+		"create:brown_seat": true,
+		"minecraft:lectern": true,
+		"minecraft:barrel": true,
+		"supplementaries:blackboard": true,
+		"supplementaries:pulley_block": true,
+		"create:purple_seat": true,
+		"create:water_wheel": true,
+		"create:light_blue_seat": true,
+		"minecraft:daylight_detector": true,
+		"create:cyan_seat": true,
+		"create:lime_seat": true,
+		"create:green_seat": true,
+		"create:pink_seat": true,
+		"create:red_seat": true,
+		"supplementaries:bamboo_spikes": true,
+		"create:orange_seat": true,
+		"supplementaries:flower_box": true,
+		"supplementaries:bellows": true,
+		"create:blue_seat": true,
+		"create:turntable": true,
+		"supplementaries:item_shelf": true,
+		"create:yellow_seat": true
+	},
+	"malum:runewood_tiles_slab": {
+		"create:light_gray_seat": true,
+		"create:black_seat": true,
+		"supplementaries:jar": true,
+		"supplementaries:cage": true,
+		"minecraft:composter": true,
+		"create:white_seat": true,
+		"create:schematic_table": true,
+		"create:magenta_seat": true,
+		"create:gray_seat": true,
+		"create:brown_seat": true,
+		"minecraft:lectern": true,
+		"minecraft:barrel": true,
+		"supplementaries:blackboard": true,
+		"supplementaries:pulley_block": true,
+		"create:purple_seat": true,
+		"create:water_wheel": true,
+		"create:light_blue_seat": true,
+		"minecraft:daylight_detector": true,
+		"create:cyan_seat": true,
+		"create:lime_seat": true,
+		"create:green_seat": true,
+		"create:pink_seat": true,
+		"create:red_seat": true,
+		"supplementaries:bamboo_spikes": true,
+		"create:orange_seat": true,
+		"supplementaries:flower_box": true,
+		"supplementaries:bellows": true,
+		"create:blue_seat": true,
+		"create:turntable": true,
+		"supplementaries:item_shelf": true,
+		"create:yellow_seat": true
+	},
+	"malum:soulwood_planks_slab": {
+		"create:light_gray_seat": true,
+		"create:black_seat": true,
+		"supplementaries:jar": true,
+		"supplementaries:cage": true,
+		"minecraft:composter": true,
+		"create:white_seat": true,
+		"create:schematic_table": true,
+		"create:magenta_seat": true,
+		"create:gray_seat": true,
+		"create:brown_seat": true,
+		"minecraft:lectern": true,
+		"minecraft:barrel": true,
+		"supplementaries:blackboard": true,
+		"supplementaries:pulley_block": true,
+		"malum:soulwood_item_stand": true,
+		"create:purple_seat": true,
+		"create:water_wheel": true,
+		"create:light_blue_seat": true,
+		"minecraft:daylight_detector": true,
+		"create:cyan_seat": true,
+		"create:lime_seat": true,
+		"create:green_seat": true,
+		"create:pink_seat": true,
+		"create:red_seat": true,
+		"supplementaries:bamboo_spikes": true,
+		"create:orange_seat": true,
+		"supplementaries:flower_box": true,
+		"supplementaries:bellows": true,
+		"create:blue_seat": true,
+		"create:turntable": true,
+		"supplementaries:item_shelf": true,
+		"create:yellow_seat": true,
+		"malum:soulwood_item_pedestal": true
+	},
+	"malum:vertical_soulwood_planks_slab": {
+		"create:light_gray_seat": true,
+		"create:black_seat": true,
+		"supplementaries:jar": true,
+		"supplementaries:cage": true,
+		"minecraft:composter": true,
+		"create:white_seat": true,
+		"create:schematic_table": true,
+		"create:magenta_seat": true,
+		"create:gray_seat": true,
+		"create:brown_seat": true,
+		"minecraft:lectern": true,
+		"minecraft:barrel": true,
+		"supplementaries:blackboard": true,
+		"supplementaries:pulley_block": true,
+		"create:purple_seat": true,
+		"create:water_wheel": true,
+		"create:light_blue_seat": true,
+		"minecraft:daylight_detector": true,
+		"create:cyan_seat": true,
+		"create:lime_seat": true,
+		"create:green_seat": true,
+		"create:pink_seat": true,
+		"create:red_seat": true,
+		"supplementaries:bamboo_spikes": true,
+		"create:orange_seat": true,
+		"supplementaries:flower_box": true,
+		"supplementaries:bellows": true,
+		"create:blue_seat": true,
+		"create:turntable": true,
+		"supplementaries:item_shelf": true,
+		"create:yellow_seat": true
+	},
+	"malum:soulwood_panel_slab": {
+		"create:light_gray_seat": true,
+		"create:black_seat": true,
+		"supplementaries:jar": true,
+		"supplementaries:cage": true,
+		"minecraft:composter": true,
+		"create:white_seat": true,
+		"create:schematic_table": true,
+		"create:magenta_seat": true,
+		"create:gray_seat": true,
+		"create:brown_seat": true,
+		"minecraft:lectern": true,
+		"minecraft:barrel": true,
+		"supplementaries:blackboard": true,
+		"supplementaries:pulley_block": true,
+		"create:purple_seat": true,
+		"create:water_wheel": true,
+		"create:light_blue_seat": true,
+		"minecraft:daylight_detector": true,
+		"create:cyan_seat": true,
+		"create:lime_seat": true,
+		"create:green_seat": true,
+		"create:pink_seat": true,
+		"create:red_seat": true,
+		"supplementaries:bamboo_spikes": true,
+		"create:orange_seat": true,
+		"supplementaries:flower_box": true,
+		"supplementaries:bellows": true,
+		"create:blue_seat": true,
+		"create:turntable": true,
+		"supplementaries:item_shelf": true,
+		"create:yellow_seat": true
+	},
+	"malum:soulwood_tiles_slab": {
+		"create:light_gray_seat": true,
+		"create:black_seat": true,
+		"supplementaries:jar": true,
+		"supplementaries:cage": true,
+		"minecraft:composter": true,
+		"create:white_seat": true,
+		"create:schematic_table": true,
+		"create:magenta_seat": true,
+		"create:gray_seat": true,
+		"create:brown_seat": true,
+		"minecraft:lectern": true,
+		"minecraft:barrel": true,
+		"supplementaries:blackboard": true,
+		"supplementaries:pulley_block": true,
+		"create:purple_seat": true,
+		"create:water_wheel": true,
+		"create:light_blue_seat": true,
+		"minecraft:daylight_detector": true,
+		"create:cyan_seat": true,
+		"create:lime_seat": true,
+		"create:green_seat": true,
+		"create:pink_seat": true,
+		"create:red_seat": true,
+		"supplementaries:bamboo_spikes": true,
+		"create:orange_seat": true,
+		"supplementaries:flower_box": true,
+		"supplementaries:bellows": true,
+		"create:blue_seat": true,
+		"create:turntable": true,
+		"supplementaries:item_shelf": true,
+		"create:yellow_seat": true
+	},
 	"create:cut_diorite": {
 		"create:cut_diorite": true,
 		"create:cut_diorite_wall": true,
@@ -1939,6 +2220,9 @@
 		"create:cut_diorite_brick_wall": true,
 		"create:layered_diorite": true
 	},
+	"malum:hallowed_gold_nugget": {
+		"malum:hallowed_gold_ingot": true
+	},
 	"minecraft:copper_ore": {
 		"create:crushed_copper_ore": true,
 		"create:experience_nugget": true,
@@ -1992,7 +2276,8 @@
 		"minecraft:lever": true,
 		"minecraft:andesite": true,
 		"minecraft:stone": true,
-		"minecraft:stone_hoe": true
+		"minecraft:stone_hoe": true,
+		"minecraft:netherrack": true
 	},
 	"minecraft:lime_stained_glass": {
 		"minecraft:lime_stained_glass_pane": true,
@@ -2082,6 +2367,25 @@
 		"minecraft:prismarine_crystals": true,
 		"minecraft:blue_dye": true,
 		"minecraft:lapis_block": true
+	},
+	"malum:tainted_rock": {
+		"malum:tainted_rock_stairs": true,
+		"malum:cut_tainted_rock": true,
+		"malum:tainted_rock_button": true,
+		"malum:tainted_rock_pressure_plate": true,
+		"malum:tainted_rock_slab": true,
+		"malum:tainted_rock_item_pedestal": true,
+		"malum:polished_tainted_rock": true,
+		"malum:smooth_tainted_rock": true,
+		"malum:small_tainted_rock_bricks": true,
+		"malum:tainted_rock_tiles": true,
+		"malum:tainted_rock_column": true,
+		"malum:tainted_rock_wall": true,
+		"malum:tainted_rock_item_stand": true,
+		"malum:tainted_rock_bricks": true,
+		"malum:the_device": true,
+		"malum:tainted_rock_column_cap": true,
+		"malum:chiseled_tainted_rock": true
 	},
 	"minecraft:raw_copper_block": {
 		"minecraft:raw_copper": true,
@@ -2480,6 +2784,8 @@
 		"minecraft:redstone_torch": true,
 		"minecraft:armor_stand": true,
 		"minecraft:brown_banner": true,
+		"malum:soul_stained_steel_pickaxe": true,
+		"malum:runewood_planks_fence": true,
 		"minecraft:gray_banner": true,
 		"supplementaries:flag_light_blue": true,
 		"minecraft:rail": true,
@@ -2489,6 +2795,7 @@
 		"minecraft:purple_banner": true,
 		"minecraft:wooden_hoe": true,
 		"ae2:certus_quartz_pickaxe": true,
+		"malum:runewood_planks_fence_gate": true,
 		"minecraft:white_banner": true,
 		"minecraft:light_gray_banner": true,
 		"minecraft:wooden_axe": true,
@@ -2499,6 +2806,7 @@
 		"minecraft:red_banner": true,
 		"minecraft:torch": true,
 		"supplementaries:daub_frame": true,
+		"supplementaries:malum/hanging_sign_soulwood": true,
 		"minecraft:warped_fence": true,
 		"minecraft:dark_oak_fence_gate": true,
 		"minecraft:item_frame": true,
@@ -2517,11 +2825,13 @@
 		"minecraft:warped_sign": true,
 		"hexcasting:wand_oak": true,
 		"minecraft:magenta_banner": true,
+		"malum:crude_scythe": true,
 		"minecraft:diamond_pickaxe": true,
 		"create:controller_rail": true,
 		"supplementaries:flag_cyan": true,
 		"minecraft:wooden_pickaxe": true,
 		"minecraft:golden_axe": true,
+		"malum:soulwood_planks_fence_gate": true,
 		"minecraft:acacia_fence": true,
 		"minecraft:cyan_banner": true,
 		"minecraft:acacia_fence_gate": true,
@@ -2551,18 +2861,19 @@
 		"hexcasting:wand_jungle": true,
 		"create:extendo_grip": true,
 		"ae2:nether_quartz_shovel": true,
-		"supplementaries:hexcasting/hanging_sign_akashic": true,
 		"supplementaries:hanging_sign_crimson": true,
 		"minecraft:jungle_fence_gate": true,
 		"supplementaries:hanging_sign_acacia": true,
 		"create:analog_lever": true,
 		"minecraft:crimson_fence": true,
+		"malum:soul_stained_steel_shovel": true,
 		"minecraft:orange_banner": true,
 		"minecraft:dark_oak_sign": true,
 		"minecraft:wooden_shovel": true,
 		"hexcasting:wand_spruce": true,
 		"supplementaries:flag_yellow": true,
 		"minecraft:oak_sign": true,
+		"malum:soulwood_sign": true,
 		"supplementaries:hanging_sign_birch": true,
 		"minecraft:stone_pickaxe": true,
 		"minecraft:tripwire_hook": true,
@@ -2571,6 +2882,7 @@
 		"minecraft:light_blue_banner": true,
 		"minecraft:stone_shovel": true,
 		"hexcasting:abacus": true,
+		"malum:runewood_sign": true,
 		"minecraft:wooden_sword": true,
 		"minecraft:birch_fence_gate": true,
 		"supplementaries:flag_blue": true,
@@ -2589,13 +2901,15 @@
 		"hexcasting:sub_sandwich": true,
 		"minecraft:fishing_rod": true,
 		"supplementaries:timber_frame": true,
+		"malum:soulwood_planks_fence": true,
 		"supplementaries:hanging_sign_dark_oak": true,
 		"hexcasting:wand_warped": true,
 		"supplementaries:flag_white": true,
 		"minecraft:grindstone": true,
 		"supplementaries:timber_brace": true,
 		"minecraft:golden_sword": true,
-		"supplementaries:hexcasting/sign_post_akashic": true,
+		"malum:soul_stained_steel_axe": true,
+		"supplementaries:malum/hanging_sign_runewood": true,
 		"minecraft:dark_oak_fence": true,
 		"supplementaries:flag_orange": true,
 		"minecraft:oak_fence": true,
@@ -2609,6 +2923,7 @@
 		"hexcasting:wand_crimson": true,
 		"create:wrench": true,
 		"hexcasting:wand_akashic": true,
+		"malum:soul_stained_steel_hoe": true,
 		"minecraft:bow": true,
 		"supplementaries:timber_cross_brace": true,
 		"ae2:certus_quartz_sword": true,
@@ -2616,7 +2931,8 @@
 		"supplementaries:flag_gray": true,
 		"create:wooden_bracket": true,
 		"create:sail_frame": true,
-		"minecraft:campfire": true
+		"minecraft:campfire": true,
+		"malum:soul_stained_steel_sword": true
 	},
 	"minecraft:copper_block": {
 		"minecraft:cut_copper_slab": true,
@@ -2625,6 +2941,23 @@
 		"minecraft:waxed_copper_block": true,
 		"minecraft:copper_ingot": true,
 		"create:copper_backtank": true
+	},
+	"malum:runewood_log": {
+		"malum:runewood": true,
+		"create:brass_casing": true,
+		"malum:arcane_charcoal": true,
+		"minecraft:smoker": true,
+		"create:andesite_casing": true,
+		"malum:stripped_runewood_log": true,
+		"create:cart_assembler": true,
+		"create:linear_chassis": true,
+		"create:copper_casing": true,
+		"malum:runewood_planks": true,
+		"create:cuckoo_clock": true,
+		"create:schematicannon": true,
+		"minecraft:soul_campfire": true,
+		"create:radial_chassis": true,
+		"minecraft:campfire": true
 	},
 	"minecraft:gravel": {
 		"minecraft:sand": true,
@@ -3100,13 +3433,27 @@
 		"minecraft:leather_helmet": true,
 		"hexcasting:focus": true,
 		"minecraft:item_frame": true,
+		"malum:gilded_ring": true,
 		"minecraft:leather_chestplate": true,
+		"malum:gilded_belt": true,
 		"minecraft:leather_leggings": true,
 		"minecraft:book": true,
+		"malum:ornate_ring": true,
 		"supplementaries:bellows": true,
 		"create:brown_toolbox": true,
 		"minecraft:leather_boots": true,
 		"minecraft:leather_horse_armor": true
+	},
+	"malum:twisted_rock_bricks": {
+		"malum:twisted_rock_column": true,
+		"malum:cracked_twisted_rock_bricks": true,
+		"malum:twisted_rock_bricks_slab": true,
+		"malum:twisted_rock_tiles": true,
+		"malum:twisted_rock_bricks_stairs": true,
+		"malum:cracked_small_twisted_rock_bricks": true,
+		"malum:twisted_rock_bricks_wall": true,
+		"malum:small_twisted_rock_bricks": true,
+		"malum:chiseled_twisted_rock": true
 	},
 	"minecraft:light_blue_wool": {
 		"minecraft:light_blue_bed": true,
@@ -3610,7 +3957,6 @@
 		"minecraft:beehive": true,
 		"hexcasting:akashic_door": true,
 		"create:large_cogwheel": true,
-		"supplementaries:hexcasting/hanging_sign_akashic": true,
 		"create:crushing_wheel": true,
 		"create:gantry_carriage": true,
 		"create:mechanical_piston": true,
@@ -3636,7 +3982,6 @@
 		"create:millstone": true,
 		"hexcasting:akashic_trapdoor": true,
 		"minecraft:grindstone": true,
-		"supplementaries:hexcasting/sign_post_akashic": true,
 		"hexcasting:akashic_panel": true,
 		"minecraft:blue_bed": true,
 		"hexcasting:akashic_slab": true,
@@ -3793,6 +4138,419 @@
 		"create:wooden_bracket": true,
 		"create:redstone_link": true
 	},
+	"malum:runewood_planks": {
+		"minecraft:light_blue_bed": true,
+		"minecraft:magenta_bed": true,
+		"minecraft:gray_bed": true,
+		"minecraft:green_bed": true,
+		"malum:runewood_planks_fence": true,
+		"create:brass_casing": true,
+		"malum:runewood_panel": true,
+		"minecraft:wooden_hoe": true,
+		"malum:runewood_planks_fence_gate": true,
+		"minecraft:piston": true,
+		"minecraft:wooden_axe": true,
+		"minecraft:crafting_table": true,
+		"supplementaries:lock_block": true,
+		"minecraft:orange_bed": true,
+		"minecraft:loom": true,
+		"malum:runewood_item_stand": true,
+		"minecraft:jukebox": true,
+		"supplementaries:notice_board": true,
+		"minecraft:wooden_pickaxe": true,
+		"supplementaries:clock_block": true,
+		"minecraft:light_gray_bed": true,
+		"create:shadow_steel_casing": true,
+		"minecraft:barrel": true,
+		"malum:runewood_item_pedestal": true,
+		"minecraft:smithing_table": true,
+		"malum:runewood_planks_pressure_plate": true,
+		"minecraft:chest": true,
+		"supplementaries:pulley_block": true,
+		"minecraft:red_bed": true,
+		"minecraft:note_block": true,
+		"minecraft:lime_bed": true,
+		"minecraft:cyan_bed": true,
+		"create:andesite_casing": true,
+		"malum:runewood_door": true,
+		"minecraft:yellow_bed": true,
+		"minecraft:beehive": true,
+		"create:large_cogwheel": true,
+		"create:crushing_wheel": true,
+		"create:gantry_carriage": true,
+		"malum:stained_spirit_resonator": true,
+		"malum:hallowed_spirit_resonator": true,
+		"malum:runewood_boat": true,
+		"create:mechanical_piston": true,
+		"minecraft:wooden_shovel": true,
+		"malum:runewood_trapdoor": true,
+		"minecraft:black_bed": true,
+		"malum:runewood_planks_button": true,
+		"minecraft:bowl": true,
+		"minecraft:brown_bed": true,
+		"create:hand_crank": true,
+		"minecraft:tripwire_hook": true,
+		"minecraft:cartography_table": true,
+		"create:piston_extension_pole": true,
+		"minecraft:pink_bed": true,
+		"minecraft:shield": true,
+		"hexcasting:abacus": true,
+		"malum:runewood_sign": true,
+		"minecraft:wooden_sword": true,
+		"create:copper_casing": true,
+		"create:cuckoo_clock": true,
+		"supplementaries:turn_table": true,
+		"malum:runewood_planks_stairs": true,
+		"minecraft:stick": true,
+		"minecraft:bookshelf": true,
+		"minecraft:white_bed": true,
+		"supplementaries:speaker_block": true,
+		"malum:runewood_planks_slab": true,
+		"create:millstone": true,
+		"malum:spirit_altar": true,
+		"minecraft:grindstone": true,
+		"malum:vertical_runewood_planks": true,
+		"supplementaries:malum/hanging_sign_runewood": true,
+		"malum:cut_runewood_planks": true,
+		"minecraft:blue_bed": true,
+		"create:refined_radiance_casing": true,
+		"minecraft:fletching_table": true,
+		"minecraft:purple_bed": true,
+		"create:wooden_bracket": true,
+		"create:redstone_link": true
+	},
+	"malum:vertical_runewood_planks": {
+		"minecraft:light_blue_bed": true,
+		"minecraft:magenta_bed": true,
+		"malum:vertical_runewood_planks_slab": true,
+		"minecraft:gray_bed": true,
+		"minecraft:green_bed": true,
+		"create:brass_casing": true,
+		"minecraft:wooden_hoe": true,
+		"minecraft:piston": true,
+		"minecraft:wooden_axe": true,
+		"minecraft:crafting_table": true,
+		"supplementaries:lock_block": true,
+		"minecraft:orange_bed": true,
+		"minecraft:loom": true,
+		"minecraft:jukebox": true,
+		"supplementaries:notice_board": true,
+		"minecraft:wooden_pickaxe": true,
+		"supplementaries:clock_block": true,
+		"minecraft:light_gray_bed": true,
+		"create:shadow_steel_casing": true,
+		"minecraft:barrel": true,
+		"minecraft:smithing_table": true,
+		"minecraft:chest": true,
+		"supplementaries:pulley_block": true,
+		"minecraft:red_bed": true,
+		"minecraft:note_block": true,
+		"minecraft:lime_bed": true,
+		"minecraft:cyan_bed": true,
+		"create:andesite_casing": true,
+		"minecraft:yellow_bed": true,
+		"minecraft:beehive": true,
+		"create:large_cogwheel": true,
+		"create:crushing_wheel": true,
+		"create:gantry_carriage": true,
+		"create:mechanical_piston": true,
+		"minecraft:wooden_shovel": true,
+		"minecraft:black_bed": true,
+		"minecraft:bowl": true,
+		"minecraft:brown_bed": true,
+		"create:hand_crank": true,
+		"minecraft:tripwire_hook": true,
+		"minecraft:cartography_table": true,
+		"create:piston_extension_pole": true,
+		"minecraft:pink_bed": true,
+		"minecraft:shield": true,
+		"hexcasting:abacus": true,
+		"minecraft:wooden_sword": true,
+		"create:copper_casing": true,
+		"create:cuckoo_clock": true,
+		"supplementaries:turn_table": true,
+		"minecraft:stick": true,
+		"minecraft:bookshelf": true,
+		"minecraft:white_bed": true,
+		"supplementaries:speaker_block": true,
+		"create:millstone": true,
+		"minecraft:grindstone": true,
+		"minecraft:blue_bed": true,
+		"create:refined_radiance_casing": true,
+		"minecraft:fletching_table": true,
+		"malum:vertical_runewood_planks_stairs": true,
+		"minecraft:purple_bed": true,
+		"create:wooden_bracket": true,
+		"malum:runewood_beam": true,
+		"create:redstone_link": true
+	},
+	"malum:cut_runewood_planks": {
+		"minecraft:light_blue_bed": true,
+		"minecraft:magenta_bed": true,
+		"minecraft:gray_bed": true,
+		"minecraft:green_bed": true,
+		"create:brass_casing": true,
+		"minecraft:wooden_hoe": true,
+		"minecraft:piston": true,
+		"minecraft:wooden_axe": true,
+		"minecraft:crafting_table": true,
+		"supplementaries:lock_block": true,
+		"minecraft:orange_bed": true,
+		"minecraft:loom": true,
+		"minecraft:jukebox": true,
+		"supplementaries:notice_board": true,
+		"minecraft:wooden_pickaxe": true,
+		"supplementaries:clock_block": true,
+		"minecraft:light_gray_bed": true,
+		"create:shadow_steel_casing": true,
+		"minecraft:barrel": true,
+		"minecraft:smithing_table": true,
+		"minecraft:chest": true,
+		"supplementaries:pulley_block": true,
+		"minecraft:red_bed": true,
+		"minecraft:note_block": true,
+		"minecraft:lime_bed": true,
+		"minecraft:cyan_bed": true,
+		"create:andesite_casing": true,
+		"minecraft:yellow_bed": true,
+		"minecraft:beehive": true,
+		"create:large_cogwheel": true,
+		"create:crushing_wheel": true,
+		"create:gantry_carriage": true,
+		"create:mechanical_piston": true,
+		"minecraft:wooden_shovel": true,
+		"minecraft:black_bed": true,
+		"minecraft:bowl": true,
+		"minecraft:brown_bed": true,
+		"create:hand_crank": true,
+		"minecraft:tripwire_hook": true,
+		"minecraft:cartography_table": true,
+		"create:piston_extension_pole": true,
+		"minecraft:pink_bed": true,
+		"minecraft:shield": true,
+		"hexcasting:abacus": true,
+		"minecraft:wooden_sword": true,
+		"create:copper_casing": true,
+		"create:cuckoo_clock": true,
+		"supplementaries:turn_table": true,
+		"minecraft:stick": true,
+		"minecraft:bookshelf": true,
+		"minecraft:white_bed": true,
+		"supplementaries:speaker_block": true,
+		"create:millstone": true,
+		"minecraft:grindstone": true,
+		"minecraft:blue_bed": true,
+		"create:refined_radiance_casing": true,
+		"minecraft:fletching_table": true,
+		"minecraft:purple_bed": true,
+		"create:wooden_bracket": true,
+		"create:redstone_link": true
+	},
+	"malum:soulwood_planks": {
+		"minecraft:light_blue_bed": true,
+		"minecraft:magenta_bed": true,
+		"malum:cut_soulwood_planks": true,
+		"minecraft:gray_bed": true,
+		"minecraft:green_bed": true,
+		"create:brass_casing": true,
+		"minecraft:wooden_hoe": true,
+		"minecraft:piston": true,
+		"minecraft:wooden_axe": true,
+		"malum:soulwood_trapdoor": true,
+		"minecraft:crafting_table": true,
+		"supplementaries:lock_block": true,
+		"minecraft:orange_bed": true,
+		"supplementaries:malum/hanging_sign_soulwood": true,
+		"minecraft:loom": true,
+		"minecraft:jukebox": true,
+		"supplementaries:notice_board": true,
+		"minecraft:wooden_pickaxe": true,
+		"supplementaries:clock_block": true,
+		"malum:soulwood_door": true,
+		"minecraft:light_gray_bed": true,
+		"malum:soulwood_planks_stairs": true,
+		"malum:soulwood_planks_fence_gate": true,
+		"create:shadow_steel_casing": true,
+		"malum:soulwood_panel": true,
+		"minecraft:barrel": true,
+		"minecraft:smithing_table": true,
+		"minecraft:chest": true,
+		"supplementaries:pulley_block": true,
+		"minecraft:red_bed": true,
+		"minecraft:note_block": true,
+		"malum:soulwood_item_stand": true,
+		"minecraft:lime_bed": true,
+		"minecraft:cyan_bed": true,
+		"malum:soulwood_planks_button": true,
+		"create:andesite_casing": true,
+		"minecraft:yellow_bed": true,
+		"minecraft:beehive": true,
+		"malum:vertical_soulwood_planks": true,
+		"create:large_cogwheel": true,
+		"create:crushing_wheel": true,
+		"create:gantry_carriage": true,
+		"create:mechanical_piston": true,
+		"minecraft:wooden_shovel": true,
+		"minecraft:black_bed": true,
+		"minecraft:bowl": true,
+		"malum:soulwood_sign": true,
+		"minecraft:brown_bed": true,
+		"create:hand_crank": true,
+		"minecraft:tripwire_hook": true,
+		"minecraft:cartography_table": true,
+		"create:piston_extension_pole": true,
+		"minecraft:pink_bed": true,
+		"minecraft:shield": true,
+		"hexcasting:abacus": true,
+		"minecraft:wooden_sword": true,
+		"create:copper_casing": true,
+		"create:cuckoo_clock": true,
+		"supplementaries:turn_table": true,
+		"minecraft:stick": true,
+		"minecraft:bookshelf": true,
+		"minecraft:white_bed": true,
+		"malum:soulwood_boat": true,
+		"supplementaries:speaker_block": true,
+		"create:millstone": true,
+		"malum:soulwood_planks_fence": true,
+		"minecraft:grindstone": true,
+		"malum:soulwood_planks_slab": true,
+		"minecraft:blue_bed": true,
+		"create:refined_radiance_casing": true,
+		"minecraft:fletching_table": true,
+		"malum:soulwood_item_pedestal": true,
+		"minecraft:purple_bed": true,
+		"malum:soulwood_planks_pressure_plate": true,
+		"create:wooden_bracket": true,
+		"create:redstone_link": true
+	},
+	"malum:vertical_soulwood_planks": {
+		"minecraft:light_blue_bed": true,
+		"minecraft:magenta_bed": true,
+		"minecraft:gray_bed": true,
+		"minecraft:green_bed": true,
+		"create:brass_casing": true,
+		"minecraft:wooden_hoe": true,
+		"minecraft:piston": true,
+		"minecraft:wooden_axe": true,
+		"malum:vertical_soulwood_planks_slab": true,
+		"minecraft:crafting_table": true,
+		"supplementaries:lock_block": true,
+		"minecraft:orange_bed": true,
+		"minecraft:loom": true,
+		"minecraft:jukebox": true,
+		"supplementaries:notice_board": true,
+		"minecraft:wooden_pickaxe": true,
+		"supplementaries:clock_block": true,
+		"malum:vertical_soulwood_planks_stairs": true,
+		"minecraft:light_gray_bed": true,
+		"create:shadow_steel_casing": true,
+		"minecraft:barrel": true,
+		"minecraft:smithing_table": true,
+		"minecraft:chest": true,
+		"supplementaries:pulley_block": true,
+		"minecraft:red_bed": true,
+		"minecraft:note_block": true,
+		"minecraft:lime_bed": true,
+		"minecraft:cyan_bed": true,
+		"create:andesite_casing": true,
+		"minecraft:yellow_bed": true,
+		"minecraft:beehive": true,
+		"create:large_cogwheel": true,
+		"create:crushing_wheel": true,
+		"create:gantry_carriage": true,
+		"create:mechanical_piston": true,
+		"minecraft:wooden_shovel": true,
+		"minecraft:black_bed": true,
+		"minecraft:bowl": true,
+		"minecraft:brown_bed": true,
+		"create:hand_crank": true,
+		"minecraft:tripwire_hook": true,
+		"minecraft:cartography_table": true,
+		"create:piston_extension_pole": true,
+		"minecraft:pink_bed": true,
+		"minecraft:shield": true,
+		"hexcasting:abacus": true,
+		"minecraft:wooden_sword": true,
+		"create:copper_casing": true,
+		"create:cuckoo_clock": true,
+		"supplementaries:turn_table": true,
+		"minecraft:stick": true,
+		"minecraft:bookshelf": true,
+		"minecraft:white_bed": true,
+		"supplementaries:speaker_block": true,
+		"create:millstone": true,
+		"malum:soulwood_beam": true,
+		"minecraft:grindstone": true,
+		"minecraft:blue_bed": true,
+		"create:refined_radiance_casing": true,
+		"minecraft:fletching_table": true,
+		"minecraft:purple_bed": true,
+		"create:wooden_bracket": true,
+		"create:redstone_link": true
+	},
+	"malum:cut_soulwood_planks": {
+		"minecraft:light_blue_bed": true,
+		"minecraft:magenta_bed": true,
+		"minecraft:gray_bed": true,
+		"minecraft:green_bed": true,
+		"create:brass_casing": true,
+		"minecraft:wooden_hoe": true,
+		"minecraft:piston": true,
+		"minecraft:wooden_axe": true,
+		"minecraft:crafting_table": true,
+		"supplementaries:lock_block": true,
+		"minecraft:orange_bed": true,
+		"minecraft:loom": true,
+		"minecraft:jukebox": true,
+		"supplementaries:notice_board": true,
+		"minecraft:wooden_pickaxe": true,
+		"supplementaries:clock_block": true,
+		"minecraft:light_gray_bed": true,
+		"create:shadow_steel_casing": true,
+		"minecraft:barrel": true,
+		"minecraft:smithing_table": true,
+		"minecraft:chest": true,
+		"supplementaries:pulley_block": true,
+		"minecraft:red_bed": true,
+		"minecraft:note_block": true,
+		"minecraft:lime_bed": true,
+		"minecraft:cyan_bed": true,
+		"create:andesite_casing": true,
+		"minecraft:yellow_bed": true,
+		"minecraft:beehive": true,
+		"create:large_cogwheel": true,
+		"create:crushing_wheel": true,
+		"create:gantry_carriage": true,
+		"create:mechanical_piston": true,
+		"minecraft:wooden_shovel": true,
+		"minecraft:black_bed": true,
+		"minecraft:bowl": true,
+		"minecraft:brown_bed": true,
+		"create:hand_crank": true,
+		"minecraft:tripwire_hook": true,
+		"minecraft:cartography_table": true,
+		"create:piston_extension_pole": true,
+		"minecraft:pink_bed": true,
+		"minecraft:shield": true,
+		"hexcasting:abacus": true,
+		"minecraft:wooden_sword": true,
+		"create:copper_casing": true,
+		"create:cuckoo_clock": true,
+		"supplementaries:turn_table": true,
+		"minecraft:stick": true,
+		"minecraft:bookshelf": true,
+		"minecraft:white_bed": true,
+		"supplementaries:speaker_block": true,
+		"create:millstone": true,
+		"minecraft:grindstone": true,
+		"minecraft:blue_bed": true,
+		"create:refined_radiance_casing": true,
+		"minecraft:fletching_table": true,
+		"minecraft:purple_bed": true,
+		"create:wooden_bracket": true,
+		"create:redstone_link": true
+	},
 	"minecraft:paper": {
 		"create:sand_paper": true,
 		"minecraft:mojang_banner_pattern": true,
@@ -3873,6 +4631,7 @@
 		"create:fluid_pipe": true,
 		"create:brass_ingot": true,
 		"create:copper_backtank": true,
+		"malum:copper_nugget": true,
 		"minecraft:lightning_rod": true,
 		"supplementaries:turn_table": true,
 		"create:potato_cannon": true,
@@ -3913,6 +4672,7 @@
 		"create:andesite_alloy": true,
 		"minecraft:soul_lantern": true,
 		"supplementaries:hanging_sign_jungle": true,
+		"supplementaries:malum/hanging_sign_soulwood": true,
 		"supplementaries:hanging_sign_spruce": true,
 		"supplementaries:hanging_sign_oak": true,
 		"minecraft:lantern": true,
@@ -3920,7 +4680,6 @@
 		"supplementaries:goblet": true,
 		"create:filter": true,
 		"create:metal_bracket": true,
-		"supplementaries:hexcasting/hanging_sign_akashic": true,
 		"supplementaries:hanging_sign_crimson": true,
 		"supplementaries:hanging_sign_acacia": true,
 		"create:encased_chain_drive": true,
@@ -3928,6 +4687,7 @@
 		"create:electron_tube": true,
 		"create:super_glue": true,
 		"supplementaries:hanging_sign_dark_oak": true,
+		"supplementaries:malum/hanging_sign_runewood": true,
 		"minecraft:chain": true,
 		"supplementaries:sconce_soul": true,
 		"supplementaries:sconce": true,
@@ -4562,6 +5322,10 @@
 		"create:cut_scorchia_brick_wall": true,
 		"create:polished_cut_scorchia": true
 	},
+	"malum:holy_sap": {
+		"malum:holy_syrup": true,
+		"malum:holy_sapball": true
+	},
 	"ae2:advanced_card": {
 		"ae2:fuzzy_card": true,
 		"ae2:speed_card": true,
@@ -4818,6 +5582,22 @@
 	"minecraft:sweet_berries": {
 		"create:chocolate_glazed_berries": true,
 		"minecraft:glow_berries": true
+	},
+	"malum:stripped_runewood_log": {
+		"malum:stripped_runewood": true,
+		"create:brass_casing": true,
+		"malum:arcane_charcoal": true,
+		"minecraft:smoker": true,
+		"create:andesite_casing": true,
+		"create:cart_assembler": true,
+		"create:linear_chassis": true,
+		"malum:runewood_planks": true,
+		"create:copper_casing": true,
+		"create:cuckoo_clock": true,
+		"create:schematicannon": true,
+		"minecraft:soul_campfire": true,
+		"create:radial_chassis": true,
+		"minecraft:campfire": true
 	},
 	"create:cut_andesite_stairs": {
 		"create:small_andesite_bricks": true,
@@ -5079,6 +5859,28 @@
 		"create:cut_andesite_brick_slab": true,
 		"create:small_andesite_brick_slab": true
 	},
+	"minecraft:piston": {
+		"minecraft:sticky_piston": true,
+		"ae2:export_bus": true,
+		"create:furnace_engine": true,
+		"ae2:storage_bus": true
+	},
+	"malum:holy_sapball": {
+		"minecraft:sticky_piston": true,
+		"create:sticky_mechanical_piston": true,
+		"minecraft:magma_cream": true,
+		"create:sticker": true,
+		"create:super_glue": true,
+		"minecraft:lead": true
+	},
+	"malum:unholy_sapball": {
+		"minecraft:sticky_piston": true,
+		"create:sticky_mechanical_piston": true,
+		"minecraft:magma_cream": true,
+		"create:sticker": true,
+		"create:super_glue": true,
+		"minecraft:lead": true
+	},
 	"ae2:white_smart_cable": {
 		"ae2:fluix_smart_cable": true
 	},
@@ -5181,6 +5983,7 @@
 		"minecraft:golden_helmet": true,
 		"create:golden_sheet": true,
 		"minecraft:powered_rail": true,
+		"malum:spirit_altar": true,
 		"minecraft:golden_sword": true,
 		"supplementaries:gold_door": true,
 		"minecraft:gold_nugget": true,
@@ -5394,6 +6197,7 @@
 	"minecraft:coal": {
 		"minecraft:fire_charge": true,
 		"minecraft:torch": true,
+		"malum:coal_fragment": true,
 		"minecraft:black_dye": true,
 		"minecraft:gray_dye": true,
 		"minecraft:soul_torch": true,
@@ -6097,6 +6901,12 @@
 		"ae2:spatial_storage_cell_128": true,
 		"ae2:spatial_anchor": true
 	},
+	"malum:soulwood_panel": {
+		"malum:cut_soulwood_planks": true,
+		"malum:soulwood_panel_slab": true,
+		"malum:soulwood_tiles": true,
+		"malum:soulwood_panel_stairs": true
+	},
 	"create:weathered_copper_shingle_slab": {
 		"create:waxed_weathered_copper_shingle_slab": true
 	},
@@ -6427,6 +7237,13 @@
 		"ae2:magenta_paint_ball": true,
 		"ae2:pink_paint_ball": true,
 		"ae2:brown_paint_ball": true
+	},
+	"malum:tainted_rock_tiles": {
+		"malum:small_tainted_rock_bricks": true,
+		"malum:tainted_rock_tiles_stairs": true,
+		"malum:tainted_rock_tiles_slab": true,
+		"malum:cracked_tainted_rock_tiles": true,
+		"malum:tainted_rock_tiles_wall": true
 	},
 	"minecraft:candle": {
 		"minecraft:lime_candle": true,
@@ -6805,10 +7622,35 @@
 		"create:cut_deepslate_brick_wall": true,
 		"create:cut_deepslate_brick_slab": true
 	},
+	"malum:twisted_rock": {
+		"malum:twisted_rock_column": true,
+		"malum:twisted_rock_slab": true,
+		"malum:polished_twisted_rock": true,
+		"malum:twisted_rock_tiles": true,
+		"malum:twisted_rock_bricks": true,
+		"malum:cut_twisted_rock": true,
+		"malum:smooth_twisted_rock": true,
+		"malum:twisted_rock_wall": true,
+		"malum:twisted_rock_button": true,
+		"malum:chiseled_twisted_rock": true,
+		"malum:twisted_rock_stairs": true,
+		"malum:twisted_rock_item_pedestal": true,
+		"malum:twisted_rock_column_cap": true,
+		"malum:the_device": true,
+		"malum:twisted_rock_item_stand": true,
+		"malum:small_twisted_rock_bricks": true,
+		"malum:twisted_rock_pressure_plate": true
+	},
 	"supplementaries:stone_tile": {
 		"supplementaries:stone_tile_stairs": true,
 		"supplementaries:stone_tile_slab": true,
 		"supplementaries:stone_tile_wall": true
+	},
+	"malum:polished_twisted_rock": {
+		"malum:polished_twisted_rock_stairs": true,
+		"malum:polished_twisted_rock_slab": true,
+		"malum:twisted_rock_bricks": true,
+		"malum:twisted_rock_tiles": true
 	},
 	"minecraft:exposed_cut_copper": {
 		"minecraft:exposed_cut_copper_slab": true,
@@ -7774,6 +8616,12 @@
 		"ae2:spatial_io_port": true,
 		"ae2:condenser": true
 	},
+	"malum:cracked_twisted_rock_bricks": {
+		"malum:cracked_twisted_rock_bricks_slab": true,
+		"malum:cracked_twisted_rock_bricks_stairs": true,
+		"malum:cracked_twisted_rock_tiles": true,
+		"malum:cracked_twisted_rock_bricks_wall": true
+	},
 	"minecraft:pointed_dripstone": {
 		"minecraft:dripstone_block": true
 	},
@@ -7850,6 +8698,7 @@
 		"minecraft:orange_stained_glass_pane": true,
 		"minecraft:green_stained_glass_pane": true,
 		"minecraft:red_stained_glass_pane": true,
+		"malum:spirit_jar": true,
 		"minecraft:magenta_stained_glass_pane": true,
 		"minecraft:black_stained_glass_pane": true,
 		"minecraft:white_stained_glass_pane": true,
@@ -7890,6 +8739,11 @@
 	"create:exposed_copper_tile_slab": {
 		"create:waxed_exposed_copper_tile_slab": true
 	},
+	"malum:cluster_of_brilliance": {
+		"malum:chunk_of_brilliance": true,
+		"create:experience_nugget": true,
+		"malum:block_of_brilliance": true
+	},
 	"create:copper_tile_stairs": {
 		"create:waxed_copper_tile_stairs": true
 	},
@@ -7899,6 +8753,7 @@
 	"minecraft:glass_bottle": {
 		"create:builders_tea": true,
 		"hexcasting:pride_colorizer_6": true,
+		"minecraft:experience_bottle": true,
 		"minecraft:honey_bottle": true
 	},
 	"minecraft:redstone": {
@@ -7990,6 +8845,7 @@
 	},
 	"minecraft:book": {
 		"patchouli:guide_book": true,
+		"malum:encyclopedia_arcana": true,
 		"minecraft:writable_book": true,
 		"minecraft:bookshelf": true,
 		"hexcasting:akashic_bookshelf": true,
@@ -7998,12 +8854,6 @@
 	"create:brass_hand": {
 		"create:deployer": true,
 		"create:extendo_grip": true
-	},
-	"minecraft:piston": {
-		"ae2:export_bus": true,
-		"create:furnace_engine": true,
-		"minecraft:sticky_piston": true,
-		"ae2:storage_bus": true
 	},
 	"minecraft:deepslate_diamond_ore": {
 		"minecraft:diamond": true,
@@ -8085,12 +8935,14 @@
 	"minecraft:string": {
 		"supplementaries:bomb": true,
 		"minecraft:loom": true,
+		"malum:ornate_necklace": true,
 		"supplementaries:sack": true,
 		"supplementaries:slingshot": true,
 		"minecraft:scaffolding": true,
 		"create:goggles": true,
 		"minecraft:fishing_rod": true,
 		"minecraft:white_wool": true,
+		"malum:spirit_pouch": true,
 		"minecraft:crossbow": true,
 		"minecraft:candle": true,
 		"minecraft:bow": true,
@@ -8383,6 +9235,18 @@
 		"minecraft:red_dye": true,
 		"minecraft:green_dye": true
 	},
+	"malum:soul_stained_steel_ingot": {
+		"malum:soul_stained_steel_pickaxe": true,
+		"malum:block_of_soul_stained_steel": true,
+		"malum:soul_stained_steel_nugget": true,
+		"malum:ornate_necklace": true,
+		"malum:stained_spirit_resonator": true,
+		"malum:soul_stained_steel_shovel": true,
+		"malum:ornate_ring": true,
+		"malum:soul_stained_steel_axe": true,
+		"malum:soul_stained_steel_hoe": true,
+		"malum:soul_stained_steel_sword": true
+	},
 	"minecraft:crafting_table": {
 		"create:mechanical_crafter": true,
 		"ae2:crafting_terminal": true,
@@ -8429,6 +9293,17 @@
 		"hexcasting:pride_colorizer_3": true,
 		"hexcasting:sub_sandwich": true,
 		"create:sweet_roll": true
+	},
+	"malum:tainted_rock_bricks": {
+		"malum:small_tainted_rock_bricks": true,
+		"malum:tainted_rock_tiles": true,
+		"malum:tainted_rock_column": true,
+		"malum:cracked_tainted_rock_bricks": true,
+		"malum:chiseled_tainted_rock": true,
+		"malum:tainted_rock_bricks_stairs": true,
+		"malum:tainted_rock_bricks_wall": true,
+		"malum:tainted_rock_bricks_slab": true,
+		"malum:cracked_small_tainted_rock_bricks": true
 	},
 	"minecraft:wheat": {
 		"hexcasting:pride_colorizer_4": true,
@@ -8557,6 +9432,11 @@
 		"create:crushed_iron_ore": true,
 		"create:experience_nugget": true,
 		"minecraft:cobbled_deepslate": true
+	},
+	"malum:smooth_twisted_rock": {
+		"malum:smooth_twisted_rock_stairs": true,
+		"malum:smooth_twisted_rock_slab": true,
+		"malum:cut_twisted_rock": true
 	},
 	"minecraft:deepslate_tiles": {
 		"minecraft:deepslate_tile_wall": true,
@@ -9384,6 +10264,164 @@
 		"hexcasting:akashic_bookshelf": true,
 		"minecraft:campfire": true
 	},
+	"malum:runewood": {
+		"create:brass_casing": true,
+		"malum:arcane_charcoal": true,
+		"minecraft:smoker": true,
+		"create:andesite_casing": true,
+		"create:cart_assembler": true,
+		"create:linear_chassis": true,
+		"create:copper_casing": true,
+		"malum:runewood_planks": true,
+		"create:cuckoo_clock": true,
+		"create:schematicannon": true,
+		"minecraft:soul_campfire": true,
+		"create:radial_chassis": true,
+		"minecraft:campfire": true
+	},
+	"malum:stripped_runewood": {
+		"create:brass_casing": true,
+		"malum:arcane_charcoal": true,
+		"minecraft:smoker": true,
+		"create:andesite_casing": true,
+		"create:cart_assembler": true,
+		"create:linear_chassis": true,
+		"create:copper_casing": true,
+		"malum:runewood_planks": true,
+		"create:cuckoo_clock": true,
+		"create:schematicannon": true,
+		"minecraft:soul_campfire": true,
+		"create:radial_chassis": true,
+		"minecraft:campfire": true
+	},
+	"malum:exposed_runewood_log": {
+		"create:brass_casing": true,
+		"malum:arcane_charcoal": true,
+		"minecraft:smoker": true,
+		"create:andesite_casing": true,
+		"create:cart_assembler": true,
+		"malum:revealed_runewood_log": true,
+		"create:linear_chassis": true,
+		"create:copper_casing": true,
+		"malum:runewood_planks": true,
+		"create:cuckoo_clock": true,
+		"create:schematicannon": true,
+		"minecraft:soul_campfire": true,
+		"create:radial_chassis": true,
+		"minecraft:campfire": true
+	},
+	"malum:revealed_runewood_log": {
+		"create:brass_casing": true,
+		"malum:arcane_charcoal": true,
+		"minecraft:smoker": true,
+		"create:andesite_casing": true,
+		"create:cart_assembler": true,
+		"create:linear_chassis": true,
+		"create:copper_casing": true,
+		"malum:runewood_planks": true,
+		"create:cuckoo_clock": true,
+		"create:schematicannon": true,
+		"minecraft:soul_campfire": true,
+		"create:radial_chassis": true,
+		"minecraft:campfire": true
+	},
+	"malum:soulwood_log": {
+		"create:brass_casing": true,
+		"malum:arcane_charcoal": true,
+		"malum:stripped_soulwood_log": true,
+		"malum:soulwood": true,
+		"minecraft:smoker": true,
+		"create:andesite_casing": true,
+		"create:cart_assembler": true,
+		"create:linear_chassis": true,
+		"malum:soulwood_planks": true,
+		"create:copper_casing": true,
+		"create:cuckoo_clock": true,
+		"create:schematicannon": true,
+		"minecraft:soul_campfire": true,
+		"create:radial_chassis": true,
+		"minecraft:campfire": true
+	},
+	"malum:stripped_soulwood_log": {
+		"create:brass_casing": true,
+		"malum:stripped_soulwood": true,
+		"malum:arcane_charcoal": true,
+		"minecraft:smoker": true,
+		"create:andesite_casing": true,
+		"malum:soulwood_planks": true,
+		"create:cart_assembler": true,
+		"create:linear_chassis": true,
+		"create:copper_casing": true,
+		"create:cuckoo_clock": true,
+		"create:schematicannon": true,
+		"minecraft:soul_campfire": true,
+		"create:radial_chassis": true,
+		"minecraft:campfire": true
+	},
+	"malum:soulwood": {
+		"create:brass_casing": true,
+		"malum:arcane_charcoal": true,
+		"minecraft:smoker": true,
+		"create:andesite_casing": true,
+		"create:cart_assembler": true,
+		"create:linear_chassis": true,
+		"malum:soulwood_planks": true,
+		"create:copper_casing": true,
+		"create:cuckoo_clock": true,
+		"create:schematicannon": true,
+		"minecraft:soul_campfire": true,
+		"create:radial_chassis": true,
+		"minecraft:campfire": true
+	},
+	"malum:stripped_soulwood": {
+		"create:brass_casing": true,
+		"malum:arcane_charcoal": true,
+		"minecraft:smoker": true,
+		"create:andesite_casing": true,
+		"create:cart_assembler": true,
+		"create:linear_chassis": true,
+		"malum:soulwood_planks": true,
+		"create:copper_casing": true,
+		"create:cuckoo_clock": true,
+		"create:schematicannon": true,
+		"minecraft:soul_campfire": true,
+		"create:radial_chassis": true,
+		"minecraft:campfire": true
+	},
+	"malum:exposed_soulwood_log": {
+		"create:brass_casing": true,
+		"malum:arcane_charcoal": true,
+		"malum:revealed_soulwood_log": true,
+		"minecraft:smoker": true,
+		"create:andesite_casing": true,
+		"create:cart_assembler": true,
+		"create:linear_chassis": true,
+		"malum:soulwood_planks": true,
+		"create:copper_casing": true,
+		"create:cuckoo_clock": true,
+		"create:schematicannon": true,
+		"minecraft:soul_campfire": true,
+		"create:radial_chassis": true,
+		"minecraft:campfire": true
+	},
+	"malum:revealed_soulwood_log": {
+		"create:brass_casing": true,
+		"malum:arcane_charcoal": true,
+		"minecraft:smoker": true,
+		"create:andesite_casing": true,
+		"create:cart_assembler": true,
+		"create:linear_chassis": true,
+		"malum:soulwood_planks": true,
+		"create:copper_casing": true,
+		"create:cuckoo_clock": true,
+		"create:schematicannon": true,
+		"minecraft:soul_campfire": true,
+		"create:radial_chassis": true,
+		"minecraft:campfire": true
+	},
+	"malum:block_of_blazing_quartz": {
+		"malum:blazing_quartz": true
+	},
 	"minecraft:purpur_block": {
 		"minecraft:purpur_stairs": true,
 		"minecraft:purpur_pillar": true,
@@ -9686,6 +10724,13 @@
 	"minecraft:oak_sign": {
 		"supplementaries:sign_post_oak": true
 	},
+	"malum:small_tainted_rock_bricks": {
+		"malum:small_tainted_rock_bricks_stairs": true,
+		"malum:small_tainted_rock_bricks_wall": true,
+		"malum:small_tainted_rock_bricks_slab": true,
+		"malum:tainted_rock_bricks": true,
+		"malum:cracked_small_tainted_rock_bricks": true
+	},
 	"minecraft:redstone_torch": {
 		"create:pulse_repeater": true,
 		"ae2:energy_level_emitter": true,
@@ -9788,10 +10833,16 @@
 		"minecraft:smooth_basalt": true,
 		"minecraft:polished_basalt": true
 	},
+	"malum:copper_node": {
+		"malum:copper_nugget": true
+	},
 	"create:oxidized_copper_tiles": {
 		"create:oxidized_copper_tile_slab": true,
 		"create:oxidized_copper_tile_stairs": true,
 		"create:waxed_oxidized_copper_tiles": true
+	},
+	"malum:twisted_rock_column": {
+		"malum:twisted_rock_column_cap": true
 	},
 	"minecraft:polished_blackstone_bricks": {
 		"minecraft:polished_blackstone_brick_stairs": true,
@@ -9862,8 +10913,20 @@
 		"create:experience_nugget": true,
 		"create:raw_zinc_block": true
 	},
+	"malum:cracked_twisted_rock_tiles": {
+		"malum:cracked_twisted_rock_tiles_wall": true,
+		"malum:cracked_twisted_rock_tiles_slab": true,
+		"malum:cracked_small_twisted_rock_bricks": true,
+		"malum:cracked_twisted_rock_tiles_stairs": true
+	},
 	"minecraft:warped_sign": {
 		"supplementaries:sign_post_warped": true
+	},
+	"malum:cracked_tainted_rock_tiles": {
+		"malum:cracked_tainted_rock_tiles_stairs": true,
+		"malum:cracked_small_tainted_rock_bricks": true,
+		"malum:cracked_tainted_rock_tiles_slab": true,
+		"malum:cracked_tainted_rock_tiles_wall": true
 	},
 	"minecraft:sugar_cane": {
 		"minecraft:sugar": true,
@@ -9908,6 +10971,11 @@
 		"minecraft:cobblestone": true,
 		"minecraft:iron_ingot": true
 	},
+	"malum:blazing_quartz": {
+		"malum:blazing_quartz_fragment": true,
+		"malum:block_of_blazing_quartz": true,
+		"minecraft:netherrack": true
+	},
 	"create:weathered_copper_tiles": {
 		"create:weathered_copper_tile_stairs": true,
 		"create:weathered_copper_tile_slab": true,
@@ -9922,6 +10990,9 @@
 		"ae2:matter_cannon": true,
 		"ae2:4k_crafting_storage": true,
 		"ae2:portable_fluid_cell_4k": true
+	},
+	"malum:brilliant_stone": {
+		"malum:chunk_of_brilliance": true
 	},
 	"minecraft:cocoa_beans": {
 		"minecraft:brown_dye": true,
@@ -9990,6 +11061,8 @@
 		"minecraft:quartz_block": true,
 		"ae2:nether_quartz_wrench": true,
 		"ae2:nether_quartz_shovel": true,
+		"malum:stained_spirit_resonator": true,
+		"malum:hallowed_spirit_resonator": true,
 		"minecraft:diorite": true,
 		"minecraft:daylight_detector": true,
 		"minecraft:comparator": true,
@@ -10033,6 +11106,12 @@
 	"minecraft:oxidized_cut_copper_stairs": {
 		"minecraft:waxed_oxidized_cut_copper_stairs": true
 	},
+	"malum:crushed_soulstone": {
+		"malum:processed_soulstone": true
+	},
+	"malum:chunk_of_brilliance": {
+		"minecraft:experience_bottle": true
+	},
 	"minecraft:purple_concrete_powder": {
 		"minecraft:purple_concrete": true,
 		"minecraft:white_concrete_powder": true
@@ -10052,6 +11131,13 @@
 		"create:experience_nugget": true,
 		"minecraft:cobbled_deepslate": true
 	},
+	"malum:twisted_rock_tiles": {
+		"malum:small_twisted_rock_bricks": true,
+		"malum:twisted_rock_tiles_slab": true,
+		"malum:twisted_rock_tiles_wall": true,
+		"malum:twisted_rock_tiles_stairs": true,
+		"malum:cracked_twisted_rock_tiles": true
+	},
 	"hexcasting:ancient_scroll_paper": {
 		"hexcasting:ancient_scroll_paper_lantern": true
 	},
@@ -10066,6 +11152,16 @@
 	"minecraft:grass": {
 		"minecraft:wheat_seeds": true
 	},
+	"malum:cracked_small_tainted_rock_bricks": {
+		"malum:cracked_small_tainted_rock_bricks_wall": true,
+		"malum:cracked_small_tainted_rock_bricks_slab": true,
+		"malum:cracked_small_tainted_rock_bricks_stairs": true
+	},
+	"malum:tainted_rock_slab": {
+		"malum:tainted_rock_item_pedestal": true,
+		"malum:tainted_rock_item_stand": true,
+		"malum:chiseled_tainted_rock": true
+	},
 	"minecraft:oxidized_cut_copper_slab": {
 		"minecraft:waxed_oxidized_cut_copper_slab": true
 	},
@@ -10078,14 +11174,27 @@
 		"supplementaries:clock_block": true,
 		"create:cuckoo_clock": true
 	},
+	"malum:zinc_node": {
+		"create:zinc_nugget": true
+	},
 	"minecraft:allium": {
 		"minecraft:magenta_dye": true,
 		"minecraft:purple_dye": true,
 		"minecraft:pink_dye": true,
 		"create:tree_fertilizer": true
 	},
+	"malum:small_twisted_rock_bricks": {
+		"malum:small_twisted_rock_bricks_wall": true,
+		"malum:small_twisted_rock_bricks_slab": true,
+		"malum:small_twisted_rock_bricks_stairs": true,
+		"malum:twisted_rock_bricks": true,
+		"malum:cracked_small_twisted_rock_bricks": true
+	},
 	"minecraft:stone_pressure_plate": {
 		"minecraft:detector_rail": true
+	},
+	"malum:iron_node": {
+		"minecraft:iron_nugget": true
 	},
 	"create:oxidized_copper_shingles": {
 		"create:waxed_oxidized_copper_shingles": true,
@@ -10138,6 +11247,9 @@
 	"minecraft:black_terracotta": {
 		"minecraft:black_glazed_terracotta": true,
 		"minecraft:terracotta": true
+	},
+	"malum:gold_node": {
+		"minecraft:gold_nugget": true
 	},
 	"ae2:energy_cell": {
 		"ae2:quantum_ring": true,
@@ -10564,7 +11676,8 @@
 		"minecraft:blackstone": true,
 		"minecraft:mossy_cobblestone_stairs": true,
 		"create:sticker": true,
-		"minecraft:mossy_cobblestone_wall": true
+		"minecraft:mossy_cobblestone_wall": true,
+		"minecraft:netherrack": true
 	},
 	"minecraft:waxed_exposed_copper": {
 		"minecraft:waxed_exposed_cut_copper": true,
@@ -10624,6 +11737,13 @@
 		"minecraft:red_sandstone_stairs": true,
 		"minecraft:red_sandstone_slab": true
 	},
+	"malum:processed_soulstone": {
+		"malum:encyclopedia_arcana": true,
+		"malum:crude_scythe": true,
+		"malum:gilded_belt": true,
+		"malum:spirit_altar": true,
+		"malum:block_of_soulstone": true
+	},
 	"create:weathered_copper_tile_slab": {
 		"create:waxed_weathered_copper_tile_slab": true
 	},
@@ -10680,6 +11800,21 @@
 	"minecraft:black_candle": {
 		"minecraft:candle": true
 	},
+	"minecraft:slime_ball": {
+		"malum:holy_sapball": true,
+		"minecraft:slime_block": true,
+		"create:sticky_mechanical_piston": true,
+		"minecraft:magma_cream": true,
+		"supplementaries:slingshot": true,
+		"create:sticker": true,
+		"create:super_glue": true,
+		"minecraft:sticky_piston": true,
+		"malum:unholy_sapball": true,
+		"minecraft:lead": true
+	},
+	"malum:brilliant_deepslate": {
+		"malum:chunk_of_brilliance": true
+	},
 	"minecraft:crying_obsidian": {
 		"minecraft:respawn_anchor": true
 	},
@@ -10732,6 +11867,11 @@
 		"create:mechanical_pump": true,
 		"create:potato_cannon": true
 	},
+	"malum:cracked_small_twisted_rock_bricks": {
+		"malum:cracked_small_twisted_rock_bricks_wall": true,
+		"malum:cracked_small_twisted_rock_bricks_stairs": true,
+		"malum:cracked_small_twisted_rock_bricks_slab": true
+	},
 	"minecraft:chiseled_sandstone": {
 		"minecraft:sandstone_stairs": true,
 		"minecraft:sandstone_slab": true
@@ -10761,6 +11901,9 @@
 		"minecraft:furnace_minecart": true,
 		"supplementaries:dispenser_minecart": true,
 		"minecraft:hopper_minecart": true
+	},
+	"malum:arcane_charcoal_fragment": {
+		"malum:arcane_charcoal": true
 	},
 	"minecraft:deepslate_coal_ore": {
 		"minecraft:coal": true,
@@ -10861,6 +12004,16 @@
 		"minecraft:end_stone_brick_wall": true,
 		"minecraft:end_stone_brick_stairs": true
 	},
+	"malum:cracked_tainted_rock_bricks": {
+		"malum:cracked_tainted_rock_bricks_slab": true,
+		"malum:cracked_tainted_rock_bricks_stairs": true,
+		"malum:cracked_tainted_rock_tiles": true,
+		"malum:cracked_tainted_rock_bricks_wall": true
+	},
+	"malum:arcane_charcoal": {
+		"malum:block_of_arcane_charcoal": true,
+		"malum:arcane_charcoal_fragment": true
+	},
 	"ae2:cell_component_1k": {
 		"ae2:item_storage_cell_1k": true,
 		"ae2:portable_item_cell_1k": true,
@@ -10887,10 +12040,27 @@
 		"minecraft:chiseled_stone_bricks": true,
 		"supplementaries:pedestal": true
 	},
+	"malum:smooth_tainted_rock": {
+		"malum:cut_tainted_rock": true,
+		"malum:smooth_tainted_rock_stairs": true,
+		"malum:smooth_tainted_rock_slab": true
+	},
+	"malum:hallowed_gold_ingot": {
+		"malum:gilded_ring": true,
+		"malum:spirit_jar": true,
+		"malum:gilded_belt": true,
+		"malum:hallowed_spirit_resonator": true,
+		"malum:hallowed_gold_nugget": true,
+		"malum:block_of_hallowed_gold": true
+	},
 	"create:fluid_tank": {
 		"create:spout": true
 	},
 	"create:copper_nugget": {
+		"create:spout": true,
+		"minecraft:copper_ingot": true
+	},
+	"malum:copper_nugget": {
 		"create:spout": true,
 		"minecraft:copper_ingot": true
 	},
@@ -10912,6 +12082,9 @@
 	},
 	"create:cut_tuff_brick_slab": {
 		"create:cut_tuff_bricks": true
+	},
+	"malum:charcoal_fragment": {
+		"minecraft:charcoal": true
 	},
 	"create:ornate_iron_window": {
 		"create:ornate_iron_window_pane": true
@@ -11047,6 +12220,9 @@
 		"create:experience_nugget": true,
 		"minecraft:cobblestone": true
 	},
+	"malum:runewood_trapdoor": {
+		"malum:solid_runewood_trapdoor": true
+	},
 	"ae2:annihilation_plane": {
 		"ae2:identity_annihilation_plane": true
 	},
@@ -11139,9 +12315,16 @@
 		"minecraft:prismarine": true,
 		"minecraft:dark_prismarine": true
 	},
+	"malum:soulstone_ore": {
+		"malum:processed_soulstone": true,
+		"malum:raw_soulstone": true,
+		"create:experience_nugget": true,
+		"minecraft:cobblestone": true
+	},
 	"minecraft:infested_cobblestone": {
 		"minecraft:blackstone": true,
-		"create:sticker": true
+		"create:sticker": true,
+		"minecraft:netherrack": true
 	},
 	"ae2:quartz_block": {
 		"ae2:quartz_slab": true,
@@ -11192,6 +12375,9 @@
 		"create:adjustable_chain_gearshift": true,
 		"create:water_wheel": true
 	},
+	"malum:blazing_quartz_fragment": {
+		"malum:blazing_quartz": true
+	},
 	"minecraft:oak_boat": {
 		"supplementaries:jar_boat": true
 	},
@@ -11225,6 +12411,113 @@
 		"ae2:sky_stone_small_brick_slab": true,
 		"ae2:sky_stone_small_brick_wall": true,
 		"ae2:sky_stone_small_brick_stairs": true
+	},
+	"minecraft:white_stained_glass_pane": {
+		"malum:spirit_jar": true,
+		"minecraft:glass_pane": true
+	},
+	"minecraft:orange_stained_glass_pane": {
+		"malum:spirit_jar": true,
+		"minecraft:glass_pane": true
+	},
+	"minecraft:magenta_stained_glass_pane": {
+		"malum:spirit_jar": true,
+		"minecraft:glass_pane": true
+	},
+	"minecraft:light_blue_stained_glass_pane": {
+		"malum:spirit_jar": true,
+		"minecraft:glass_pane": true
+	},
+	"minecraft:yellow_stained_glass_pane": {
+		"malum:spirit_jar": true,
+		"minecraft:glass_pane": true
+	},
+	"minecraft:lime_stained_glass_pane": {
+		"malum:spirit_jar": true,
+		"minecraft:glass_pane": true
+	},
+	"minecraft:pink_stained_glass_pane": {
+		"malum:spirit_jar": true,
+		"minecraft:glass_pane": true
+	},
+	"minecraft:gray_stained_glass_pane": {
+		"malum:spirit_jar": true,
+		"minecraft:glass_pane": true
+	},
+	"minecraft:light_gray_stained_glass_pane": {
+		"malum:spirit_jar": true,
+		"minecraft:glass_pane": true
+	},
+	"minecraft:cyan_stained_glass_pane": {
+		"malum:spirit_jar": true,
+		"minecraft:glass_pane": true
+	},
+	"minecraft:purple_stained_glass_pane": {
+		"malum:spirit_jar": true,
+		"minecraft:glass_pane": true
+	},
+	"minecraft:blue_stained_glass_pane": {
+		"malum:spirit_jar": true,
+		"minecraft:glass_pane": true
+	},
+	"minecraft:brown_stained_glass_pane": {
+		"malum:spirit_jar": true,
+		"minecraft:glass_pane": true
+	},
+	"minecraft:green_stained_glass_pane": {
+		"malum:spirit_jar": true,
+		"minecraft:glass_pane": true
+	},
+	"minecraft:red_stained_glass_pane": {
+		"malum:spirit_jar": true,
+		"minecraft:glass_pane": true
+	},
+	"minecraft:black_stained_glass_pane": {
+		"malum:spirit_jar": true,
+		"minecraft:glass_pane": true
+	},
+	"create:tiled_glass_pane": {
+		"malum:spirit_jar": true,
+		"minecraft:glass_pane": true
+	},
+	"create:framed_glass_pane": {
+		"malum:spirit_jar": true,
+		"minecraft:glass_pane": true
+	},
+	"create:horizontal_framed_glass_pane": {
+		"malum:spirit_jar": true,
+		"minecraft:glass_pane": true
+	},
+	"create:vertical_framed_glass_pane": {
+		"malum:spirit_jar": true,
+		"minecraft:glass_pane": true
+	},
+	"create:oak_window_pane": {
+		"malum:spirit_jar": true
+	},
+	"create:spruce_window_pane": {
+		"malum:spirit_jar": true
+	},
+	"create:birch_window_pane": {
+		"malum:spirit_jar": true
+	},
+	"create:jungle_window_pane": {
+		"malum:spirit_jar": true
+	},
+	"create:acacia_window_pane": {
+		"malum:spirit_jar": true
+	},
+	"create:dark_oak_window_pane": {
+		"malum:spirit_jar": true
+	},
+	"create:crimson_window_pane": {
+		"malum:spirit_jar": true
+	},
+	"create:warped_window_pane": {
+		"malum:spirit_jar": true
+	},
+	"create:ornate_iron_window_pane": {
+		"malum:spirit_jar": true
 	},
 	"ae2:smooth_sky_stone_block": {
 		"ae2:smooth_sky_stone_wall": true,
@@ -11288,6 +12581,9 @@
 		"minecraft:white_concrete_powder": true,
 		"minecraft:black_concrete": true
 	},
+	"malum:block_of_hallowed_gold": {
+		"malum:hallowed_gold_ingot": true
+	},
 	"minecraft:grass_block": {
 		"minecraft:dirt_path": true,
 		"minecraft:soul_soil": true
@@ -11328,25 +12624,19 @@
 		"minecraft:lime_dye": true,
 		"create:tree_fertilizer": true
 	},
+	"malum:tainted_rock_column": {
+		"malum:tainted_rock_column_cap": true
+	},
 	"create:depot": {
 		"create:weighted_ejector": true
-	},
-	"minecraft:slime_ball": {
-		"minecraft:slime_block": true,
-		"create:sticky_mechanical_piston": true,
-		"minecraft:magma_cream": true,
-		"supplementaries:slingshot": true,
-		"create:sticker": true,
-		"create:super_glue": true,
-		"minecraft:sticky_piston": true,
-		"minecraft:lead": true
 	},
 	"minecraft:soul_sand": {
 		"create:scoria": true,
 		"minecraft:quartz": true,
 		"minecraft:gold_nugget": true,
 		"minecraft:soul_campfire": true,
-		"minecraft:soul_torch": true
+		"minecraft:soul_torch": true,
+		"malum:spirit_pouch": true
 	},
 	"minecraft:prismarine_crystals": {
 		"minecraft:quartz": true,
@@ -11420,6 +12710,12 @@
 		"minecraft:bone_meal": true,
 		"minecraft:white_dye": true
 	},
+	"malum:raw_soulstone": {
+		"malum:crushed_soulstone": true,
+		"create:experience_nugget": true,
+		"malum:processed_soulstone": true,
+		"malum:block_of_raw_soulstone": true
+	},
 	"ae2:blue_paint_ball": {
 		"ae2:blue_lumen_paint_ball": true
 	},
@@ -11450,6 +12746,9 @@
 	"minecraft:honey_block": {
 		"minecraft:honey_bottle": true
 	},
+	"malum:block_of_brilliance": {
+		"malum:cluster_of_brilliance": true
+	},
 	"create:brass_nugget": {
 		"create:crafter_slot_cover": true,
 		"create:attribute_filter": true,
@@ -11467,6 +12766,11 @@
 	},
 	"minecraft:lapis_block": {
 		"minecraft:lapis_lazuli": true
+	},
+	"malum:blazing_quartz_ore": {
+		"malum:blazing_quartz": true,
+		"create:experience_nugget": true,
+		"minecraft:netherrack": true
 	},
 	"create:small_limestone_brick_slab": {
 		"create:small_limestone_bricks": true
@@ -11499,6 +12803,9 @@
 	"minecraft:exposed_cut_copper_stairs": {
 		"minecraft:waxed_exposed_cut_copper_stairs": true
 	},
+	"malum:block_of_soulstone": {
+		"malum:processed_soulstone": true
+	},
 	"create:exposed_copper_shingle_stairs": {
 		"create:waxed_exposed_copper_shingle_stairs": true
 	},
@@ -11511,6 +12818,10 @@
 		"minecraft:sugar": true,
 		"minecraft:honey_block": true,
 		"minecraft:glass_bottle": true
+	},
+	"malum:unholy_sap": {
+		"malum:unholy_syrup": true,
+		"malum:unholy_sapball": true
 	},
 	"minecraft:exposed_cut_copper_slab": {
 		"minecraft:waxed_exposed_cut_copper_slab": true
@@ -11541,6 +12852,12 @@
 	},
 	"minecraft:kelp": {
 		"minecraft:dried_kelp": true
+	},
+	"malum:deepslate_soulstone_ore": {
+		"malum:processed_soulstone": true,
+		"malum:raw_soulstone": true,
+		"create:experience_nugget": true,
+		"minecraft:cobbled_deepslate": true
 	},
 	"create:cut_deepslate_slab": {
 		"create:cut_deepslate": true
@@ -11799,6 +13116,16 @@
 		"create:cogwheel": true,
 		"create:linked_controller": true
 	},
+	"malum:runewood_planks_button": {
+		"create:large_cogwheel": true,
+		"create:cogwheel": true,
+		"create:linked_controller": true
+	},
+	"malum:soulwood_planks_button": {
+		"create:large_cogwheel": true,
+		"create:cogwheel": true,
+		"create:linked_controller": true
+	},
 	"ae2:red_paint_ball": {
 		"ae2:red_lumen_paint_ball": true
 	},
@@ -11813,9 +13140,20 @@
 		"create:powered_toggle_latch": true,
 		"ae2:toggle_bus": true
 	},
+	"malum:twisted_rock_slab": {
+		"malum:twisted_rock_item_pedestal": true,
+		"malum:twisted_rock_item_stand": true,
+		"malum:chiseled_twisted_rock": true
+	},
 	"create:bar_of_chocolate": {},
 	"hexcasting:scroll_paper_lantern": {
 		"hexcasting:ancient_scroll_paper_lantern": true
+	},
+	"malum:runewood_panel": {
+		"malum:runewood_panel_stairs": true,
+		"malum:runewood_panel_slab": true,
+		"malum:runewood_tiles": true,
+		"malum:cut_runewood_planks": true
 	},
 	"minecraft:red_mushroom": {
 		"minecraft:mushroom_stew": true,
@@ -11876,10 +13214,16 @@
 	"minecraft:cod": {
 		"minecraft:cooked_cod": true
 	},
+	"malum:solid_soulwood_trapdoor": {
+		"malum:soulwood_trapdoor": true
+	},
 	"minecraft:lily_of_the_valley": {
 		"minecraft:white_dye": true,
 		"minecraft:lime_dye": true,
 		"create:tree_fertilizer": true
+	},
+	"malum:block_of_arcane_charcoal": {
+		"malum:arcane_charcoal": true
 	},
 	"create:zinc_ingot": {
 		"create:zinc_nugget": true,
@@ -11895,6 +13239,9 @@
 	"minecraft:arrow": {
 		"minecraft:spectral_arrow": true,
 		"hexcasting:pride_colorizer_13": true
+	},
+	"malum:solid_runewood_trapdoor": {
+		"malum:runewood_trapdoor": true
 	},
 	"create:polished_cut_ochrum_slab": {
 		"create:polished_cut_ochrum": true
@@ -11950,6 +13297,10 @@
 	"create:sail_frame": {
 		"create:white_sail": true
 	},
+	"malum:soulwood_tiles": {
+		"malum:soulwood_tiles_stairs": true,
+		"malum:soulwood_tiles_slab": true
+	},
 	"minecraft:light_blue_terracotta": {
 		"minecraft:light_blue_glazed_terracotta": true,
 		"minecraft:terracotta": true
@@ -11976,6 +13327,12 @@
 		"minecraft:cooked_porkchop": true,
 		"supplementaries:soap": true
 	},
+	"malum:twisted_rock_column_cap": {
+		"malum:twisted_rock_column": true
+	},
+	"malum:soulwood_trapdoor": {
+		"malum:solid_soulwood_trapdoor": true
+	},
 	"minecraft:scute": {
 		"minecraft:turtle_helmet": true
 	},
@@ -11988,54 +13345,6 @@
 	"minecraft:sea_pickle": {
 		"minecraft:lime_dye": true,
 		"minecraft:green_dye": true
-	},
-	"minecraft:white_stained_glass_pane": {
-		"minecraft:glass_pane": true
-	},
-	"minecraft:orange_stained_glass_pane": {
-		"minecraft:glass_pane": true
-	},
-	"minecraft:magenta_stained_glass_pane": {
-		"minecraft:glass_pane": true
-	},
-	"minecraft:light_blue_stained_glass_pane": {
-		"minecraft:glass_pane": true
-	},
-	"minecraft:yellow_stained_glass_pane": {
-		"minecraft:glass_pane": true
-	},
-	"minecraft:lime_stained_glass_pane": {
-		"minecraft:glass_pane": true
-	},
-	"minecraft:pink_stained_glass_pane": {
-		"minecraft:glass_pane": true
-	},
-	"minecraft:gray_stained_glass_pane": {
-		"minecraft:glass_pane": true
-	},
-	"minecraft:light_gray_stained_glass_pane": {
-		"minecraft:glass_pane": true
-	},
-	"minecraft:cyan_stained_glass_pane": {
-		"minecraft:glass_pane": true
-	},
-	"minecraft:purple_stained_glass_pane": {
-		"minecraft:glass_pane": true
-	},
-	"minecraft:blue_stained_glass_pane": {
-		"minecraft:glass_pane": true
-	},
-	"minecraft:brown_stained_glass_pane": {
-		"minecraft:glass_pane": true
-	},
-	"minecraft:green_stained_glass_pane": {
-		"minecraft:glass_pane": true
-	},
-	"minecraft:red_stained_glass_pane": {
-		"minecraft:glass_pane": true
-	},
-	"minecraft:black_stained_glass_pane": {
-		"minecraft:glass_pane": true
 	},
 	"create:spruce_window": {
 		"create:spruce_window_pane": true
@@ -12055,9 +13364,6 @@
 	"ae2:pattern_provider": {
 		"ae2:cable_pattern_provider": true,
 		"ae2:pattern_access_terminal": true
-	},
-	"create:framed_glass_pane": {
-		"minecraft:glass_pane": true
 	},
 	"supplementaries:blackboard": {
 		"supplementaries:blackboard": true
@@ -12081,9 +13387,6 @@
 	},
 	"minecraft:cauldron": {
 		"create:schematicannon": true
-	},
-	"create:horizontal_framed_glass_pane": {
-		"minecraft:glass_pane": true
 	},
 	"create:oxidized_copper_tile_stairs": {
 		"create:waxed_oxidized_copper_tile_stairs": true
@@ -12166,10 +13469,8 @@
 	},
 	"minecraft:soul_soil": {
 		"minecraft:soul_campfire": true,
-		"minecraft:soul_torch": true
-	},
-	"create:tiled_glass_pane": {
-		"minecraft:glass_pane": true
+		"minecraft:soul_torch": true,
+		"malum:spirit_pouch": true
 	},
 	"minecraft:chiseled_quartz_block": {
 		"minecraft:quartz_slab": true,
@@ -12178,6 +13479,9 @@
 	"minecraft:quartz_pillar": {
 		"minecraft:quartz_slab": true,
 		"minecraft:quartz_stairs": true
+	},
+	"malum:block_of_raw_soulstone": {
+		"malum:raw_soulstone": true
 	},
 	"minecraft:emerald": {
 		"supplementaries:speaker_block": true,
@@ -12263,8 +13567,14 @@
 		"ae2:cable_interface": true,
 		"ae2:storage_bus": true
 	},
+	"malum:spirit_fabric": {
+		"malum:spirit_pouch": true
+	},
 	"minecraft:netherite_block": {
 		"minecraft:netherite_ingot": true
+	},
+	"malum:soulwood_sign": {
+		"supplementaries:malum/sign_post_soulwood": true
 	},
 	"minecraft:stone_brick_slab": {
 		"minecraft:chiseled_stone_bricks": true,
@@ -12303,6 +13613,8 @@
 	"hexcasting:akashic_leaves1": {},
 	"hexcasting:akashic_leaves2": {},
 	"hexcasting:akashic_leaves3": {},
+	"malum:runewood_leaves": {},
+	"malum:soulwood_leaves": {},
 	"create:cut_andesite_brick_slab": {
 		"create:cut_andesite_bricks": true
 	},
@@ -12331,6 +13643,9 @@
 	"minecraft:azalea": {
 		"hexcasting:pride_colorizer_12": true
 	},
+	"malum:coal_fragment": {
+		"minecraft:coal": true
+	},
 	"create:small_calcite_brick_slab": {
 		"create:small_calcite_bricks": true
 	},
@@ -12347,14 +13662,14 @@
 	"ae2:wireless_terminal": {
 		"ae2:wireless_crafting_terminal": true
 	},
-	"create:vertical_framed_glass_pane": {
-		"minecraft:glass_pane": true
-	},
 	"create:cut_dripstone_slab": {
 		"create:cut_dripstone": true
 	},
 	"minecraft:amethyst_cluster": {
 		"minecraft:amethyst_shard": true
+	},
+	"malum:tainted_rock_column_cap": {
+		"malum:tainted_rock_column": true
 	},
 	"minecraft:bone_block": {
 		"minecraft:bone_meal": true
@@ -12446,6 +13761,9 @@
 	"create:polished_cut_calcite_slab": {
 		"create:polished_cut_calcite": true
 	},
+	"malum:runewood_sign": {
+		"supplementaries:malum/sign_post_runewood": true
+	},
 	"minecraft:tube_coral": {
 		"create:tree_fertilizer": true
 	},
@@ -12466,6 +13784,12 @@
 	},
 	"create:polished_cut_limestone_slab": {
 		"create:polished_cut_limestone": true
+	},
+	"malum:soul_stained_steel_nugget": {
+		"malum:soul_stained_steel_ingot": true
+	},
+	"malum:block_of_soul_stained_steel": {
+		"malum:soul_stained_steel_ingot": true
 	},
 	"create:cut_scorchia_brick_slab": {
 		"create:cut_scorchia_bricks": true

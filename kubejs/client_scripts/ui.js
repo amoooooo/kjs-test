@@ -123,7 +123,7 @@ onEvent('client.tick', event => {
                 y: 8,
                 w: vis.current / vis.cap * 40,
                 h: 2,
-                color: 'RED',
+                color: '#7A5CCE',
                 draw: 'ingame',
                 alignX: 'center',
                 alignY: 'center'

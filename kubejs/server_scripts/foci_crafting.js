@@ -1,9 +1,11 @@
 let aspectColors = {
     'ignis': { r: 1, g: 0.5, b: 0 },
     'gelum': { r: 0.5, g: 0.5, b: 1 },
-    'aer': { r: 0.5, g: 1, b: 0.5 },
+    'aer': { r: 1, g: 1, b: 0.49 },
     'terra': { r: 0.3, g: 0.7, b: 0.3 },
     'aqua': { r: 0.3, g: 0.3, b: 1 },
+    'lux': { r: 1, g: 1, b: 0.3 },
+    'alienis': {r: 0.5, g: 0.39, b: 0.5}
 }
 
 onEvent('item.right_click', event => {
@@ -18,82 +20,82 @@ onEvent('item.right_click', event => {
         event.player.setHeldItem(OFF_HAND, Item.empty)
     }
 })
-onEvent(`item.right_click`, event => {
-    if ((event.player.getHeldItem(MAIN_HAND).id == 'kubejs:caster_basic' || event.player.getHeldItem(MAIN_HAND).id == 'kubejs:caster_advanced' || event.player.getHeldItem(MAIN_HAND) == 'kubejs:wand') && !event.player.crouching && event.player.persistentData.vis.current > 10 && event.player.getHeldItem(MAIN_HAND).nbt !=  null && event.player.getHeldItem(MAIN_HAND).nbt.data !=  null ) {
-        let focus = parseFocus(event)
-        if (focus.chain) {
-            if (event.player.getHeldItem(MAIN_HAND).id == 'kubejs:caster_advanced') { focus.spell1.power = focus.spell1.power + 1; focus.spell2.power = focus.spell2.power + 1; }
-            if (event.player.persistentData.vis.current < (((focus.spell1.power + focus.spell2.power) / 2) * 10)) { return }
-            event.player.persistentData.vis.current = event.player.persistentData.vis.current - (((focus.spell1.power + focus.spell2.power) / 2) * 10);
-            let spell1
-            if (focus.spell1.shape == 'cloud') {
-                spell1 = modifiers(event, focus.spell1.power, focus.spell1.range / 5, focus.spell1.modifier, focus.spell1.shape, aspectColors[focus.spell1.aspect], event.level.getBlock(event.player.x, event.player.y + 0.5, event.player.z))
-            } else {
-                spell1 = modifiers(event, focus.spell1.power, focus.spell1.range, focus.spell1.modifier, focus.spell1.shape, aspectColors[focus.spell1.aspect], event.level.getBlock(event.player.x, event.player.y + 0.5, event.player.z))
-            }
-            console.log(`spell1 length: ${spell1.length}`)
-            if (spell1.length > 0) {
-                for (beam of spell1) {
-                    console.log(`${beam} ${beam.ray}`)
-                    aspects(event, focus.spell1.power, focus.spell1.range, focus.spell1.aspect, beam, beam.ray)
-                    let spell2
-                    if (focus.spell2.shape == 'cloud') {
-                        spell2 = modifiers(event, focus.spell2.power, focus.spell2.range / 5, focus.spell2.modifier, focus.spell2.shape, aspectColors[focus.spell2.aspect], beam.ray)
-                    } else {
-                        spell2 = modifiers(event, focus.spell2.power, focus.spell2.range, focus.spell2.modifier, focus.spell2.shape, aspectColors[focus.spell2.aspect], beam.ray)
-                    }
-                    if (spell2.length > 0) {
-                        for (beam2 of spell2) {
-                            aspects(event, focus.spell2.power, focus.spell2.range, focus.spell2.aspect, beam2, beam2.ray)
-                        }
-                    } else {
-                        aspects(event, focus.spell2.power, focus.spell2.range, focus.spell2.aspect, spell2, spell2.ray)
-                    }
-                }
-            } else {
-                aspects(event, focus.spell1.power, focus.spell1.range, focus.spell1.aspect, spell1, spell1.ray)
-                let spell2
-                if (focus.spell2.shape == 'cloud') {
-                    spell2 = modifiers(event, focus.spell2.power, focus.spell2.range / 5, focus.spell2.modifier, focus.spell2.shape, aspectColors[focus.spell2.aspect], spell1.ray)
-                } else {
-                    spell2 = modifiers(event, focus.spell2.power, focus.spell2.range, focus.spell2.modifier, focus.spell2.shape, aspectColors[focus.spell2.aspect], spell1.ray)
-                }
-                if (spell2.length > 0) {
-                    for (beam2 of spell2) {
-                        aspects(event, focus.spell2.power, focus.spell2.range, focus.spell2.aspect, beam2, beam2.ray)
-                    }
-                } else {
-                    aspects(event, focus.spell2.power, focus.spell2.range, focus.spell2.aspect, spell2, spell2.ray)
-                }
+// onEvent(`item.right_click`, event => {
+//     if ((event.player.getHeldItem(MAIN_HAND).id == 'kubejs:caster_basic' || event.player.getHeldItem(MAIN_HAND).id == 'kubejs:caster_advanced' || event.player.getHeldItem(MAIN_HAND) == 'kubejs:wand') && !event.player.crouching && event.player.persistentData.vis.current > 10 && event.player.getHeldItem(MAIN_HAND).nbt !=  null && event.player.getHeldItem(MAIN_HAND).nbt.data !=  null ) {
+//         let focus = parseFocus(event)
+//         if (focus.chain) {
+//             if (event.player.getHeldItem(MAIN_HAND).id == 'kubejs:caster_advanced') { focus.spell1.power = focus.spell1.power + 1; focus.spell2.power = focus.spell2.power + 1; }
+//             if (event.player.persistentData.vis.current < (((focus.spell1.power + focus.spell2.power) / 2) * 10)) { return }
+//             event.player.persistentData.vis.current = event.player.persistentData.vis.current - (((focus.spell1.power + focus.spell2.power) / 2) * 10);
+//             let spell1
+//             if (focus.spell1.shape == 'cloud') {
+//                 spell1 = modifiers(event, focus.spell1.power, focus.spell1.range / 5, focus.spell1.modifier, focus.spell1.shape, aspectColors[focus.spell1.aspect], event.level.getBlock(event.player.x, event.player.y + 0.5, event.player.z))
+//             } else {
+//                 spell1 = modifiers(event, focus.spell1.power, focus.spell1.range, focus.spell1.modifier, focus.spell1.shape, aspectColors[focus.spell1.aspect], event.level.getBlock(event.player.x, event.player.y + 0.5, event.player.z))
+//             }
+//             console.log(`spell1 length: ${spell1.length}`)
+//             if (spell1.length > 0) {
+//                 for (beam of spell1) {
+//                     console.log(`${beam} ${beam.ray}`)
+//                     aspects(event, focus.spell1.power, focus.spell1.range, focus.spell1.aspect, beam, beam.ray)
+//                     let spell2
+//                     if (focus.spell2.shape == 'cloud') {
+//                         spell2 = modifiers(event, focus.spell2.power, focus.spell2.range / 5, focus.spell2.modifier, focus.spell2.shape, aspectColors[focus.spell2.aspect], beam.ray)
+//                     } else {
+//                         spell2 = modifiers(event, focus.spell2.power, focus.spell2.range, focus.spell2.modifier, focus.spell2.shape, aspectColors[focus.spell2.aspect], beam.ray)
+//                     }
+//                     if (spell2.length > 0) {
+//                         for (beam2 of spell2) {
+//                             aspects(event, focus.spell2.power, focus.spell2.range, focus.spell2.aspect, beam2, beam2.ray)
+//                         }
+//                     } else {
+//                         aspects(event, focus.spell2.power, focus.spell2.range, focus.spell2.aspect, spell2, spell2.ray)
+//                     }
+//                 }
+//             } else {
+//                 aspects(event, focus.spell1.power, focus.spell1.range, focus.spell1.aspect, spell1, spell1.ray)
+//                 let spell2
+//                 if (focus.spell2.shape == 'cloud') {
+//                     spell2 = modifiers(event, focus.spell2.power, focus.spell2.range / 5, focus.spell2.modifier, focus.spell2.shape, aspectColors[focus.spell2.aspect], spell1.ray)
+//                 } else {
+//                     spell2 = modifiers(event, focus.spell2.power, focus.spell2.range, focus.spell2.modifier, focus.spell2.shape, aspectColors[focus.spell2.aspect], spell1.ray)
+//                 }
+//                 if (spell2.length > 0) {
+//                     for (beam2 of spell2) {
+//                         aspects(event, focus.spell2.power, focus.spell2.range, focus.spell2.aspect, beam2, beam2.ray)
+//                     }
+//                 } else {
+//                     aspects(event, focus.spell2.power, focus.spell2.range, focus.spell2.aspect, spell2, spell2.ray)
+//                 }
 
-            }
-        } else {
-            if (event.player.getHeldItem(MAIN_HAND).id == 'kubejs:caster_advanced') { focus.power = focus.power + 1; }
-            if (event.player.persistentData.vis.current < focus.power * 10) { return }
-            event.player.persistentData.vis.current = event.player.persistentData.vis.current - (focus.power * 10);
-            let spell = modifiers(event, focus.power, focus.range, focus.modifier, focus.shape, aspectColors[focus.aspect], event.level.getBlock(event.player.x, event.player.y + 0.5, event.player.z))
-            if (spell.length > 0) {
-                for (beam of spell) {
-                    aspects(event, focus.power, focus.range, focus.aspect, beam, beam.ray)
-                }
-            } else {
-                aspects(event, focus.power, focus.range, focus.aspect, spell, spell.ray)
-            }
+//             }
+//         } else {
+//             if (event.player.getHeldItem(MAIN_HAND).id == 'kubejs:caster_advanced') { focus.power = focus.power + 1; }
+//             if (event.player.persistentData.vis.current < focus.power * 10) { return }
+//             event.player.persistentData.vis.current = event.player.persistentData.vis.current - (focus.power * 10);
+//             let spell = modifiers(event, focus.power, focus.range, focus.modifier, focus.shape, aspectColors[focus.aspect], event.level.getBlock(event.player.x, event.player.y + 0.5, event.player.z))
+//             if (spell.length > 0) {
+//                 for (beam of spell) {
+//                     aspects(event, focus.power, focus.range, focus.aspect, beam, beam.ray)
+//                 }
+//             } else {
+//                 aspects(event, focus.power, focus.range, focus.aspect, spell, spell.ray)
+//             }
 
-        }
+//         }
 
-    } else if (event.player.getHeldItem(MAIN_HAND).id == 'minecraft:stick') {
-        let spell1 = modifiers(event, 5, 10, 'cone', 'cloud', { r: 1, g: 1, b: 1 }, event.level.getBlock(event.player.x, event.player.y + 0.5, event.player.z))
-        for (beam of spell1) {
-            aspects(event, 1, 10, 'ignis', beam, beam.ray)
-            let spell2 = modifiers(event, 1, 1, 'split', 'bolt', { r: 1, g: 1, b: 1 }, beam.ray)
-            for (beam2 of spell2) {
-                aspects(event, 1, 10, 'gelum', beam2, beam2.ray)
-            }
-        }
+//     } else if (event.player.getHeldItem(MAIN_HAND).id == 'minecraft:stick') {
+//         let spell1 = modifiers(event, 5, 10, 'cone', 'cloud', { r: 1, g: 1, b: 1 }, event.level.getBlock(event.player.x, event.player.y + 0.5, event.player.z))
+//         for (beam of spell1) {
+//             aspects(event, 1, 10, 'ignis', beam, beam.ray)
+//             let spell2 = modifiers(event, 1, 1, 'split', 'bolt', { r: 1, g: 1, b: 1 }, beam.ray)
+//             for (beam2 of spell2) {
+//                 aspects(event, 1, 10, 'gelum', beam2, beam2.ray)
+//             }
+//         }
 
-    }
-})
+//     }
+// })
 
 
 function shapes(event, power, range, shape, offset, color, location) {

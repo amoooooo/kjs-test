@@ -46,5 +46,11 @@
   "tcr.component.split" : "",
   "tcr.component.single" : "",
   "tcr.component.power": "",
-  "tcr.component.range": ""
+  "tcr.component.range": "",
+  "tcr.component.duration": "",
+  "tcr.component.shape": "",
+  "tcr.component.aspect": "",
+  "tcr.component.modifier": "",
+  "tcr.component.self": "",
+  "tcr.component.touch": ""
 }

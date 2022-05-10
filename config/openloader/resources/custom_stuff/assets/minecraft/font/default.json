@@ -321,6 +321,48 @@
                 "ascent":8,
                 "height":8,
                 "chars":[""]
+        },
+        {
+                "type":"bitmap",
+                "file":"custom/ui/icons/duration.png",
+                "ascent":8,
+                "height":8,
+                "chars":[""]
+        },
+        {
+                "type":"bitmap",
+                "file":"custom/ui/icons/shape.png",
+                "ascent":8,
+                "height":8,
+                "chars":[""]
+        },
+        {
+                "type":"bitmap",
+                "file":"custom/ui/icons/aspect.png",
+                "ascent":8,
+                "height":8,
+                "chars":[""]
+        },
+        {
+                "type":"bitmap",
+                "file":"custom/ui/icons/modifier.png",
+                "ascent":8,
+                "height":8,
+                "chars":[""]
+        },
+        {
+                "type":"bitmap",
+                "file":"custom/ui/icons/self.png",
+                "ascent":8,
+                "height":8,
+                "chars":[""]
+        },
+        {
+                "type":"bitmap",
+                "file":"custom/ui/icons/touch.png",
+                "ascent":8,
+                "height":8,
+                "chars":[""]
         }
         
 ]

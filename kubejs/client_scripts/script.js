@@ -21,10 +21,10 @@ onEvent('item.tooltip', tooltip => {
 
 						Object.keys(item.nbt.data.spell1).forEach(key => {
 							if (key == 'shape' || key == 'modifier') {
-								icons1.push(` §c${key}: §b${Text.translate(`tcr.component.${item.nbt.data.spell1[key]}`)} `)
+								icons1.push(` §c${Text.translate(`tcr.component.${key}`)}: §b${Text.translate(`tcr.component.${item.nbt.data.spell1[key]}`)} `)
 							} else if (key == 'aspect') {
-								icons1.push(` §c${key}: §f${Text.translate(`tcr.aspect.${item.nbt.data.spell1[key]}`)} `)
-							} else {
+								icons1.push(` §c${Text.translate(`tcr.component.${key}`)}: §f${Text.translate(`tcr.aspect.${item.nbt.data.spell1[key]}`)} `)
+							} else if (key == 'color') {} else {
 								icons1.push(` §c${Text.translate(`tcr.component.${key}`)}: §f${item.nbt.data.spell1[key]} `)
 							}
 						})
@@ -35,10 +35,10 @@ onEvent('item.tooltip', tooltip => {
 						let icons2 = []
 						Object.keys(item.nbt.data.spell2).forEach(key => {
 							if (key == 'shape' || key == 'modifier') {
-								icons2.push(` §c${key}: §b${Text.translate(`tcr.component.${item.nbt.data.spell2[key]}`)} `)
+								icons2.push(` §c${Text.translate(`tcr.component.${key}`)}: §b${Text.translate(`tcr.component.${item.nbt.data.spell2[key]}`)} `)
 							} else if (key == 'aspect') {
-								icons2.push(` §c${key}: §f${Text.translate(`tcr.aspect.${item.nbt.data.spell2[key]}`)} `)
-							} else {
+								icons2.push(` §c${Text.translate(`tcr.component.${key}`)}: §f${Text.translate(`tcr.aspect.${item.nbt.data.spell2[key]}`)} `)
+							} else if (key == 'color') {} else {
 								icons2.push(` §c${Text.translate(`tcr.component.${key}`)}: §f${item.nbt.data.spell2[key]} `)
 							}
 						})
@@ -53,10 +53,10 @@ onEvent('item.tooltip', tooltip => {
 						let icons1 = []
 						Object.keys(item.nbt.data).forEach(key => {
 							if (key == 'shape' || key == 'modifier') {
-								icons1.push(` §c${capitalizeFirstLetter(key)}: §b${Text.translate(`tcr.component.${item.nbt.data[key]}`)} `)
+								icons1.push(` §c${Text.translate(`tcr.component.${key}`)}: §b${Text.translate(`tcr.component.${item.nbt.data[key]}`)} `)
 							} else if (key == 'aspect') {
-								icons1.push(` §c${capitalizeFirstLetter(key)}: §f${Text.translate(`tcr.aspect.${item.nbt.data[key]}`)} `)
-							} else {
+								icons1.push(` §c${Text.translate(`tcr.component.${key}`)}: §f${Text.translate(`tcr.aspect.${item.nbt.data[key]}`)} `)
+							} else if (key == 'color') {} else {
 								icons1.push(` §c${Text.translate(`tcr.component.${key}`)}: §f${item.nbt.data[key]} `)
 							}
 						})
@@ -82,10 +82,10 @@ onEvent('item.tooltip', tooltip => {
 
 						Object.keys(item.nbt.data.spell1).forEach(key => {
 							if (key == 'shape' || key == 'modifier') {
-								icons1.push(` §c${key}: §b${Text.translate(`tcr.component.${item.nbt.data.spell1[key]}`)} `)
+								icons1.push(` §c${Text.translate(`tcr.component.${key}`)}: §b${Text.translate(`tcr.component.${item.nbt.data.spell1[key]}`)} `)
 							} else if (key == 'aspect') {
-								icons1.push(` §c${key}: §f${Text.translate(`tcr.aspect.${item.nbt.data.spell1[key]}`)} `)
-							} else {
+								icons1.push(` §c${Text.translate(`tcr.component.${key}`)}: §f${Text.translate(`tcr.aspect.${item.nbt.data.spell1[key]}`)} `)
+							} else if (key == 'color') {} else {
 								icons1.push(` §c${Text.translate(`tcr.component.${key}`)}: §f${item.nbt.data.spell1[key]} `)
 							}
 						})
@@ -96,10 +96,10 @@ onEvent('item.tooltip', tooltip => {
 						let icons2 = []
 						Object.keys(item.nbt.data.spell2).forEach(key => {
 							if (key == 'shape' || key == 'modifier') {
-								icons2.push(` §c${key}: §b${Text.translate(`tcr.component.${item.nbt.data.spell2[key]}`)} `)
+								icons2.push(` §c${Text.translate(`tcr.component.${key}`)}: §b${Text.translate(`tcr.component.${item.nbt.data.spell2[key]}`)} `)
 							} else if (key == 'aspect') {
-								icons2.push(` §c${key}: §f${Text.translate(`tcr.aspect.${item.nbt.data.spell2[key]}`)} `)
-							} else {
+								icons2.push(` §c${Text.translate(`tcr.component.${key}`)}: §f${Text.translate(`tcr.aspect.${item.nbt.data.spell2[key]}`)} `)
+							} else if (key == 'color') {} else {
 								icons2.push(` §c${Text.translate(`tcr.component.${key}`)}: §f${item.nbt.data.spell2[key]} `)
 							}
 						})
@@ -114,10 +114,10 @@ onEvent('item.tooltip', tooltip => {
 						let icons1 = []
 						Object.keys(item.nbt.data).forEach(key => {
 							if (key == 'shape' || key == 'modifier') {
-								icons1.push(` §c${capitalizeFirstLetter(key)}: §b${Text.translate(`tcr.component.${item.nbt.data[key]}`)} `)
+								icons1.push(` §c${Text.translate(`tcr.component.${key}`)}: §b${Text.translate(`tcr.component.${item.nbt.data[key]}`)} `)
 							} else if (key == 'aspect') {
-								icons1.push(` §c${capitalizeFirstLetter(key)}: §f${Text.translate(`tcr.aspect.${item.nbt.data[key]}`)} `)
-							} else {
+								icons1.push(` §c${Text.translate(`tcr.component.${key}`)}: §f${Text.translate(`tcr.aspect.${item.nbt.data[key]}`)} `)
+							} else if (key == 'color') {} else {
 								icons1.push(` §c${Text.translate(`tcr.component.${key}`)}: §f${item.nbt.data[key]} `)
 							}
 						})
@@ -143,10 +143,10 @@ onEvent('item.tooltip', tooltip => {
 
 						Object.keys(item.nbt.data.spell1).forEach(key => {
 							if (key == 'shape' || key == 'modifier') {
-								icons1.push(` §c${key}: §b${Text.translate(`tcr.component.${item.nbt.data.spell1[key]}`)} `)
+								icons1.push(` §c${Text.translate(`tcr.component.${key}`)}: §b${Text.translate(`tcr.component.${item.nbt.data.spell1[key]}`)} `)
 							} else if (key == 'aspect') {
-								icons1.push(` §c${key}: §f${Text.translate(`tcr.aspect.${item.nbt.data.spell1[key]}`)} `)
-							} else {
+								icons1.push(` §c${Text.translate(`tcr.component.${key}`)}: §f${Text.translate(`tcr.aspect.${item.nbt.data.spell1[key]}`)} `)
+							} else if (key == 'color') {} else {
 								icons1.push(` §c${Text.translate(`tcr.component.${key}`)}: §f${item.nbt.data.spell1[key]} `)
 							}
 						})
@@ -157,10 +157,10 @@ onEvent('item.tooltip', tooltip => {
 						let icons2 = []
 						Object.keys(item.nbt.data.spell2).forEach(key => {
 							if (key == 'shape' || key == 'modifier') {
-								icons2.push(` §c${key}: §b${Text.translate(`tcr.component.${item.nbt.data.spell2[key]}`)} `)
+								icons2.push(` §c${Text.translate(`tcr.component.${key}`)}: §b${Text.translate(`tcr.component.${item.nbt.data.spell2[key]}`)} `)
 							} else if (key == 'aspect') {
-								icons2.push(` §c${key}: §f${Text.translate(`tcr.aspect.${item.nbt.data.spell2[key]}`)} `)
-							} else {
+								icons2.push(` §c${Text.translate(`tcr.component.${key}`)}: §f${Text.translate(`tcr.aspect.${item.nbt.data.spell2[key]}`)} `)
+							} else if (key == 'color') {} else {
 								icons2.push(` §c${Text.translate(`tcr.component.${key}`)}: §f${item.nbt.data.spell2[key]} `)
 							}
 						})
@@ -175,10 +175,10 @@ onEvent('item.tooltip', tooltip => {
 						let icons1 = []
 						Object.keys(item.nbt.data).forEach(key => {
 							if (key == 'shape' || key == 'modifier') {
-								icons1.push(` §c${capitalizeFirstLetter(key)}: §b${Text.translate(`tcr.component.${item.nbt.data[key]}`)} `)
+								icons1.push(` §c${Text.translate(`tcr.component.${key}`)}: §b${Text.translate(`tcr.component.${item.nbt.data[key]}`)} `)
 							} else if (key == 'aspect') {
-								icons1.push(` §c${capitalizeFirstLetter(key)}: §f${Text.translate(`tcr.aspect.${item.nbt.data[key]}`)} `)
-							} else {
+								icons1.push(` §c${Text.translate(`tcr.component.${key}`)}: §f${Text.translate(`tcr.aspect.${item.nbt.data[key]}`)} `)
+							} else if (key == 'color') {} else {
 								icons1.push(` §c${Text.translate(`tcr.component.${key}`)}: §f${item.nbt.data[key]} `)
 							}
 						})
@@ -204,10 +204,10 @@ onEvent('item.tooltip', tooltip => {
 
 						Object.keys(item.nbt.data.spell1).forEach(key => {
 							if (key == 'shape' || key == 'modifier') {
-								icons1.push(` §c${key}: §b${Text.translate(`tcr.component.${item.nbt.data.spell1[key]}`)} `)
+								icons1.push(` §c${Text.translate(`tcr.component.${key}`)}: §b${Text.translate(`tcr.component.${item.nbt.data.spell1[key]}`)} `)
 							} else if (key == 'aspect') {
-								icons1.push(` §c${key}: §f${Text.translate(`tcr.aspect.${item.nbt.data.spell1[key]}`)} `)
-							} else {
+								icons1.push(` §c${Text.translate(`tcr.component.${key}`)}: §f${Text.translate(`tcr.aspect.${item.nbt.data.spell1[key]}`)} `)
+							} else if (key == 'color') {} else {
 								icons1.push(` §c${Text.translate(`tcr.component.${key}`)}: §f${item.nbt.data.spell1[key]} `)
 							}
 						})
@@ -218,10 +218,10 @@ onEvent('item.tooltip', tooltip => {
 						let icons2 = []
 						Object.keys(item.nbt.data.spell2).forEach(key => {
 							if (key == 'shape' || key == 'modifier') {
-								icons2.push(` §c${key}: §b${Text.translate(`tcr.component.${item.nbt.data.spell2[key]}`)} `)
+								icons2.push(` §c${Text.translate(`tcr.component.${key}`)}: §b${Text.translate(`tcr.component.${item.nbt.data.spell2[key]}`)} `)
 							} else if (key == 'aspect') {
-								icons2.push(` §c${key}: §f${Text.translate(`tcr.aspect.${item.nbt.data.spell2[key]}`)} `)
-							} else {
+								icons2.push(` §c${Text.translate(`tcr.component.${key}`)}: §f${Text.translate(`tcr.aspect.${item.nbt.data.spell2[key]}`)} `)
+							} else if (key == 'color') {} else {
 								icons2.push(` §c${Text.translate(`tcr.component.${key}`)}: §f${item.nbt.data.spell2[key]} `)
 							}
 						})
@@ -236,10 +236,10 @@ onEvent('item.tooltip', tooltip => {
 						let icons1 = []
 						Object.keys(item.nbt.data).forEach(key => {
 							if (key == 'shape' || key == 'modifier') {
-								icons1.push(` §c${capitalizeFirstLetter(key)}: §b${Text.translate(`tcr.component.${item.nbt.data[key]}`)} `)
+								icons1.push(` §c${Text.translate(`tcr.component.${key}`)}: §b${Text.translate(`tcr.component.${item.nbt.data[key]}`)} `)
 							} else if (key == 'aspect') {
-								icons1.push(` §c${capitalizeFirstLetter(key)}: §f${Text.translate(`tcr.aspect.${item.nbt.data[key]}`)} `)
-							} else {
+								icons1.push(` §c${Text.translate(`tcr.component.${key}`)}: §f${Text.translate(`tcr.aspect.${item.nbt.data[key]}`)} `)
+							} else if (key == 'color') {} else {
 								icons1.push(` §c${Text.translate(`tcr.component.${key}`)}: §f${item.nbt.data[key]} `)
 							}
 						})

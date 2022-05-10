@@ -7,6 +7,8 @@ SpellModifiers.prototype = {
     split: function (spell) {
         let spells = []
         spell.power = spell.power / 3
+        spell.range = spell.range / 1.5
+        spell.duration = spell.duration / 3
         for (let i = -1; i < 2; i++) {
             console.log(i)
             let offset = { x: i + (Math.random() * (1 - -1) + -1), y: i + (Math.random() * (1 - -1) + -1), z: i + (Math.random() * (1 - -1) + -1)}
@@ -20,6 +22,8 @@ SpellModifiers.prototype = {
     cone: function (spell) {
         let spells = []
         spell.power = spell.power / 5
+        spell.range = spell.range / 2.5
+        spell.duration = spell.duration / 5
         for (let i = 0; i < 4; i++) {
             let offset = { x: Math.cos(i * Math.random() * (1 - -1) + -1) * (i*2), y: 0, z: Math.cos(i * Math.random() * (1 - -1) + -1) * (i*2)}
             spell.offset = offset

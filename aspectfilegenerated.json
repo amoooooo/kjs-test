@@ -15,8 +15,9 @@
 		"tcr.aspect.perditio": 1
 	},
 	"minecraft:netherrack": {
-		"tcr.aspect.terra": 5,
-		"tcr.aspect.ignis": 1
+		"tcr.aspect.terra": 10,
+		"tcr.aspect.ignis": 1,
+		"tcr.aspect.perditio": 1
 	},
 	"minecraft:glass": {
 		"tcr.aspect.vitreus": 125
@@ -209,8 +210,8 @@
 		"tcr.aspect.tenebrae": 5,
 		"tcr.aspect.terra": 5,
 		"tcr.aspect.ignis": 5,
-		"tcr.aspect.mortuus": 5,
-		"tcr.aspect.victus": 5
+		"tcr.aspect.mortuus": 10,
+		"tcr.aspect.victus": 10
 	},
 	"minecraft:torch": {
 		"tcr.aspect.lux": 5,
@@ -220,8 +221,8 @@
 		"tcr.aspect.terra": 1
 	},
 	"minecraft:copper_ingot": {
-		"tcr.aspect.metallum": 10,
-		"tcr.aspect.permutatio": 15
+		"tcr.aspect.metallum": 20,
+		"tcr.aspect.permutatio": 30
 	},
 	"minecraft:glowstone": {
 		"tcr.aspect.lux": 10,
@@ -1778,8 +1779,8 @@
 	},
 	"minecraft:sticky_piston": {
 		"tcr.aspect.potentia": 32,
-		"tcr.aspect.mortuus": 5,
-		"tcr.aspect.victus": 5
+		"tcr.aspect.mortuus": 15,
+		"tcr.aspect.victus": 15
 	},
 	"create:powered_latch": {
 		"tcr.aspect.potentia": 32,
@@ -2328,8 +2329,8 @@
 	},
 	"create:sticker": {
 		"tcr.aspect.terra": 6,
-		"tcr.aspect.mortuus": 5,
-		"tcr.aspect.victus": 5,
+		"tcr.aspect.mortuus": 15,
+		"tcr.aspect.victus": 15,
 		"tcr.aspect.perditio": 1
 	},
 	"create:chute": {
@@ -2495,8 +2496,8 @@
 	},
 	"create:sticky_mechanical_piston": {
 		"tcr.aspect.terra": 1,
-		"tcr.aspect.mortuus": 5,
-		"tcr.aspect.victus": 5
+		"tcr.aspect.mortuus": 15,
+		"tcr.aspect.victus": 15
 	},
 	"create:vertical_gearbox": {
 		"tcr.aspect.terra": 1
@@ -3721,6 +3722,9 @@
 		"tcr.aspect.metallum": 30,
 		"tcr.aspect.vitreus": 5
 	},
+	"malum:crude_scythe": {
+		"tcr.aspect.metallum": 15
+	},
 	"ae2:interface": {
 		"tcr.aspect.metallum": 30,
 		"tcr.aspect.vitreus": 120
@@ -4193,6 +4197,10 @@
 		"tcr.aspect.metallum": 20,
 		"tcr.aspect.desiderium": 30
 	},
+	"malum:spirit_altar": {
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.desiderium": 15
+	},
 	"minecraft:golden_sword": {
 		"tcr.aspect.metallum": 10,
 		"tcr.aspect.desiderium": 15
@@ -4222,6 +4230,10 @@
 		"tcr.aspect.herba": 4,
 		"tcr.aspect.motus": 4
 	},
+	"malum:encyclopedia_arcana": {
+		"tcr.aspect.cognitio": 10,
+		"tcr.aspect.herba": 10
+	},
 	"hexcasting:akashic_bookshelf": {
 		"tcr.aspect.cognitio": 10,
 		"tcr.aspect.herba": 10
@@ -4246,8 +4258,8 @@
 		"tcr.aspect.terra": 3
 	},
 	"minecraft:charcoal": {
-		"tcr.aspect.herba": 1,
-		"tcr.aspect.terra": 1
+		"tcr.aspect.herba": 2,
+		"tcr.aspect.terra": 2
 	},
 	"minecraft:campfire": {
 		"tcr.aspect.herba": 2,
@@ -4342,6 +4354,12 @@
 	"ae2:nether_quartz_shovel": {
 		"tcr.aspect.vitreus": 5
 	},
+	"malum:stained_spirit_resonator": {
+		"tcr.aspect.vitreus": 5
+	},
+	"malum:hallowed_spirit_resonator": {
+		"tcr.aspect.vitreus": 5
+	},
 	"ae2:annihilation_core": {
 		"tcr.aspect.vitreus": 5
 	},
@@ -4384,11 +4402,22 @@
 		"tcr.aspect.praecantatio": 48,
 		"tcr.aspect.desiderium": 48
 	},
+	"malum:spirit_pouch": {
+		"tcr.aspect.spiritus": 3,
+		"tcr.aspect.terra": 4,
+		"tcr.aspect.vinculum": 1,
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5
+	},
 	"hexcasting:cypher": {
 		"tcr.aspect.metallum": 10,
 		"tcr.aspect.permutatio": 15
 	},
 	"hexcasting:amethyst_sconce": {
+		"tcr.aspect.metallum": 10,
+		"tcr.aspect.permutatio": 15
+	},
+	"malum:copper_nugget": {
 		"tcr.aspect.metallum": 10,
 		"tcr.aspect.permutatio": 15
 	},
@@ -4438,7 +4467,7 @@
 		"tcr.aspect.metallum": 10,
 		"tcr.aspect.herba": 15
 	},
-	"supplementaries:hexcasting/hanging_sign_akashic": {
+	"supplementaries:malum/hanging_sign_soulwood": {
 		"tcr.aspect.metallum": 2,
 		"tcr.aspect.terra": 5,
 		"tcr.aspect.perditio": 1
@@ -4447,8 +4476,13 @@
 		"tcr.aspect.metallum": 17,
 		"tcr.aspect.terra": 5,
 		"tcr.aspect.perditio": 1,
-		"tcr.aspect.mortuus": 5,
-		"tcr.aspect.victus": 5
+		"tcr.aspect.mortuus": 15,
+		"tcr.aspect.victus": 15
+	},
+	"supplementaries:malum/hanging_sign_runewood": {
+		"tcr.aspect.metallum": 2,
+		"tcr.aspect.terra": 5,
+		"tcr.aspect.perditio": 1
 	},
 	"ae2:energy_level_emitter": {
 		"tcr.aspect.potentia": 32
@@ -4521,9 +4555,9 @@
 		"tcr.aspect.terra": 2
 	},
 	"create:spout": {
-		"tcr.aspect.metallum": 11,
+		"tcr.aspect.metallum": 21,
 		"tcr.aspect.praecantatio": 1,
-		"tcr.aspect.permutatio": 15
+		"tcr.aspect.permutatio": 30
 	},
 	"ae2:white_covered_dense_cable": {
 		"tcr.aspect.mortuus": 5,
@@ -4572,6 +4606,11 @@
 		"tcr.aspect.fabrico": 10,
 		"tcr.aspect.herba": 2,
 		"tcr.aspect.terra": 2
+	},
+	"malum:spirit_jar": {
+		"tcr.aspect.mortuus": 10,
+		"tcr.aspect.victus": 10,
+		"tcr.aspect.vitreus": 230
 	},
 	"ae2:magenta_smart_cable": {
 		"tcr.aspect.mortuus": 10,
@@ -4993,6 +5032,9 @@
 		"tcr.aspect.herba": 2,
 		"tcr.aspect.terra": 2
 	},
+	"minecraft:experience_bottle": {
+		"tcr.aspect.vitreus": 10
+	},
 	"minecraft:composter": {
 		"tcr.aspect.herba": 1,
 		"tcr.aspect.terra": 1
@@ -5061,7 +5103,19 @@
 		"tcr.aspect.terra": 1,
 		"tcr.aspect.herba": 1
 	},
+	"malum:soul_stained_steel_pickaxe": {
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.herba": 1
+	},
+	"malum:runewood_planks_fence": {
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.herba": 1
+	},
 	"ae2:certus_quartz_pickaxe": {
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.herba": 1
+	},
+	"malum:runewood_planks_fence_gate": {
 		"tcr.aspect.terra": 1,
 		"tcr.aspect.herba": 1
 	},
@@ -5074,6 +5128,10 @@
 		"tcr.aspect.herba": 1
 	},
 	"minecraft:warped_sign": {
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.herba": 1
+	},
+	"malum:soulwood_planks_fence_gate": {
 		"tcr.aspect.terra": 1,
 		"tcr.aspect.herba": 1
 	},
@@ -5094,6 +5152,18 @@
 		"tcr.aspect.fabrico": 5
 	},
 	"minecraft:crimson_fence": {
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.herba": 1
+	},
+	"malum:soul_stained_steel_shovel": {
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.herba": 1
+	},
+	"malum:soulwood_sign": {
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.herba": 1
+	},
+	"malum:runewood_sign": {
 		"tcr.aspect.terra": 1,
 		"tcr.aspect.herba": 1
 	},
@@ -5119,6 +5189,10 @@
 		"tcr.aspect.terra": 1,
 		"tcr.aspect.herba": 1
 	},
+	"malum:soulwood_planks_fence": {
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.herba": 1
+	},
 	"hexcasting:wand_warped": {
 		"tcr.aspect.terra": 1,
 		"tcr.aspect.herba": 1
@@ -5127,7 +5201,7 @@
 		"tcr.aspect.terra": 1,
 		"tcr.aspect.herba": 1
 	},
-	"supplementaries:hexcasting/sign_post_akashic": {
+	"malum:soul_stained_steel_axe": {
 		"tcr.aspect.terra": 1,
 		"tcr.aspect.herba": 1
 	},
@@ -5143,6 +5217,10 @@
 		"tcr.aspect.terra": 1,
 		"tcr.aspect.herba": 1
 	},
+	"malum:soul_stained_steel_hoe": {
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.herba": 1
+	},
 	"minecraft:bow": {
 		"tcr.aspect.terra": 1,
 		"tcr.aspect.herba": 1,
@@ -5154,6 +5232,10 @@
 		"tcr.aspect.herba": 1
 	},
 	"ae2:certus_quartz_sword": {
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.herba": 1
+	},
+	"malum:soul_stained_steel_sword": {
 		"tcr.aspect.terra": 1,
 		"tcr.aspect.herba": 1
 	},
@@ -5345,6 +5427,10 @@
 		"tcr.aspect.ignis": 1
 	},
 	"minecraft:black_dye": {
+		"tcr.aspect.herba": 1,
+		"tcr.aspect.terra": 1
+	},
+	"malum:charcoal_fragment": {
 		"tcr.aspect.herba": 1,
 		"tcr.aspect.terra": 1
 	},
@@ -5793,6 +5879,10 @@
 		"tcr.aspect.metallum": 10,
 		"tcr.aspect.permutatio": 15
 	},
+	"supplementaries:malum/sign_post_runewood": {
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.herba": 1
+	},
 	"minecraft:trapped_chest": {
 		"tcr.aspect.metallum": 30,
 		"tcr.aspect.herba": 1,
@@ -5811,6 +5901,10 @@
 	"supplementaries:safe": {
 		"tcr.aspect.metallum": 40,
 		"tcr.aspect.desiderium": 15
+	},
+	"supplementaries:malum/sign_post_soulwood": {
+		"tcr.aspect.terra": 1,
+		"tcr.aspect.herba": 1
 	},
 	"create:crafting_blueprint": {
 		"tcr.aspect.bestia": 15,
@@ -5860,23 +5954,35 @@
 	"ae2:cable_interface": {
 		"tcr.aspect.metallum": 15
 	},
+	"malum:holy_sapball": {
+		"tcr.aspect.mortuus": 5,
+		"tcr.aspect.victus": 5
+	},
 	"minecraft:slime_block": {
 		"tcr.aspect.mortuus": 5,
 		"tcr.aspect.victus": 5
 	},
 	"minecraft:magma_cream": {
+		"tcr.aspect.mortuus": 15,
+		"tcr.aspect.victus": 15
+	},
+	"malum:unholy_sapball": {
 		"tcr.aspect.mortuus": 5,
 		"tcr.aspect.victus": 5
 	},
 	"minecraft:lead": {
-		"tcr.aspect.mortuus": 5,
-		"tcr.aspect.victus": 5,
+		"tcr.aspect.mortuus": 15,
+		"tcr.aspect.victus": 15,
 		"tcr.aspect.bestia": 15,
 		"tcr.aspect.fabrico": 5
 	},
 	"minecraft:magma_block": {
-		"tcr.aspect.mortuus": 5,
-		"tcr.aspect.victus": 5
+		"tcr.aspect.mortuus": 10,
+		"tcr.aspect.victus": 10
+	},
+	"malum:ornate_necklace": {
+		"tcr.aspect.bestia": 15,
+		"tcr.aspect.fabrico": 5
 	},
 	"supplementaries:sack": {
 		"tcr.aspect.bestia": 15,

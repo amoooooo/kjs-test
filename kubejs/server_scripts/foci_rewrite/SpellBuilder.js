@@ -55,6 +55,8 @@ SpellBuilder.prototype = {
             }
         } else {
             let spellShape = new SpellModifiers().parse(this)
+            if (this.event.player.persistentData.vis.current < (this.power * 10)) { return }
+            this.event.player.persistentData.vis.current = this.event.player.persistentData.vis.current - (this.power * 10);
             console.log(spellShape)
             let cast = new SpellAspects()
             let ticks = 0
@@ -71,8 +73,14 @@ SpellBuilder.prototype = {
     }
 }
 
+function hasFocus(item) {
+    return ((item == 'kubejs:dynamic_focus' || item == 'kubejs:wand' || item == 'kubejs:caster_basic' || item == 'kubejs:caster_advanced') && item.nbt != undefined && item.nbt.data != undefined)
+}
+
 onEvent('item.right_click', event => {
-    if (event.item == 'kubejs:dynamic_focus' && event.item.nbt != undefined) {
+    if (hasFocus(event.item) && !event.player.crouching) {
+        let pos = event.player
+        event.server.runCommandSilent(`execute positioned ${pos.x} ${pos.y + 2} ${pos.z} in ${event.level.dimension} run playsound malum:void_slash player @a[distance=..6] ${pos.x} ${pos.y} ${pos.z} 1 ${generateRandomFloat(0.3, 0.8)}`);
         let focus = new SpellBuilder(event).parseFocus(event.item.nbt).cast()
         console.log(focus)
     }

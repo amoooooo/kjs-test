@@ -66,14 +66,14 @@ SpellShapes.prototype = {
             let block = spell.location[(spell.location.length - 1) / 2]
             spell.location = spell.event.level.getBlock(block.x, block.y, block.z)
         }
-        if (!spell.location.getLight) {spell.location = spell.location.isPlayer() ? spell.event.level.getBlock(spell.location.x, spell.location.y, spell.location.z) : spell.location} else {spell.location = spell.location}
+        if (!spell.location.getLight) {spell.location = spell.location.isPlayer() ? spell.event.level.getBlock(spell.location.x, spell.location.y + 1, spell.location.z-0.5) : spell.location} else {spell.location = spell.location}
         console.log(spell.location)
         spell.location = spell.offset ? spell.location.offset(spell.offset.x, spell.offset.y, spell.offset.z) : spell.location
         console.log(spell.location)
         spell.event.server.scheduleInTicks(1, event => {
             if (duration < spell.duration * 10) {
-                baseEvent.server.runCommandSilent(`execute in ${baseEvent.level.dimension} run particle minecraft:dust ${aspectColors[spell.aspect].r} ${aspectColors[spell.aspect].g} ${aspectColors[spell.aspect].b} 1 ${spell.location.x} ${spell.location.y} ${spell.location.z} 0.05 0.05 0.05 0 5 normal`)
-                box = baseEvent.level.getEntitiesWithin(AABB.of(spell.location.x - spell.range, spell.location.y - spell.range, spell.location.z - spell.range, spell.location.x + spell.range, spell.location.y + spell.range, spell.location.z + spell.range))
+                baseEvent.server.runCommandSilent(`execute in ${baseEvent.level.dimension} run particle minecraft:dust ${aspectColors[spell.aspect].r} ${aspectColors[spell.aspect].g} ${aspectColors[spell.aspect].b} 1 ${spell.location.x} ${spell.location.y+1} ${spell.location.z-0.5} 0.05 0.05 0.05 0 5 normal`)
+                box = baseEvent.level.getEntitiesWithin(AABB.of(spell.location.x - spell.range, (spell.location.y +  2) - spell.range, (spell.location.z-0.5) - spell.range, spell.location.x + spell.range,  (spell.location.y +  2) + spell.range, (spell.location.z-0.5) + spell.range))
                 box = box.filter(i => i.isAlive() && i.isLiving && i.id != baseEvent.player.id)
                 if (box.length > 0) {
                     box.forEach(entity => {
@@ -81,7 +81,7 @@ SpellShapes.prototype = {
                     })
                     let target = getRandomInt(0, entities.length - 1)
                     if (duration % 2 == 0) {
-                        let points = particleLineOffset(baseEvent, spell.location, entities[target], aspectColors[spell.aspect])
+                        let points = particleLineOffset(baseEvent, {x: spell.location.x, y: spell.location.y + 1, z: spell.location.z-0.5}, entities[target], aspectColors[spell.aspect])
                         console.log(points)
                         for (let i = 0; i < points.length - 1; i++) {
                             particleLine(baseEvent, points[i], points[i + 1], aspectColors[spell.aspect])
@@ -92,7 +92,7 @@ SpellShapes.prototype = {
                 event.reschedule()
             }
         })
-        return { entities: entities, position: spell.event.level.getBlock(spell.location.x, spell.location.y, spell.location.z) }
+        return { entities: entities, position: spell.event.level.getBlock(spell.location.x, spell.location.y+2, spell.location.z) }
     },
     cloud: function (spell) {
         let box
@@ -102,7 +102,10 @@ SpellShapes.prototype = {
             let block = spell.location[(spell.location.length - 1) / 2]
             spell.location = spell.event.level.getBlock(block.x, block.y, block.z)
         }
+        if (!spell.location.getLight) {spell.location = spell.location.isPlayer() ? spell.event.level.getBlock(spell.location.x, spell.location.y, spell.location.z) : spell.location} else {spell.location = spell.location}
+        console.log(spell.location)
         spell.location = spell.offset ? spell.location.offset(spell.offset.x, spell.offset.y, spell.offset.z) : spell.location
+        console.log(spell.location)
         spell.event.server.runCommandSilent(`execute in ${spell.event.level.dimension} run summon area_effect_cloud ${spell.location.x} ${spell.location.y} ${spell.location.z} {Particle:"dust ${aspectColors[spell.aspect].r} ${aspectColors[spell.aspect].g} ${aspectColors[spell.aspect].b} 1",Radius:${spell.range}f,Duration:${spell.duration * 10},Color:${rgbToInt(aspectColors[spell.aspect])}}`)
         let aecSearch = spell.event.level.getEntitiesWithin(AABB.of(spell.location.x - 0.5, spell.location.y - 0.5, spell.location.z - 0.5, spell.location.x + 0.5, spell.location.y + 0.5, spell.location.z + 0.5))
         aecSearch = aecSearch.filter(i => i.getType() == 'minecraft:area_effect_cloud')
@@ -127,6 +130,12 @@ SpellShapes.prototype = {
         }
         return { entities: entities, position: blocks }
     },
+    self: function (spell) {
+        return { entities: [spell.event.player], position: spell.event.player }
+    },
+    touch: function (spell) {
+        return { entities: rayTraceEntitiesRange(spell.event, spell.event.player.getReachDistance()-1), position: spell.event.player.rayTrace(spell.event.player.getReachDistance()-1).block }
+    },
     parse: function (spell) {
         switch (spell.shape) {
             case 'bolt':
@@ -137,6 +146,10 @@ SpellShapes.prototype = {
                 return this.cloud(spell)
             case 'chain':
                 return this.chain(spell)
+            case 'self':
+                return this.self(spell)
+            case 'touch':
+                return this.touch(spell)
             default:
                 spell.event.player.tell('No spell shape found')
                 return undefined

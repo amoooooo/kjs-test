@@ -49,12 +49,13 @@ onEvent('player.tick', event => {
             y: 24 - (event.level.persistentData[playerChunk].currentVis / event.level.persistentData[playerChunk].max * 16),
             w: 4,
             h: event.level.persistentData[playerChunk].currentVis / event.level.persistentData[playerChunk].max * 16,
-            color: '#e600ff',
+            color: '#67307A',
             draw: 'ingame',
             alignX: 'left',
             alignY: 'top'
         }
     })
+    
 })
 
 function vacuumVis(event) {

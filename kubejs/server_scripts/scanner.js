@@ -204,7 +204,7 @@ function rayTrace(event, distance) {
         let z = (1 - delta) * (event.player.z + 0.5) + delta * (PosVec.z)
 
         let block = event.level.getBlock(x, y, z)
-        if (!block.equals('minecraft:air')) {
+        if (!block.equals('minecraft:air') || !block.equals('minecraft:water')) {
             //console.log('hit')
             return {
                 block: block,
